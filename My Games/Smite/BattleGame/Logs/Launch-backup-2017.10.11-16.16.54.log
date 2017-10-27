@@ -1,0 +1,489 @@
+[0000.29] Log: Async Log file open, 10/11/17 16:14:12
+[0000.29] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.29] Log:  ... running in INSTALLED mode
+[0000.29] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.29] Init: Version: 10897
+[0000.29] Init: Epic Internal: 0
+[0000.29] Init: Compiled (32-bit): Oct  9 2017 18:56:51
+[0000.29] Init: Changelist: 1532151
+[0000.29] Init: Game is version 4.19.4362.0.
+[0000.29] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -pid=017 -portaluserid=Dese-Nutz -token                                  -HiCommand -HEXX=B68F49A5
+[0000.29] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.29] Init: Computer: LAPTOP-2ARNF0V1
+[0000.29] Init: User: Asif
+[0000.29] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.29] Init: High frequency timer resolution =2.835912 MHz
+[0000.29] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.68] DevOnline: Initializing MCTS
+[0001.10] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.10] Init: Object subsystem initialized
+[0001.10] Log: Overriding lang INT w/ command-line option of ENG
+[0001.10] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.27] Log: CachePaths() took 0.17 Seconds
+[0001.27] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.31] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.03] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.09] Log: SystemSettings based on: SystemSettings
+[0003.63] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0003.63] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0004.65] Log: Shader platform (RHI): PC-D3D-SM3
+[0004.70] Log: PhysX GPU Support: DISABLED
+[0006.80] Log: Assembly Loaded Version: DBExport: 10/09/2017 18:14:44,  Src=devsql.hirezcorp.com:smite_live_build_4_19, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0006.83] Log: FEACClient being initialized
+[0008.58] Log: TFC Version check: Low=4.19.4362.0 High=, Result=FALSE
+[0010.12] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0010.74] Log: 161676 objects as part of root set at end of initial load.
+[0010.74] Log: 0 out of 0 bytes used by permanent object pool.
+[0010.81] Log: Initializing Engine...
+[0010.88] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0010.88] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0012.21] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0015.50] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0015.50] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0015.51] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0015.51] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0015.51] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.51] Warning: Warning, Failed to find object 'Class None.'
+[0015.51] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.51] Warning: Warning, Failed to find object 'Class None.'
+[0015.51] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.51] Warning: Warning, Failed to find object 'Class None.'
+[0015.51] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.51] Warning: Warning, Failed to find object 'Class None.'
+[0015.51] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0015.51] Log: FEACClient::Send preload map event
+[0015.51] Log: FEACClient OnGameServerDisconnect
+[0015.51] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0015.71] Log: Map Game ID = 0
+[0015.71] Log: Map Instance ID = 197752867
+[0015.73] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0015.73] Log: Performance:  appCycles 14 nsec
+[0015.74] Log: Performance:  memCopy per KB 86 nsec
+[0015.75] Log: Performance:  memZero per KB 38 nsec
+[0015.76] Log: Performance:  appInterlockedIncrement 8 nsec
+[0015.77] Log: Performance:  GetTickCount 3 nsec
+[0015.77] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0015.77] Log: Flushing async loaders.
+[0015.87] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0015.87] Log: Flushed async loaders.
+[0015.87] Log: Game class is 'TgGameLaunch'
+[0015.95] Log: Primary PhysX scene will be in software.
+[0015.95] Log: Creating Primary PhysX Scene.
+[0015.95] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0015.95] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.11-16.14.27
+[0015.95] Log: Skipping initialization of FSMPartPool!
+[0016.09] DevMusic: PComMusicTheme PlayDefaultMusic
+[0016.09] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0016.10] Log: Bringing up level for play took: 0.218626
+[0016.10] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0016.11] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0016.11] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0016.64] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0016.64] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0016.82] Log: usc_toggle_cursor true
+[0016.82] Log: usc_toggle_key_capture true
+[0016.82] DevMusic: PComMusicTheme PlayDefaultMusic
+[0016.82] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0016.82] Log: ########### Finished loading level: 1.302850 seconds
+[0016.91] Log: Flushing async loaders.
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0017.52] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0017.52] Log: Flushed async loaders.
+[0017.52] Log: Starting RedrawViewports for texture streaming..
+[0017.55] Log: RedrawViewports took: 0.029215 seconds
+[0017.55] Log: Starting Level load StreamAllResources..
+[0017.62] Log: Level load StreamAllResources took: 0.069334 seconds
+[0017.62] Log: Initializing Engine Completed
+[0017.62] Log: >>>>>>>>>>>>>> Initial startup: 17.62s <<<<<<<<<<<<<<<
+[0017.62] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0018.41] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1180197312246201974529260591--1052109747x4941
+[0018.76] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0020.58] Log: Map Game ID = 0
+[0020.58] Log: Map Instance ID = 197752867
+[0020.64] Log: Performance: Critical section Lock/Unlock 63 nsec
+[0020.64] Log: Performance:  appCycles 31 nsec
+[0020.67] Log: Performance:  memCopy per KB 131 nsec
+[0020.68] Log: Performance:  memZero per KB 41 nsec
+[0020.69] Log: Performance:  appInterlockedIncrement 8 nsec
+[0020.69] Log: Performance:  GetTickCount 2 nsec
+[0034.07] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1180197135446201974529260591--1052109747x4941
+[0034.41] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0035.86] Log: Map Game ID = 0
+[0035.86] Log: Map Instance ID = 197752867
+[0035.88] Log: Performance: Critical section Lock/Unlock 22 nsec
+[0035.88] Log: Performance:  appCycles 8 nsec
+[0035.89] Log: Performance:  memCopy per KB 54 nsec
+[0035.90] Log: Performance:  memZero per KB 27 nsec
+[0035.90] Log: Performance:  appInterlockedIncrement 7 nsec
+[0035.91] Log: Performance:  GetTickCount 2 nsec
+[0044.62] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1180197135446201974529260591--1052109747x4941
+[0045.17] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0046.66] Log: Map Game ID = 0
+[0046.66] Log: Map Instance ID = 197752867
+[0046.71] Log: Performance: Critical section Lock/Unlock 45 nsec
+[0046.71] Log: Performance:  appCycles 11 nsec
+[0046.72] Log: Performance:  memCopy per KB 58 nsec
+[0046.73] Log: Performance:  memZero per KB 28 nsec
+[0046.73] Log: Performance:  appInterlockedIncrement 7 nsec
+[0046.74] Log: Performance:  GetTickCount 2 nsec
+[0060.22] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1180197135446201974529260591--1052109747x4941
+[0060.58] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0061.97] Log: Map Game ID = 0
+[0061.97] Log: Map Instance ID = 197752867
+[0062.02] Log: Performance: Critical section Lock/Unlock 48 nsec
+[0062.02] Log: Performance:  appCycles 12 nsec
+[0062.04] Log: Performance:  memCopy per KB 59 nsec
+[0062.04] Log: Performance:  memZero per KB 29 nsec
+[0062.05] Log: Performance:  appInterlockedIncrement 7 nsec
+[0062.05] Log: Performance:  GetTickCount 2 nsec
+[0073.87] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1180197135446201974529260591--1052109747x4941
+[0074.35] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0075.73] Log: Map Game ID = 0
+[0075.73] Log: Map Instance ID = 197752867
+[0075.78] Log: Performance: Critical section Lock/Unlock 49 nsec
+[0075.78] Log: Performance:  appCycles 12 nsec
+[0075.79] Log: Performance:  memCopy per KB 59 nsec
+[0075.80] Log: Performance:  memZero per KB 27 nsec
+[0075.80] Log: Performance:  appInterlockedIncrement 7 nsec
+[0075.81] Log: Performance:  GetTickCount 2 nsec
+[0082.77] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1180197135446201974529260591--1052109747x4941
+[0083.24] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0084.77] Log: Map Game ID = 0
+[0084.77] Log: Map Instance ID = 197752867
+[0084.79] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0084.79] Log: Performance:  appCycles 8 nsec
+[0084.80] Log: Performance:  memCopy per KB 64 nsec
+[0084.81] Log: Performance:  memZero per KB 32 nsec
+[0084.82] Log: Performance:  appInterlockedIncrement 7 nsec
+[0084.82] Log: Performance:  GetTickCount 2 nsec
+[0084.82] Log: Map Game ID = 0
+[0084.82] Log: Map Instance ID = 197752867
+[0084.84] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0084.84] Log: Performance:  appCycles 9 nsec
+[0084.85] Log: Performance:  memCopy per KB 67 nsec
+[0084.86] Log: Performance:  memZero per KB 32 nsec
+[0084.87] Log: Performance:  appInterlockedIncrement 7 nsec
+[0084.87] Log: Performance:  GetTickCount 2 nsec
+[0084.87] Log: Map Game ID = 0
+[0084.87] Log: Map Instance ID = 197752867
+[0084.89] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0084.89] Log: Performance:  appCycles 8 nsec
+[0084.90] Log: Performance:  memCopy per KB 53 nsec
+[0084.90] Log: Performance:  memZero per KB 27 nsec
+[0084.91] Log: Performance:  appInterlockedIncrement 7 nsec
+[0084.91] Log: Performance:  GetTickCount 2 nsec
+[0086.77] VoiceChat: Warn  am_network_start() trying retval=0,port + offset=11654,port=11624
+[0086.77] Log: Login Success: HesoosChristo
+[0086.77] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0086.77] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreRotatorGodPackNOUGP0911.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreNOUGPODY0919.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreRotatorOdySkins0919.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreRotatorGrim1009.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreTrick1009.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreOdyChest0918.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreGoldHAlloween1005.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\TopRightStoreGothic1010.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\crimsondeath.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\skipatrol.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\almighty.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreBottomHarbinger1010.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreBottomBelly1010.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreBottomInuGami1010.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeLeftGodPackHACH0913.jpg' error ()
+[0087.05] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeLeftody1010.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeBottomTina1005.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeBottomWarchief1010.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeBottomGothic1009.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorUltimateGodPack0706.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorMummy1010.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorYurei1010.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorHalloweenArena1005.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeGrim1010.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeCupid1010.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorPatch0919.jpg' error ()
+[0087.06] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\UltimateGodPack0913.jpg' error ()
+[0087.06] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0087.54] Log: Team/Instance chat routed to Instance Server.
+[0087.54] Log: Map Game ID = 0
+[0087.54] Log: Map Instance ID = 197752867
+[0087.58] Log: Performance: Critical section Lock/Unlock 42 nsec
+[0087.58] Log: Performance:  appCycles 12 nsec
+[0087.60] Log: Performance:  memCopy per KB 63 nsec
+[0087.60] Log: Performance:  memZero per KB 28 nsec
+[0087.61] Log: Performance:  appInterlockedIncrement 7 nsec
+[0087.61] Log: Performance:  GetTickCount 2 nsec
+[0087.61] Log: Chat[9]: Press ENTER to access chat.
+[0087.61] VoiceChat: UpdateVivox: Logging in as .c43e83., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc3NTMxMTYsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5jNDNlODMuQHNtcC52aXZveC5jb20ifQ.PaSDQ299DYX_nAHBaUXM2TYnKGlLjYaiUFqa4NZKcaE
+[0087.61] Log: Chat[9]: Press ENTER to access chat.
+[0088.40] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0088.40] Warning: Warning, Failed to find object 'Class None.None'
+[0088.50] VoiceChat: Warn  am_network_start() returned retval=0,port + offset=11654,port=11624
+[0088.50] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://smp.www.vivox.com/api2/)
+[0088.66] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.c43e83.)
+[0092.92] DevMusic: PComMusicTheme PlayDefaultMusic
+[0092.92] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0093.25] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0095.28] DevMusic: PComMusicTheme PlayDefaultMusic
+[0095.28] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0095.28] DevMusic: PComMusicTheme PlayDefaultMusic
+[0095.28] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0095.48] Log: CTgBattleClient - Match composition cached [2BF9E890]
+[0095.48] Log: ReceiveChangeMap: mapGameId 1542
+[0095.48] Log: ReceiveChangeMap: mapGameId 1542
+[0095.64] Log: usc_toggle_cursor false
+[0095.64] Log: usc_toggle_key_capture false
+[0095.73] Log: usc_toggle_key_capture true
+[0095.73] DevNet: URL: Adding default option Team=255
+[0095.73] Log: RequestingChannelMembers ch[3] [HesoosChristo has joined the channel.]
+[0095.73] DevNet: URL: Adding default option Team=255
+[0095.73] DevNet: Browse: Chinese_Joust_P_Tutorial?game=TgGame.TgGame_Battle_Training?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367292506?Team=255
+[0095.74] Log: LoadMap: Chinese_Joust_P_Tutorial?game=TgGame.TgGame_Battle_Training?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367292506?Team=255
+[0096.07] Log: Map Game ID = 0
+[0096.07] Log: Map Instance ID = 197752867
+[0096.09] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0096.09] Log: Performance:  appCycles 13 nsec
+[0096.11] Log: Performance:  memCopy per KB 85 nsec
+[0096.12] Log: Performance:  memZero per KB 41 nsec
+[0096.13] Log: Performance:  appInterlockedIncrement 8 nsec
+[0096.13] Log: Performance:  GetTickCount 3 nsec
+[0096.13] TgSLO: Async Load: FX_Store_Items
+[0096.13] TgSLO: Async Load: FX_Store_Items_Targeting
+[0096.13] TgSLO: Async Load: FX_Status_Effects
+[0096.14] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0096.14] TgSLO: Async Load: GOD_Common_AT
+[0096.14] TgSLO: Async Load: AUD_VOX_Narrator
+[0096.14] TgSLO: Async Load: NPC_Ward2
+[0096.14] TgSLO: Async Load: FX_Buff_Belts_V2
+[0096.14] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0096.14] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0096.14] TgSLO: Async Load: GOD_Neith
+[0096.14] TgSLO: Async Load: GOD_Neith_Textures
+[0096.14] TgSLO: Async Load: FX_Neith
+[0096.14] TgSLO: Async Load: FX_Neith_Targeting
+[0096.14] TgSLO: Async Load: AUD_God_Neith
+[0096.14] TgSLO: Async Load: CJ_Towers
+[0096.14] TgSLO: Async Load: FX_Towers_CHN_Joust
+[0096.14] TgSLO: Async Load: FX_Tower
+[0096.14] TgSLO: Async Load: FX_Greek_Tower
+[0096.14] TgSLO: Async Load: AUD_Tower
+[0096.14] TgSLO: Async Load: Joust_Tower
+[0096.14] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0096.14] TgSLO: Async Load: NPC_Phoenix
+[0096.14] TgSLO: Async Load: NPC_Phoenix_Textures
+[0096.14] TgSLO: Async Load: FX_Phoenix
+[0096.14] TgSLO: Async Load: AUD_NPC_Phoenix
+[0096.15] TgSLO: Async Load: NPC_CHNJoust_Phoenix
+[0096.15] TgSLO: Async Load: FX_CHNJoust_Phoenix
+[0096.15] TgSLO: Async Load: NPC_CHNJoust_Phoenix_Textures
+[0096.15] TgSLO: Async Load: MDL_PseudoMesh
+[0096.15] TgSLO: Async Load: NPC_Guardian_Female
+[0096.15] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0096.15] TgSLO: Async Load: FX_Guardian_Female
+[0096.15] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[0096.15] TgSLO: Async Load: NPC_Guardian_Male
+[0096.15] TgSLO: Async Load: NPC_Guardian_Male_AT
+[0096.15] TgSLO: Async Load: FX_Guardian_Male
+[0096.15] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[0096.15] TgSLO: Async Load: NPC_CHNJoust_Titan_Invader
+[0096.15] TgSLO: Async Load: FX_CHNJoust_Titan_Invader
+[0096.15] TgSLO: Async Load: NPC_CHNJoust_Titan
+[0096.15] TgSLO: Async Load: FX_CHNJoust_Titan_Order
+[0096.15] TgSLO: Async Load: NPC_Minion_Universal
+[0096.15] TgSLO: Async Load: FX_Roman
+[0096.15] TgSLO: Async Load: FX_Minion_Death
+[0096.15] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0096.15] TgSLO: Async Load: AUD_NPC_Olympus
+[0096.15] TgSLO: Async Load: NPC_ChaosMinion
+[0096.15] TgSLO: Async Load: FX_Common
+[0096.16] TgSLO: Async Load: AUD_UI
+[0096.16] TgSLO: Async Load: NPC_CHNJoust_Minion_Invader
+[0096.16] TgSLO: Async Load: NPC_CHNJoust_Minion
+[0096.16] TgSLO: Async Load: GOD_Ymir
+[0096.16] TgSLO: Async Load: GOD_Ymir_Textures
+[0096.16] TgSLO: Async Load: FX_Ymir
+[0096.16] TgSLO: Async Load: AUD_God_Ymir
+[0096.16] TgSLO: Async Load: NPC_Olympus
+[0096.16] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0096.16] Log: Flushing async loaders.
+[0096.29] TgSLO: Finish Load: FX_Store_Items
+[0096.33] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0096.34] TgSLO: Finish Load: FX_Status_Effects
+[0096.36] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0096.36] TgSLO: Finish Load: GOD_Common_AT
+[0096.38] TgSLO: Finish Load: AUD_VOX_Narrator
+[0096.40] TgSLO: Finish Load: NPC_Ward2
+[0096.45] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0096.45] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0096.46] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0096.56] TgSLO: Finish Load: GOD_Neith
+[0096.57] TgSLO: Finish Load: GOD_Neith_Textures
+[0096.61] TgSLO: Finish Load: FX_Neith
+[0096.64] TgSLO: Finish Load: FX_Neith_Targeting
+[0096.64] TgSLO: Finish Load: AUD_God_Neith
+[0096.71] TgSLO: Finish Load: CJ_Towers
+[0096.73] TgSLO: Finish Load: FX_Towers_CHN_Joust
+[0096.73] TgSLO: Finish Load: FX_Tower
+[0096.79] TgSLO: Finish Load: FX_Greek_Tower
+[0096.81] TgSLO: Finish Load: AUD_Tower
+[0096.89] TgSLO: Finish Load: Joust_Tower
+[0096.92] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0096.97] TgSLO: Finish Load: NPC_Phoenix
+[0096.97] TgSLO: Finish Load: NPC_Phoenix_Textures
+[0096.98] TgSLO: Finish Load: FX_Phoenix
+[0096.98] TgSLO: Finish Load: AUD_NPC_Phoenix
+[0096.99] TgSLO: Finish Load: NPC_CHNJoust_Phoenix
+[0097.01] TgSLO: Finish Load: FX_CHNJoust_Phoenix
+[0097.03] TgSLO: Finish Load: NPC_CHNJoust_Phoenix_Textures
+[0097.03] TgSLO: Finish Load: MDL_PseudoMesh
+[0097.10] TgSLO: Finish Load: NPC_Guardian_Female
+[0097.11] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0097.11] TgSLO: Finish Load: FX_Guardian_Female
+[0097.12] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[0097.22] TgSLO: Finish Load: NPC_Guardian_Male
+[0097.22] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[0097.25] TgSLO: Finish Load: FX_Guardian_Male
+[0097.25] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[0097.28] TgSLO: Finish Load: NPC_CHNJoust_Titan_Invader
+[0097.30] TgSLO: Finish Load: FX_CHNJoust_Titan_Invader
+[0097.32] TgSLO: Finish Load: NPC_CHNJoust_Titan
+[0097.35] TgSLO: Finish Load: FX_CHNJoust_Titan_Order
+[0097.38] TgSLO: Finish Load: NPC_Minion_Universal
+[0097.39] TgSLO: Finish Load: FX_Roman
+[0097.39] TgSLO: Finish Load: FX_Minion_Death
+[0097.40] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0097.40] TgSLO: Finish Load: AUD_NPC_Olympus
+[0097.42] TgSLO: Finish Load: NPC_ChaosMinion
+[0097.45] TgSLO: Finish Load: FX_Common
+[0097.47] TgSLO: Finish Load: AUD_UI
+[0097.47] TgSLO: Finish Load: NPC_CHNJoust_Minion_Invader
+[0097.48] TgSLO: Finish Load: NPC_CHNJoust_Minion
+[0097.58] TgSLO: Finish Load: GOD_Ymir
+[0097.59] TgSLO: Finish Load: GOD_Ymir_Textures
+[0097.63] TgSLO: Finish Load: FX_Ymir
+[0097.64] TgSLO: Finish Load: AUD_God_Ymir
+[0097.69] TgSLO: Finish Load: NPC_Olympus
+[0097.72] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0097.72] Log: Flushed async loaders.
+[0097.72] Log: Game class is 'TgGame_Battle_Training'
+[0097.74] Log: Primary PhysX scene will be in software.
+[0097.74] Log: Creating Primary PhysX Scene.
+[0097.74] Log: Bringing World chinese_joust_p_tutorial.TheWorld up for play (0) at 2017.10.11-16.15.49
+[0097.74] Log: Skipping initialization of FSMPartPool!
+[0097.77] DevMusic: PComMusicTheme PlayDefaultMusic
+[0097.77] DevMusic: PComMusicTheme StopMusic
+[0097.79] Log: Bringing up level for play took: 0.072570
+[0097.79] Log: Net Access flags for 0: 00000000 00000000
+[0097.79] Log: player_id 12861059
+[0097.79] Log: Mission Timer State 1 at game time 0.00
+[0097.79] Log: Spawn character  PlayerId: 12861059
+[0097.79] Log: Spawning new pawn for player 12861059
+[0097.79] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0097.79] Log: Beginning inventory transaction for player 12861059
+[0097.80] Log: ########### Finished loading level: 2.064361 seconds
+[0097.80] Log: Flushing async loaders.
+[0098.27] Log: Flushed async loaders.
+[0098.27] Log: Starting RedrawViewports for texture streaming..
+[0098.48] Log: RedrawViewports took: 0.208199 seconds
+[0098.48] Log: Starting Level load StreamAllResources..
+[0098.49] Log: Level load StreamAllResources took: 0.010555 seconds
+[0098.50] Error: Can't start an online game that hasn't been created
+[0098.51] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0099.10] Log:            ATgPlayerController::UpdateTransitionUI()
+[0099.10] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0099.10] Log: Mission Timer State 2 at game time -0.00
+[0099.10] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0099.10] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0099.13] Log: usc_toggle_cursor true
+[0099.48] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0103.61] DevMusic: PComMusicTheme PlayMusicEvent no event event named Opening found in theme
+[0109.20] Log: Mission Timer State 3 at game time 0.00
+[0132.43] Log: usc_toggle_key_capture false
+[0132.43] Log: usc_toggle_cursor false
+[0138.21] Log: usc_toggle_cursor true
+[0139.44] Log: usc_toggle_key_capture true
+[0140.27] Log: Closing by request
+[0140.27] Log: appRequestExit(0)(0)
+[0140.28] Log: TgAIBehaviorTreeManager :: De-allocating 201 behavior trees
+[0140.43] Exit: Preparing to exit.
+[0140.95] Exit: Game engine shut down
+[0140.96] Exit: PComNetDriver_0(PEER) shut down
+[0140.96] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[0141.13] Exit: Windows client shut down
+[0141.16] Exit: XAudio2 Device shut down.
+[0141.47] Exit: Object subsystem successfully closed.
+[0141.47] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0141.64] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0141.68] Exit: Exiting.

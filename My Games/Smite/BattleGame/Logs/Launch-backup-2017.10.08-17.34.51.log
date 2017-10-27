@@ -1,0 +1,2759 @@
+[0000.32] Log: Async Log file open, 10/08/17 14:41:04
+[0000.32] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.32] Log:  ... running in INSTALLED mode
+[0000.32] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.32] Init: Version: 10897
+[0000.32] Init: Epic Internal: 0
+[0000.32] Init: Compiled (32-bit): Sep 27 2017 18:27:52
+[0000.32] Init: Changelist: 1532151
+[0000.32] Init: Game is version 4.18.4334.0.
+[0000.32] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -pid=017 -user=Swoldier97 -token                                  -HiCommand -HEXX=96E8086D
+[0000.32] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.32] Init: Computer: LAPTOP-2ARNF0V1
+[0000.32] Init: User: Asif
+[0000.32] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.32] Init: High frequency timer resolution =2.835936 MHz
+[0000.32] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.62] DevOnline: Initializing MCTS
+[0001.15] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.15] Init: Object subsystem initialized
+[0001.15] Log: Overriding lang INT w/ command-line option of ENG
+[0001.15] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.53] Log: CachePaths() took 0.39 Seconds
+[0001.53] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.57] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.53] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0003.59] Log: SystemSettings based on: SystemSettings
+[0004.13] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0004.13] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0005.29] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.34] Log: PhysX GPU Support: DISABLED
+[0007.53] Log: Assembly Loaded Version: DBExport: 09/27/2017 17:45:48,  Src=devsql.hirezcorp.com:smite_live_build_4_18, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0007.57] Log: FEACClient being initialized
+[0009.27] Log: TFC Version check: Low=4.18.4334.0 High=, Result=FALSE
+[0010.78] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0011.30] Log: 152443 objects as part of root set at end of initial load.
+[0011.30] Log: 0 out of 0 bytes used by permanent object pool.
+[0011.37] Log: Initializing Engine...
+[0011.44] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0011.44] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0012.80] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0016.58] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0016.58] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0016.59] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0016.59] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0016.59] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.59] Warning: Warning, Failed to find object 'Class None.'
+[0016.59] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.59] Warning: Warning, Failed to find object 'Class None.'
+[0016.59] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.59] Warning: Warning, Failed to find object 'Class None.'
+[0016.59] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.59] Warning: Warning, Failed to find object 'Class None.'
+[0016.59] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0016.59] Log: FEACClient::Send preload map event
+[0016.59] Log: FEACClient OnGameServerDisconnect
+[0016.60] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0016.79] Log: Map Game ID = 0
+[0016.79] Log: Map Instance ID = 197488080
+[0016.80] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0016.81] Log: Performance:  appCycles 14 nsec
+[0016.82] Log: Performance:  memCopy per KB 86 nsec
+[0016.83] Log: Performance:  memZero per KB 38 nsec
+[0016.84] Log: Performance:  appInterlockedIncrement 8 nsec
+[0016.84] Log: Performance:  GetTickCount 4 nsec
+[0016.85] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0016.85] Log: Flushing async loaders.
+[0016.93] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0016.93] Log: Flushed async loaders.
+[0016.93] Log: Game class is 'TgGameLaunch'
+[0017.01] Log: Primary PhysX scene will be in software.
+[0017.01] Log: Creating Primary PhysX Scene.
+[0017.01] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0017.01] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.08-14.41.20
+[0017.01] Log: Skipping initialization of FSMPartPool!
+[0017.15] DevMusic: PComMusicTheme PlayDefaultMusic
+[0017.15] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0017.16] Log: Bringing up level for play took: 0.217374
+[0017.16] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0017.16] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0017.16] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0017.65] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0017.65] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0017.87] Log: usc_toggle_cursor true
+[0017.87] Log: usc_toggle_key_capture true
+[0017.88] DevMusic: PComMusicTheme PlayDefaultMusic
+[0017.88] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0017.88] Log: ########### Finished loading level: 1.277635 seconds
+[0017.96] Log: Flushing async loaders.
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0018.55] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0018.55] Log: Flushed async loaders.
+[0018.55] Log: Starting RedrawViewports for texture streaming..
+[0018.58] Log: RedrawViewports took: 0.029198 seconds
+[0018.58] Log: Starting Level load StreamAllResources..
+[0018.74] Log: Level load StreamAllResources took: 0.157618 seconds
+[0018.74] Log: Initializing Engine Completed
+[0018.74] Log: >>>>>>>>>>>>>> Initial startup: 18.74s <<<<<<<<<<<<<<<
+[0018.74] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0019.49] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1151645605444182774529664847--1052109747x4941
+[0019.89] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0021.44] Log: Map Game ID = 0
+[0021.44] Log: Map Instance ID = 197488080
+[0021.46] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0021.46] Log: Performance:  appCycles 8 nsec
+[0021.48] Log: Performance:  memCopy per KB 71 nsec
+[0021.48] Log: Performance:  memZero per KB 32 nsec
+[0021.49] Log: Performance:  appInterlockedIncrement 7 nsec
+[0021.49] Log: Performance:  GetTickCount 3 nsec
+[0021.49] Log: Map Game ID = 0
+[0021.49] Log: Map Instance ID = 197488080
+[0021.51] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0021.51] Log: Performance:  appCycles 8 nsec
+[0021.53] Log: Performance:  memCopy per KB 80 nsec
+[0021.54] Log: Performance:  memZero per KB 31 nsec
+[0021.54] Log: Performance:  appInterlockedIncrement 7 nsec
+[0021.55] Log: Performance:  GetTickCount 3 nsec
+[0021.55] Log: Map Game ID = 0
+[0021.55] Log: Map Instance ID = 197488080
+[0021.57] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0021.57] Log: Performance:  appCycles 9 nsec
+[0021.58] Log: Performance:  memCopy per KB 57 nsec
+[0021.58] Log: Performance:  memZero per KB 29 nsec
+[0021.59] Log: Performance:  appInterlockedIncrement 7 nsec
+[0021.60] Log: Performance:  GetTickCount 3 nsec
+[0023.54] VoiceChat: Warn  am_network_start() trying retval=0,port + offset=53586,port=53556
+[0023.54] Log: Login Success: chicodelnoche
+[0023.54] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0023.54] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0024.03] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0024.33] Log: Team/Instance chat routed to Instance Server.
+[0024.33] Log: Map Game ID = 0
+[0024.33] Log: Map Instance ID = 197488080
+[0024.34] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0024.34] Log: Performance:  appCycles 8 nsec
+[0024.36] Log: Performance:  memCopy per KB 64 nsec
+[0024.36] Log: Performance:  memZero per KB 29 nsec
+[0024.37] Log: Performance:  appInterlockedIncrement 7 nsec
+[0024.37] Log: Performance:  GetTickCount 3 nsec
+[0024.38] Log: Chat[9]: Press ENTER to access chat.
+[0024.38] Log: Chat[9]: Press ENTER to access chat.
+[0024.38] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc0ODgyNjQsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.u3x6IpOH89_3ZPi8hJfbVBIk-gqg-bTtR3fscCFGxyU
+[0024.38] Log: RequestingChannelMembers ch[1] [chicodelnoche has joined the channel.]
+[0024.38] Log: Chat[1]: Clan status: He Vuelto
+[0024.38] Log: ---- UpdateClanData
+[0024.51] VoiceChat: Warn  am_network_start() returned retval=0,port + offset=53586,port=53556
+[0024.51] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://smp.www.vivox.com/api2/)
+[0024.69] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.a3a502.)
+[0025.35] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.35] Warning: Warning, Failed to find object 'Class None.None'
+[0030.46] Log: ---- UpdateClanData
+[0030.46] DevMusic: PComMusicTheme PlayDefaultMusic
+[0030.46] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0030.46] Log: ERROR: Attempting to log in without settings.
+[0030.96] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0038.62] Log: ---- UpdateClanData
+[0040.53] VoiceChat: UpdateVivox: Joining channel sip:confctl-g-4-924c7@smp.vivox.com, token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc0ODgyODQsInZ4YSI6ImpvaW4iLCJ2eGkiOjEsImYiOiJzaXA6LmEzYTUwMi5Ac21wLnZpdm94LmNvbSIsInQiOiJzaXA6Y29uZmN0bC1nLTQtOTI0YzdAc21wLnZpdm94LmNvbSJ9.2qdsmPDbpgwA3UbmQSKvImX6QmqlZSI6Fo5_-Yf_sOU
+[0040.53] Log: RequestingChannelMembers ch[4] [chicodelnoche has joined the channel.]
+[0040.90] VoiceChat: Warn  OpenAudioUnit() succeeded.this=0x29e9f310,captureDeviceId=DeviceId m_displayName='Microphone Array (Realtek High Definition Audio)' m_internalName='{0.0.1.00000000}.{75206ef3-78b5-4bd6-8440-0a3bda25b105}',renderDeviceId=DeviceId m_displayName='Speakers (Realtek High Definition Audio)' m_internalName='{0.0.0.00000000}.{7a61a7c2-531e-459f-ad93-d35fa1ae6afe}'
+[0041.20] VoiceChat: CVoiceInterfaceVivox::onChannelJoined (.a3a502., sip:confctl-g-4-924c7@smp.vivox.com)
+[0042.25] Log: Chat[4]: Laydine has joined the party.
+[0042.26] Log: RequestingChannelMembers ch[4] [@@player_name@@ has joined the channel.]
+[0046.98] TgSLO: Async Load: GOD_Ymir
+[0046.98] TgSLO: Async Load: GOD_Ymir_Textures
+[0046.98] TgSLO: Async Load: GOD_Ymir_Lobby
+[0046.98] TgSLO: Async Load: FX_Ymir
+[0046.98] TgSLO: Async Load: FX_Ymir_Lobby
+[0046.98] TgSLO: Async Load: AUD_God_Ymir
+[0046.98] TgSLO: Async Load: GOD_Ymir_Skin12
+[0046.98] TgSLO: Async Load: FX_Ymir_Skin12
+[0046.98] TgSLO: Async Load: GOD_Ymir_Skin12_Lobby
+[0046.99] TgSLO: Async Load: FX_Ymir_Skin12_Targeting
+[0046.99] TgSLO: Async Load: AnimNotify14940
+[0047.86] TgSLO: Finish Load: GOD_Ymir
+[0047.97] TgSLO: Finish Load: GOD_Ymir_Textures
+[0048.09] TgSLO: Finish Load: GOD_Ymir_Lobby
+[0048.55] TgSLO: Finish Load: FX_Ymir
+[0048.58] TgSLO: Finish Load: FX_Ymir_Lobby
+[0049.84] TgSLO: Finish Load: AUD_God_Ymir
+[0050.00] TgSLO: Finish Load: GOD_Ymir_Skin12
+[0050.36] TgSLO: Finish Load: FX_Ymir_Skin12
+[0050.38] TgSLO: Finish Load: GOD_Ymir_Skin12_Lobby
+[0050.45] TgSLO: Finish Load: FX_Ymir_Skin12_Targeting
+[0050.46] TgSLO: Finish Load: AnimNotify14940
+[0069.58] Log: Chat[9]: You have joined a match queue.
+[0069.62] Log: Chat[4]: chicodelnoche entered the party into a match queue.
+[0138.10] Log: Chat[4]: chicodelnoche has left the queue.
+[0142.11] Log: Chat[9]: You have joined a match queue.
+[0142.16] Log: Chat[4]: chicodelnoche entered the party into a match queue.
+[0180.00] Log: Time is 2017.10.08-14.44.03
+[0196.49] TgSLO: Async Load: GOD_Hachiman
+[0196.49] TgSLO: Async Load: GOD_Hachiman_Textures
+[0196.49] TgSLO: Async Load: GOD_Hachiman_Lobby
+[0196.49] TgSLO: Async Load: FX_Hachiman
+[0196.49] TgSLO: Async Load: FX_Hachiman_Lobby
+[0196.49] TgSLO: Async Load: AUD_God_Hachiman
+[0197.10] TgSLO: Finish Load: GOD_Hachiman
+[0197.22] TgSLO: Finish Load: GOD_Hachiman_Textures
+[0197.40] TgSLO: Finish Load: GOD_Hachiman_Lobby
+[0197.76] TgSLO: Finish Load: FX_Hachiman
+[0197.80] TgSLO: Finish Load: FX_Hachiman_Lobby
+[0198.31] TgSLO: Finish Load: AUD_God_Hachiman
+[0200.48] Log: RequestingChannelMembers ch[3] [chicodelnoche has joined the channel.]
+[0202.07] Log: RequestingChannelMembers ch[3] [colombiawarr has joined the channel.]
+[0202.13] Log: RequestingChannelMembers ch[3] [HProdigy has joined the channel.]
+[0208.38] Log: RequestingChannelMembers ch[3] [zafax has joined the channel.]
+[0222.01] DevMusic: PComMusicTheme PlayMusicEvent found event named GodSelection
+[0222.01] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0222.01] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0222.17] TgSLO: Async Load: Pedestal_Summer_2017
+[0222.17] TgSLO: Async Load: FX_Pedestal_Summer_2017
+[0222.17] TgSLO: Async Load: Lobby_Pedestal_SWC2016
+[0222.50] TgSLO: Finish Load: Pedestal_Summer_2017
+[0222.51] TgSLO: Finish Load: FX_Pedestal_Summer_2017
+[0222.63] TgSLO: Finish Load: Lobby_Pedestal_SWC2016
+[0245.44] TgSLO: Async Load: GOD_Ymir
+[0245.44] TgSLO: Async Load: GOD_Ymir_Textures
+[0245.44] TgSLO: Async Load: GOD_Ymir_Lobby
+[0245.44] TgSLO: Async Load: FX_Ymir
+[0245.44] TgSLO: Async Load: FX_Ymir_Lobby
+[0245.44] TgSLO: Async Load: AUD_God_Ymir
+[0246.15] TgSLO: Finish Load: GOD_Ymir
+[0246.25] TgSLO: Finish Load: GOD_Ymir_Textures
+[0246.37] TgSLO: Finish Load: GOD_Ymir_Lobby
+[0246.83] TgSLO: Finish Load: FX_Ymir
+[0246.85] TgSLO: Finish Load: FX_Ymir_Lobby
+[0248.10] TgSLO: Finish Load: AUD_God_Ymir
+[0262.97] Log: SendChat[3] 1 adc plz
+[0263.13] Log: Chat[3]: 1 adc plz
+[0268.42] TgSLO: Async Load: GOD_Cernunnos
+[0268.42] TgSLO: Async Load: GOD_Cernunnos_Textures
+[0268.42] TgSLO: Async Load: GOD_Cernunnos_Lobby
+[0268.42] TgSLO: Async Load: FX_Cernunnos
+[0268.42] TgSLO: Async Load: FX_Cernunnos_Lobby
+[0268.42] TgSLO: Async Load: AUD_God_Cernunnos
+[0269.08] TgSLO: Finish Load: GOD_Cernunnos
+[0269.19] TgSLO: Finish Load: GOD_Cernunnos_Textures
+[0269.54] TgSLO: Finish Load: GOD_Cernunnos_Lobby
+[0270.13] TgSLO: Finish Load: FX_Cernunnos
+[0270.22] TgSLO: Finish Load: FX_Cernunnos_Lobby
+[0270.58] TgSLO: Finish Load: AUD_God_Cernunnos
+[0276.93] Log: Chat[3]: cupid change
+[0285.95] Log: Chat[3]: someone else
+[0287.25] Log: SendChat[3] assassin or mage
+[0287.38] Log: Chat[3]: assassin or mage
+[0291.75] Log: Chat[3]: i could change i dont mind
+[0311.91] DevMusic: PComMusicTheme PlayMusicEvent found event named BattleReady
+[0311.91] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0311.91] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0311.91] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0311.94] TgSLO: Async Load: FX_Cupid
+[0311.94] TgSLO: Async Load: FX_Cupid_Lobby
+[0311.94] TgSLO: Async Load: AUD_God_Cupid
+[0311.94] TgSLO: Async Load: GOD_Cupid_V2
+[0311.94] TgSLO: Async Load: GOD_Cupid_V2_Textures
+[0311.94] TgSLO: Async Load: GOD_Cupid_V2_Lobby
+[0311.94] TgSLO: Async Load: FX_Freya
+[0311.94] TgSLO: Async Load: FX_Freya_Lobby
+[0311.95] TgSLO: Async Load: AUD_God_Freya
+[0311.95] TgSLO: Async Load: GOD_Freya_V3
+[0311.95] TgSLO: Async Load: GOD_Freya_V3_Textures
+[0311.95] TgSLO: Async Load: GOD_Freya_V3_Lobby
+[0311.95] TgSLO: Async Load: GOD_Nike
+[0311.95] TgSLO: Async Load: GOD_Nike_Textures
+[0311.95] TgSLO: Async Load: GOD_Nike_Lobby
+[0311.95] TgSLO: Async Load: FX_Nike
+[0311.95] TgSLO: Async Load: FX_Nike_Lobby
+[0311.95] TgSLO: Async Load: AUD_God_Nike
+[0312.18] TgSLO: Finish Load: FX_Cupid
+[0312.22] TgSLO: Finish Load: FX_Cupid_Lobby
+[0312.51] TgSLO: Finish Load: AUD_God_Cupid
+[0312.86] TgSLO: Finish Load: GOD_Cupid_V2
+[0312.90] TgSLO: Finish Load: GOD_Cupid_V2_Textures
+[0312.95] TgSLO: Finish Load: GOD_Cupid_V2_Lobby
+[0313.34] TgSLO: Finish Load: FX_Freya
+[0313.36] TgSLO: Finish Load: FX_Freya_Lobby
+[0313.73] TgSLO: Finish Load: AUD_God_Freya
+[0314.20] TgSLO: Finish Load: GOD_Freya_V3
+[0314.28] TgSLO: Finish Load: GOD_Freya_V3_Textures
+[0314.34] TgSLO: Finish Load: GOD_Freya_V3_Lobby
+[0314.93] TgSLO: Finish Load: GOD_Nike
+[0315.01] TgSLO: Finish Load: GOD_Nike_Textures
+[0315.11] TgSLO: Finish Load: GOD_Nike_Lobby
+[0315.74] TgSLO: Finish Load: FX_Nike
+[0315.83] TgSLO: Finish Load: FX_Nike_Lobby
+[0316.26] TgSLO: Finish Load: AUD_God_Nike
+[0321.61] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3_Lobby'
+[0321.87] DevMusic: PComMusicTheme PlayDefaultMusic
+[0321.87] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0321.87] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0325.33] Log: CTgBattleClient - Match composition cached [3172BB80]
+[0325.33] Log: ReceiveChangeMap: mapGameId 1547
+[0325.33] Log: ReceiveChangeMap: mapGameId 1547
+[0325.43] Log: usc_toggle_key_capture false
+[0325.43] Log: usc_toggle_cursor false
+[0325.54] Log: usc_toggle_key_capture true
+[0325.55] DevNet: URL: Adding default option Team=255
+[0325.55] DevNet: URL: Adding default option Team=255
+[0325.55] DevNet: Browse: 0.0.0.0:9038/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=366849270?Team=255
+[0325.55] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0325.55] DevNet: Game client on port 9038, rate 25000
+[0326.95] DevNet: Welcomed by server (Level: clash_p, Game: TgGame.TgGame_Battle_ClashV2)
+[0327.46] Log: LoadMap: 0.0.0.0:9038/clash_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=366849270?Team=255?game=TgGame.TgGame_Battle_ClashV2
+[0327.78] Log: Map Game ID = 0
+[0327.78] Log: Map Instance ID = 197488080
+[0327.80] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0327.80] Log: Performance:  appCycles 14 nsec
+[0327.82] Log: Performance:  memCopy per KB 95 nsec
+[0327.83] Log: Performance:  memZero per KB 43 nsec
+[0327.84] Log: Performance:  appInterlockedIncrement 8 nsec
+[0327.84] Log: Performance:  GetTickCount 3 nsec
+[0327.85] TgSLO: Async Load: FX_Store_Items
+[0327.85] TgSLO: Async Load: FX_Store_Items_Targeting
+[0327.85] TgSLO: Async Load: FX_Status_Effects
+[0327.85] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0327.85] TgSLO: Async Load: GOD_Common_AT
+[0327.85] TgSLO: Async Load: AUD_VOX_Narrator
+[0327.85] TgSLO: Async Load: NPC_Ward2
+[0327.85] TgSLO: Async Load: FX_Buff_Belts_V2
+[0327.85] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0327.85] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0327.85] TgSLO: Async Load: GOD_Ram
+[0327.85] TgSLO: Async Load: GOD_Ram_Textures
+[0327.85] TgSLO: Async Load: FX_Ram
+[0327.85] TgSLO: Async Load: AUD_God_Ram
+[0327.85] TgSLO: Async Load: GOD_Rama_Skin4
+[0327.86] TgSLO: Async Load: FX_Ram_Skin4
+[0327.86] TgSLO: Async Load: MDL_PseudoMesh
+[0327.86] TgSLO: Async Load: FX_Ram_Skin2
+[0327.86] TgSLO: Async Load: AUD_God_Rama_Skin4
+[0327.86] TgSLO: Async Load: AnimNotify12690
+[0327.86] TgSLO: Async Load: NPC_Ward_DNL
+[0327.86] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0327.86] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0327.86] TgSLO: Async Load: FX_Common
+[0327.86] TgSLO: Async Load: AUD_UI
+[0327.86] TgSLO: Async Load: FX_Emote_global_Spring_2017
+[0327.86] TgSLO: Async Load: FX_Diamond_Recall
+[0327.86] TgSLO: Async Load: GOD_Khepri
+[0327.86] TgSLO: Async Load: GOD_Khepri_Textures
+[0327.86] TgSLO: Async Load: FX_Khepri
+[0327.86] TgSLO: Async Load: AUD_God_Khepri
+[0327.86] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0327.86] TgSLO: Async Load: GOD_Susano
+[0327.86] TgSLO: Async Load: GOD_Susano_Textures
+[0327.86] TgSLO: Async Load: FX_Susano
+[0327.86] TgSLO: Async Load: AUD_God_Susano
+[0327.86] TgSLO: Async Load: god_susano_skin2
+[0327.87] TgSLO: Async Load: FX_Susano_Skin2_Targeting
+[0327.87] TgSLO: Async Load: FX_Susano_Skin2
+[0327.87] TgSLO: Async Load: AUD_God_Susano_Skin2
+[0327.87] TgSLO: Async Load: AnimNotify13460
+[0327.87] TgSLO: Async Load: NPC_Ward_DentonBalloon
+[0327.87] TgSLO: Async Load: FX_Emote_global_Fireworks_RIP
+[0327.87] TgSLO: Async Load: FX_Fall_Recall
+[0327.87] TgSLO: Async Load: FX_JumpStamp_Adventures_MMO
+[0327.87] TgSLO: Async Load: FX_LevelUP_SeasonTicket2017
+[0327.87] TgSLO: Async Load: FX_Fountain_SeasonTicket2017
+[0327.87] TgSLO: Async Load: GOD_Anubis_V2
+[0327.87] TgSLO: Async Load: GOD_Anubis_V2_Textures
+[0327.87] TgSLO: Async Load: FX_Anubis_V2
+[0327.87] TgSLO: Async Load: AUD_God_Anubis
+[0327.87] TgSLO: Async Load: GOD_Sol
+[0327.87] TgSLO: Async Load: GOD_Sol_Textures
+[0327.87] TgSLO: Async Load: FX_Sol
+[0327.87] TgSLO: Async Load: AUD_God_Sol
+[0327.87] TgSLO: Async Load: GOD_Sol_Skin1
+[0327.87] TgSLO: Async Load: AUD_VOX_God_Sol
+[0327.88] TgSLO: Async Load: NPC_Ward_Chick
+[0327.88] TgSLO: Async Load: FX_Emote_global_Fireworks_GG
+[0327.88] TgSLO: Async Load: FX_Odyssey2017_Recall
+[0327.88] TgSLO: Async Load: FX_Freya_Skin3
+[0327.88] TgSLO: Async Load: AUD_God_Freya
+[0327.88] TgSLO: Async Load: GOD_Cernunnos
+[0327.88] TgSLO: Async Load: GOD_Cernunnos_Textures
+[0327.88] TgSLO: Async Load: FX_Cernunnos
+[0327.88] TgSLO: Async Load: AUD_God_Cernunnos
+[0327.88] TgSLO: Async Load: NPC_Ward_SwordInStone
+[0327.88] TgSLO: Async Load: FX_Emote_global_SmiteBirthday
+[0327.88] TgSLO: Async Load: FX_Celtic_Recall
+[0327.88] TgSLO: Async Load: FX_Cupid
+[0327.88] TgSLO: Async Load: AUD_God_Cupid
+[0327.88] TgSLO: Async Load: GOD_Cupid_V2
+[0327.88] TgSLO: Async Load: GOD_Cupid_V2_Textures
+[0327.88] TgSLO: Async Load: NPC_Ward_ODY_2017_Evolving
+[0327.88] TgSLO: Async Load: FX_Demonic_Pact_Recall
+[0327.88] TgSLO: Async Load: FX_JumpStamp_SoS_2017
+[0327.88] TgSLO: Async Load: GOD_Nike
+[0327.88] TgSLO: Async Load: GOD_Nike_Textures
+[0327.88] TgSLO: Async Load: FX_Nike
+[0327.88] TgSLO: Async Load: AUD_God_Nike
+[0327.89] TgSLO: Async Load: NPC_Ward_Chest
+[0327.89] TgSLO: Async Load: NPC_Ward_EGR
+[0327.89] TgSLO: Async Load: NPC_Ward_Apollo
+[0327.89] TgSLO: Async Load: NPC_Ward_Snowman
+[0327.89] TgSLO: Async Load: FX_JumpStamp_SeasonTicket2017
+[0327.89] TgSLO: Async Load: FX_Freya
+[0327.89] TgSLO: Async Load: GOD_Freya_V3
+[0327.89] TgSLO: Async Load: GOD_Freya_V3_Textures
+[0327.89] TgSLO: Async Load: GOD_Ymir
+[0327.89] TgSLO: Async Load: GOD_Ymir_Textures
+[0327.89] TgSLO: Async Load: FX_Ymir
+[0327.89] TgSLO: Async Load: FX_Ymir_Targeting
+[0327.89] TgSLO: Async Load: AUD_God_Ymir
+[0327.89] TgSLO: Async Load: NPC_Phoenix
+[0327.89] TgSLO: Async Load: FX_Greek_Tower
+[0327.89] TgSLO: Async Load: FX_Phoenix
+[0327.89] TgSLO: Async Load: NPC_EGYClash_Phoenix_Order
+[0327.89] TgSLO: Async Load: NPC_EGYClash_Phoenix_Generic
+[0327.89] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Order
+[0327.89] TgSLO: Async Load: AUD_NPC_EGYClash_Phoenix
+[0327.89] TgSLO: Async Load: AUD_Tower
+[0327.89] TgSLO: Async Load: EC_Towers
+[0327.90] TgSLO: Async Load: FX_NPC_EGYClash_Towers
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Phoenix_Chaos
+[0327.90] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0327.90] TgSLO: Async Load: NPC_Olympus
+[0327.90] TgSLO: Async Load: AUD_NPC_Olympus
+[0327.90] TgSLO: Async Load: NPC_Minion_Universal
+[0327.90] TgSLO: Async Load: FX_Roman
+[0327.90] TgSLO: Async Load: FX_Minion_Death
+[0327.90] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Minion_Order
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Brute_Order
+[0327.90] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Minion_Chaos
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Brute_Chaos
+[0327.90] TgSLO: Async Load: NPC_Guardian_Female
+[0327.90] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0327.90] TgSLO: Async Load: FX_Guardian_Female
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Titan_Order
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Titan_Generic
+[0327.90] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Order
+[0327.90] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0327.90] TgSLO: Async Load: NPC_EGYClash_Titan_Chaos
+[0327.90] TgSLO: Async Load: FX_Guardian_Male
+[0327.90] TgSLO: Async Load: FX_CHNJoust_Titan_Invader
+[0327.90] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Chaos
+[0327.90] TgSLO: Async Load: NPC_Cyclops_V2
+[0327.91] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0327.91] TgSLO: Async Load: AUD_NPC_Cyclops
+[0327.91] TgSLO: Async Load: NPC_EGYClash_Hyena
+[0327.91] TgSLO: Async Load: FX_EGYClash_Hyena
+[0327.91] TgSLO: Async Load: NPC_EGYClash_Baboon
+[0327.91] TgSLO: Async Load: FX_NPC_EGYClash_Baboon
+[0327.91] TgSLO: Async Load: NPC_Cyclops_V3
+[0327.91] TgSLO: Async Load: FX_Odin_V2
+[0327.91] TgSLO: Async Load: NPC_EGYClash_Apep
+[0327.91] TgSLO: Async Load: AUD_NPC_EGYClash_Apep
+[0327.91] TgSLO: Async Load: FX_Apep
+[0327.91] Log: Flushing async loaders.
+[0328.03] TgSLO: Finish Load: FX_Store_Items
+[0328.06] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0328.07] TgSLO: Finish Load: FX_Status_Effects
+[0328.09] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0328.10] TgSLO: Finish Load: GOD_Common_AT
+[0328.11] TgSLO: Finish Load: AUD_VOX_Narrator
+[0328.13] TgSLO: Finish Load: NPC_Ward2
+[0328.18] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0328.18] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0328.19] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0328.37] TgSLO: Finish Load: GOD_Ram
+[0328.37] TgSLO: Finish Load: GOD_Ram_Textures
+[0328.40] TgSLO: Finish Load: FX_Ram
+[0328.41] TgSLO: Finish Load: AUD_God_Ram
+[0328.44] TgSLO: Finish Load: GOD_Rama_Skin4
+[0328.49] TgSLO: Finish Load: FX_Ram_Skin4
+[0328.49] TgSLO: Finish Load: MDL_PseudoMesh
+[0328.55] TgSLO: Finish Load: FX_Ram_Skin2
+[0328.55] TgSLO: Finish Load: AUD_God_Rama_Skin4
+[0328.57] TgSLO: Finish Load: AnimNotify12690
+[0328.61] TgSLO: Finish Load: NPC_Ward_DNL
+[0328.61] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0328.63] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0328.67] TgSLO: Finish Load: FX_Common
+[0328.68] TgSLO: Finish Load: AUD_UI
+[0328.68] TgSLO: Finish Load: FX_Emote_global_Spring_2017
+[0328.70] Log: Missing cached shader map for material MAT_Diamond3_CARD, quality 0, compiling.
+[0328.70] Log: Can't compile MAT_Diamond3_CARD with seekfree loading path on console, will attempt to use default material instead
+[0328.70] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_CARD for platform PC-D3D-SM3, Default Material will be used in game.
+[0328.70] Log: Missing cached shader map for material MAT_Diamond3_Crysalis2, quality 0, compiling.
+[0328.70] Log: Can't compile MAT_Diamond3_Crysalis2 with seekfree loading path on console, will attempt to use default material instead
+[0328.70] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_Crysalis2 for platform PC-D3D-SM3, Default Material will be used in game.
+[0328.70] TgSLO: Finish Load: FX_Diamond_Recall
+[0328.82] TgSLO: Finish Load: GOD_Khepri
+[0328.83] TgSLO: Finish Load: GOD_Khepri_Textures
+[0328.86] TgSLO: Finish Load: FX_Khepri
+[0328.87] TgSLO: Finish Load: AUD_God_Khepri
+[0328.89] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0329.05] TgSLO: Finish Load: GOD_Susano
+[0329.05] TgSLO: Finish Load: GOD_Susano_Textures
+[0329.11] TgSLO: Finish Load: FX_Susano
+[0329.12] TgSLO: Finish Load: AUD_God_Susano
+[0329.17] TgSLO: Finish Load: god_susano_skin2
+[0329.20] TgSLO: Finish Load: FX_Susano_Skin2_Targeting
+[0329.23] TgSLO: Finish Load: FX_Susano_Skin2
+[0329.24] TgSLO: Finish Load: AUD_God_Susano_Skin2
+[0329.25] TgSLO: Finish Load: AnimNotify13460
+[0329.26] TgSLO: Finish Load: NPC_Ward_DentonBalloon
+[0329.28] TgSLO: Finish Load: FX_Emote_global_Fireworks_RIP
+[0329.30] TgSLO: Finish Load: FX_Fall_Recall
+[0329.31] TgSLO: Finish Load: FX_JumpStamp_Adventures_MMO
+[0329.31] TgSLO: Finish Load: FX_LevelUP_SeasonTicket2017
+[0329.32] TgSLO: Finish Load: FX_Fountain_SeasonTicket2017
+[0329.44] TgSLO: Finish Load: GOD_Anubis_V2
+[0329.45] TgSLO: Finish Load: GOD_Anubis_V2_Textures
+[0329.48] TgSLO: Finish Load: FX_Anubis_V2
+[0329.49] TgSLO: Finish Load: AUD_God_Anubis
+[0329.65] TgSLO: Finish Load: GOD_Sol
+[0329.65] TgSLO: Finish Load: GOD_Sol_Textures
+[0329.70] TgSLO: Finish Load: FX_Sol
+[0329.71] TgSLO: Finish Load: AUD_God_Sol
+[0329.72] TgSLO: Finish Load: GOD_Sol_Skin1
+[0329.73] TgSLO: Finish Load: AUD_VOX_God_Sol
+[0329.76] TgSLO: Finish Load: NPC_Ward_Chick
+[0329.76] TgSLO: Finish Load: FX_Emote_global_Fireworks_GG
+[0329.77] TgSLO: Finish Load: FX_Odyssey2017_Recall
+[0329.82] TgSLO: Finish Load: FX_Freya_Skin3
+[0329.83] TgSLO: Finish Load: AUD_God_Freya
+[0329.94] TgSLO: Finish Load: GOD_Cernunnos
+[0329.94] TgSLO: Finish Load: GOD_Cernunnos_Textures
+[0329.99] TgSLO: Finish Load: FX_Cernunnos
+[0330.00] TgSLO: Finish Load: AUD_God_Cernunnos
+[0330.01] TgSLO: Finish Load: NPC_Ward_SwordInStone
+[0330.03] TgSLO: Finish Load: FX_Emote_global_SmiteBirthday
+[0330.03] TgSLO: Finish Load: FX_Celtic_Recall
+[0330.07] TgSLO: Finish Load: FX_Cupid
+[0330.08] TgSLO: Finish Load: AUD_God_Cupid
+[0330.12] TgSLO: Finish Load: GOD_Cupid_V2
+[0330.12] TgSLO: Finish Load: GOD_Cupid_V2_Textures
+[0330.19] TgSLO: Finish Load: NPC_Ward_ODY_2017_Evolving
+[0330.21] TgSLO: Finish Load: FX_Demonic_Pact_Recall
+[0330.21] TgSLO: Finish Load: FX_JumpStamp_SoS_2017
+[0330.34] TgSLO: Finish Load: GOD_Nike
+[0330.34] TgSLO: Finish Load: GOD_Nike_Textures
+[0330.38] TgSLO: Finish Load: FX_Nike
+[0330.39] TgSLO: Finish Load: AUD_God_Nike
+[0330.40] TgSLO: Finish Load: NPC_Ward_Chest
+[0330.41] TgSLO: Finish Load: NPC_Ward_EGR
+[0330.43] TgSLO: Finish Load: NPC_Ward_Apollo
+[0330.44] TgSLO: Finish Load: NPC_Ward_Snowman
+[0330.45] TgSLO: Finish Load: FX_JumpStamp_SeasonTicket2017
+[0330.48] TgSLO: Finish Load: FX_Freya
+[0330.54] TgSLO: Finish Load: GOD_Freya_V3
+[0330.54] TgSLO: Finish Load: GOD_Freya_V3_Textures
+[0330.63] TgSLO: Finish Load: GOD_Ymir
+[0330.63] TgSLO: Finish Load: GOD_Ymir_Textures
+[0330.68] TgSLO: Finish Load: FX_Ymir
+[0330.69] TgSLO: Finish Load: FX_Ymir_Targeting
+[0330.70] TgSLO: Finish Load: AUD_God_Ymir
+[0330.75] TgSLO: Finish Load: NPC_Phoenix
+[0330.81] TgSLO: Finish Load: FX_Greek_Tower
+[0330.82] TgSLO: Finish Load: FX_Phoenix
+[0330.85] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Order
+[0330.85] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Generic
+[0330.86] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Order
+[0330.87] TgSLO: Finish Load: AUD_NPC_EGYClash_Phoenix
+[0330.88] TgSLO: Finish Load: AUD_Tower
+[0330.95] TgSLO: Finish Load: EC_Towers
+[0330.96] TgSLO: Finish Load: FX_NPC_EGYClash_Towers
+[0330.97] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Chaos
+[0330.98] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0331.02] TgSLO: Finish Load: NPC_Olympus
+[0331.02] TgSLO: Finish Load: AUD_NPC_Olympus
+[0331.07] TgSLO: Finish Load: NPC_Minion_Universal
+[0331.08] TgSLO: Finish Load: FX_Roman
+[0331.08] TgSLO: Finish Load: FX_Minion_Death
+[0331.09] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0331.10] TgSLO: Finish Load: NPC_EGYClash_Minion_Order
+[0331.11] TgSLO: Finish Load: NPC_EGYClash_Brute_Order
+[0331.14] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0331.15] TgSLO: Finish Load: NPC_EGYClash_Minion_Chaos
+[0331.16] TgSLO: Finish Load: NPC_EGYClash_Brute_Chaos
+[0331.23] TgSLO: Finish Load: NPC_Guardian_Female
+[0331.24] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0331.24] TgSLO: Finish Load: FX_Guardian_Female
+[0331.30] TgSLO: Finish Load: NPC_EGYClash_Titan_Order
+[0331.30] TgSLO: Finish Load: NPC_EGYClash_Titan_Generic
+[0331.31] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Order
+[0331.34] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0331.37] TgSLO: Finish Load: NPC_EGYClash_Titan_Chaos
+[0331.40] TgSLO: Finish Load: FX_Guardian_Male
+[0331.45] TgSLO: Finish Load: FX_CHNJoust_Titan_Invader
+[0331.46] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Chaos
+[0331.51] TgSLO: Finish Load: NPC_Cyclops_V2
+[0331.51] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0331.52] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0331.59] TgSLO: Finish Load: NPC_EGYClash_Hyena
+[0331.60] TgSLO: Finish Load: FX_EGYClash_Hyena
+[0331.67] TgSLO: Finish Load: NPC_EGYClash_Baboon
+[0331.68] TgSLO: Finish Load: FX_NPC_EGYClash_Baboon
+[0331.86] TgSLO: Finish Load: NPC_Cyclops_V3
+[0331.93] TgSLO: Finish Load: FX_Odin_V2
+[0331.97] TgSLO: Finish Load: NPC_EGYClash_Apep
+[0331.98] TgSLO: Finish Load: AUD_NPC_EGYClash_Apep
+[0332.00] TgSLO: Finish Load: FX_Apep
+[0332.00] Log: Flushed async loaders.
+[0332.01] DevNet: Fully loading base package clash_collision due to fallback logic
+[0332.01] DevNet: Fully loading base package clash_lighting due to fallback logic
+[0332.03] DevNet: Fully loading base package clash_skybox due to fallback logic
+[0332.22] DevNet: Fully loading base package clash_sound due to fallback logic
+[0332.24] DevNet: Fully loading base package clash_vegetation due to fallback logic
+[0332.30] DevNet: Fully loading base package clash_vfx due to fallback logic
+[0332.31] DevNet: Fully loading base package clash_perftests due to fallback logic
+[0332.33] DevNet: Fully loading base package FX_Anubis_Targeting due to fallback logic
+[0332.42] Log: Primary PhysX scene will be in software.
+[0332.42] Log: Creating Primary PhysX Scene.
+[0332.42] Log: Bringing World clash_p.TheWorld up for play (595) at 2017.10.08-14.46.36
+[0332.42] Log: Skipping initialization of FSMPartPool!
+[0332.42] Log: Bringing up level for play took: 0.075576
+[0332.42] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0332.42] Warning: Warning, Failed to find object 'Class None.'
+[0332.42] Log: PlayerController class for the pending level is PlayerController
+[0332.42] Log: ########### Finished loading level: 4.967953 seconds
+[0332.44] Log: Flushing async loaders.
+[0332.58] Log: Flushed async loaders.
+[0332.58] Log: Starting RedrawViewports for texture streaming..
+[0332.63] Log: RedrawViewports took: 0.047260 seconds
+[0332.63] Log: Starting Level load StreamAllResources..
+[0332.65] Log: Level load StreamAllResources took: 0.020545 seconds
+[0332.79] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0332.90] Log: ---- UpdateClanData
+[0332.92] Log: Activated clash_assist 1 1 0
+[0332.92] Log: ActivateLevel clash_assist 1 1 0
+[0332.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0332.97] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.01] Log: TeamIndex 1 has new leader: 3975427
+[0333.01] Log: TeamIndex 2 has new leader: 2996982
+[0333.05] DevMusic: PComMusicTheme PlayDefaultMusic
+[0333.05] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0333.05] Log: Mission Timer State 1 at game time 89.00
+[0333.06] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.06] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.14] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0333.15] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.18] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.18] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.25] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.28] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0333.28] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.28] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.28] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.34] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.34] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0333.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.40] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.40] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.42] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.42] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.43] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7308 Shards of Ice]
+[0333.46] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.46] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0333.46] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13319 to NONE)
+[0333.65] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0333.65] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0333.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0333.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0335.71] Log: ---- UpdateClanData
+[0337.90] DevMusic: PComMusicTheme PlayMusicEvent found event named Opening
+[0337.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0337.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0337.90] DevMusic: PComMusicTheme UpdateMusicTrack Setting duration timer to 70.000000
+[0341.61] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[0347.13] Log: TeamIndex 1 has new leader: 10019402
+[0347.91] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[0353.18] Log: TeamIndex 1 has new leader: 4045092
+[0358.32] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[0360.00] Log: Time is 2017.10.08-14.47.03
+[0369.34] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[0373.58] Log: TeamIndex 2 has new leader: 10724610
+[0376.02] Log:            ATgPlayerController::UpdateTransitionUI()
+[0376.02] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0376.02] Log: Mission Timer State 2 at game time 45.00
+[0376.02] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0376.02] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0376.05] Log: usc_toggle_cursor true
+[0376.41] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0376.57] Log: usc_toggle_cursor false
+[0376.99] Log: usc_toggle_key_capture false
+[0378.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.27] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0378.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0379.12] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[0379.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0379.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0379.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0379.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.33] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.33] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.43] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.43] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0380.62] Log: usc_toggle_cursor true
+[0381.52] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0381.52] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0381.52] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0381.52] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0381.52] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0381.52] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0389.56] Log: Requesting purchase of itemId (10041) amount (1)
+[0389.74] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0390.64] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0390.64] Warning: Warning, Failed to find object 'Class None.None'
+[0392.03] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.03] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0392.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0400.07] Log: Requesting purchase of itemId (9035) amount (1)
+[0400.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0400.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0402.41] Log: Requesting purchase of itemId (9159) amount (1)
+[0403.06] Log: usc_toggle_cursor false
+[0403.34] Log: usc_toggle_cursor true
+[0405.15] Log: usc_toggle_cursor false
+[0406.34] Log: Chat[3]: [VVGH] Hi!
+[0407.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0407.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0407.90] DevMusic: PComMusicTheme Duration Expired
+[0407.90] DevMusic: PComMusicTheme PlayDefaultMusic
+[0407.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0407.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0408.09] Log: usc_toggle_cursor true
+[0408.83] Log: usc_toggle_cursor false
+[0408.88] Log: Chat[3]: [VVGH] Hi!
+[0412.74] Log: Chat[3]: [VVGL] Good luck!
+[0413.64] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.64] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.73] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.73] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.83] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.83] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.87] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.87] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.93] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.93] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0413.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0414.03] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0414.03] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0415.93] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0415.93] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0417.98] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0417.98] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.02] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.02] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.49] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0418.49] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0419.38] Log: Chat[3]: [VVGH] Hi!
+[0420.99] Log: Mission Timer State 3 at game time 0.00
+[0422.68] Log: Chat[3]: [VVGH] Hi!
+[0436.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.39] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.39] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.43] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.43] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.49] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.49] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.54] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.54] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.61] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.61] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.63] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.63] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0436.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0441.24] Log: Chat[3]: [VAA] Attack!
+[0444.54] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0444.54] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP already playing
+[0454.19] Log: Chat[3]: [VHH] Help!
+[0455.19] Log: Chat[3]: [VBJJ] Enemies in the jungle!
+[0459.59] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0459.59] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0466.00] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0466.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0466.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0470.08] Log: usc_toggle_cursor true
+[0471.34] Log: Chat[3]: [VVB] Be right back!
+[0472.03] Log: usc_toggle_cursor false
+[0478.15] Log: PUSHING Accolade: EmmanuelCC has drawn First Blood!, local: false
+[0479.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0479.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0486.00] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0486.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0486.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0494.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0494.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0495.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0495.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0496.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0496.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0497.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0497.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0497.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0497.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0498.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0498.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0499.31] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0499.31] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0515.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0515.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0525.00] Log: Chat[3]: [VVB] Be right back!
+[0528.50] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0528.50] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0528.50] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0529.52] Log: usc_toggle_cursor true
+[0530.42] Log: Requesting purchase of itemId (17989) amount (1)
+[0530.71] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0532.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0532.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0535.69] Log: Requesting purchase of itemId (8135) amount (1)
+[0536.09] Log: Requesting purchase of itemId (8135) amount (1)
+[0537.17] Log: usc_toggle_cursor false
+[0539.99] Log: Time is 2017.10.08-14.50.03
+[0546.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0546.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0547.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0547.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0547.07] Log: PUSHING Accolade: , local: false
+[0547.11] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0547.11] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0548.50] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0548.50] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0548.50] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0549.06] Log: PUSHING Accolade: , local: false
+[0553.47] Log: Chat[3]: [VCC] Be careful!
+[0553.62] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.62] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0553.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0554.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0554.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0554.06] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0554.06] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0554.16] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0554.16] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0557.93] Log: Chat[3]: [VVS] Sorry!
+[0568.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0568.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0569.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0569.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0569.11] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0569.11] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0569.16] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0569.16] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0574.43] Log: PUSHING Accolade: , local: false
+[0575.94] Log: PUSHING Accolade: ASSISTED, local: true
+[0596.87] Log: PUSHING Accolade: , local: false
+[0601.60] Log: PUSHING Accolade: , local: false
+[0602.80] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[0602.80] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0602.80] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0603.24] Log: PUSHING Accolade: Mick098 has a Player Kill!, local: false
+[0604.76] Log: Expiring Accolade: 
+[0604.76] Log: PUSHING Accolade: ASSISTED, local: true
+[0606.76] Log: PUSHING Accolade: Mick098 has a Double Kill!, local: false
+[0606.76] Log: Suppressing Accolade: 
+[0613.59] Log: usc_toggle_cursor true
+[0615.68] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0615.68] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0616.21] Log: Chat[3]: RUN
+[0616.61] Log: Requesting purchase of itemId (10200) amount (1)
+[0616.76] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0616.94] Log: Chat[3]: RUN
+[0617.59] Log: usc_toggle_cursor false
+[0617.80] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0617.80] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0617.80] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0618.77] Log: PUSHING Accolade: Mick098 is on Killing Spree! (x3), local: false
+[0621.09] Log: usc_toggle_cursor true
+[0622.86] Log: usc_toggle_cursor false
+[0622.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0622.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0630.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0630.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0634.15] Log: Chat[3]: [VD1] Defend left lane!
+[0636.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0636.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0638.61] Log: Chat[3]: [VB1] Enemies in left lane!
+[0639.35] Log: Chat[3]: [VG1] Gank left lane!
+[0657.92] Log: PUSHING Accolade: , local: false
+[0659.43] Log: PUSHING Accolade: ASSISTED, local: true
+[0676.12] Log: PUSHING Accolade: , local: false
+[0684.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0684.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0686.93] Log: PUSHING Accolade: Mick098 is on a Rampage! (x5), local: false
+[0693.39] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.39] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.48] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.48] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.61] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.61] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.77] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.77] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0693.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0707.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0707.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0709.09] Log: ---- UpdateClanData
+[0720.00] Log: Time is 2017.10.08-14.53.03
+[0729.38] Log: Chat[3]: [VVVT] It's a trap!
+[0730.32] Log: PUSHING Accolade: , local: false
+[0731.45] Log: Chat[3]: [VVGB] Bye!
+[0733.46] Log: PUSHING Accolade: , local: false
+[0741.11] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0741.11] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0741.11] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0748.13] Log: PUSHING Accolade: Mick098 is UNSTOPPABLE! (x7), local: false
+[0751.50] Log: Chat[3]: [VVGH] Hi!
+[0755.60] Log: Chat[3]: [VD1] Defend left lane!
+[0756.28] Log: Chat[3]: [VD1] Defend left lane!
+[0756.85] Log: Chat[3]: [VD1] Defend left lane!
+[0758.36] Log: Chat[3]: [VVA] Ok!
+[0759.20] Log: Chat[3]: [VVA] Ok!
+[0761.11] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0761.11] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0761.11] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0761.76] Log: Chat[3]: [VCC] Be careful!
+[0772.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0772.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0782.32] Log: PUSHING Accolade: , local: false
+[0791.78] Log: PUSHING Accolade: , local: false
+[0793.07] Log: Chat[3]: [VVA] Ok!
+[0793.28] Log: PUSHING Accolade: ASSISTED, local: true
+[0824.88] Log: PUSHING Accolade: , local: false
+[0826.38] Log: PUSHING Accolade: ASSISTED, local: true
+[0827.88] Log: PUSHING Accolade: Mick098 is DIVINE! (x9), local: false
+[0830.35] Log: Chat[3]: [VVGB] Bye!
+[0835.91] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[0835.91] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0835.91] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0836.27] Log: PUSHING Accolade: Mick098 has a Double Kill!, local: false
+[0836.27] Log: Suppressing Accolade: Mick098 has a Player Kill!
+[0837.78] Log: PUSHING Accolade: colombiawarr is on Killing Spree! (x3), local: false
+[0837.78] Log: Suppressing Accolade: colombiawarr shut down Mick098
+[0839.29] Log: PUSHING Accolade: ASSISTED, local: true
+[0845.59] Log: usc_toggle_cursor true
+[0846.63] Log: Requesting purchase of itemId (17995) amount (1)
+[0846.88] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0846.89] Log: Chat[3]: chicodelnoche has purchased a Gauntlet of Thebes.
+[0847.79] Log: Requesting purchase of itemId (24517) amount (1)
+[0848.05] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0848.05] Warning: Warning, Failed to find object 'Class None.None'
+[0849.94] Log: usc_toggle_cursor false
+[0850.31] Log: usc_toggle_cursor true
+[0850.32] Log: Chat[3]: [VRR] Retreat!
+[0850.92] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0850.92] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0850.92] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0854.03] Log: usc_toggle_cursor false
+[0854.84] Log: usc_toggle_cursor true
+[0855.34] Log: usc_toggle_cursor false
+[0857.69] Log: usc_toggle_cursor true
+[0859.76] Log: usc_toggle_cursor false
+[0864.87] Log: Chat[3]: [VBA] Enemy ultimate incoming!
+[0869.22] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0869.22] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0876.26] Log: Chat[3]: colombiawarr has purchased a Pestilence.
+[0877.87] Log: PUSHING Accolade: , local: false
+[0888.92] Log: Chat[3]: [VRR] Retreat!
+[0889.44] Log: PUSHING Accolade: , local: false
+[0891.59] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[0892.77] Log: Chat[3]: [VVA] Ok!
+[0893.62] Log: Chat[3]: [VVA] Ok!
+[0896.28] Log: Chat[3]: [VER] You rock!
+[0896.74] Log: Chat[3]: [VR3] Retreat right lane!
+[0899.70] Log: Chat[3]: [VVA] Ok!
+[0900.00] Log: Time is 2017.10.08-14.56.03
+[0906.34] Log: Chat[3]: zafax has purchased a Horrific Emblem.
+[0926.02] Log: Chat[3]: [VRR] Retreat!
+[0928.80] Log: PUSHING Accolade: , local: false
+[0946.92] Log: Chat[3]: [VB1] Enemies in left lane!
+[0954.98] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0954.98] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0954.98] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0956.48] Log: usc_toggle_cursor true
+[0957.33] Log: Chat[3]: [VD1] Defend left lane!
+[0957.54] Log: Chat[3]: [VVVG] Group up!
+[0958.15] Log: Chat[3]: [VD1] Defend left lane!
+[0959.49] Log: Requesting purchase of itemId (9003) amount (1)
+[0959.64] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0960.28] Log: Chat[3]: [VVVW] Place a Ward for teleport!
+[0962.00] Log: usc_toggle_cursor false
+[0963.82] Log: Chat[3]: [VVGW] You're welcome!
+[0966.83] Log: Chat[3]: [VVA] Ok!
+[0970.34] Log: Chat[3]: HProdigy has purchased a Ward.
+[0970.80] Log: Chat[3]: HProdigy has purchased a Ward.
+[0974.98] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0974.98] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0974.98] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0997.41] Log: PUSHING Accolade: Mick098 is on Killing Spree! (x3), local: false
+[1002.84] Log: Chat[3]: [VVVB] Behind us!
+[1004.82] Log: Chat[3]: [VVVT] It's a trap!
+[1008.85] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1008.85] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1008.86] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1008.93] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1009.18] Log: PUSHING Accolade: , local: false
+[1010.69] Log: Expiring Accolade: EmmanuelCC has a Player Kill!
+[1010.69] Log: PUSHING Accolade: ASSISTED, local: true
+[1015.35] Log: PUSHING Accolade: zafax has a Double Kill!, local: false
+[1015.35] Log: Suppressing Accolade: 
+[1016.85] Log: PUSHING Accolade: ASSISTED, local: true
+[1017.40] Log: usc_toggle_cursor true
+[1018.48] Log: usc_toggle_cursor false
+[1018.97] Log: usc_toggle_cursor true
+[1020.02] Log: Requesting purchase of itemId (8702) amount (1)
+[1020.20] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1020.72] Log: PUSHING Accolade: , local: false
+[1022.04] Log: usc_toggle_cursor false
+[1023.00] Log: usc_toggle_cursor true
+[1023.86] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1023.86] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1023.86] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1025.32] Log: usc_toggle_cursor false
+[1041.93] Log: Received invalid actor class on channel 246
+[1042.92] Log: PUSHING Accolade: , local: false
+[1043.33] Log: usc_toggle_cursor true
+[1044.02] Log: Requesting purchase of itemId (17989) amount (1)
+[1044.18] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1044.60] Log: usc_toggle_cursor false
+[1046.70] Log: PUSHING Accolade: zafax is on Killing Spree! (x3), local: false
+[1063.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1063.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1063.94] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1063.94] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_G86 clash_p.TheWorld:PersistentLevel.TgPawn_G86_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.84] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.84] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1064.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1065.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1065.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1065.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1065.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1075.05] Log: Chat[3]: [VB1] Enemies in left lane!
+[1080.01] Log: Time is 2017.10.08-14.59.03
+[1080.35] Log: Chat[3]: [VD1] Defend left lane!
+[1112.68] Log: Chat[3]: [VRR] Retreat!
+[1118.10] Log: PUSHING Accolade: , local: false
+[1122.08] Log: PUSHING Accolade: colombiawarr is on a Rampage! (x5), local: false
+[1124.73] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.73] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.88] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.88] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.88] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.88] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.88] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.88] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1130.18] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1130.18] DevMusic: PComMusicTheme PlayMusicEvent found event named TowerKill
+[1130.18] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1130.18] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_TowerKill over 5.000000 seconds
+[1131.71] Log: PUSHING Accolade: colombiawarr has a Double Kill!, local: false
+[1131.71] Log: Suppressing Accolade: 
+[1135.23] Log: Chat[3]: [VRR] Retreat!
+[1152.67] Log: Chat[3]: [VVA] Ok!
+[1155.24] Log: Chat[3]: [VVB] Be right back!
+[1156.21] Log: PUSHING Accolade: , local: false
+[1161.24] Log: Chat[3]: [VRR] Retreat!
+[1166.95] Log: usc_toggle_key_capture true
+[1166.95] Log: usc_toggle_cursor true
+[1167.05] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1167.17] Log: Chat[3]: HProdigy has purchased a Horrific Emblem.
+[1169.12] Log: usc_toggle_key_capture false
+[1169.12] Log: usc_toggle_cursor false
+[1169.12] Log: SendChat[3] cern
+[1169.30] Log: Chat[3]: cern
+[1169.41] Log: usc_toggle_key_capture true
+[1169.41] Log: usc_toggle_cursor true
+[1170.46] Log: usc_toggle_key_capture false
+[1170.46] Log: usc_toggle_cursor false
+[1170.46] Log: SendChat[3] u suck
+[1170.66] Log: Chat[3]: u suck
+[1171.71] Log: usc_toggle_cursor true
+[1172.73] Log: Requesting purchase of itemId (8734) amount (1)
+[1172.90] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1174.18] Log: usc_toggle_cursor false
+[1178.14] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1178.67] Log: usc_toggle_cursor true
+[1180.10] Log: usc_toggle_cursor false
+[1182.13] Log: usc_toggle_cursor true
+[1182.19] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1182.19] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_TowerKill over 5.000000 seconds
+[1182.19] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1183.43] Log: usc_toggle_cursor false
+[1184.43] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1199.61] Log: Chat[3]: HProdigy has purchased a Sentry Ward.
+[1203.51] Log: Chat[3]: HProdigy has purchased a Ward.
+[1204.35] Log: Chat[3]: HProdigy has purchased a Ward.
+[1216.06] Log: PUSHING Accolade: Mick098 is on Killing Spree! (x3), local: false
+[1233.11] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1244.52] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1244.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1244.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1244.84] Log: PUSHING Accolade: thomy122 has a Player Kill!, local: false
+[1250.52] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1253.31] Log: usc_toggle_cursor true
+[1254.52] Log: PUSHING Accolade: , local: false
+[1255.01] Log: usc_toggle_cursor false
+[1259.52] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1259.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1259.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1260.01] Log: Time is 2017.10.08-15.02.03
+[1268.06] Log: usc_toggle_cursor true
+[1268.67] Log: PUSHING Accolade: , local: false
+[1270.66] Log: PUSHING Accolade: zafax has a Double Kill!, local: false
+[1270.66] Log: Suppressing Accolade: 
+[1271.42] Log: usc_toggle_cursor false
+[1272.03] Log: usc_toggle_cursor true
+[1273.06] Log: Requesting purchase of itemId (8084) amount (1)
+[1273.32] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1279.76] Log: Requesting purchase of itemId (10201) amount (1)
+[1279.92] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1279.92] Warning: Warning, Failed to find object 'Class None.None'
+[1279.94] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1279.94] Warning: Warning, Failed to find object 'Class None.None'
+[1279.94] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1279.94] Warning: Warning, Failed to find object 'Class None.None'
+[1280.91] Log: usc_toggle_cursor false
+[1324.21] Log: Chat[3]: [VCC] Be careful!
+[1325.76] Log: Chat[3]: [VG1] Gank left lane!
+[1333.04] Log: Chat[3]: [VRR] Retreat!
+[1337.92] Log: Chat[3]: [VAT1] Attack left phoenix!
+[1339.29] Log: Chat[3]: [VAT1] Attack left phoenix!
+[1345.93] Log: Chat[3]: [VT1] Enemies have returned left!
+[1349.18] Log: Chat[3]: [VT1] Enemies have returned left!
+[1350.01] Log: Chat[3]: [VT1] Enemies have returned left!
+[1350.36] Log: Chat[3]: [VRR] Retreat!
+[1352.32] Log: PUSHING Accolade: , local: false
+[1355.49] Log: Chat[3]: [VHH] Help!
+[1358.28] Log: PUSHING Accolade: Mick098 has a Double Kill!, local: false
+[1358.29] Log: Suppressing Accolade: 
+[1365.29] Log: PUSHING Accolade: zafax is on Killing Spree! (x3), local: false
+[1366.80] Log: PUSHING Accolade: ASSISTED, local: true
+[1373.47] Log: Chat[3]: [VR1] Retreat left lane!
+[1374.51] DevMusic: PComMusicTheme PlayMusicEvent found event named PlayerKill
+[1374.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1374.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_PlayerKill over 5.000000 seconds
+[1374.69] Log: Chat[9]: Killing Killdemons rewarded 992 XP and 533 Gold.
+[1374.89] Log: PUSHING Accolade: PLAYER KILL, local: true
+[1378.08] Log: Chat[3]: [VR1] Retreat left lane!
+[1381.28] Log: PUSHING Accolade: , local: false
+[1381.52] Log: Chat[3]: [VG1] Gank left lane!
+[1382.44] Log: Chat[3]: [VG1] Gank left lane!
+[1382.79] Log: PUSHING Accolade: ASSISTED, local: true
+[1383.07] Log: Chat[3]: [VG1] Gank left lane!
+[1384.77] Log: PUSHING Accolade: EmmanuelCC shut down colombiawarr, local: false
+[1384.77] Log: Suppressing Accolade: 
+[1387.78] Log: PUSHING Accolade: EmmanuelCC has a Double Kill!, local: false
+[1387.78] Log: Suppressing Accolade: EmmanuelCC is on Killing Spree! (x3)
+[1389.52] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1389.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_PlayerKill over 5.000000 seconds
+[1389.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1391.96] Log: Chat[3]: [VRR] Retreat!
+[1393.71] Log: Chat[3]: [VVVE] On my way!
+[1397.01] Log: Chat[3]: [VGG] Gank!
+[1397.57] Log: Chat[3]: [VVVE] On my way!
+[1399.67] Log: Chat[3]: [VGG] Gank!
+[1400.37] Log: Chat[3]: [VGG] Gank!
+[1409.53] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1409.53] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1409.53] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1409.79] Log: PUSHING Accolade: npaQz has a Player Kill!, local: false
+[1411.47] Log: Chat[3]: [VEW] Woohoo!
+[1412.17] Log: Chat[3]: [VEW] Woohoo!
+[1416.99] Log: PUSHING Accolade: , local: false
+[1417.97] Log: Chat[3]: [VEW] Woohoo!
+[1418.78] Log: Chat[3]: [VER] You rock!
+[1419.77] Log: Chat[3]: [VER] You rock!
+[1422.63] Log: PUSHING Accolade: , local: false
+[1424.53] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1424.53] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1424.53] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1431.39] Log: ---- UpdateClanData
+[1432.08] Log: PUSHING Accolade: , local: false
+[1432.30] Log: Chat[3]: [VVA] Ok!
+[1433.42] Log: Chat[3]: [VVGB] Bye!
+[1433.58] Log: PUSHING Accolade: DEICIDE, local: true
+[1434.08] Log: Chat[3]: [VER] You rock!
+[1434.63] Log: Chat[3]: [VER] You rock!
+[1435.22] Log: Chat[3]: [VER] You rock!
+[1435.97] Log: Chat[3]: [VER] You rock!
+[1436.43] Log: ---- UpdateClanData
+[1436.68] Log: Chat[3]: [VER] You rock!
+[1436.85] Log: Chat[3]: [VVT] Thanks!
+[1437.54] Log: Chat[3]: [VVT] Thanks!
+[1438.08] Log: Chat[3]: [VVT] Thanks!
+[1438.58] Log: Chat[3]: [VVT] Thanks!
+[1440.01] Log: Time is 2017.10.08-15.05.03
+[1440.28] Log: usc_toggle_key_capture true
+[1440.29] Log: usc_toggle_cursor true
+[1443.50] Log: usc_toggle_key_capture false
+[1443.50] Log: usc_toggle_cursor false
+[1443.51] Log: SendChat[3] cern stfu
+[1443.69] Log: Chat[3]: cern stfu
+[1443.79] Log: usc_toggle_key_capture true
+[1443.79] Log: usc_toggle_cursor true
+[1446.56] Log: usc_toggle_key_capture false
+[1446.56] Log: usc_toggle_cursor false
+[1446.56] Log: SendChat[3] u suck 
+[1446.73] Log: Chat[3]: u suck 
+[1447.27] Log: Chat[3]: [VER] You rock!
+[1448.28] Log: usc_toggle_cursor true
+[1448.53] Log: Chat[3]: [VER] You rock!
+[1449.08] Log: Chat[3]: [VER] You rock!
+[1449.81] Log: Requesting purchase of itemId (9469) amount (1)
+[1449.91] Log: Chat[3]: [VER] You rock!
+[1450.13] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1450.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [9338 Hide of the Urchin]
+[1450.43] Log: Chat[3]: [VER] You rock!
+[1451.50] Log: usc_toggle_cursor false
+[1458.27] Log: Chat[3]: [VRR] Retreat!
+[1460.93] Log: Chat[3]: [VER] You rock!
+[1462.43] Log: Chat[3]: [VER] You rock!
+[1463.13] Log: Chat[3]: [VER] You rock!
+[1463.88] Log: Chat[3]: [VER] You rock!
+[1464.77] Log: Chat[3]: [VER] You rock!
+[1466.04] Log: usc_toggle_key_capture true
+[1466.04] Log: usc_toggle_cursor true
+[1467.40] Log: usc_toggle_key_capture false
+[1467.40] Log: usc_toggle_cursor false
+[1467.40] Log: SendChat[3] fk off
+[1467.58] Log: Chat[3]: fk off
+[1475.78] Log: Chat[3]: [VER] You rock!
+[1476.24] Log: Chat[3]: [VER] You rock!
+[1476.95] Log: Chat[3]: [VER] You rock!
+[1477.45] Log: Chat[3]: [VER] You rock!
+[1478.09] Log: Chat[3]: [VER] You rock!
+[1486.60] Log: PUSHING Accolade: , local: false
+[1488.11] Log: PUSHING Accolade: ASSISTED, local: true
+[1497.01] Log: PUSHING Accolade: , local: false
+[1500.94] Log: PUSHING Accolade: , local: false
+[1506.30] Log: PUSHING Accolade: , local: false
+[1507.82] Log: PUSHING Accolade: ASSISTED, local: true
+[1530.57] Log: Chat[3]: [VRR] Retreat!
+[1530.91] ScriptWarning: Accessed None 'VoiceInterface'
+	TgRepInfo_Player clash_p.TheWorld:PersistentLevel.TgRepInfo_Player_27
+	Function TgGame.TgRepInfo_Player:UnregisterPlayerFromSession:0235
+[1532.25] Log: Chat[1]: Laydine has gone offline.
+[1532.25] Log: ---- UpdateClanData
+[1532.29] VoiceChat: UpdateVivox: Leaving all channels
+[1532.31] Log: Chat[9]: Laydine has gone offline.
+[1532.31] Log: Chat[6]: Laydine has gone offline.
+[1532.31] VoiceChat: CVoiceInterfaceVivox::onChannelExited (.a3a502., sip:confctl-g-4-924c7@smp.vivox.com, )
+[1532.34] Log: RequestingChannelMembers ch[4] [chicodelnoche has left the channel.]
+[1538.32] Log: Chat[3]: [VER] You rock!
+[1539.37] Log: Chat[3]: [VER] You rock!
+[1540.06] Log: Chat[3]: [VER] You rock!
+[1540.82] Log: Chat[3]: [VER] You rock!
+[1541.46] Log: Chat[3]: [VER] You rock!
+[1552.88] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1558.07] Log: Chat[3]: [VER] You rock!
+[1558.57] Log: Chat[3]: [VER] You rock!
+[1559.17] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1559.41] Log: Chat[3]: [VER] You rock!
+[1560.10] Log: Chat[3]: [VER] You rock!
+[1560.90] Log: Chat[3]: [VER] You rock!
+[1569.68] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1571.77] Log: PUSHING Accolade: , local: false
+[1576.91] Log: Chat[3]: [VER] You rock!
+[1579.67] Log: ---- UpdateClanData
+[1579.73] Log: ---- UpdateClanData
+[1579.73] Log: Chat[6]: Laydine has come online.
+[1579.75] Log: RequestingChannelMembers ch[1] [@@player_name@@ has joined the channel.]
+[1579.95] Log: Chat[3]: [VER] You rock!
+[1580.38] Log: Chat[3]: [VER] You rock!
+[1580.75] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1580.97] Log: Chat[3]: [VER] You rock!
+[1581.52] Log: Chat[3]: [VER] You rock!
+[1582.39] Log: Chat[3]: [VER] You rock!
+[1583.48] Log: RequestingChannelMembers ch[3] [@@player_name@@ has joined the channel.]
+[1589.51] Log: ---- UpdateClanData
+[1590.46] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1591.87] Log: PUSHING Accolade: , local: false
+[1594.31] Log: Chat[3]: [VER] You rock!
+[1594.86] Log: Chat[3]: [VER] You rock!
+[1595.41] Log: Chat[3]: [VER] You rock!
+[1596.02] Log: Chat[3]: [VER] You rock!
+[1596.57] Log: Chat[3]: [VER] You rock!
+[1596.78] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_04' in 'SKL_GOD_Freya_V3'
+[1597.34] Log: ---- UpdateClanData
+[1598.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.86] Log: usc_toggle_cursor true
+[1598.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.86] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1598.91] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1599.74] Log: Requesting purchase of itemId (8802) amount (1)
+[1599.91] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1601.11] Log: usc_toggle_cursor false
+[1609.08] Log: Chat[3]: [VER] You rock!
+[1611.37] Log: Chat[3]: [VER] You rock!
+[1612.08] Log: Chat[3]: [VER] You rock!
+[1612.92] Log: Chat[3]: [VER] You rock!
+[1613.42] Log: Chat[3]: Laydine has purchased a Witchblade.
+[1613.66] Log: Chat[3]: [VER] You rock!
+[1620.01] Log: Time is 2017.10.08-15.08.03
+[1635.18] Log: Chat[3]: 1/10 feeder prodigy jiajiajiaji 
+[1641.18] Log: usc_toggle_cursor true
+[1642.25] Log: usc_toggle_cursor false
+[1643.75] Log: usc_toggle_key_capture true
+[1643.75] Log: usc_toggle_cursor true
+[1646.46] Log: usc_toggle_key_capture false
+[1646.46] Log: usc_toggle_cursor false
+[1646.46] Log: SendChat[3] lol
+[1646.62] Log: Chat[3]: lol
+[1650.38] Log: Chat[3]: [VVY] Yes!
+[1654.13] Log: Chat[3]: [VER] You rock!
+[1662.20] Log: PUSHING Accolade: , local: false
+[1663.70] Log: PUSHING Accolade: ASSISTED, local: true
+[1664.24] Log: Chat[3]: [VEG] I'm the greatest!
+[1664.83] Log: Chat[3]: [VEG] I'm the greatest!
+[1665.54] Log: Chat[3]: [VEG] I'm the greatest!
+[1666.75] Log: Chat[3]: [VEG] I'm the greatest!
+[1699.88] Log: Chat[3]: [VI1] Enemies incoming left!
+[1709.54] Log: PUSHING Accolade: Mick098 is on Killing Spree! (x3), local: false
+[1711.28] Log: Chat[3]: [VER] You rock!
+[1712.80] Log: PUSHING Accolade: , local: false
+[1713.98] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1713.98] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.08] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.18] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.30] Log: PUSHING Accolade: zafax has a Double Kill!, local: false
+[1714.30] Log: Suppressing Accolade: zafax is on Killing Spree! (x3)
+[1714.32] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.32] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.48] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1714.48] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Anubis clash_p.TheWorld:PersistentLevel.TgPawn_Anubis_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1715.80] Log: PUSHING Accolade: ASSISTED, local: true
+[1717.31] Log: Expiring Accolade: ASSISTED
+[1717.31] Log: PUSHING Accolade: zafax has a Triple Kill!, local: false
+[1717.31] Log: Suppressing Accolade: 
+[1719.31] Log: PUSHING Accolade: ASSISTED, local: true
+[1719.74] Log: Chat[3]: [VER] You rock!
+[1720.09] Log: Chat[3]: [VER] You rock!
+[1720.45] Log: Chat[3]: [VER] You rock!
+[1720.61] Log: Chat[3]: [VER] You rock!
+[1721.29] Log: Chat[3]: [VER] You rock!
+[1721.94] Log: Chat[3]: [VER] You rock!
+[1723.17] Log: Chat[3]: [VER] You rock!
+[1723.77] Log: usc_toggle_key_capture true
+[1723.77] Log: usc_toggle_cursor true
+[1724.53] Log: usc_toggle_key_capture false
+[1724.53] Log: usc_toggle_cursor false
+[1724.53] Log: SendChat[3] stfu
+[1724.67] Log: Chat[3]: stfu
+[1734.78] Log: PUSHING Accolade: zafax is on a Rampage! (x5), local: false
+[1738.25] Log: Chat[3]: [VER] You rock!
+[1739.24] Log: Chat[3]: [VER] You rock!
+[1739.78] Log: Chat[3]: [VER] You rock!
+[1740.34] Log: Chat[3]: [VER] You rock!
+[1753.79] Log: PUSHING Accolade: Killdemons shut down zafax, local: false
+[1753.79] Log: Suppressing Accolade: 
+[1755.79] Log: Chat[3]: [VRR] Retreat!
+[1756.74] Log: Chat[3]: [VRR] Retreat!
+[1758.14] Log: Chat[3]: [VRR] Retreat!
+[1758.75] Log: Chat[3]: [VRR] Retreat!
+[1768.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1768.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1768.51] Log: Chat[3]: [VRR] Retreat!
+[1769.19] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[1769.19] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1769.19] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1770.54] Log: usc_toggle_cursor true
+[1771.42] Log: Requesting purchase of itemId (8583) amount (1)
+[1771.60] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1772.76] Log: usc_toggle_cursor false
+[1779.76] Log: Chat[3]: [VER] You rock!
+[1780.45] Log: Chat[3]: [VER] You rock!
+[1781.14] Log: Chat[3]: [VER] You rock!
+[1781.84] Log: Chat[3]: [VER] You rock!
+[1785.44] Log: Chat[3]: [VRR] Retreat!
+[1786.70] Log: PUSHING Accolade: , local: false
+[1788.18] Log: Chat[3]: [VER] You rock!
+[1788.35] Log: Chat[3]: [VEG] I'm the greatest!
+[1788.84] Log: Chat[3]: [VER] You rock!
+[1789.02] Log: Chat[3]: [VEG] I'm the greatest!
+[1789.20] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1789.20] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1789.20] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1789.50] Log: Chat[3]: [VER] You rock!
+[1790.19] Log: Chat[3]: [VEG] I'm the greatest!
+[1790.50] Log: Chat[3]: [VER] You rock!
+[1790.79] Log: Chat[3]: [VEG] I'm the greatest!
+[1790.79] Log: Chat[3]: [VER] You rock!
+[1791.42] Log: Chat[3]: [VEG] I'm the greatest!
+[1791.72] Log: Chat[3]: [VER] You rock!
+[1797.79] Log: Chat[3]: [VD2] Defend middle lane!
+[1799.95] Log: Chat[3]: [VRR] Retreat!
+[1800.01] Log: Time is 2017.10.08-15.11.03
+[1812.10] Log: Chat[3]: [VRR] Retreat!
+[1822.45] Log: PUSHING Accolade: , local: false
+[1827.89] Log: Chat[3]: [VHH] Help!
+[1832.87] Log: Chat[3]: [VRR] Retreat!
+[1833.64] Log: Chat[3]: [VRR] Retreat!
+[1837.07] Log: PUSHING Accolade: , local: false
+[1840.10] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1840.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1840.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1840.38] Log: PUSHING Accolade: EmmanuelCC has a Double Kill!, local: false
+[1840.38] Log: Suppressing Accolade: EmmanuelCC has a Player Kill!
+[1841.76] Log: Chat[3]: [VEG] I'm the greatest!
+[1841.89] Log: Expiring Accolade: 
+[1842.46] Log: Chat[3]: [VEG] I'm the greatest!
+[1843.05] Log: Chat[3]: [VD1] Defend left lane!
+[1854.01] Log: PUSHING Accolade: , local: false
+[1855.10] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1855.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1855.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1857.86] Log: Chat[3]: [VER] You rock!
+[1858.46] Log: Chat[3]: [VER] You rock!
+[1859.93] Log: PUSHING Accolade: Laydine has a Double Kill!, local: false
+[1859.93] Log: Suppressing Accolade: 
+[1860.07] Log: Mission Timer State 5 at game time 14400.00
+[1860.07] DevMusic: PComMusicTheme PlayMusicEvent found event named MatchEnd
+[1860.07] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1860.07] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd over 5.000000 seconds
+[1860.07] DevMusic: PComMusicTheme PlayMusicEvent found event named MatchEnd
+[1860.07] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd already playing
+[1863.62] Log: usc_toggle_key_capture true
+[1863.62] Log: usc_toggle_cursor true
+[1864.98] Log: usc_toggle_key_capture false
+[1864.98] Log: usc_toggle_cursor false
+[1864.98] Log: SendChat[3] cern
+[1865.17] Log: Chat[3]: cern
+[1865.64] Log: usc_toggle_cursor true
+[1866.09] Log: usc_toggle_key_capture true
+[1866.87] Log: Chat[3]: repord
+[1868.12] Log: usc_toggle_key_capture false
+[1868.12] Log: SendChat[3] kil urself
+[1868.27] Log: Chat[3]: kil urself
+[1868.48] Log: Chat[3]: [VEG] I'm the greatest!
+[1870.56] Log: usc_toggle_key_capture true
+[1871.19] Log: Chat[3]: [VGG] Gank!
+[1871.74] Log: Chat[3]: reported cer
+[1873.73] Log: ---- UpdateClanData
+[1873.73] Log: ---- UpdateClanData
+[1875.26] Log: Discarding Message ( 642, 7, 0 )
+[1875.26] Log: Discarding Message ( 642, 7, 0 )
+[1878.83] Log: ---- UpdateClanData
+[1879.09] Log: ReceiveChangeMap: mapGameId 1447
+[1879.09] Log: ReceiveChangeMap: mapGameId 1447
+[1879.09] DevNet: URL: Adding default option Team=255
+[1879.09] Log: ---- UpdateClanData
+[1879.09] Log: RequestingChannelMembers ch[3] [HProdigy has left the channel.]
+[1879.09] Log: RequestingChannelMembers ch[3] [zafax has left the channel.]
+[1879.09] Log: RequestingChannelMembers ch[3] [@@player_name@@ has left the channel.]
+[1879.09] Log: RequestingChannelMembers ch[3] [colombiawarr has left the channel.]
+[1879.10] Log: RequestingChannelMembers ch[3] [chicodelnoche has left the channel.]
+[1879.10] DevNet: URL: Adding default option Team=255
+[1879.10] DevNet: Browse: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1879.74] Log: LoadMap: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1880.20] NetComeGo: Close PComNetDriver_1 PComNetConn_0 0.0.0.0:9038 10/08/17 15:12:24
+[1880.45] Exit: PComNetDriver_1 shut down
+[1880.79] Log: Map Game ID = 0
+[1880.79] Log: Map Instance ID = 197488080
+[1880.81] Log: Performance: Critical section Lock/Unlock 19 nsec
+[1880.81] Log: Performance:  appCycles 13 nsec
+[1880.83] Log: Performance:  memCopy per KB 96 nsec
+[1880.84] Log: Performance:  memZero per KB 42 nsec
+[1880.85] Log: Performance:  appInterlockedIncrement 9 nsec
+[1880.85] Log: Performance:  GetTickCount 3 nsec
+[1880.85] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1880.85] Log: Flushing async loaders.
+[1880.91] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1880.91] Log: Flushed async loaders.
+[1880.91] Log: Game class is 'TgGameLaunch'
+[1880.94] Log: Primary PhysX scene will be in software.
+[1880.94] Log: Creating Primary PhysX Scene.
+[1880.94] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1880.94] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.08-15.12.24
+[1880.94] Log: Skipping initialization of FSMPartPool!
+[1881.02] DevMusic: PComMusicTheme PlayDefaultMusic
+[1881.02] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[1881.03] Log: Bringing up level for play took: 0.113585
+[1881.03] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[1881.03] TgSLO: Async Load: GOD_Ymir
+[1881.03] TgSLO: Async Load: GOD_Ymir_Textures
+[1881.03] TgSLO: Async Load: GOD_Ymir_Lobby
+[1881.03] TgSLO: Async Load: FX_Ymir
+[1881.04] TgSLO: Async Load: FX_Ymir_Lobby
+[1881.04] TgSLO: Async Load: AUD_God_Ymir
+[1881.04] Log: Flushing async loaders.
+[1881.13] TgSLO: Finish Load: GOD_Ymir
+[1881.13] TgSLO: Finish Load: GOD_Ymir_Textures
+[1881.15] TgSLO: Finish Load: GOD_Ymir_Lobby
+[1881.19] TgSLO: Finish Load: FX_Ymir
+[1881.20] TgSLO: Finish Load: FX_Ymir_Lobby
+[1881.21] TgSLO: Finish Load: AUD_God_Ymir
+[1881.21] Log: Flushed async loaders.
+[1881.21] DevMusic: PComMusicTheme PlayMusicEvent found event named eom
+[1881.21] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[1881.21] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global_EOM.A_CUE_MUS_EOM over 1.000000 seconds
+[1881.21] Log: ########### Finished loading level: 1.473966 seconds
+[1881.23] Log: Flushing async loaders.
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[1881.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[1881.63] Log: Flushed async loaders.
+[1881.63] Log: Starting RedrawViewports for texture streaming..
+[1881.66] Log: RedrawViewports took: 0.030315 seconds
+[1881.66] Log: Starting Level load StreamAllResources..
+[1881.71] Log: Level load StreamAllResources took: 0.054923 seconds
+[1881.75] Log: RequestingChannelMembers ch[8] [chicodelnoche has joined the channel.]
+[1881.75] Log: RequestingChannelMembers ch[8] [EmmanuelCC has joined the channel.]
+[1882.58] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[1882.90] Log: RequestingChannelMembers ch[8] [@@player_name@@ has joined the channel.]
+[1883.10] Log: RequestingChannelMembers ch[8] [Killdemons has joined the channel.]
+[1887.08] Log: RequestingChannelMembers ch[8] [HProdigy has joined the channel.]
+[1891.48] Log: RequestingChannelMembers ch[8] [npaQz has left the channel.]
+[1896.70] Log: Chat[8]: GG
+[1898.48] Log: Chat[1]: Laydine has gone offline.
+[1898.49] Log: ---- UpdateClanData
+[1898.50] Log: Chat[9]: Laydine has gone offline.
+[1898.50] Log: Chat[6]: Laydine has gone offline.
+[1903.60] Log: Chat[8]: reported cernerus please
+[1905.92] Log: RequestingChannelMembers ch[8] [thomy122 has left the channel.]
+[1908.02] Log: Chat[8]: ymir u jelly fam
+[1911.67] Log: RequestingChannelMembers ch[8] [EmmanuelCC has left the channel.]
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 6, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.06] Log: Discarding Message ( 642, 7, 0 )
+[1912.44] Log: Discarding Message ( 642, 7, 0 )
+[1912.44] Log: Discarding Message ( 642, 7, 0 )
+[1914.98] Log: Chat[9]: Player report received.
+[1920.89] Log: Discarding Message ( 642, 7, 0 )
+[1920.89] Log: Discarding Message ( 642, 7, 0 )
+[1930.37] Log: SendChat[8] stay quie
+[1930.52] Log: Chat[8]: stay quie
+[1933.19] Log: Discarding Message ( 642, 7, 0 )
+[1933.19] Log: Discarding Message ( 642, 7, 0 )
+[1943.43] Log: RequestingChannelMembers ch[8] [zafax has left the channel.]
+[1958.61] Log: Chat[8]: prodigy de verga
+[1963.55] Log: Chat[8]: Ymir out damaged Cern lol
+[1963.55] Log: RequestingChannelMembers ch[8] [HProdigy has left the channel.]
+[1976.10] Log: Discarding Message ( 642, 7, 0 )
+[1976.10] Log: Discarding Message ( 642, 7, 0 )
+[1977.87] Log: SendChat[8] lol
+[1978.01] Log: Chat[8]: lol
+[1980.01] Log: Time is 2017.10.08-15.14.03
+[1983.31] Log: RequestingChannelMembers ch[8] [Killdemons has left the channel.]
+[1986.91] Log: SendChat[8] he was too bad 
+[1987.05] Log: Chat[8]: he was too bad 
+[1988.11] Log: Discarding Message ( 642, 7, 0 )
+[1988.11] Log: Discarding Message ( 642, 7, 0 )
+[1990.53] Log: Chat[8]: Yeah 
+[2006.10] Log: RequestingChannelMembers ch[8] [colombiawarr has left the channel.]
+[2010.03] Log: RequestingChannelMembers ch[8] [Mick098 has left the channel.]
+[2022.60] DevMusic: PComMusicTheme PlayMusicEvent found event named eom
+[2022.60] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Global_EOM.A_CUE_MUS_EOM already playing
+[2022.60] Log: ERROR: Attempting to log in without settings.
+[2022.84] Log: RequestingChannelMembers ch[8] [chicodelnoche has left the channel.]
+[2023.94] Log: ---- UpdateClanData
+[2035.92] Log: ---- UpdateClanData
+[2040.06] Log: Closing by request
+[2040.06] Log: appRequestExit(0)(0)
+[2040.06] Log: TgAIBehaviorTreeManager :: De-allocating 197 behavior trees
+[2040.24] Exit: Preparing to exit.
+[2040.62] Exit: Game engine shut down
+[2040.62] Exit: PComNetDriver_0(PEER) shut down
+[2040.62] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[2040.77] Exit: Windows client shut down
+[2040.79] Exit: XAudio2 Device shut down.
+[2040.98] Exit: Object subsystem successfully closed.
+[2040.99] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2041.22] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2041.28] Exit: Exiting.

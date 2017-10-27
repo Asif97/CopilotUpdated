@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\asif\documents\visual studio 2017\projects\consoleapplication9\consoleapplication9\source.cpp(16): warning C4018: '<': signed/unsigned mismatch
+  ConsoleApplication9.vcxproj -> c:\users\asif\documents\visual studio 2017\Projects\ConsoleApplication9\Debug\ConsoleApplication9.exe
+  ConsoleApplication9.vcxproj -> c:\users\asif\documents\visual studio 2017\Projects\ConsoleApplication9\Debug\ConsoleApplication9.pdb (Partial PDB)

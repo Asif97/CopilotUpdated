@@ -1,0 +1,224 @@
+{
+  "version": "1.0",
+  "seasonTicketStatic": {
+    "content": []
+  },
+  "seasonTicketCombo": {
+    "content": [
+      {
+        "id": "PAXAUS9617",
+        "header": {
+          "default": "SMITE Returns to PAX Australia!"
+        },
+        "type": 2,
+        "data": {
+          "default": "http://esports.smitegame.com/2017/09/06/smite-returns-to-pax-australia/"
+        },
+        "imageUrl": "http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/images/PAXAUS.jpg",
+        "probability": 1000
+      },
+      {
+        "id": "PathtoHRX8617",
+        "header": {
+          "default": "Path to HRX Announced!"
+        },
+        "type": 2,
+        "imageUrl": "http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/images/PathtoHRX.jpg",
+        "probability": 1000,
+        "data": {
+          "default": "http://esports.smitegame.com/2017/08/06/path-to-smite-world-championship-announced/"
+        }
+      },
+      {
+        "id": "SuperRegionals101717",
+        "header": {
+          "default": "Super Regionals 2017 Details!"
+        },
+        "type": 2,
+        "data": {
+          "default": "http://esports.smitegame.com/2017/10/17/super-regionals-event-information/"
+        },
+        "probability": 1000,
+        "imageUrl": "http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/images/SuperRegionals101717.jpg"
+      }
+    ]
+  },
+  "matchGroups": {
+    "content": [
+      {
+        "id": "Week1BR103",
+        "header": {
+          "default": "Week One Brazil"
+        },
+        "groupId": [
+          3470,
+          3472,
+          3474,
+          3476,
+          3478,
+          3480,
+          3482,
+          3484,
+          3486
+        ]
+      },
+      {
+        "id": "Week2BR1010",
+        "header": {
+          "default": "Week Two Brazil"
+        },
+        "groupId": [
+          3488,
+          3490,
+          3492,
+          3494,
+          3496
+        ]
+      },
+      {
+        "id": "Week3BR1017",
+        "header": {
+          "default": "Week Three Brazil"
+        },
+        "groupId": [
+          3498,
+          3500,
+          3502,
+          3504,
+          3506,
+          3508,
+          3510
+        ]
+      },
+      {
+        "id": "Week4BR1024",
+        "header": {
+          "default": "Week Four Brazil"
+        },
+        "groupId": [
+          3512,
+          3514,
+          3516,
+          3518,
+          3520,
+          3522,
+          3524,
+          3526,
+          3528
+        ]
+      },
+      {
+        "id": "Week5BR1111",
+        "header": {
+          "default": "Finals"
+        },
+        "groupId": [
+          3530
+        ]
+      },
+      {
+        "id": "SRF11117",
+        "header": {
+          "default": "Day One"
+        },
+        "groupId": [
+          3559,
+          3564
+        ]
+      },
+      {
+        "id": "SRF11217",
+        "header": {
+          "default": "Day Two"
+        },
+        "groupId": [
+          3569,
+          3574
+        ]
+      },
+      {
+        "id": "SRF11317",
+        "header": {
+          "default": "Day Three"
+        },
+        "groupId": [
+          3579,
+          3580,
+          3581,
+          3582,
+          3583,
+          3584,
+          3585,
+          3586
+        ]
+      },
+      {
+        "id": "SRF11417",
+        "header": {
+          "default": "Day Four"
+        },
+        "groupId": [
+          3587,
+          3588,
+          3589,
+          3590,
+          3591,
+          3592,
+          3593
+        ]
+      },
+      {
+        "id": "SRF11517",
+        "header": {
+          "default": "Day Five"
+        },
+        "groupId": [
+          3594,
+          3599
+        ]
+      },
+      {
+        "id": "SCLFF111017",
+        "header": {
+          "default": "Day One"
+        },
+        "groupId": [
+          3535,
+          3537,
+          3539,
+          3541
+        ]
+      },
+      {
+        "id": "SCLFF111117",
+        "header": {
+          "default": "Day Two"
+        },
+        "groupId": [
+          3543,
+          3545,
+          3547,
+          3549
+        ]
+      },
+      {
+        "id": "SCLFF111217",
+        "header": {
+          "default": "Day Three"
+        },
+        "groupId": [
+          3551,
+          3553,
+          3555,
+          3557
+        ]
+      }
+    ]
+  },
+  "matchDescriptions": {
+    "content": []
+  },
+  "teamIcons": {
+    "content": []
+  }
+}

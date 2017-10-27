@@ -1,0 +1,224 @@
+[0000.28] Log: Async Log file open, 10/10/17 23:34:46
+[0000.28] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.28] Log:  ... running in INSTALLED mode
+[0000.28] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.28] Init: Version: 10897
+[0000.28] Init: Epic Internal: 0
+[0000.28] Init: Compiled (32-bit): Oct  9 2017 18:56:51
+[0000.28] Init: Changelist: 1532151
+[0000.28] Init: Game is version 4.19.4362.0.
+[0000.28] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -pid=017 -user=Swoldier97 -token                                  -HiCommand -HEXX=14344DA7
+[0000.28] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.28] Init: Computer: LAPTOP-2ARNF0V1
+[0000.28] Init: User: Asif
+[0000.28] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.28] Init: High frequency timer resolution =2.835936 MHz
+[0000.28] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.60] DevOnline: Initializing MCTS
+[0001.00] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.00] Init: Object subsystem initialized
+[0001.00] Log: Overriding lang INT w/ command-line option of ENG
+[0001.00] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.18] Log: CachePaths() took 0.18 Seconds
+[0001.18] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.21] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0001.22] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.33] Log: SystemSettings based on: SystemSettings
+[0001.34] Log: SystemSettings based on: SystemSettings
+[0002.11] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0002.11] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0003.38] Log: Shader platform (RHI): PC-D3D-SM3
+[0003.44] Log: PhysX GPU Support: DISABLED
+[0005.63] Log: Assembly Loaded Version: DBExport: 10/09/2017 18:14:44,  Src=devsql.hirezcorp.com:smite_live_build_4_19, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0005.72] Log: FEACClient being initialized
+[0007.35] Log: TFC Version check: Low=4.19.4362.0 High=, Result=FALSE
+[0008.88] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0009.47] Log: 161676 objects as part of root set at end of initial load.
+[0009.47] Log: 0 out of 0 bytes used by permanent object pool.
+[0009.55] Log: Initializing Engine...
+[0009.65] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0009.65] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0010.96] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0014.74] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0014.74] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0014.74] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0014.75] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0014.75] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0014.75] Warning: Warning, Failed to find object 'Class None.'
+[0014.75] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0014.75] Warning: Warning, Failed to find object 'Class None.'
+[0014.75] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0014.75] Warning: Warning, Failed to find object 'Class None.'
+[0014.75] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0014.75] Warning: Warning, Failed to find object 'Class None.'
+[0014.75] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0014.75] Log: FEACClient::Send preload map event
+[0014.75] Log: FEACClient OnGameServerDisconnect
+[0014.75] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0014.91] Log: Map Game ID = 0
+[0014.91] Log: Map Instance ID = 197692901
+[0014.93] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0014.93] Log: Performance:  appCycles 15 nsec
+[0014.95] Log: Performance:  memCopy per KB 103 nsec
+[0014.96] Log: Performance:  memZero per KB 26 nsec
+[0014.97] Log: Performance:  appInterlockedIncrement 8 nsec
+[0014.97] Log: Performance:  GetTickCount 3 nsec
+[0014.97] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0014.97] Log: Flushing async loaders.
+[0015.03] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0015.03] Log: Flushed async loaders.
+[0015.03] Log: Game class is 'TgGameLaunch'
+[0015.08] Log: Primary PhysX scene will be in software.
+[0015.08] Log: Creating Primary PhysX Scene.
+[0015.08] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0015.08] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.10-23.35.01
+[0015.08] Log: Skipping initialization of FSMPartPool!
+[0015.17] DevMusic: PComMusicTheme PlayDefaultMusic
+[0015.17] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0015.18] Log: Bringing up level for play took: 0.138018
+[0015.18] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0015.19] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0015.19] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0015.74] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0015.74] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0015.90] Log: usc_toggle_cursor true
+[0015.90] Log: usc_toggle_key_capture true
+[0015.91] DevMusic: PComMusicTheme PlayDefaultMusic
+[0015.91] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0015.91] Log: ########### Finished loading level: 1.153892 seconds
+[0015.98] Log: Flushing async loaders.
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0016.43] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0016.43] Log: Flushed async loaders.
+[0016.43] Log: Starting RedrawViewports for texture streaming..
+[0016.46] Log: RedrawViewports took: 0.029122 seconds
+[0016.46] Log: Starting Level load StreamAllResources..
+[0016.53] Log: Level load StreamAllResources took: 0.074945 seconds
+[0016.53] Log: Initializing Engine Completed
+[0016.53] Log: >>>>>>>>>>>>>> Initial startup: 16.53s <<<<<<<<<<<<<<<
+[0016.53] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0017.32] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--197806890339124086522182703--1052109747x4941
+[0042.36] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0045.38] Log: Map Game ID = 0
+[0045.38] Log: Map Instance ID = 197692901
+[0045.39] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0045.39] Log: Performance:  appCycles 8 nsec
+[0045.41] Log: Performance:  memCopy per KB 70 nsec
+[0045.41] Log: Performance:  memZero per KB 24 nsec
+[0045.42] Log: Performance:  appInterlockedIncrement 7 nsec
+[0045.42] Log: Performance:  GetTickCount 2 nsec
+[0045.42] Log: Map Game ID = 0
+[0045.42] Log: Map Instance ID = 197692901
+[0045.44] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0045.44] Log: Performance:  appCycles 8 nsec
+[0045.46] Log: Performance:  memCopy per KB 66 nsec
+[0045.46] Log: Performance:  memZero per KB 25 nsec
+[0045.47] Log: Performance:  appInterlockedIncrement 7 nsec
+[0045.47] Log: Performance:  GetTickCount 2 nsec
+[0045.47] Log: Map Game ID = 0
+[0045.47] Log: Map Instance ID = 197692901
+[0045.49] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0045.49] Log: Performance:  appCycles 8 nsec
+[0045.50] Log: Performance:  memCopy per KB 53 nsec
+[0045.51] Log: Performance:  memZero per KB 23 nsec
+[0045.51] Log: Performance:  appInterlockedIncrement 7 nsec
+[0045.52] Log: Performance:  GetTickCount 2 nsec
+[0047.30] Log: Login Success: chicodelnoche
+[0047.30] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0047.30] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0059.81] Log: UPComJsonHandler::RequestNewJson Error retrieving JSON, download response:
+
+[0060.10] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0104.82] Log: UPComJsonHandler::RequestNewJson Error retrieving JSON, download response:
+
+[0104.88] Log: Team/Instance chat routed to Instance Server.
+[0104.88] Log: Map Game ID = 0
+[0104.88] Log: Map Instance ID = 197692901
+[0104.89] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0104.90] Log: Performance:  appCycles 8 nsec
+[0104.91] Log: Performance:  memCopy per KB 52 nsec
+[0104.91] Log: Performance:  memZero per KB 24 nsec
+[0104.92] Log: Performance:  appInterlockedIncrement 7 nsec
+[0104.92] Log: Performance:  GetTickCount 2 nsec
+[0104.92] Log: Chat[9]: Press ENTER to access chat.
+[0104.92] Log: Chat[9]: Press ENTER to access chat.
+[0104.92] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc2OTMxMDksInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.Or3GbQ1nPzks9-aub9j6zkv289adFx2nLQB8sqrd3Pc
+[0104.92] Log: RequestingChannelMembers ch[1] [chicodelnoche has joined the channel.]
+[0104.92] Log: Chat[1]: Clan status: He Vuelto
+[0104.92] Log: ---- UpdateClanData
+[0104.93] VoiceChat: CVoiceInterfaceVivox::onConnectFailed (https://smp.www.vivox.com/api2/, )
+[0180.01] Log: Time is 2017.10.10-23.37.46
+[0220.12] Log: Closing by request
+[0220.12] Log: appRequestExit(0)(0)
+[0220.12] Log: TgAIBehaviorTreeManager :: De-allocating 201 behavior trees
+[0220.21] Exit: Preparing to exit.
+[0220.61] Exit: Game engine shut down
+[0220.61] Exit: PComNetDriver_0(PEER) shut down
+[0220.61] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[0220.76] Exit: Windows client shut down
+[0220.78] Exit: XAudio2 Device shut down.
+[0220.95] Exit: Object subsystem successfully closed.
+[0220.95] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0220.96] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0220.98] Exit: Exiting.

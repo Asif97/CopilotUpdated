@@ -1,0 +1,2285 @@
+[0000.27] Log: Async Log file open, 10/11/17 23:31:51
+[0000.27] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.27] Log:  ... running in INSTALLED mode
+[0000.27] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.27] Init: Version: 10897
+[0000.27] Init: Epic Internal: 0
+[0000.27] Init: Compiled (32-bit): Oct 11 2017 14:21:10
+[0000.27] Init: Changelist: 1532151
+[0000.27] Init: Game is version 4.19.4362.3.
+[0000.27] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -region=Earth -pid=017 -portaluserid=Swoldier97 -token                                  -HiCommand -HEXX=42A6E72B
+[0000.27] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.28] Init: Computer: LAPTOP-2ARNF0V1
+[0000.28] Init: User: Asif
+[0000.28] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.28] Init: High frequency timer resolution =2.835912 MHz
+[0000.28] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.66] DevOnline: Initializing MCTS
+[0001.07] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.07] Init: Object subsystem initialized
+[0001.07] Log: Overriding lang INT w/ command-line option of ENG
+[0001.07] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.23] Log: CachePaths() took 0.16 Seconds
+[0001.23] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.27] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.86] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0003.98] Log: SystemSettings based on: SystemSettings
+[0003.98] Log: SystemSettings based on: SystemSettings
+[0003.98] Log: SystemSettings based on: SystemSettings
+[0003.98] Log: SystemSettings based on: SystemSettings
+[0003.98] Log: SystemSettings based on: SystemSettings
+[0003.98] Log: SystemSettings based on: SystemSettings
+[0003.99] Log: SystemSettings based on: SystemSettings
+[0003.99] Log: SystemSettings based on: SystemSettings
+[0003.99] Log: SystemSettings based on: SystemSettings
+[0003.99] Log: SystemSettings based on: SystemSettings
+[0004.92] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0004.92] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0006.02] Log: Shader platform (RHI): PC-D3D-SM3
+[0006.09] Log: PhysX GPU Support: DISABLED
+[0008.67] Log: Assembly Loaded Version: DBExport: 10/09/2017 18:14:44,  Src=devsql.hirezcorp.com:smite_live_build_4_19, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0008.71] Log: FEACClient being initialized
+[0010.44] Log: TFC Version check: Low=4.19.4362.0 High=, Result=FALSE
+[0011.98] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0012.59] Log: 161676 objects as part of root set at end of initial load.
+[0012.59] Log: 0 out of 0 bytes used by permanent object pool.
+[0012.65] Log: Initializing Engine...
+[0012.73] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0012.73] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0014.04] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0017.91] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0017.91] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0017.91] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0017.91] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0017.91] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.91] Warning: Warning, Failed to find object 'Class None.'
+[0017.91] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.91] Warning: Warning, Failed to find object 'Class None.'
+[0017.91] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.91] Warning: Warning, Failed to find object 'Class None.'
+[0017.91] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.91] Warning: Warning, Failed to find object 'Class None.'
+[0017.92] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0017.92] Log: FEACClient::Send preload map event
+[0017.92] Log: FEACClient OnGameServerDisconnect
+[0017.92] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0018.07] Log: Map Game ID = 0
+[0018.07] Log: Map Instance ID = 197779128
+[0018.09] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0018.10] Log: Performance:  appCycles 14 nsec
+[0018.11] Log: Performance:  memCopy per KB 81 nsec
+[0018.12] Log: Performance:  memZero per KB 38 nsec
+[0018.13] Log: Performance:  appInterlockedIncrement 8 nsec
+[0018.13] Log: Performance:  GetTickCount 3 nsec
+[0018.13] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0018.13] Log: Flushing async loaders.
+[0018.19] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0018.19] Log: Flushed async loaders.
+[0018.19] Log: Game class is 'TgGameLaunch'
+[0018.27] Log: Primary PhysX scene will be in software.
+[0018.27] Log: Creating Primary PhysX Scene.
+[0018.27] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0018.27] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.11-23.32.09
+[0018.27] Log: Skipping initialization of FSMPartPool!
+[0018.36] DevMusic: PComMusicTheme PlayDefaultMusic
+[0018.36] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0018.37] Log: Bringing up level for play took: 0.165353
+[0018.37] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0018.37] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0018.37] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0018.85] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0018.85] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0019.02] Log: usc_toggle_cursor true
+[0019.02] Log: usc_toggle_key_capture true
+[0019.02] DevMusic: PComMusicTheme PlayDefaultMusic
+[0019.02] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0019.02] Log: ########### Finished loading level: 1.096065 seconds
+[0019.11] Log: Flushing async loaders.
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0019.56] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0019.56] Log: Flushed async loaders.
+[0019.56] Log: Starting RedrawViewports for texture streaming..
+[0019.59] Log: RedrawViewports took: 0.029245 seconds
+[0019.59] Log: Starting Level load StreamAllResources..
+[0019.67] Log: Level load StreamAllResources took: 0.078081 seconds
+[0019.67] Log: Initializing Engine Completed
+[0019.67] Log: >>>>>>>>>>>>>> Initial startup: 19.67s <<<<<<<<<<<<<<<
+[0019.67] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0020.40] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-172261164642990710526049327--1052109747x4941
+[0020.85] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0022.35] Log: Map Game ID = 0
+[0022.35] Log: Map Instance ID = 197779128
+[0022.36] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0022.37] Log: Performance:  appCycles 8 nsec
+[0022.38] Log: Performance:  memCopy per KB 55 nsec
+[0022.38] Log: Performance:  memZero per KB 29 nsec
+[0022.39] Log: Performance:  appInterlockedIncrement 7 nsec
+[0022.39] Log: Performance:  GetTickCount 2 nsec
+[0022.39] Log: Map Game ID = 0
+[0022.39] Log: Map Instance ID = 197779128
+[0022.41] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0022.41] Log: Performance:  appCycles 8 nsec
+[0022.43] Log: Performance:  memCopy per KB 67 nsec
+[0022.43] Log: Performance:  memZero per KB 35 nsec
+[0022.44] Log: Performance:  appInterlockedIncrement 7 nsec
+[0022.44] Log: Performance:  GetTickCount 2 nsec
+[0022.44] Log: Map Game ID = 0
+[0022.44] Log: Map Instance ID = 197779128
+[0022.46] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0022.46] Log: Performance:  appCycles 8 nsec
+[0022.47] Log: Performance:  memCopy per KB 54 nsec
+[0022.48] Log: Performance:  memZero per KB 28 nsec
+[0022.49] Log: Performance:  appInterlockedIncrement 7 nsec
+[0022.49] Log: Performance:  GetTickCount 2 nsec
+[0024.32] VoiceChat: Warn  am_network_start() trying retval=0,port + offset=23530,port=23500
+[0024.32] Log: Login Success: chicodelnoche
+[0024.32] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0024.32] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0025.33] VoiceChat: Warn  am_network_start() returned retval=0,port + offset=23530,port=23500
+[0025.53] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0026.06] Log: Team/Instance chat routed to Instance Server.
+[0026.06] Log: Map Game ID = 0
+[0026.06] Log: Map Instance ID = 197779128
+[0026.08] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0026.08] Log: Performance:  appCycles 8 nsec
+[0026.09] Log: Performance:  memCopy per KB 57 nsec
+[0026.09] Log: Performance:  memZero per KB 28 nsec
+[0026.10] Log: Performance:  appInterlockedIncrement 7 nsec
+[0026.10] Log: Performance:  GetTickCount 3 nsec
+[0026.11] Log: Chat[9]: Press ENTER to access chat.
+[0026.11] Log: Chat[9]: Press ENTER to access chat.
+[0026.11] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc3NzkzMTIsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.qruqDTORr3yW6zzIPCoX33cUF4Ra1D7q_f5ILERCdPY
+[0026.11] Log: RequestingChannelMembers ch[1] [chicodelnoche has joined the channel.]
+[0026.11] Log: Chat[1]: Clan status: He Vuelto
+[0026.11] Log: ---- UpdateClanData
+[0026.12] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://smp.www.vivox.com/api2/)
+[0026.28] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.a3a502.)
+[0028.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0028.31] Warning: Warning, Failed to find object 'Class None.None'
+[0057.00] Log: ---- UpdateClanData
+[0057.00] DevMusic: PComMusicTheme PlayDefaultMusic
+[0057.00] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0057.00] Log: ERROR: Attempting to log in without settings.
+[0057.46] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0087.55] VoiceChat: Warn  Changing Capture Device to {0.0.1.00000000}.{75206ef3-78b5-4bd6-8440-0a3bda25b105} Microphone Array (Realtek High Definition Audio)
+[0087.55] VoiceChat: Warn  Changing Render Device to {0.0.0.00000000}.{7a61a7c2-531e-459f-ad93-d35fa1ae6afe} Speakers (Realtek High Definition Audio)
+[0096.26] Log: ---- UpdateClanData
+[0104.79] TgSLO: Async Load: GOD_Izanami
+[0104.79] TgSLO: Async Load: GOD_Izanami_Textures
+[0104.79] TgSLO: Async Load: GOD_Izanami_Lobby
+[0104.79] TgSLO: Async Load: FX_Izanami
+[0104.80] TgSLO: Async Load: FX_Izanami_Lobby
+[0104.80] TgSLO: Async Load: AUD_God_Izanami
+[0104.80] TgSLO: Async Load: god_izanami_skin5
+[0104.80] TgSLO: Async Load: GOD_Izanami_Skin5_Lobby
+[0104.80] TgSLO: Async Load: FX_Izanami_Skin5
+[0104.80] TgSLO: Async Load: GOD_Common_AT
+[0104.80] TgSLO: Async Load: AUD_God_Nox
+[0104.80] TgSLO: Async Load: FX_Izanami_Skin5_Targeting
+[0104.80] TgSLO: Async Load: AUD_VOX_God_Izanami_Skin5
+[0104.80] TgSLO: Async Load: AUD_God_Izanami_Skin5
+[0104.80] TgSLO: Async Load: AUD_God_Izanami_Skin3
+[0104.80] TgSLO: Async Load: AnimNotify14943
+[0105.65] TgSLO: Finish Load: GOD_Izanami
+[0105.71] TgSLO: Finish Load: GOD_Izanami_Textures
+[0105.83] TgSLO: Finish Load: GOD_Izanami_Lobby
+[0106.26] TgSLO: Finish Load: FX_Izanami
+[0106.28] TgSLO: Finish Load: FX_Izanami_Lobby
+[0106.63] TgSLO: Finish Load: AUD_God_Izanami
+[0106.74] TgSLO: Finish Load: god_izanami_skin5
+[0106.79] TgSLO: Finish Load: GOD_Izanami_Skin5_Lobby
+[0107.27] TgSLO: Finish Load: FX_Izanami_Skin5
+[0107.27] TgSLO: Finish Load: GOD_Common_AT
+[0107.75] TgSLO: Finish Load: AUD_God_Nox
+[0107.79] TgSLO: Finish Load: FX_Izanami_Skin5_Targeting
+[0107.84] TgSLO: Finish Load: AUD_VOX_God_Izanami_Skin5
+[0108.03] TgSLO: Finish Load: AUD_God_Izanami_Skin5
+[0108.35] TgSLO: Finish Load: AUD_God_Izanami_Skin3
+[0108.37] TgSLO: Finish Load: AnimNotify14943
+[0134.48] Log: Chat[9]: You have joined a match queue.
+[0157.47] DevMusic: PComMusicTheme PlayMusicEvent found event named GodSelection
+[0157.47] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0157.47] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0157.47] Log: RequestingChannelMembers ch[3] [chicodelnoche has joined the channel.]
+[0157.62] TgSLO: Async Load: Pedestal_Dreamhack
+[0157.62] TgSLO: Async Load: Pedestal_Summer_2016
+[0157.83] TgSLO: Finish Load: Pedestal_Dreamhack
+[0157.94] TgSLO: Finish Load: Pedestal_Summer_2016
+[0160.80] TgSLO: Async Load: GOD_Artio
+[0160.80] TgSLO: Async Load: GOD_Artio_Textures
+[0160.80] TgSLO: Async Load: GOD_Artio_Lobby
+[0160.80] TgSLO: Async Load: FX_Artio
+[0160.80] TgSLO: Async Load: FX_Artio_Lobby
+[0160.80] TgSLO: Async Load: AUD_God_Artio
+[0160.80] TgSLO: Async Load: GOD_Artio_Bear
+[0160.80] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0161.58] TgSLO: Finish Load: GOD_Artio
+[0161.65] TgSLO: Finish Load: GOD_Artio_Textures
+[0161.83] TgSLO: Finish Load: GOD_Artio_Lobby
+[0162.42] TgSLO: Finish Load: FX_Artio
+[0162.54] TgSLO: Finish Load: FX_Artio_Lobby
+[0162.90] TgSLO: Finish Load: AUD_God_Artio
+[0162.94] TgSLO: Finish Load: GOD_Artio_Bear
+[0162.98] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0180.01] Log: Time is 2017.10.11-23.34.50
+[0186.67] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0186.98] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0187.24] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0194.16] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0196.53] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0198.36] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0205.40] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[0213.12] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[0213.41] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0228.97] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0231.92] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0232.48] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0235.68] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0235.99] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0236.26] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0242.26] TgSLO: Async Load: GOD_Loki_V2
+[0242.27] TgSLO: Async Load: GOD_Loki_V2_Textures
+[0242.27] TgSLO: Async Load: GOD_Loki_V2_Lobby
+[0242.27] TgSLO: Async Load: FX_Loki_V2
+[0242.27] TgSLO: Async Load: FX_Loki_V2_Lobby
+[0242.27] TgSLO: Async Load: AUD_God_Loki_V2
+[0242.27] TgSLO: Async Load: GOD_Loki_V2_Skin6
+[0242.27] TgSLO: Async Load: GOD_Loki_V2_Skin6_Lobby
+[0242.27] TgSLO: Async Load: AUD_VOX_God_Loki_V2
+[0242.27] TgSLO: Async Load: AUD_VOX_God_Loki_V2_Skin6
+[0242.27] TgSLO: Async Load: AUD_God_Loki_V2_Skin6
+[0242.27] TgSLO: Async Load: FX_Loki_V2_skin6
+[0242.27] TgSLO: Async Load: AnimNotify12918
+[0243.01] TgSLO: Finish Load: GOD_Loki_V2
+[0243.07] TgSLO: Finish Load: GOD_Loki_V2_Textures
+[0243.38] TgSLO: Finish Load: GOD_Loki_V2_Lobby
+[0243.61] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0243.77] TgSLO: Finish Load: FX_Loki_V2
+[0243.91] TgSLO: Finish Load: FX_Loki_V2_Lobby
+[0244.16] TgSLO: Finish Load: AUD_God_Loki_V2
+[0244.24] TgSLO: Finish Load: GOD_Loki_V2_Skin6
+[0244.25] TgSLO: Finish Load: GOD_Loki_V2_Skin6_Lobby
+[0244.28] TgSLO: Finish Load: AUD_VOX_God_Loki_V2
+[0244.31] TgSLO: Finish Load: AUD_VOX_God_Loki_V2_Skin6
+[0244.32] TgSLO: Finish Load: AUD_God_Loki_V2_Skin6
+[0244.39] TgSLO: Finish Load: FX_Loki_V2_skin6
+[0244.39] TgSLO: Finish Load: AnimNotify12918
+[0245.43] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0247.14] DevMusic: PComMusicTheme PlayMusicEvent found event named BattleReady
+[0247.14] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0247.14] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0247.14] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0247.17] TgSLO: Async Load: GOD_Kukulkan
+[0247.17] TgSLO: Async Load: GOD_Kukulkan_Textures
+[0247.17] TgSLO: Async Load: GOD_Kukulkan_Lobby
+[0247.17] TgSLO: Async Load: FX_Kukulkan
+[0247.17] TgSLO: Async Load: FX_Kukulkan_Lobby
+[0247.17] TgSLO: Async Load: AUD_God_Kukulkan
+[0247.17] TgSLO: Async Load: GOD_Kukulkan_V2_Skin4
+[0247.17] TgSLO: Async Load: GOD_Kukulkan_V2_Skin4_Lobby
+[0247.17] TgSLO: Async Load: FX_Kukulkan_Skin4
+[0247.17] TgSLO: Async Load: FX_Kukulkan_Targeting_SKN4
+[0247.17] TgSLO: Async Load: AnimNotify8732
+[0247.17] TgSLO: Async Load: GOD_JingWei
+[0247.17] TgSLO: Async Load: GOD_JingWei_Textures
+[0247.17] TgSLO: Async Load: GOD_JingWei_Lobby
+[0247.18] TgSLO: Async Load: FX_JingWei
+[0247.18] TgSLO: Async Load: FX_JingWei_Lobby
+[0247.18] TgSLO: Async Load: AUD_God_JingWei
+[0247.18] TgSLO: Async Load: GOD_JingWei_Skin4
+[0247.18] TgSLO: Async Load: GOD_JingWei_Skin4_Lobby
+[0247.18] TgSLO: Async Load: GOD_Nox
+[0247.18] TgSLO: Async Load: GOD_Nox_Textures
+[0247.18] TgSLO: Async Load: GOD_Nox_Lobby
+[0247.18] TgSLO: Async Load: FX_Nox
+[0247.18] TgSLO: Async Load: FX_Nox_Lobby
+[0247.18] TgSLO: Async Load: GOD_Nox_Skin2
+[0247.18] TgSLO: Async Load: GOD_Nox_Skin2_Lobby
+[0247.18] TgSLO: Async Load: FX_Nox_Skin2
+[0247.18] TgSLO: Async Load: FX_Nox_Targeting_Skin2
+[0247.18] TgSLO: Async Load: AnimNotify11604
+[0247.89] TgSLO: Finish Load: GOD_Kukulkan
+[0247.95] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[0248.17] TgSLO: Finish Load: GOD_Kukulkan_Lobby
+[0248.60] TgSLO: Finish Load: FX_Kukulkan
+[0248.65] TgSLO: Finish Load: FX_Kukulkan_Lobby
+[0249.04] TgSLO: Finish Load: AUD_God_Kukulkan
+[0249.49] TgSLO: Finish Load: GOD_Kukulkan_V2_Skin4
+[0249.57] TgSLO: Finish Load: GOD_Kukulkan_V2_Skin4_Lobby
+[0249.78] TgSLO: Finish Load: FX_Kukulkan_Skin4
+[0249.82] TgSLO: Finish Load: FX_Kukulkan_Targeting_SKN4
+[0249.82] TgSLO: Finish Load: AnimNotify8732
+[0250.47] TgSLO: Finish Load: GOD_JingWei
+[0250.54] TgSLO: Finish Load: GOD_JingWei_Textures
+[0250.69] TgSLO: Finish Load: GOD_JingWei_Lobby
+[0251.08] TgSLO: Finish Load: FX_JingWei
+[0251.17] TgSLO: Finish Load: FX_JingWei_Lobby
+[0251.63] TgSLO: Finish Load: AUD_God_JingWei
+[0251.74] TgSLO: Finish Load: GOD_JingWei_Skin4
+[0251.76] TgSLO: Finish Load: GOD_JingWei_Skin4_Lobby
+[0252.40] TgSLO: Finish Load: GOD_Nox
+[0252.50] TgSLO: Finish Load: GOD_Nox_Textures
+[0252.66] TgSLO: Finish Load: GOD_Nox_Lobby
+[0252.77] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0253.18] TgSLO: Finish Load: FX_Nox
+[0253.30] TgSLO: Finish Load: FX_Nox_Lobby
+[0253.45] TgSLO: Finish Load: GOD_Nox_Skin2
+[0253.49] TgSLO: Finish Load: GOD_Nox_Skin2_Lobby
+[0253.96] TgSLO: Finish Load: FX_Nox_Skin2
+[0254.00] TgSLO: Finish Load: FX_Nox_Targeting_Skin2
+[0254.01] TgSLO: Finish Load: AnimNotify11604
+[0257.25] DevMusic: PComMusicTheme PlayDefaultMusic
+[0257.25] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0257.25] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0262.37] Log: CTgBattleClient - Match composition cached [4E69F3A0]
+[0262.37] Log: ReceiveChangeMap: mapGameId 1547
+[0262.37] Log: ReceiveChangeMap: mapGameId 1547
+[0262.48] Log: usc_toggle_key_capture false
+[0262.48] Log: usc_toggle_cursor false
+[0262.58] Log: usc_toggle_key_capture true
+[0262.58] DevNet: URL: Adding default option Team=255
+[0262.58] DevNet: URL: Adding default option Team=255
+[0262.58] DevNet: Browse: 0.0.0.0:9061/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367348113?Team=255
+[0262.58] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0262.58] DevNet: Game client on port 9061, rate 25000
+[0264.29] DevNet: Welcomed by server (Level: clash_p, Game: TgGame.TgGame_Battle_ClashV2)
+[0264.80] Log: LoadMap: 0.0.0.0:9061/clash_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367348113?Team=255?game=TgGame.TgGame_Battle_ClashV2
+[0265.19] Log: Map Game ID = 0
+[0265.19] Log: Map Instance ID = 197779128
+[0265.21] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0265.21] Log: Performance:  appCycles 14 nsec
+[0265.23] Log: Performance:  memCopy per KB 80 nsec
+[0265.23] Log: Performance:  memZero per KB 29 nsec
+[0265.24] Log: Performance:  appInterlockedIncrement 8 nsec
+[0265.25] Log: Performance:  GetTickCount 3 nsec
+[0265.25] TgSLO: Async Load: FX_Store_Items
+[0265.25] TgSLO: Async Load: FX_Store_Items_Targeting
+[0265.25] TgSLO: Async Load: FX_Status_Effects
+[0265.25] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0265.25] TgSLO: Async Load: GOD_Common_AT
+[0265.25] TgSLO: Async Load: AUD_VOX_Narrator
+[0265.25] TgSLO: Async Load: NPC_Ward2
+[0265.25] TgSLO: Async Load: FX_Buff_Belts_V2
+[0265.25] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0265.25] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0265.25] TgSLO: Async Load: GOD_Artio
+[0265.25] TgSLO: Async Load: GOD_Artio_Textures
+[0265.25] TgSLO: Async Load: FX_Artio
+[0265.25] TgSLO: Async Load: FX_Artio_Targeting
+[0265.25] TgSLO: Async Load: AUD_God_Artio
+[0265.25] TgSLO: Async Load: GOD_Artio_Bear
+[0265.25] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0265.26] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0265.26] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0265.26] TgSLO: Async Load: FX_Common
+[0265.26] TgSLO: Async Load: AUD_UI
+[0265.26] TgSLO: Async Load: FX_Emote_global_SmiteBirthday
+[0265.26] TgSLO: Async Load: FX_Celtic_Recall
+[0265.26] TgSLO: Async Load: GOD_Loki_V2
+[0265.26] TgSLO: Async Load: GOD_Loki_V2_Textures
+[0265.26] TgSLO: Async Load: FX_Loki_V2
+[0265.26] TgSLO: Async Load: AUD_God_Loki_V2
+[0265.26] TgSLO: Async Load: GOD_Loki_V2_Skin6
+[0265.26] TgSLO: Async Load: AUD_VOX_God_Loki_V2
+[0265.26] TgSLO: Async Load: AUD_VOX_God_Loki_V2_Skin6
+[0265.26] TgSLO: Async Load: AUD_God_Loki_V2_Skin6
+[0265.26] TgSLO: Async Load: FX_Loki_V2_skin6
+[0265.26] TgSLO: Async Load: AnimNotify12918
+[0265.26] TgSLO: Async Load: NPC_Ward_FishBowl
+[0265.26] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0265.26] TgSLO: Async Load: FX_Diamond_Recall
+[0265.26] TgSLO: Async Load: GOD_Nox
+[0265.26] TgSLO: Async Load: GOD_Nox_Textures
+[0265.26] TgSLO: Async Load: FX_Nox
+[0265.26] TgSLO: Async Load: AUD_God_Nox
+[0265.26] TgSLO: Async Load: GOD_Nox_Skin2
+[0265.27] TgSLO: Async Load: FX_Nox_Skin2
+[0265.27] TgSLO: Async Load: FX_Nox_Targeting_Skin2
+[0265.27] TgSLO: Async Load: AnimNotify11604
+[0265.27] TgSLO: Async Load: NPC_Ward_WindDancer
+[0265.27] TgSLO: Async Load: FX_Emote_global_Fireworks_GG
+[0265.27] TgSLO: Async Load: FX_Recall_Roman_Pantheon
+[0265.27] TgSLO: Async Load: FX_JumpStamp_Adventures_MMO
+[0265.27] TgSLO: Async Load: GOD_Kukulkan
+[0265.27] TgSLO: Async Load: GOD_Kukulkan_Textures
+[0265.27] TgSLO: Async Load: FX_Kukulkan
+[0265.27] TgSLO: Async Load: AUD_God_Kukulkan
+[0265.27] TgSLO: Async Load: GOD_Kukulkan_V2_Skin4
+[0265.27] TgSLO: Async Load: FX_Kukulkan_Skin4
+[0265.27] TgSLO: Async Load: FX_Kukulkan_Targeting_SKN4
+[0265.27] TgSLO: Async Load: AnimNotify8732
+[0265.27] TgSLO: Async Load: npc_ward_maoi
+[0265.27] TgSLO: Async Load: FX_Greek_Recall
+[0265.27] TgSLO: Async Load: FX_JumpStamp_SeasonTicket2017
+[0265.27] TgSLO: Async Load: GOD_JingWei
+[0265.27] TgSLO: Async Load: GOD_JingWei_Textures
+[0265.27] TgSLO: Async Load: FX_JingWei
+[0265.27] TgSLO: Async Load: AUD_God_JingWei
+[0265.27] TgSLO: Async Load: GOD_JingWei_Skin4
+[0265.27] TgSLO: Async Load: GOD_Sylvanus
+[0265.27] TgSLO: Async Load: GOD_Sylvanus_Textures
+[0265.28] TgSLO: Async Load: FX_Sylvanus
+[0265.28] TgSLO: Async Load: AUD_God_Sylvanus
+[0265.28] TgSLO: Async Load: GOD_Sylvanus_Skin1
+[0265.28] TgSLO: Async Load: FX_Sylvanus_SKN1
+[0265.28] TgSLO: Async Load: AnimNotify10688
+[0265.28] TgSLO: Async Load: GOD_Izanami
+[0265.28] TgSLO: Async Load: GOD_Izanami_Textures
+[0265.28] TgSLO: Async Load: FX_Izanami
+[0265.28] TgSLO: Async Load: AUD_God_Izanami
+[0265.28] TgSLO: Async Load: god_izanami_skin1
+[0265.28] TgSLO: Async Load: NPC_Ward_DentonBalloon
+[0265.28] TgSLO: Async Load: NPC_Ward_Manticore
+[0265.28] TgSLO: Async Load: NPC_Ward_Apollo
+[0265.28] TgSLO: Async Load: NPC_Ward_Curse
+[0265.28] TgSLO: Async Load: NPC_Ward_Chest
+[0265.28] TgSLO: Async Load: NPC_Ward_Mailbox
+[0265.28] TgSLO: Async Load: FX_Emote_global_Fireworks_Dmnd
+[0265.28] TgSLO: Async Load: GOD_Aphrodite
+[0265.28] TgSLO: Async Load: GOD_Aphrodite_Textures
+[0265.28] TgSLO: Async Load: FX_Aphrodite
+[0265.28] TgSLO: Async Load: AUD_God_Aphrodite
+[0265.29] TgSLO: Async Load: FX_Recall_Summer_RankedReward
+[0265.29] TgSLO: Async Load: GOD_Ares
+[0265.29] TgSLO: Async Load: GOD_Ares_Textures
+[0265.29] TgSLO: Async Load: FX_Ares
+[0265.29] TgSLO: Async Load: AUD_God_Ares
+[0265.29] TgSLO: Async Load: GOD_Ares_Skins
+[0265.29] TgSLO: Async Load: AUD_VOX_God_Ares
+[0265.29] TgSLO: Async Load: FX_Emote_global_Odyssey_2017
+[0265.29] TgSLO: Async Load: FX_JumpStamp_PaintSplatter
+[0265.29] TgSLO: Async Load: GOD_Thor
+[0265.29] TgSLO: Async Load: GOD_Thor_Textures
+[0265.29] TgSLO: Async Load: FX_Thor
+[0265.29] TgSLO: Async Load: AUD_God_Thor
+[0265.29] TgSLO: Async Load: GOD_Thor_Skins
+[0265.29] TgSLO: Async Load: FX_Thor_Skin2
+[0265.29] TgSLO: Async Load: FX_Emote_global_Spring_2017
+[0265.29] TgSLO: Async Load: NPC_Phoenix
+[0265.29] TgSLO: Async Load: FX_Greek_Tower
+[0265.29] TgSLO: Async Load: FX_Phoenix
+[0265.29] TgSLO: Async Load: NPC_EGYClash_Phoenix_Order
+[0265.29] TgSLO: Async Load: NPC_EGYClash_Phoenix_Generic
+[0265.29] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Order
+[0265.30] TgSLO: Async Load: AUD_NPC_EGYClash_Phoenix
+[0265.30] TgSLO: Async Load: MDL_PseudoMesh
+[0265.30] TgSLO: Async Load: AUD_Tower
+[0265.30] TgSLO: Async Load: EC_Towers
+[0265.30] TgSLO: Async Load: FX_NPC_EGYClash_Towers
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Phoenix_Chaos
+[0265.30] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0265.30] TgSLO: Async Load: NPC_Olympus
+[0265.30] TgSLO: Async Load: AUD_NPC_Olympus
+[0265.30] TgSLO: Async Load: NPC_Minion_Universal
+[0265.30] TgSLO: Async Load: FX_Roman
+[0265.30] TgSLO: Async Load: FX_Minion_Death
+[0265.30] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Minion_Order
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Brute_Order
+[0265.30] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Minion_Chaos
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Brute_Chaos
+[0265.30] TgSLO: Async Load: NPC_Guardian_Female
+[0265.30] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0265.30] TgSLO: Async Load: FX_Guardian_Female
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Titan_Order
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Titan_Generic
+[0265.30] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Order
+[0265.30] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0265.30] TgSLO: Async Load: NPC_EGYClash_Titan_Chaos
+[0265.30] TgSLO: Async Load: FX_Guardian_Male
+[0265.30] TgSLO: Async Load: FX_CHNJoust_Titan_Invader
+[0265.30] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Chaos
+[0265.31] TgSLO: Async Load: NPC_Cyclops_V2
+[0265.31] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0265.31] TgSLO: Async Load: AUD_NPC_Cyclops
+[0265.31] TgSLO: Async Load: NPC_EGYClash_Hyena
+[0265.31] TgSLO: Async Load: FX_EGYClash_Hyena
+[0265.31] TgSLO: Async Load: NPC_EGYClash_Baboon
+[0265.31] TgSLO: Async Load: FX_NPC_EGYClash_Baboon
+[0265.31] TgSLO: Async Load: NPC_Cyclops_V3
+[0265.31] TgSLO: Async Load: FX_Odin_V2
+[0265.31] TgSLO: Async Load: NPC_EGYClash_Apep
+[0265.31] TgSLO: Async Load: AUD_NPC_EGYClash_Apep
+[0265.31] TgSLO: Async Load: FX_Apep
+[0265.31] Log: Flushing async loaders.
+[0265.41] TgSLO: Finish Load: FX_Store_Items
+[0265.44] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0265.46] TgSLO: Finish Load: FX_Status_Effects
+[0265.47] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0265.47] TgSLO: Finish Load: GOD_Common_AT
+[0265.49] TgSLO: Finish Load: AUD_VOX_Narrator
+[0265.50] TgSLO: Finish Load: NPC_Ward2
+[0265.55] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0265.55] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0265.56] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0265.70] TgSLO: Finish Load: GOD_Artio
+[0265.70] TgSLO: Finish Load: GOD_Artio_Textures
+[0265.75] TgSLO: Finish Load: FX_Artio
+[0265.76] TgSLO: Finish Load: FX_Artio_Targeting
+[0265.76] TgSLO: Finish Load: AUD_God_Artio
+[0265.78] TgSLO: Finish Load: GOD_Artio_Bear
+[0265.78] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0265.81] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0265.82] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0265.85] TgSLO: Finish Load: FX_Common
+[0265.85] TgSLO: Finish Load: AUD_UI
+[0265.87] TgSLO: Finish Load: FX_Emote_global_SmiteBirthday
+[0265.87] TgSLO: Finish Load: FX_Celtic_Recall
+[0266.00] TgSLO: Finish Load: GOD_Loki_V2
+[0266.00] TgSLO: Finish Load: GOD_Loki_V2_Textures
+[0266.03] TgSLO: Finish Load: FX_Loki_V2
+[0266.04] TgSLO: Finish Load: AUD_God_Loki_V2
+[0266.06] TgSLO: Finish Load: GOD_Loki_V2_Skin6
+[0266.07] TgSLO: Finish Load: AUD_VOX_God_Loki_V2
+[0266.08] TgSLO: Finish Load: AUD_VOX_God_Loki_V2_Skin6
+[0266.08] TgSLO: Finish Load: AUD_God_Loki_V2_Skin6
+[0266.09] TgSLO: Finish Load: FX_Loki_V2_skin6
+[0266.09] TgSLO: Finish Load: AnimNotify12918
+[0266.12] TgSLO: Finish Load: NPC_Ward_FishBowl
+[0266.13] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0266.15] Log: Missing cached shader map for material MAT_Diamond3_CARD, quality 0, compiling.
+[0266.15] Log: Can't compile MAT_Diamond3_CARD with seekfree loading path on console, will attempt to use default material instead
+[0266.15] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_CARD for platform PC-D3D-SM3, Default Material will be used in game.
+[0266.15] Log: Missing cached shader map for material MAT_Diamond3_Crysalis2, quality 0, compiling.
+[0266.15] Log: Can't compile MAT_Diamond3_Crysalis2 with seekfree loading path on console, will attempt to use default material instead
+[0266.15] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_Crysalis2 for platform PC-D3D-SM3, Default Material will be used in game.
+[0266.15] TgSLO: Finish Load: FX_Diamond_Recall
+[0266.27] TgSLO: Finish Load: GOD_Nox
+[0266.29] TgSLO: Finish Load: GOD_Nox_Textures
+[0266.35] TgSLO: Finish Load: FX_Nox
+[0266.35] TgSLO: Finish Load: AUD_God_Nox
+[0266.39] TgSLO: Finish Load: GOD_Nox_Skin2
+[0266.45] TgSLO: Finish Load: FX_Nox_Skin2
+[0266.46] TgSLO: Finish Load: FX_Nox_Targeting_Skin2
+[0266.47] TgSLO: Finish Load: AnimNotify11604
+[0266.49] TgSLO: Finish Load: NPC_Ward_WindDancer
+[0266.49] TgSLO: Finish Load: FX_Emote_global_Fireworks_GG
+[0266.50] TgSLO: Finish Load: FX_Recall_Roman_Pantheon
+[0266.50] TgSLO: Finish Load: FX_JumpStamp_Adventures_MMO
+[0266.59] TgSLO: Finish Load: GOD_Kukulkan
+[0266.59] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[0266.62] TgSLO: Finish Load: FX_Kukulkan
+[0266.63] TgSLO: Finish Load: AUD_God_Kukulkan
+[0266.68] TgSLO: Finish Load: GOD_Kukulkan_V2_Skin4
+[0266.69] TgSLO: Finish Load: FX_Kukulkan_Skin4
+[0266.71] TgSLO: Finish Load: FX_Kukulkan_Targeting_SKN4
+[0266.71] TgSLO: Finish Load: AnimNotify8732
+[0266.72] TgSLO: Finish Load: npc_ward_maoi
+[0266.73] TgSLO: Finish Load: FX_Greek_Recall
+[0266.73] TgSLO: Finish Load: FX_JumpStamp_SeasonTicket2017
+[0266.80] TgSLO: Finish Load: GOD_JingWei
+[0266.80] TgSLO: Finish Load: GOD_JingWei_Textures
+[0266.84] TgSLO: Finish Load: FX_JingWei
+[0266.84] TgSLO: Finish Load: AUD_God_JingWei
+[0266.86] TgSLO: Finish Load: GOD_JingWei_Skin4
+[0267.02] TgSLO: Finish Load: GOD_Sylvanus
+[0267.04] TgSLO: Finish Load: GOD_Sylvanus_Textures
+[0267.09] TgSLO: Finish Load: FX_Sylvanus
+[0267.11] TgSLO: Finish Load: AUD_God_Sylvanus
+[0267.16] TgSLO: Finish Load: GOD_Sylvanus_Skin1
+[0267.18] TgSLO: Finish Load: FX_Sylvanus_SKN1
+[0267.19] TgSLO: Finish Load: AnimNotify10688
+[0267.29] TgSLO: Finish Load: GOD_Izanami
+[0267.30] TgSLO: Finish Load: GOD_Izanami_Textures
+[0267.33] TgSLO: Finish Load: FX_Izanami
+[0267.33] TgSLO: Finish Load: AUD_God_Izanami
+[0267.34] TgSLO: Finish Load: god_izanami_skin1
+[0267.36] TgSLO: Finish Load: NPC_Ward_DentonBalloon
+[0267.37] TgSLO: Finish Load: NPC_Ward_Manticore
+[0267.39] TgSLO: Finish Load: NPC_Ward_Apollo
+[0267.41] TgSLO: Finish Load: NPC_Ward_Curse
+[0267.42] TgSLO: Finish Load: NPC_Ward_Chest
+[0267.44] TgSLO: Finish Load: NPC_Ward_Mailbox
+[0267.45] TgSLO: Finish Load: FX_Emote_global_Fireworks_Dmnd
+[0267.58] TgSLO: Finish Load: GOD_Aphrodite
+[0267.58] TgSLO: Finish Load: GOD_Aphrodite_Textures
+[0267.62] TgSLO: Finish Load: FX_Aphrodite
+[0267.62] TgSLO: Finish Load: AUD_God_Aphrodite
+[0267.63] TgSLO: Finish Load: FX_Recall_Summer_RankedReward
+[0267.81] TgSLO: Finish Load: GOD_Ares
+[0267.81] TgSLO: Finish Load: GOD_Ares_Textures
+[0267.83] TgSLO: Finish Load: FX_Ares
+[0267.84] TgSLO: Finish Load: AUD_God_Ares
+[0267.89] TgSLO: Finish Load: GOD_Ares_Skins
+[0267.90] TgSLO: Finish Load: AUD_VOX_God_Ares
+[0267.90] TgSLO: Finish Load: FX_Emote_global_Odyssey_2017
+[0267.91] TgSLO: Finish Load: FX_JumpStamp_PaintSplatter
+[0268.03] TgSLO: Finish Load: GOD_Thor
+[0268.03] TgSLO: Finish Load: GOD_Thor_Textures
+[0268.07] TgSLO: Finish Load: FX_Thor
+[0268.08] TgSLO: Finish Load: AUD_God_Thor
+[0268.11] TgSLO: Finish Load: GOD_Thor_Skins
+[0268.15] TgSLO: Finish Load: FX_Thor_Skin2
+[0268.15] TgSLO: Finish Load: FX_Emote_global_Spring_2017
+[0268.19] TgSLO: Finish Load: NPC_Phoenix
+[0268.24] TgSLO: Finish Load: FX_Greek_Tower
+[0268.25] TgSLO: Finish Load: FX_Phoenix
+[0268.27] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Order
+[0268.28] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Generic
+[0268.29] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Order
+[0268.29] TgSLO: Finish Load: AUD_NPC_EGYClash_Phoenix
+[0268.29] TgSLO: Finish Load: MDL_PseudoMesh
+[0268.30] TgSLO: Finish Load: AUD_Tower
+[0268.37] TgSLO: Finish Load: EC_Towers
+[0268.38] TgSLO: Finish Load: FX_NPC_EGYClash_Towers
+[0268.39] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Chaos
+[0268.40] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0268.43] TgSLO: Finish Load: NPC_Olympus
+[0268.43] TgSLO: Finish Load: AUD_NPC_Olympus
+[0268.47] TgSLO: Finish Load: NPC_Minion_Universal
+[0268.48] TgSLO: Finish Load: FX_Roman
+[0268.48] TgSLO: Finish Load: FX_Minion_Death
+[0268.49] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0268.50] TgSLO: Finish Load: NPC_EGYClash_Minion_Order
+[0268.51] TgSLO: Finish Load: NPC_EGYClash_Brute_Order
+[0268.54] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0268.55] TgSLO: Finish Load: NPC_EGYClash_Minion_Chaos
+[0268.57] TgSLO: Finish Load: NPC_EGYClash_Brute_Chaos
+[0268.63] TgSLO: Finish Load: NPC_Guardian_Female
+[0268.63] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0268.64] TgSLO: Finish Load: FX_Guardian_Female
+[0268.70] TgSLO: Finish Load: NPC_EGYClash_Titan_Order
+[0268.70] TgSLO: Finish Load: NPC_EGYClash_Titan_Generic
+[0268.71] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Order
+[0268.73] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0268.77] TgSLO: Finish Load: NPC_EGYClash_Titan_Chaos
+[0268.80] TgSLO: Finish Load: FX_Guardian_Male
+[0268.85] TgSLO: Finish Load: FX_CHNJoust_Titan_Invader
+[0268.86] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Chaos
+[0268.92] TgSLO: Finish Load: NPC_Cyclops_V2
+[0268.92] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0268.93] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0268.99] TgSLO: Finish Load: NPC_EGYClash_Hyena
+[0269.00] TgSLO: Finish Load: FX_EGYClash_Hyena
+[0269.08] TgSLO: Finish Load: NPC_EGYClash_Baboon
+[0269.09] TgSLO: Finish Load: FX_NPC_EGYClash_Baboon
+[0269.26] TgSLO: Finish Load: NPC_Cyclops_V3
+[0269.33] TgSLO: Finish Load: FX_Odin_V2
+[0269.37] TgSLO: Finish Load: NPC_EGYClash_Apep
+[0269.38] TgSLO: Finish Load: AUD_NPC_EGYClash_Apep
+[0269.40] TgSLO: Finish Load: FX_Apep
+[0269.40] Log: Flushed async loaders.
+[0269.41] DevNet: Fully loading base package clash_collision due to fallback logic
+[0269.42] DevNet: Fully loading base package clash_lighting due to fallback logic
+[0269.43] DevNet: Fully loading base package clash_skybox due to fallback logic
+[0269.62] DevNet: Fully loading base package clash_sound due to fallback logic
+[0269.63] DevNet: Fully loading base package clash_vegetation due to fallback logic
+[0269.70] DevNet: Fully loading base package clash_vfx due to fallback logic
+[0269.71] DevNet: Fully loading base package clash_perftests due to fallback logic
+[0269.84] Log: Primary PhysX scene will be in software.
+[0269.84] Log: Creating Primary PhysX Scene.
+[0269.84] Log: Bringing World clash_p.TheWorld up for play (595) at 2017.10.11-23.36.20
+[0269.84] Log: Skipping initialization of FSMPartPool!
+[0269.84] Log: Bringing up level for play took: 0.113371
+[0269.84] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0269.84] Warning: Warning, Failed to find object 'Class None.'
+[0269.84] Log: PlayerController class for the pending level is PlayerController
+[0269.84] Log: ########### Finished loading level: 5.039401 seconds
+[0269.87] Log: Flushing async loaders.
+[0270.01] Log: Flushed async loaders.
+[0270.01] Log: Starting RedrawViewports for texture streaming..
+[0270.08] Log: RedrawViewports took: 0.074761 seconds
+[0270.08] Log: Starting Level load StreamAllResources..
+[0270.10] Log: Level load StreamAllResources took: 0.018640 seconds
+[0271.15] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0271.22] Log: Activated clash_assist 1 1 0
+[0271.22] Log: ActivateLevel clash_assist 1 1 0
+[0271.23] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.24] Log: ---- UpdateClanData
+[0271.39] Log: AttachToOwner - Socket (WSO_FX_05) not found in owner mesh or its parent! (3843 to TgPawn_Thor_0)
+[0271.40] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.40] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.40] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.40] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.46] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.46] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.53] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.54] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0271.56] DevMusic: PComMusicTheme PlayDefaultMusic
+[0271.56] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0271.56] Log: Mission Timer State 1 at game time 88.00
+[0271.56] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0271.56] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.65] Log: TeamIndex 1 has new leader: 7525774
+[0271.65] Log: TeamIndex 2 has new leader: 5368249
+[0271.65] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.65] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.69] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.69] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.69] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.80] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0271.80] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.80] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0271.80] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.80] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0271.80] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0271.96] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0272.19] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0272.19] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0276.23] DevMusic: PComMusicTheme PlayMusicEvent found event named Opening
+[0276.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0276.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0276.23] DevMusic: PComMusicTheme UpdateMusicTrack Setting duration timer to 70.000000
+[0278.38] Log: TeamIndex 1 has new leader: 7664786
+[0281.09] Log: TeamIndex 1 has new leader: 8430852
+[0282.85] Log: TeamIndex 1 has new leader: 10724610
+[0300.34] Log: TeamIndex 2 has new leader: 9955556
+[0301.49] Log:            ATgPlayerController::UpdateTransitionUI()
+[0301.49] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0301.49] Log: Mission Timer State 2 at game time 45.00
+[0301.49] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0301.49] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0301.52] Log: usc_toggle_cursor true
+[0301.87] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0302.09] Log: usc_toggle_cursor false
+[0302.43] Log: usc_toggle_key_capture false
+[0305.63] Log: usc_toggle_cursor true
+[0306.50] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0306.50] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0306.50] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0306.50] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0306.50] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0306.50] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0309.57] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0309.57] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0310.59] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (5012 to TgPawn_Aphrodite_0)
+[0312.86] Log: Requesting purchase of itemId (10044) amount (1)
+[0313.02] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0318.43] Log: Requesting purchase of itemId (9035) amount (1)
+[0319.33] Log: usc_toggle_cursor false
+[0346.23] DevMusic: PComMusicTheme Duration Expired
+[0346.23] DevMusic: PComMusicTheme PlayDefaultMusic
+[0346.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0346.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0346.25] Log: Mission Timer State 3 at game time 0.00
+[0353.08] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_0)
+[0358.27] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0358.27] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0358.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0358.47] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0358.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0358.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0358.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0358.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0358.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0358.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0360.01] Log: Time is 2017.10.11-23.37.50
+[0366.01] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[0372.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0372.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0372.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0372.98] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0372.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0372.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0372.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0372.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0373.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0373.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0373.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0373.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0373.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0373.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0373.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0373.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0373.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0373.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0373.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0373.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0379.27] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_1)
+[0379.54] Log: Chat[9]: Killing Strugglenet rewarded 140 XP and 517 Gold.
+[0379.73] Log: PUSHING Accolade: FIRST BLOOD, local: true
+[0382.89] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0382.89] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP already playing
+[0404.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0404.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0404.91] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0411.06] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[0416.38] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0416.38] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0416.38] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0434.81] Log: Chat[3]: [VAA] Attack!
+[0436.39] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0436.39] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0436.39] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0443.91] Log: PUSHING Accolade: , local: false
+[0444.21] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (5012 to TgPawn_Aphrodite_0)
+[0444.56] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (5011 to TgPawn_Artio_0)
+[0449.41] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0449.41] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0449.62] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0449.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0449.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0449.64] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0449.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0449.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0458.02] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[0461.07] Log: ---- UpdateClanData
+[0461.07] Log: ---- UpdateClanData
+[0465.89] Log: PUSHING Accolade: , local: false
+[0466.00] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0466.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0466.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0472.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0472.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0473.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0473.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0473.14] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0474.43] Log: ---- UpdateClanData
+[0479.47] Log: ---- UpdateClanData
+[0479.68] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (5012 to TgPawn_Aphrodite_0)
+[0486.00] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0486.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0486.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0493.65] Log: usc_toggle_key_capture true
+[0493.65] Log: usc_toggle_cursor true
+[0494.08] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[0494.48] Log: usc_toggle_key_capture false
+[0494.48] Log: usc_toggle_cursor false
+[0494.48] Log: SendChat[3] lag
+[0494.63] Log: Chat[3]: lag
+[0495.42] Log: Chat[3]: [VVB] Be right back!
+[0497.81] Log: usc_toggle_cursor true
+[0502.00] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0502.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0502.00] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0506.55] Log: usc_toggle_cursor false
+[0507.04] Log: PUSHING Accolade: , local: false
+[0510.15] Log: usc_toggle_cursor true
+[0511.02] Log: usc_toggle_key_capture true
+[0513.13] Log: usc_toggle_key_capture false
+[0513.37] Log: Requesting purchase of itemId (10200) amount (1)
+[0514.09] Log: usc_toggle_cursor false
+[0515.09] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0524.89] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0524.89] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0524.89] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0540.01] Log: Time is 2017.10.11-23.40.50
+[0553.29] Log: Chat[3]: [VH1] Help left lane!
+[0553.41] Log: Chat[3]: [VVA] Ok!
+[0567.11] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (5012 to TgPawn_Aphrodite_0)
+[0567.26] Log: Received invalid actor class on channel 85
+[0567.48] Log: PUSHING Accolade: , local: false
+[0573.83] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0573.83] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0573.83] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0575.30] Log: usc_toggle_cursor true
+[0582.33] Log: Socket failed to send 38 bytes to 66.71.243.86:9061
+[0582.36] Log: Socket failed to send 38 bytes to 66.71.243.86:9061
+[0584.91] Log: usc_toggle_key_capture true
+[0584.98] DevNet: URL: Adding default option name=Player
+[0584.98] DevNet: URL: Adding default option Team=255
+[0584.98] DevNet: Browse: lobbymap?closed?name=Player?Team=255
+[0584.98] Log: Failed; returning to Entry
+[0585.90] Log: FEACClient::Send preload map event
+[0585.90] Log: FEACClient OnGameServerDisconnect
+[0585.90] Log: FEACClient OnGameServerDisconnect: clearing data
+[0585.92] Log: usc_toggle_cursor false
+[0585.94] Log: LoadMap: lobbymap?closed?name=Player?Team=255
+[0586.40] NetComeGo: Close PComNetDriver_1 PComNetConn_0 0.0.0.0:9061 10/11/17 23:41:37
+[0586.41] Exit: PComNetDriver_1 shut down
+[0586.78] Log: Map Game ID = 0
+[0586.78] Log: Map Instance ID = 197779128
+[0586.79] Log: Performance: Critical section Lock/Unlock 15 nsec
+[0586.80] Log: Performance:  appCycles 8 nsec
+[0586.81] Log: Performance:  memCopy per KB 53 nsec
+[0586.81] Log: Performance:  memZero per KB 22 nsec
+[0586.82] Log: Performance:  appInterlockedIncrement 7 nsec
+[0586.82] Log: Performance:  GetTickCount 2 nsec
+[0586.82] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0586.82] Log: Flushing async loaders.
+[0586.87] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0586.87] Log: Flushed async loaders.
+[0586.87] Log: Game class is 'TgGameLaunch'
+[0586.88] Log: Primary PhysX scene will be in software.
+[0586.88] Log: Creating Primary PhysX Scene.
+[0586.88] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0586.88] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.11-23.41.37
+[0586.88] Log: Skipping initialization of FSMPartPool!
+[0586.96] DevMusic: PComMusicTheme PlayDefaultMusic
+[0586.96] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0586.96] Log: Bringing up level for play took: 0.095525
+[0586.96] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0586.96] Log: usc_toggle_cursor true
+[0586.97] DevMusic: PComMusicTheme PlayDefaultMusic
+[0586.97] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0586.97] Log: ########### Finished loading level: 1.027690 seconds
+[0586.97] Log: Flushing async loaders.
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0587.18] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0587.34] Log: Flushed async loaders.
+[0587.34] Log: Starting RedrawViewports for texture streaming..
+[0587.37] Log: RedrawViewports took: 0.023830 seconds
+[0587.37] Log: Starting Level load StreamAllResources..
+[0587.39] Log: Level load StreamAllResources took: 0.021275 seconds
+[0592.37] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-172259993442990710526049327--1052109747x4941
+[0616.63] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0631.99] Log: Map Game ID = 0
+[0631.99] Log: Map Instance ID = 197779128
+[0632.01] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0632.01] Log: Performance:  appCycles 9 nsec
+[0632.02] Log: Performance:  memCopy per KB 52 nsec
+[0632.03] Log: Performance:  memZero per KB 22 nsec
+[0632.04] Log: Performance:  appInterlockedIncrement 7 nsec
+[0632.04] Log: Performance:  GetTickCount 2 nsec
+[0632.04] Log: Map Game ID = 0
+[0632.04] Log: Map Instance ID = 197779128
+[0632.06] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0632.06] Log: Performance:  appCycles 8 nsec
+[0632.07] Log: Performance:  memCopy per KB 52 nsec
+[0632.07] Log: Performance:  memZero per KB 22 nsec
+[0632.08] Log: Performance:  appInterlockedIncrement 7 nsec
+[0632.08] Log: Performance:  GetTickCount 3 nsec
+[0632.08] Log: Map Game ID = 0
+[0632.08] Log: Map Instance ID = 197779128
+[0632.10] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0632.10] Log: Performance:  appCycles 8 nsec
+[0632.11] Log: Performance:  memCopy per KB 50 nsec
+[0632.11] Log: Performance:  memZero per KB 22 nsec
+[0632.12] Log: Performance:  appInterlockedIncrement 7 nsec
+[0632.12] Log: Performance:  GetTickCount 2 nsec
+[0633.99] Log: Login Success: chicodelnoche
+[0633.99] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0633.99] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0636.92] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0640.79] Log: Team/Instance chat routed to Instance Server.
+[0640.79] Log: Map Game ID = 0
+[0640.79] Log: Map Instance ID = 197779128
+[0640.81] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0640.81] Log: Performance:  appCycles 8 nsec
+[0640.82] Log: Performance:  memCopy per KB 50 nsec
+[0640.83] Log: Performance:  memZero per KB 22 nsec
+[0640.84] Log: Performance:  appInterlockedIncrement 7 nsec
+[0640.84] Log: Performance:  GetTickCount 3 nsec
+[0640.84] Log: Chat[9]: Press ENTER to access chat.
+[0640.84] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc3Nzk5MjAsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.MyKNzGJfJC_m2AAwDtLhba5X2EMQanhSbqDXbBZfPe8
+[0641.02] DevMusic: PComMusicTheme PlayDefaultMusic
+[0641.02] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0641.02] Log: Chat[9]: Press ENTER to access chat.
+[0641.03] Log: RequestingChannelMembers ch[1] [chicodelnoche has joined the channel.]
+[0641.03] Log: RequestingChannelMembers ch[3] [chicodelnoche has joined the channel.]
+[0641.03] Log: CTgBattleClient - Match composition cached [5DB95FA0]
+[0641.03] Log: ReceiveChangeMap: mapGameId 1547
+[0641.03] Log: ReceiveChangeMap: mapGameId 1547
+[0641.14] Log: usc_toggle_cursor false
+[0641.14] Log: usc_toggle_key_capture false
+[0641.19] Log: usc_toggle_key_capture true
+[0641.19] DevNet: URL: Adding default option Team=255
+[0641.20] Log: Chat[1]: Clan status: He Vuelto
+[0641.20] Log: ---- UpdateClanData
+[0641.21] DevNet: URL: Adding default option Team=255
+[0641.21] DevNet: Browse: 0.0.0.0:9061/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367348113?Team=255
+[0641.21] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0641.21] DevNet: Game client on port 9061, rate 25000
+[0654.12] DevNet: Welcomed by server (Level: clash_p, Game: TgGame.TgGame_Battle_ClashV2)
+[0654.42] Log: LoadMap: 0.0.0.0:9061/clash_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367348113?Team=255?game=TgGame.TgGame_Battle_ClashV2
+[0654.65] Log: Map Game ID = 0
+[0654.65] Log: Map Instance ID = 197779128
+[0654.67] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0654.67] Log: Performance:  appCycles 14 nsec
+[0654.68] Log: Performance:  memCopy per KB 76 nsec
+[0654.69] Log: Performance:  memZero per KB 29 nsec
+[0654.70] Log: Performance:  appInterlockedIncrement 8 nsec
+[0654.70] Log: Performance:  GetTickCount 4 nsec
+[0654.70] TgSLO: Async Load: FX_Store_Items
+[0654.70] TgSLO: Async Load: FX_Store_Items_Targeting
+[0654.70] TgSLO: Async Load: FX_Status_Effects
+[0654.71] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0654.71] TgSLO: Async Load: GOD_Common_AT
+[0654.71] TgSLO: Async Load: AUD_VOX_Narrator
+[0654.71] TgSLO: Async Load: NPC_Ward2
+[0654.71] TgSLO: Async Load: FX_Buff_Belts_V2
+[0654.71] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0654.71] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0654.71] TgSLO: Async Load: GOD_Loki_V2
+[0654.71] TgSLO: Async Load: GOD_Loki_V2_Textures
+[0654.71] TgSLO: Async Load: FX_Loki_V2
+[0654.71] TgSLO: Async Load: AUD_God_Loki_V2
+[0654.71] TgSLO: Async Load: GOD_Loki_V2_Skin6
+[0654.71] TgSLO: Async Load: AUD_VOX_God_Loki_V2
+[0654.71] TgSLO: Async Load: AUD_VOX_God_Loki_V2_Skin6
+[0654.71] TgSLO: Async Load: AUD_God_Loki_V2_Skin6
+[0654.71] TgSLO: Async Load: FX_Loki_V2_skin6
+[0654.71] TgSLO: Async Load: AnimNotify12918
+[0654.71] TgSLO: Async Load: NPC_Ward_FishBowl
+[0654.71] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0654.71] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0654.71] TgSLO: Async Load: FX_Common
+[0654.71] TgSLO: Async Load: AUD_UI
+[0654.71] TgSLO: Async Load: FX_Diamond_Recall
+[0654.71] TgSLO: Async Load: GOD_Nox
+[0654.71] TgSLO: Async Load: GOD_Nox_Textures
+[0654.71] TgSLO: Async Load: FX_Nox
+[0654.71] TgSLO: Async Load: AUD_God_Nox
+[0654.72] TgSLO: Async Load: GOD_Nox_Skin2
+[0654.72] TgSLO: Async Load: FX_Nox_Skin2
+[0654.72] TgSLO: Async Load: FX_Nox_Targeting_Skin2
+[0654.72] TgSLO: Async Load: AnimNotify11604
+[0654.72] TgSLO: Async Load: NPC_Ward_WindDancer
+[0654.72] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0654.72] TgSLO: Async Load: FX_Emote_global_Fireworks_GG
+[0654.72] TgSLO: Async Load: FX_Recall_Roman_Pantheon
+[0654.72] TgSLO: Async Load: FX_JumpStamp_Adventures_MMO
+[0654.72] TgSLO: Async Load: GOD_Kukulkan
+[0654.72] TgSLO: Async Load: GOD_Kukulkan_Textures
+[0654.72] TgSLO: Async Load: FX_Kukulkan
+[0654.72] TgSLO: Async Load: AUD_God_Kukulkan
+[0654.72] TgSLO: Async Load: GOD_Kukulkan_V2_Skin4
+[0654.72] TgSLO: Async Load: FX_Kukulkan_Skin4
+[0654.72] TgSLO: Async Load: FX_Kukulkan_Targeting_SKN4
+[0654.72] TgSLO: Async Load: AnimNotify8732
+[0654.72] TgSLO: Async Load: npc_ward_maoi
+[0654.72] TgSLO: Async Load: FX_Greek_Recall
+[0654.72] TgSLO: Async Load: FX_JumpStamp_SeasonTicket2017
+[0654.72] TgSLO: Async Load: GOD_JingWei
+[0654.72] TgSLO: Async Load: GOD_JingWei_Textures
+[0654.72] TgSLO: Async Load: FX_JingWei
+[0654.72] TgSLO: Async Load: AUD_God_JingWei
+[0654.73] TgSLO: Async Load: GOD_JingWei_Skin4
+[0654.73] TgSLO: Async Load: GOD_Sylvanus
+[0654.73] TgSLO: Async Load: GOD_Sylvanus_Textures
+[0654.73] TgSLO: Async Load: FX_Sylvanus
+[0654.73] TgSLO: Async Load: AUD_God_Sylvanus
+[0654.73] TgSLO: Async Load: GOD_Sylvanus_Skin1
+[0654.73] TgSLO: Async Load: FX_Sylvanus_SKN1
+[0654.73] TgSLO: Async Load: AnimNotify10688
+[0654.73] TgSLO: Async Load: GOD_Izanami
+[0654.73] TgSLO: Async Load: GOD_Izanami_Textures
+[0654.73] TgSLO: Async Load: FX_Izanami
+[0654.73] TgSLO: Async Load: AUD_God_Izanami
+[0654.73] TgSLO: Async Load: god_izanami_skin1
+[0654.73] TgSLO: Async Load: NPC_Ward_DentonBalloon
+[0654.73] TgSLO: Async Load: NPC_Ward_Manticore
+[0654.73] TgSLO: Async Load: NPC_Ward_Apollo
+[0654.73] TgSLO: Async Load: NPC_Ward_Curse
+[0654.73] TgSLO: Async Load: NPC_Ward_Chest
+[0654.73] TgSLO: Async Load: NPC_Ward_Mailbox
+[0654.73] TgSLO: Async Load: FX_Emote_global_Fireworks_Dmnd
+[0654.73] TgSLO: Async Load: GOD_Aphrodite
+[0654.73] TgSLO: Async Load: GOD_Aphrodite_Textures
+[0654.73] TgSLO: Async Load: FX_Aphrodite
+[0654.73] TgSLO: Async Load: AUD_God_Aphrodite
+[0654.74] TgSLO: Async Load: FX_Recall_Summer_RankedReward
+[0654.74] TgSLO: Async Load: GOD_Ares
+[0654.74] TgSLO: Async Load: GOD_Ares_Textures
+[0654.74] TgSLO: Async Load: FX_Ares
+[0654.74] TgSLO: Async Load: AUD_God_Ares
+[0654.74] TgSLO: Async Load: GOD_Ares_Skins
+[0654.74] TgSLO: Async Load: AUD_VOX_God_Ares
+[0654.74] TgSLO: Async Load: FX_Emote_global_Odyssey_2017
+[0654.74] TgSLO: Async Load: FX_JumpStamp_PaintSplatter
+[0654.74] TgSLO: Async Load: GOD_Thor
+[0654.74] TgSLO: Async Load: GOD_Thor_Textures
+[0654.74] TgSLO: Async Load: FX_Thor
+[0654.74] TgSLO: Async Load: AUD_God_Thor
+[0654.74] TgSLO: Async Load: GOD_Thor_Skins
+[0654.74] TgSLO: Async Load: FX_Thor_Skin2
+[0654.74] TgSLO: Async Load: FX_Emote_global_Spring_2017
+[0654.74] TgSLO: Async Load: GOD_Artio
+[0654.74] TgSLO: Async Load: GOD_Artio_Textures
+[0654.74] TgSLO: Async Load: FX_Artio
+[0654.74] TgSLO: Async Load: FX_Artio_Targeting
+[0654.74] TgSLO: Async Load: AUD_God_Artio
+[0654.74] TgSLO: Async Load: GOD_Artio_Bear
+[0654.74] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0654.74] TgSLO: Async Load: FX_Emote_global_SmiteBirthday
+[0654.75] TgSLO: Async Load: FX_Celtic_Recall
+[0654.75] TgSLO: Async Load: NPC_Phoenix
+[0654.75] TgSLO: Async Load: FX_Greek_Tower
+[0654.75] TgSLO: Async Load: FX_Phoenix
+[0654.75] TgSLO: Async Load: NPC_EGYClash_Phoenix_Order
+[0654.75] TgSLO: Async Load: NPC_EGYClash_Phoenix_Generic
+[0654.75] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Order
+[0654.75] TgSLO: Async Load: AUD_NPC_EGYClash_Phoenix
+[0654.75] TgSLO: Async Load: MDL_PseudoMesh
+[0654.75] TgSLO: Async Load: AUD_Tower
+[0654.75] TgSLO: Async Load: EC_Towers
+[0654.75] TgSLO: Async Load: FX_NPC_EGYClash_Towers
+[0654.75] TgSLO: Async Load: NPC_EGYClash_Phoenix_Chaos
+[0654.75] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0654.75] TgSLO: Async Load: NPC_Olympus
+[0654.75] TgSLO: Async Load: AUD_NPC_Olympus
+[0654.75] TgSLO: Async Load: NPC_Minion_Universal
+[0654.75] TgSLO: Async Load: FX_Roman
+[0654.75] TgSLO: Async Load: FX_Minion_Death
+[0654.75] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0654.75] TgSLO: Async Load: NPC_EGYClash_Minion_Order
+[0654.75] TgSLO: Async Load: NPC_EGYClash_Brute_Order
+[0654.75] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0654.75] TgSLO: Async Load: NPC_EGYClash_Minion_Chaos
+[0654.76] TgSLO: Async Load: NPC_EGYClash_Brute_Chaos
+[0654.76] TgSLO: Async Load: NPC_Guardian_Female
+[0654.76] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0654.76] TgSLO: Async Load: FX_Guardian_Female
+[0654.76] TgSLO: Async Load: NPC_EGYClash_Titan_Order
+[0654.76] TgSLO: Async Load: NPC_EGYClash_Titan_Generic
+[0654.76] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Order
+[0654.76] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0654.76] TgSLO: Async Load: NPC_EGYClash_Titan_Chaos
+[0654.76] TgSLO: Async Load: FX_Guardian_Male
+[0654.76] TgSLO: Async Load: FX_CHNJoust_Titan_Invader
+[0654.76] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Chaos
+[0654.76] TgSLO: Async Load: NPC_Cyclops_V2
+[0654.76] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0654.76] TgSLO: Async Load: AUD_NPC_Cyclops
+[0654.76] TgSLO: Async Load: NPC_EGYClash_Hyena
+[0654.76] TgSLO: Async Load: FX_EGYClash_Hyena
+[0654.76] TgSLO: Async Load: NPC_EGYClash_Baboon
+[0654.76] TgSLO: Async Load: FX_NPC_EGYClash_Baboon
+[0654.76] TgSLO: Async Load: NPC_Cyclops_V3
+[0654.76] TgSLO: Async Load: FX_Odin_V2
+[0654.76] TgSLO: Async Load: NPC_EGYClash_Apep
+[0654.76] TgSLO: Async Load: AUD_NPC_EGYClash_Apep
+[0654.76] TgSLO: Async Load: FX_Apep
+[0654.76] Log: Flushing async loaders.
+[0654.87] TgSLO: Finish Load: FX_Store_Items
+[0654.90] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0654.91] TgSLO: Finish Load: FX_Status_Effects
+[0654.93] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0654.93] TgSLO: Finish Load: GOD_Common_AT
+[0654.94] TgSLO: Finish Load: AUD_VOX_Narrator
+[0654.96] TgSLO: Finish Load: NPC_Ward2
+[0655.00] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0655.00] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0655.01] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0655.14] TgSLO: Finish Load: GOD_Loki_V2
+[0655.14] TgSLO: Finish Load: GOD_Loki_V2_Textures
+[0655.18] TgSLO: Finish Load: FX_Loki_V2
+[0655.18] TgSLO: Finish Load: AUD_God_Loki_V2
+[0655.20] TgSLO: Finish Load: GOD_Loki_V2_Skin6
+[0655.22] TgSLO: Finish Load: AUD_VOX_God_Loki_V2
+[0655.23] TgSLO: Finish Load: AUD_VOX_God_Loki_V2_Skin6
+[0655.23] TgSLO: Finish Load: AUD_God_Loki_V2_Skin6
+[0655.24] TgSLO: Finish Load: FX_Loki_V2_skin6
+[0655.24] TgSLO: Finish Load: AnimNotify12918
+[0655.28] TgSLO: Finish Load: NPC_Ward_FishBowl
+[0655.28] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0655.30] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0655.33] TgSLO: Finish Load: FX_Common
+[0655.34] TgSLO: Finish Load: AUD_UI
+[0655.35] Log: Missing cached shader map for material MAT_Diamond3_CARD, quality 0, compiling.
+[0655.35] Log: Can't compile MAT_Diamond3_CARD with seekfree loading path on console, will attempt to use default material instead
+[0655.35] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_CARD for platform PC-D3D-SM3, Default Material will be used in game.
+[0655.35] Log: Missing cached shader map for material MAT_Diamond3_Crysalis2, quality 0, compiling.
+[0655.35] Log: Can't compile MAT_Diamond3_Crysalis2 with seekfree loading path on console, will attempt to use default material instead
+[0655.35] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_Crysalis2 for platform PC-D3D-SM3, Default Material will be used in game.
+[0655.36] TgSLO: Finish Load: FX_Diamond_Recall
+[0655.48] TgSLO: Finish Load: GOD_Nox
+[0655.49] TgSLO: Finish Load: GOD_Nox_Textures
+[0655.55] TgSLO: Finish Load: FX_Nox
+[0655.56] TgSLO: Finish Load: AUD_God_Nox
+[0655.60] TgSLO: Finish Load: GOD_Nox_Skin2
+[0655.66] TgSLO: Finish Load: FX_Nox_Skin2
+[0655.67] TgSLO: Finish Load: FX_Nox_Targeting_Skin2
+[0655.68] TgSLO: Finish Load: AnimNotify11604
+[0655.70] TgSLO: Finish Load: NPC_Ward_WindDancer
+[0655.72] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0655.72] TgSLO: Finish Load: FX_Emote_global_Fireworks_GG
+[0655.73] TgSLO: Finish Load: FX_Recall_Roman_Pantheon
+[0655.73] TgSLO: Finish Load: FX_JumpStamp_Adventures_MMO
+[0655.84] TgSLO: Finish Load: GOD_Kukulkan
+[0655.85] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[0655.87] TgSLO: Finish Load: FX_Kukulkan
+[0655.88] TgSLO: Finish Load: AUD_God_Kukulkan
+[0655.93] TgSLO: Finish Load: GOD_Kukulkan_V2_Skin4
+[0655.95] TgSLO: Finish Load: FX_Kukulkan_Skin4
+[0655.97] TgSLO: Finish Load: FX_Kukulkan_Targeting_SKN4
+[0655.97] TgSLO: Finish Load: AnimNotify8732
+[0655.98] TgSLO: Finish Load: npc_ward_maoi
+[0655.99] TgSLO: Finish Load: FX_Greek_Recall
+[0655.99] TgSLO: Finish Load: FX_JumpStamp_SeasonTicket2017
+[0656.07] TgSLO: Finish Load: GOD_JingWei
+[0656.07] TgSLO: Finish Load: GOD_JingWei_Textures
+[0656.11] TgSLO: Finish Load: FX_JingWei
+[0656.11] TgSLO: Finish Load: AUD_God_JingWei
+[0656.14] TgSLO: Finish Load: GOD_JingWei_Skin4
+[0656.27] TgSLO: Finish Load: GOD_Sylvanus
+[0656.29] TgSLO: Finish Load: GOD_Sylvanus_Textures
+[0656.33] TgSLO: Finish Load: FX_Sylvanus
+[0656.34] TgSLO: Finish Load: AUD_God_Sylvanus
+[0656.38] TgSLO: Finish Load: GOD_Sylvanus_Skin1
+[0656.40] TgSLO: Finish Load: FX_Sylvanus_SKN1
+[0656.41] TgSLO: Finish Load: AnimNotify10688
+[0656.52] TgSLO: Finish Load: GOD_Izanami
+[0656.52] TgSLO: Finish Load: GOD_Izanami_Textures
+[0656.55] TgSLO: Finish Load: FX_Izanami
+[0656.56] TgSLO: Finish Load: AUD_God_Izanami
+[0656.57] TgSLO: Finish Load: god_izanami_skin1
+[0656.58] TgSLO: Finish Load: NPC_Ward_DentonBalloon
+[0656.59] TgSLO: Finish Load: NPC_Ward_Manticore
+[0656.60] TgSLO: Finish Load: NPC_Ward_Apollo
+[0656.62] TgSLO: Finish Load: NPC_Ward_Curse
+[0656.63] TgSLO: Finish Load: NPC_Ward_Chest
+[0656.65] TgSLO: Finish Load: NPC_Ward_Mailbox
+[0656.66] TgSLO: Finish Load: FX_Emote_global_Fireworks_Dmnd
+[0656.78] TgSLO: Finish Load: GOD_Aphrodite
+[0656.78] TgSLO: Finish Load: GOD_Aphrodite_Textures
+[0656.82] TgSLO: Finish Load: FX_Aphrodite
+[0656.83] TgSLO: Finish Load: AUD_God_Aphrodite
+[0656.83] TgSLO: Finish Load: FX_Recall_Summer_RankedReward
+[0656.99] TgSLO: Finish Load: GOD_Ares
+[0656.99] TgSLO: Finish Load: GOD_Ares_Textures
+[0657.01] TgSLO: Finish Load: FX_Ares
+[0657.02] TgSLO: Finish Load: AUD_God_Ares
+[0657.07] TgSLO: Finish Load: GOD_Ares_Skins
+[0657.07] TgSLO: Finish Load: AUD_VOX_God_Ares
+[0657.07] TgSLO: Finish Load: FX_Emote_global_Odyssey_2017
+[0657.08] TgSLO: Finish Load: FX_JumpStamp_PaintSplatter
+[0657.17] TgSLO: Finish Load: GOD_Thor
+[0657.17] TgSLO: Finish Load: GOD_Thor_Textures
+[0657.20] TgSLO: Finish Load: FX_Thor
+[0657.20] TgSLO: Finish Load: AUD_God_Thor
+[0657.22] TgSLO: Finish Load: GOD_Thor_Skins
+[0657.25] TgSLO: Finish Load: FX_Thor_Skin2
+[0657.26] TgSLO: Finish Load: FX_Emote_global_Spring_2017
+[0657.40] TgSLO: Finish Load: GOD_Artio
+[0657.41] TgSLO: Finish Load: GOD_Artio_Textures
+[0657.45] TgSLO: Finish Load: FX_Artio
+[0657.46] TgSLO: Finish Load: FX_Artio_Targeting
+[0657.47] TgSLO: Finish Load: AUD_God_Artio
+[0657.47] TgSLO: Finish Load: GOD_Artio_Bear
+[0657.48] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0657.48] TgSLO: Finish Load: FX_Emote_global_SmiteBirthday
+[0657.49] TgSLO: Finish Load: FX_Celtic_Recall
+[0657.53] TgSLO: Finish Load: NPC_Phoenix
+[0657.58] TgSLO: Finish Load: FX_Greek_Tower
+[0657.58] TgSLO: Finish Load: FX_Phoenix
+[0657.61] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Order
+[0657.61] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Generic
+[0657.62] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Order
+[0657.62] TgSLO: Finish Load: AUD_NPC_EGYClash_Phoenix
+[0657.62] TgSLO: Finish Load: MDL_PseudoMesh
+[0657.63] TgSLO: Finish Load: AUD_Tower
+[0657.68] TgSLO: Finish Load: EC_Towers
+[0657.69] TgSLO: Finish Load: FX_NPC_EGYClash_Towers
+[0657.70] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Chaos
+[0657.70] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0657.74] TgSLO: Finish Load: NPC_Olympus
+[0657.74] TgSLO: Finish Load: AUD_NPC_Olympus
+[0657.77] TgSLO: Finish Load: NPC_Minion_Universal
+[0657.78] TgSLO: Finish Load: FX_Roman
+[0657.78] TgSLO: Finish Load: FX_Minion_Death
+[0657.79] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0657.79] TgSLO: Finish Load: NPC_EGYClash_Minion_Order
+[0657.80] TgSLO: Finish Load: NPC_EGYClash_Brute_Order
+[0657.84] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0657.84] TgSLO: Finish Load: NPC_EGYClash_Minion_Chaos
+[0657.86] TgSLO: Finish Load: NPC_EGYClash_Brute_Chaos
+[0657.93] TgSLO: Finish Load: NPC_Guardian_Female
+[0657.93] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0657.94] TgSLO: Finish Load: FX_Guardian_Female
+[0657.99] TgSLO: Finish Load: NPC_EGYClash_Titan_Order
+[0657.99] TgSLO: Finish Load: NPC_EGYClash_Titan_Generic
+[0658.00] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Order
+[0658.02] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0658.05] TgSLO: Finish Load: NPC_EGYClash_Titan_Chaos
+[0658.08] TgSLO: Finish Load: FX_Guardian_Male
+[0658.15] TgSLO: Finish Load: FX_CHNJoust_Titan_Invader
+[0658.16] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Chaos
+[0658.20] TgSLO: Finish Load: NPC_Cyclops_V2
+[0658.21] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0658.21] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0658.26] TgSLO: Finish Load: NPC_EGYClash_Hyena
+[0658.27] TgSLO: Finish Load: FX_EGYClash_Hyena
+[0658.33] TgSLO: Finish Load: NPC_EGYClash_Baboon
+[0658.34] TgSLO: Finish Load: FX_NPC_EGYClash_Baboon
+[0658.49] TgSLO: Finish Load: NPC_Cyclops_V3
+[0658.55] TgSLO: Finish Load: FX_Odin_V2
+[0658.59] TgSLO: Finish Load: NPC_EGYClash_Apep
+[0658.59] TgSLO: Finish Load: AUD_NPC_EGYClash_Apep
+[0658.61] TgSLO: Finish Load: FX_Apep
+[0658.61] Log: Flushed async loaders.
+[0658.62] DevNet: Fully loading base package clash_collision due to fallback logic
+[0658.62] DevNet: Fully loading base package clash_lighting due to fallback logic
+[0658.63] DevNet: Fully loading base package clash_skybox due to fallback logic
+[0658.81] DevNet: Fully loading base package clash_sound due to fallback logic
+[0658.82] DevNet: Fully loading base package clash_vegetation due to fallback logic
+[0658.88] DevNet: Fully loading base package clash_vfx due to fallback logic
+[0658.89] DevNet: Fully loading base package clash_perftests due to fallback logic
+[0659.00] Log: Primary PhysX scene will be in software.
+[0659.00] Log: Creating Primary PhysX Scene.
+[0659.00] Log: Bringing World clash_p.TheWorld up for play (595) at 2017.10.11-23.42.49
+[0659.00] Log: Skipping initialization of FSMPartPool!
+[0659.00] Log: Bringing up level for play took: 0.089656
+[0659.00] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0659.00] Warning: Warning, Failed to find object 'Class None.'
+[0659.00] Log: PlayerController class for the pending level is PlayerController
+[0659.00] Log: ########### Finished loading level: 4.581939 seconds
+[0659.03] Log: Flushing async loaders.
+[0659.17] Log: Flushed async loaders.
+[0659.17] Log: Starting RedrawViewports for texture streaming..
+[0659.22] Log: RedrawViewports took: 0.050815 seconds
+[0659.22] Log: Starting Level load StreamAllResources..
+[0659.24] Log: Level load StreamAllResources took: 0.018316 seconds
+[0659.32] Log: ---- UpdateClanData
+[0672.35] DevNet: TgPlayerController_3 setplayer TgLocalPlayer_0
+[0672.35] Log: Activated clash_assist 1 1 0
+[0672.35] Log: ActivateLevel clash_assist 1 1 0
+[0672.39] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0672.39] Log: Flushing async loaders.
+[0672.40] Log: Flushed async loaders.
+[0672.43] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.51] Log: AttachToOwner - Socket (WSO_FX_05) not found in owner mesh or its parent! (3843 to TgPawn_Thor_1)
+[0672.52] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.52] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.60] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0672.61] Log: Received invalid actor class on channel 51
+[0672.61] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.69] Log: Received invalid actor class on channel 50
+[0672.69] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.73] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.82] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.90] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0672.97] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0673.03] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0673.16] Log: Received invalid actor class on channel 109
+[0673.16] Log: Received invalid actor class on channel 44
+[0673.30] Log: Received invalid actor class on channel 45
+[0673.32] DevMusic: PComMusicTheme PlayDefaultMusic
+[0673.32] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0673.32] Log: Mission Timer State 3 at game time 326.51
+[0673.32] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0673.34] Log: usc_toggle_cursor true
+[0673.71] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0673.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0673.83] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0673.83] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0673.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0673.84] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0673.84] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0673.84] Log: TeamIndex 1 has new leader: 7525774
+[0673.84] Log: TeamIndex 2 has new leader: 9955556
+[0673.85] Log: usc_toggle_cursor false
+[0674.00] Log: usc_toggle_key_capture false
+[0674.41] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0674.58] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0674.61] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0674.61] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0674.74] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0676.75] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0676.75] Warning: Warning, Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0677.15] Warning: Warning, Failed to find object 'Class None.None'
+[0677.16] Log: usc_toggle_cursor true
+[0677.49] DevMusic: PComMusicTheme PlayMusicEvent found event named Opening
+[0677.49] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0677.49] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0677.49] DevMusic: PComMusicTheme UpdateMusicTrack Setting duration timer to 70.000000
+[0679.71] Log: PUSHING Accolade: , local: false
+[0682.27] Log: Requesting purchase of itemId (10200) amount (1)
+[0683.85] Log: usc_toggle_cursor false
+[0690.95] Log: usc_toggle_cursor true
+[0698.75] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[0700.10] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[0701.38] Log: usc_toggle_cursor false
+[0705.46] Log: usc_toggle_key_capture true
+[0705.52] DevNet: URL: Adding default option name=Player
+[0705.52] DevNet: URL: Adding default option Team=255
+[0705.52] DevNet: Browse: lobbymap?closed?name=Player?Team=255
+[0705.52] Log: Failed; returning to Entry
+[0706.13] Log: FEACClient::Send preload map event
+[0706.13] Log: FEACClient OnGameServerDisconnect
+[0706.13] Log: FEACClient OnGameServerDisconnect: clearing data
+[0706.17] Log: LoadMap: lobbymap?closed?name=Player?Team=255
+[0707.17] NetComeGo: Close PComNetDriver_2 PComNetConn_1 0.0.0.0:9061 10/11/17 23:43:38
+[0707.17] Exit: PComNetDriver_2 shut down
+[0707.53] Log: Map Game ID = 0
+[0707.53] Log: Map Instance ID = 197779128
+[0707.55] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0707.55] Log: Performance:  appCycles 14 nsec
+[0707.56] Log: Performance:  memCopy per KB 73 nsec
+[0707.57] Log: Performance:  memZero per KB 29 nsec
+[0707.58] Log: Performance:  appInterlockedIncrement 8 nsec
+[0707.58] Log: Performance:  GetTickCount 3 nsec
+[0707.58] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0707.58] Log: Flushing async loaders.
+[0707.64] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0707.64] Log: Flushed async loaders.
+[0707.64] Log: Game class is 'TgGameLaunch'
+[0707.70] Log: Primary PhysX scene will be in software.
+[0707.70] Log: Creating Primary PhysX Scene.
+[0707.71] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0707.71] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.11-23.43.38
+[0707.71] Log: Skipping initialization of FSMPartPool!
+[0707.81] DevMusic: PComMusicTheme PlayDefaultMusic
+[0707.81] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0707.82] Log: Bringing up level for play took: 0.177904
+[0707.82] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0707.82] Log: usc_toggle_cursor true
+[0707.82] DevMusic: PComMusicTheme PlayDefaultMusic
+[0707.82] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0707.82] Log: ########### Finished loading level: 1.644507 seconds
+[0707.88] Log: Flushing async loaders.
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0708.33] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0708.33] Log: Flushed async loaders.
+[0708.33] Log: Starting RedrawViewports for texture streaming..
+[0708.36] Log: RedrawViewports took: 0.026989 seconds
+[0708.36] Log: Starting Level load StreamAllResources..
+[0708.42] Log: Level load StreamAllResources took: 0.065358 seconds
+[0711.18] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-172259993442990710526049327--1052109747x4941
+[0712.42] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0713.30] Log: Map Game ID = 0
+[0713.30] Log: Map Instance ID = 197779128
+[0713.32] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0713.32] Log: Performance:  appCycles 8 nsec
+[0713.33] Log: Performance:  memCopy per KB 51 nsec
+[0713.34] Log: Performance:  memZero per KB 22 nsec
+[0713.34] Log: Performance:  appInterlockedIncrement 7 nsec
+[0713.35] Log: Performance:  GetTickCount 2 nsec
+[0713.35] Log: Map Game ID = 0
+[0713.35] Log: Map Instance ID = 197779128
+[0713.36] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0713.36] Log: Performance:  appCycles 8 nsec
+[0713.38] Log: Performance:  memCopy per KB 51 nsec
+[0713.38] Log: Performance:  memZero per KB 22 nsec
+[0713.39] Log: Performance:  appInterlockedIncrement 7 nsec
+[0713.39] Log: Performance:  GetTickCount 2 nsec
+[0713.39] Log: Map Game ID = 0
+[0713.39] Log: Map Instance ID = 197779128
+[0713.41] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0713.41] Log: Performance:  appCycles 8 nsec
+[0713.42] Log: Performance:  memCopy per KB 50 nsec
+[0713.42] Log: Performance:  memZero per KB 22 nsec
+[0713.43] Log: Performance:  appInterlockedIncrement 7 nsec
+[0713.43] Log: Performance:  GetTickCount 2 nsec
+[0715.33] Log: Login Success: chicodelnoche
+[0715.33] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0715.33] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0718.44] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0718.69] Log: Team/Instance chat routed to Instance Server.
+[0718.69] Log: Map Game ID = 0
+[0718.69] Log: Map Instance ID = 197779128
+[0718.71] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0718.71] Log: Performance:  appCycles 8 nsec
+[0718.72] Log: Performance:  memCopy per KB 53 nsec
+[0718.72] Log: Performance:  memZero per KB 22 nsec
+[0718.73] Log: Performance:  appInterlockedIncrement 7 nsec
+[0718.73] Log: Performance:  GetTickCount 3 nsec
+[0718.73] Log: Chat[9]: Press ENTER to access chat.
+[0718.73] Log: Chat[9]: Press ENTER to access chat.
+[0718.73] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc3ODAwMDMsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.KmP8JaJym8Jsjk7c_dSYA8Fb2rQN7-H7I_OHha-P_Mc
+[0718.74] Log: RequestingChannelMembers ch[1] [chicodelnoche has joined the channel.]
+[0718.89] DevMusic: PComMusicTheme PlayDefaultMusic
+[0718.89] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0718.89] Log: RequestingChannelMembers ch[3] [chicodelnoche has joined the channel.]
+[0718.89] Log: CTgBattleClient - Match composition cached [4E685960]
+[0718.89] Log: ReceiveChangeMap: mapGameId 1547
+[0718.89] Log: ReceiveChangeMap: mapGameId 1547
+[0719.00] Log: usc_toggle_cursor false
+[0719.00] Log: usc_toggle_key_capture false
+[0719.05] Log: usc_toggle_key_capture true
+[0719.06] DevNet: URL: Adding default option Team=255
+[0719.06] Log: Chat[1]: Clan status: He Vuelto
+[0719.06] Log: ---- UpdateClanData
+[0719.08] DevNet: URL: Adding default option Team=255
+[0719.08] DevNet: Browse: 0.0.0.0:9061/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367348113?Team=255
+[0719.08] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0719.08] DevNet: Game client on port 9061, rate 25000
+[0719.89] DevNet: Welcomed by server (Level: clash_p, Game: TgGame.TgGame_Battle_ClashV2)
+[0720.16] Log: LoadMap: 0.0.0.0:9061/clash_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367348113?Team=255?game=TgGame.TgGame_Battle_ClashV2
+[0720.38] Log: Map Game ID = 0
+[0720.38] Log: Map Instance ID = 197779128
+[0720.40] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0720.40] Log: Performance:  appCycles 12 nsec
+[0720.42] Log: Performance:  memCopy per KB 78 nsec
+[0720.42] Log: Performance:  memZero per KB 29 nsec
+[0720.43] Log: Performance:  appInterlockedIncrement 8 nsec
+[0720.44] Log: Performance:  GetTickCount 3 nsec
+[0720.44] TgSLO: Async Load: FX_Store_Items
+[0720.44] TgSLO: Async Load: FX_Store_Items_Targeting
+[0720.44] TgSLO: Async Load: FX_Status_Effects
+[0720.44] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0720.44] TgSLO: Async Load: GOD_Common_AT
+[0720.44] TgSLO: Async Load: AUD_VOX_Narrator
+[0720.44] TgSLO: Async Load: NPC_Ward2
+[0720.44] TgSLO: Async Load: FX_Buff_Belts_V2
+[0720.44] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0720.44] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0720.44] TgSLO: Async Load: GOD_Loki_V2
+[0720.44] TgSLO: Async Load: GOD_Loki_V2_Textures
+[0720.44] TgSLO: Async Load: FX_Loki_V2
+[0720.44] TgSLO: Async Load: AUD_God_Loki_V2
+[0720.44] TgSLO: Async Load: GOD_Loki_V2_Skin6
+[0720.44] TgSLO: Async Load: AUD_VOX_God_Loki_V2
+[0720.44] TgSLO: Async Load: AUD_VOX_God_Loki_V2_Skin6
+[0720.45] TgSLO: Async Load: AUD_God_Loki_V2_Skin6
+[0720.45] TgSLO: Async Load: FX_Loki_V2_skin6
+[0720.45] TgSLO: Async Load: AnimNotify12918
+[0720.45] TgSLO: Async Load: NPC_Ward_FishBowl
+[0720.45] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0720.45] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0720.45] TgSLO: Async Load: FX_Common
+[0720.45] TgSLO: Async Load: AUD_UI
+[0720.45] TgSLO: Async Load: FX_Diamond_Recall
+[0720.45] TgSLO: Async Load: GOD_Nox
+[0720.45] TgSLO: Async Load: GOD_Nox_Textures
+[0720.45] TgSLO: Async Load: FX_Nox
+[0720.45] TgSLO: Async Load: AUD_God_Nox
+[0720.45] TgSLO: Async Load: GOD_Nox_Skin2
+[0720.45] TgSLO: Async Load: FX_Nox_Skin2
+[0720.45] TgSLO: Async Load: FX_Nox_Targeting_Skin2
+[0720.45] TgSLO: Async Load: AnimNotify11604
+[0720.45] TgSLO: Async Load: NPC_Ward_WindDancer
+[0720.45] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0720.45] TgSLO: Async Load: FX_Emote_global_Fireworks_GG
+[0720.45] TgSLO: Async Load: FX_Recall_Roman_Pantheon
+[0720.45] TgSLO: Async Load: FX_JumpStamp_Adventures_MMO
+[0720.45] TgSLO: Async Load: GOD_Kukulkan
+[0720.45] TgSLO: Async Load: GOD_Kukulkan_Textures
+[0720.45] TgSLO: Async Load: FX_Kukulkan
+[0720.46] TgSLO: Async Load: AUD_God_Kukulkan
+[0720.46] TgSLO: Async Load: GOD_Kukulkan_V2_Skin4
+[0720.46] TgSLO: Async Load: FX_Kukulkan_Skin4
+[0720.46] TgSLO: Async Load: FX_Kukulkan_Targeting_SKN4
+[0720.46] TgSLO: Async Load: AnimNotify8732
+[0720.46] TgSLO: Async Load: npc_ward_maoi
+[0720.46] TgSLO: Async Load: FX_Greek_Recall
+[0720.46] TgSLO: Async Load: FX_JumpStamp_SeasonTicket2017
+[0720.46] TgSLO: Async Load: GOD_JingWei
+[0720.46] TgSLO: Async Load: GOD_JingWei_Textures
+[0720.46] TgSLO: Async Load: FX_JingWei
+[0720.46] TgSLO: Async Load: AUD_God_JingWei
+[0720.46] TgSLO: Async Load: GOD_JingWei_Skin4
+[0720.46] TgSLO: Async Load: GOD_Sylvanus
+[0720.46] TgSLO: Async Load: GOD_Sylvanus_Textures
+[0720.46] TgSLO: Async Load: FX_Sylvanus
+[0720.46] TgSLO: Async Load: AUD_God_Sylvanus
+[0720.46] TgSLO: Async Load: GOD_Sylvanus_Skin1
+[0720.46] TgSLO: Async Load: FX_Sylvanus_SKN1
+[0720.46] TgSLO: Async Load: AnimNotify10688
+[0720.46] TgSLO: Async Load: GOD_Izanami
+[0720.46] TgSLO: Async Load: GOD_Izanami_Textures
+[0720.46] TgSLO: Async Load: FX_Izanami
+[0720.46] TgSLO: Async Load: AUD_God_Izanami
+[0720.46] TgSLO: Async Load: god_izanami_skin1
+[0720.46] TgSLO: Async Load: NPC_Ward_DentonBalloon
+[0720.47] TgSLO: Async Load: NPC_Ward_Manticore
+[0720.47] TgSLO: Async Load: NPC_Ward_Apollo
+[0720.47] TgSLO: Async Load: NPC_Ward_Curse
+[0720.47] TgSLO: Async Load: NPC_Ward_Chest
+[0720.47] TgSLO: Async Load: NPC_Ward_Mailbox
+[0720.47] TgSLO: Async Load: FX_Emote_global_Fireworks_Dmnd
+[0720.47] TgSLO: Async Load: GOD_Aphrodite
+[0720.47] TgSLO: Async Load: GOD_Aphrodite_Textures
+[0720.47] TgSLO: Async Load: FX_Aphrodite
+[0720.47] TgSLO: Async Load: AUD_God_Aphrodite
+[0720.47] TgSLO: Async Load: FX_Recall_Summer_RankedReward
+[0720.47] TgSLO: Async Load: GOD_Ares
+[0720.47] TgSLO: Async Load: GOD_Ares_Textures
+[0720.47] TgSLO: Async Load: FX_Ares
+[0720.47] TgSLO: Async Load: AUD_God_Ares
+[0720.47] TgSLO: Async Load: GOD_Ares_Skins
+[0720.47] TgSLO: Async Load: AUD_VOX_God_Ares
+[0720.47] TgSLO: Async Load: FX_Emote_global_Odyssey_2017
+[0720.47] TgSLO: Async Load: FX_JumpStamp_PaintSplatter
+[0720.47] TgSLO: Async Load: GOD_Thor
+[0720.47] TgSLO: Async Load: GOD_Thor_Textures
+[0720.47] TgSLO: Async Load: FX_Thor
+[0720.47] TgSLO: Async Load: AUD_God_Thor
+[0720.48] TgSLO: Async Load: GOD_Thor_Skins
+[0720.48] TgSLO: Async Load: FX_Thor_Skin2
+[0720.48] TgSLO: Async Load: FX_Emote_global_Spring_2017
+[0720.48] TgSLO: Async Load: GOD_Artio
+[0720.48] TgSLO: Async Load: GOD_Artio_Textures
+[0720.48] TgSLO: Async Load: FX_Artio
+[0720.48] TgSLO: Async Load: FX_Artio_Targeting
+[0720.48] TgSLO: Async Load: AUD_God_Artio
+[0720.48] TgSLO: Async Load: GOD_Artio_Bear
+[0720.48] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0720.48] TgSLO: Async Load: FX_Emote_global_SmiteBirthday
+[0720.48] TgSLO: Async Load: FX_Celtic_Recall
+[0720.48] TgSLO: Async Load: NPC_Phoenix
+[0720.48] TgSLO: Async Load: FX_Greek_Tower
+[0720.48] TgSLO: Async Load: FX_Phoenix
+[0720.48] TgSLO: Async Load: NPC_EGYClash_Phoenix_Order
+[0720.48] TgSLO: Async Load: NPC_EGYClash_Phoenix_Generic
+[0720.48] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Order
+[0720.48] TgSLO: Async Load: AUD_NPC_EGYClash_Phoenix
+[0720.48] TgSLO: Async Load: MDL_PseudoMesh
+[0720.48] TgSLO: Async Load: AUD_Tower
+[0720.48] TgSLO: Async Load: EC_Towers
+[0720.48] TgSLO: Async Load: FX_NPC_EGYClash_Towers
+[0720.48] TgSLO: Async Load: NPC_EGYClash_Phoenix_Chaos
+[0720.48] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0720.48] TgSLO: Async Load: NPC_Olympus
+[0720.49] TgSLO: Async Load: AUD_NPC_Olympus
+[0720.49] TgSLO: Async Load: NPC_Minion_Universal
+[0720.49] TgSLO: Async Load: FX_Roman
+[0720.49] TgSLO: Async Load: FX_Minion_Death
+[0720.49] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Minion_Order
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Brute_Order
+[0720.49] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Minion_Chaos
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Brute_Chaos
+[0720.49] TgSLO: Async Load: NPC_Guardian_Female
+[0720.49] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0720.49] TgSLO: Async Load: FX_Guardian_Female
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Titan_Order
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Titan_Generic
+[0720.49] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Order
+[0720.49] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Titan_Chaos
+[0720.49] TgSLO: Async Load: FX_Guardian_Male
+[0720.49] TgSLO: Async Load: FX_CHNJoust_Titan_Invader
+[0720.49] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Chaos
+[0720.49] TgSLO: Async Load: NPC_Cyclops_V2
+[0720.49] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0720.49] TgSLO: Async Load: AUD_NPC_Cyclops
+[0720.49] TgSLO: Async Load: NPC_EGYClash_Hyena
+[0720.49] TgSLO: Async Load: FX_EGYClash_Hyena
+[0720.50] TgSLO: Async Load: NPC_EGYClash_Baboon
+[0720.50] TgSLO: Async Load: FX_NPC_EGYClash_Baboon
+[0720.50] TgSLO: Async Load: NPC_Cyclops_V3
+[0720.50] TgSLO: Async Load: FX_Odin_V2
+[0720.50] TgSLO: Async Load: NPC_EGYClash_Apep
+[0720.50] TgSLO: Async Load: AUD_NPC_EGYClash_Apep
+[0720.50] TgSLO: Async Load: FX_Apep
+[0720.50] Log: Flushing async loaders.
+[0720.61] TgSLO: Finish Load: FX_Store_Items
+[0720.64] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0720.65] TgSLO: Finish Load: FX_Status_Effects
+[0720.67] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0720.67] TgSLO: Finish Load: GOD_Common_AT
+[0720.68] TgSLO: Finish Load: AUD_VOX_Narrator
+[0720.69] TgSLO: Finish Load: NPC_Ward2
+[0720.74] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0720.74] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0720.76] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0720.89] TgSLO: Finish Load: GOD_Loki_V2
+[0720.90] TgSLO: Finish Load: GOD_Loki_V2_Textures
+[0720.93] TgSLO: Finish Load: FX_Loki_V2
+[0720.94] TgSLO: Finish Load: AUD_God_Loki_V2
+[0720.95] TgSLO: Finish Load: GOD_Loki_V2_Skin6
+[0720.97] TgSLO: Finish Load: AUD_VOX_God_Loki_V2
+[0720.98] TgSLO: Finish Load: AUD_VOX_God_Loki_V2_Skin6
+[0720.98] TgSLO: Finish Load: AUD_God_Loki_V2_Skin6
+[0720.99] TgSLO: Finish Load: FX_Loki_V2_skin6
+[0720.99] TgSLO: Finish Load: AnimNotify12918
+[0721.02] TgSLO: Finish Load: NPC_Ward_FishBowl
+[0721.03] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0721.04] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0721.08] TgSLO: Finish Load: FX_Common
+[0721.08] TgSLO: Finish Load: AUD_UI
+[0721.10] Log: Missing cached shader map for material MAT_Diamond3_CARD, quality 0, compiling.
+[0721.10] Log: Can't compile MAT_Diamond3_CARD with seekfree loading path on console, will attempt to use default material instead
+[0721.10] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_CARD for platform PC-D3D-SM3, Default Material will be used in game.
+[0721.10] Log: Missing cached shader map for material MAT_Diamond3_Crysalis2, quality 0, compiling.
+[0721.10] Log: Can't compile MAT_Diamond3_Crysalis2 with seekfree loading path on console, will attempt to use default material instead
+[0721.10] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_Crysalis2 for platform PC-D3D-SM3, Default Material will be used in game.
+[0721.10] TgSLO: Finish Load: FX_Diamond_Recall
+[0721.23] TgSLO: Finish Load: GOD_Nox
+[0721.24] TgSLO: Finish Load: GOD_Nox_Textures
+[0721.30] TgSLO: Finish Load: FX_Nox
+[0721.31] TgSLO: Finish Load: AUD_God_Nox
+[0721.34] TgSLO: Finish Load: GOD_Nox_Skin2
+[0721.40] TgSLO: Finish Load: FX_Nox_Skin2
+[0721.41] TgSLO: Finish Load: FX_Nox_Targeting_Skin2
+[0721.42] TgSLO: Finish Load: AnimNotify11604
+[0721.44] TgSLO: Finish Load: NPC_Ward_WindDancer
+[0721.46] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0721.46] TgSLO: Finish Load: FX_Emote_global_Fireworks_GG
+[0721.47] TgSLO: Finish Load: FX_Recall_Roman_Pantheon
+[0721.47] TgSLO: Finish Load: FX_JumpStamp_Adventures_MMO
+[0721.58] TgSLO: Finish Load: GOD_Kukulkan
+[0721.59] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[0721.61] TgSLO: Finish Load: FX_Kukulkan
+[0721.62] TgSLO: Finish Load: AUD_God_Kukulkan
+[0721.67] TgSLO: Finish Load: GOD_Kukulkan_V2_Skin4
+[0721.69] TgSLO: Finish Load: FX_Kukulkan_Skin4
+[0721.70] TgSLO: Finish Load: FX_Kukulkan_Targeting_SKN4
+[0721.71] TgSLO: Finish Load: AnimNotify8732
+[0721.72] TgSLO: Finish Load: npc_ward_maoi
+[0721.73] TgSLO: Finish Load: FX_Greek_Recall
+[0721.73] TgSLO: Finish Load: FX_JumpStamp_SeasonTicket2017
+[0721.82] TgSLO: Finish Load: GOD_JingWei
+[0721.82] TgSLO: Finish Load: GOD_JingWei_Textures
+[0721.86] TgSLO: Finish Load: FX_JingWei
+[0721.87] TgSLO: Finish Load: AUD_God_JingWei
+[0721.89] TgSLO: Finish Load: GOD_JingWei_Skin4
+[0722.02] TgSLO: Finish Load: GOD_Sylvanus
+[0722.04] TgSLO: Finish Load: GOD_Sylvanus_Textures
+[0722.08] TgSLO: Finish Load: FX_Sylvanus
+[0722.09] TgSLO: Finish Load: AUD_God_Sylvanus
+[0722.14] TgSLO: Finish Load: GOD_Sylvanus_Skin1
+[0722.16] TgSLO: Finish Load: FX_Sylvanus_SKN1
+[0722.16] TgSLO: Finish Load: AnimNotify10688
+[0722.26] TgSLO: Finish Load: GOD_Izanami
+[0722.27] TgSLO: Finish Load: GOD_Izanami_Textures
+[0722.30] TgSLO: Finish Load: FX_Izanami
+[0722.31] TgSLO: Finish Load: AUD_God_Izanami
+[0722.31] TgSLO: Finish Load: god_izanami_skin1
+[0722.33] TgSLO: Finish Load: NPC_Ward_DentonBalloon
+[0722.34] TgSLO: Finish Load: NPC_Ward_Manticore
+[0722.36] TgSLO: Finish Load: NPC_Ward_Apollo
+[0722.37] TgSLO: Finish Load: NPC_Ward_Curse
+[0722.39] TgSLO: Finish Load: NPC_Ward_Chest
+[0722.40] TgSLO: Finish Load: NPC_Ward_Mailbox
+[0722.41] TgSLO: Finish Load: FX_Emote_global_Fireworks_Dmnd
+[0722.53] TgSLO: Finish Load: GOD_Aphrodite
+[0722.53] TgSLO: Finish Load: GOD_Aphrodite_Textures
+[0722.57] TgSLO: Finish Load: FX_Aphrodite
+[0722.58] TgSLO: Finish Load: AUD_God_Aphrodite
+[0722.58] TgSLO: Finish Load: FX_Recall_Summer_RankedReward
+[0722.74] TgSLO: Finish Load: GOD_Ares
+[0722.74] TgSLO: Finish Load: GOD_Ares_Textures
+[0722.76] TgSLO: Finish Load: FX_Ares
+[0722.76] TgSLO: Finish Load: AUD_God_Ares
+[0722.82] TgSLO: Finish Load: GOD_Ares_Skins
+[0722.82] TgSLO: Finish Load: AUD_VOX_God_Ares
+[0722.82] TgSLO: Finish Load: FX_Emote_global_Odyssey_2017
+[0722.83] TgSLO: Finish Load: FX_JumpStamp_PaintSplatter
+[0722.92] TgSLO: Finish Load: GOD_Thor
+[0722.92] TgSLO: Finish Load: GOD_Thor_Textures
+[0722.95] TgSLO: Finish Load: FX_Thor
+[0722.95] TgSLO: Finish Load: AUD_God_Thor
+[0722.97] TgSLO: Finish Load: GOD_Thor_Skins
+[0723.01] TgSLO: Finish Load: FX_Thor_Skin2
+[0723.01] TgSLO: Finish Load: FX_Emote_global_Spring_2017
+[0723.15] TgSLO: Finish Load: GOD_Artio
+[0723.15] TgSLO: Finish Load: GOD_Artio_Textures
+[0723.19] TgSLO: Finish Load: FX_Artio
+[0723.20] TgSLO: Finish Load: FX_Artio_Targeting
+[0723.21] TgSLO: Finish Load: AUD_God_Artio
+[0723.22] TgSLO: Finish Load: GOD_Artio_Bear
+[0723.22] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0723.22] TgSLO: Finish Load: FX_Emote_global_SmiteBirthday
+[0723.23] TgSLO: Finish Load: FX_Celtic_Recall
+[0723.27] TgSLO: Finish Load: NPC_Phoenix
+[0723.31] TgSLO: Finish Load: FX_Greek_Tower
+[0723.32] TgSLO: Finish Load: FX_Phoenix
+[0723.34] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Order
+[0723.35] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Generic
+[0723.36] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Order
+[0723.36] TgSLO: Finish Load: AUD_NPC_EGYClash_Phoenix
+[0723.36] TgSLO: Finish Load: MDL_PseudoMesh
+[0723.37] TgSLO: Finish Load: AUD_Tower
+[0723.42] TgSLO: Finish Load: EC_Towers
+[0723.43] TgSLO: Finish Load: FX_NPC_EGYClash_Towers
+[0723.44] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Chaos
+[0723.44] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0723.47] TgSLO: Finish Load: NPC_Olympus
+[0723.48] TgSLO: Finish Load: AUD_NPC_Olympus
+[0723.50] TgSLO: Finish Load: NPC_Minion_Universal
+[0723.51] TgSLO: Finish Load: FX_Roman
+[0723.52] TgSLO: Finish Load: FX_Minion_Death
+[0723.53] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0723.53] TgSLO: Finish Load: NPC_EGYClash_Minion_Order
+[0723.54] TgSLO: Finish Load: NPC_EGYClash_Brute_Order
+[0723.57] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0723.58] TgSLO: Finish Load: NPC_EGYClash_Minion_Chaos
+[0723.59] TgSLO: Finish Load: NPC_EGYClash_Brute_Chaos
+[0723.66] TgSLO: Finish Load: NPC_Guardian_Female
+[0723.66] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0723.67] TgSLO: Finish Load: FX_Guardian_Female
+[0723.72] TgSLO: Finish Load: NPC_EGYClash_Titan_Order
+[0723.72] TgSLO: Finish Load: NPC_EGYClash_Titan_Generic
+[0723.73] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Order
+[0723.75] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0723.78] TgSLO: Finish Load: NPC_EGYClash_Titan_Chaos
+[0723.81] TgSLO: Finish Load: FX_Guardian_Male
+[0723.87] TgSLO: Finish Load: FX_CHNJoust_Titan_Invader
+[0723.88] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Chaos
+[0723.92] TgSLO: Finish Load: NPC_Cyclops_V2
+[0723.92] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0723.92] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0723.99] TgSLO: Finish Load: NPC_EGYClash_Hyena
+[0723.99] TgSLO: Finish Load: FX_EGYClash_Hyena
+[0724.06] TgSLO: Finish Load: NPC_EGYClash_Baboon
+[0724.07] TgSLO: Finish Load: FX_NPC_EGYClash_Baboon
+[0724.21] TgSLO: Finish Load: NPC_Cyclops_V3
+[0724.27] TgSLO: Finish Load: FX_Odin_V2
+[0724.31] TgSLO: Finish Load: NPC_EGYClash_Apep
+[0724.31] TgSLO: Finish Load: AUD_NPC_EGYClash_Apep
+[0724.33] TgSLO: Finish Load: FX_Apep
+[0724.33] Log: Flushed async loaders.
+[0724.34] DevNet: Fully loading base package clash_collision due to fallback logic
+[0724.34] DevNet: Fully loading base package clash_lighting due to fallback logic
+[0724.35] DevNet: Fully loading base package clash_skybox due to fallback logic
+[0724.53] DevNet: Fully loading base package clash_sound due to fallback logic
+[0724.54] DevNet: Fully loading base package clash_vegetation due to fallback logic
+[0724.60] DevNet: Fully loading base package clash_vfx due to fallback logic
+[0724.61] DevNet: Fully loading base package clash_perftests due to fallback logic
+[0724.75] Log: Primary PhysX scene will be in software.
+[0724.75] Log: Creating Primary PhysX Scene.
+[0724.76] Log: Bringing World clash_p.TheWorld up for play (595) at 2017.10.11-23.43.55
+[0724.76] Log: Skipping initialization of FSMPartPool!
+[0724.76] Log: Bringing up level for play took: 0.129234
+[0724.76] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0724.76] Warning: Warning, Failed to find object 'Class None.'
+[0724.76] Log: PlayerController class for the pending level is PlayerController
+[0724.76] Log: ########### Finished loading level: 4.597356 seconds
+[0724.78] Log: Flushing async loaders.
+[0724.92] Log: Flushed async loaders.
+[0724.92] Log: Starting RedrawViewports for texture streaming..
+[0725.03] Log: RedrawViewports took: 0.116537 seconds
+[0725.03] Log: Starting Level load StreamAllResources..
+[0725.04] Log: Level load StreamAllResources took: 0.008729 seconds
+[0725.14] Log: ---- UpdateClanData
+[0725.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.14] Warning: Warning, Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0725.15] Warning: Warning, Failed to find object 'Class None.None'
+[0725.17] Log: Time is 2017.10.11-23.43.56
+[0727.60] DevNet: TgPlayerController_5 setplayer TgLocalPlayer_0
+[0727.62] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0727.66] Log: Activated clash_assist 1 1 0
+[0727.66] Log: ActivateLevel clash_assist 1 1 0
+[0727.66] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0727.66] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0727.69] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0727.75] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0727.84] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0727.90] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0727.97] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0727.98] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0727.99] Log: AttachToOwner - Socket (WSO_FX_05) not found in owner mesh or its parent! (3843 to TgPawn_Thor_2)
+[0727.99] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0727.99] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0728.03] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0728.10] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0728.41] Log: Received invalid actor class on channel 84
+[0728.83] DevMusic: PComMusicTheme PlayDefaultMusic
+[0728.83] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0728.83] Log: Mission Timer State 3 at game time 381.55
+[0728.83] Log: Received invalid actor class on channel 94
+[0728.83] Log: Received invalid actor class on channel 133
+[0728.83] Log: Received invalid actor class on channel 148
+[0728.83] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0728.83] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0728.85] Log: usc_toggle_cursor true
+[0729.24] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0729.35] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0729.36] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0729.36] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0729.36] Log: usc_toggle_cursor false
+[0729.48] Log: usc_toggle_key_capture false
+[0729.55] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0729.57] Log: TeamIndex 1 has new leader: 7525774
+[0729.61] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0729.61] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[0729.66] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0729.66] Log: TeamIndex 2 has new leader: 9955556
+[0729.71] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0729.71] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0732.78] Log: ---- UpdateClanData
+[0732.82] DevMusic: PComMusicTheme PlayMusicEvent found event named Opening
+[0732.82] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0732.82] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0732.82] DevMusic: PComMusicTheme UpdateMusicTrack Setting duration timer to 70.000000
+[0734.24] Log: usc_toggle_cursor true
+[0736.20] Log: Requesting purchase of itemId (9197) amount (1)
+[0736.71] Log: usc_toggle_cursor false
+[0737.72] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0744.02] Log: Received invalid actor class on channel 122
+[0749.70] Log: Chat[1]: chicodelnoche has gone offline.
+[0749.71] Log: ---- UpdateClanData
+[0756.17] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (5011 to TgPawn_Artio_2)
+[0756.17] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (5012 to TgPawn_Aphrodite_2)
+[0758.17] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_2
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0758.17] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_2
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0758.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0758.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0758.38] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0758.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0758.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0758.40] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0758.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0768.77] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_2)
+[0779.13] Log: usc_toggle_key_capture true
+[0779.13] Log: usc_toggle_cursor true
+[0780.41] Log: usc_toggle_key_capture false
+[0780.41] Log: usc_toggle_cursor false
+[0780.41] Log: SendChat[3] lag
+[0781.03] Log: usc_toggle_key_capture true
+[0781.03] Log: usc_toggle_cursor true
+[0782.09] Log: usc_toggle_key_capture false
+[0782.09] Log: usc_toggle_cursor false
+[0782.09] Log: SendChat[3] lag
+[0783.46] Log: usc_toggle_key_capture true
+[0783.46] Log: usc_toggle_cursor true
+[0784.34] Log: usc_toggle_key_capture false
+[0784.34] Log: usc_toggle_cursor false
+[0784.34] Log: SendChat[3] wtf
+[0802.82] DevMusic: PComMusicTheme Duration Expired
+[0802.82] DevMusic: PComMusicTheme PlayDefaultMusic
+[0802.82] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0802.82] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0830.16] Log: Chat[9]: Lost connection to login and chat servers.  You can finish your current match before needing to log in again.
+[0835.75] Log: usc_toggle_cursor true
+[0838.82] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0838.82] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP already playing
+[0843.03] Log: usc_toggle_cursor false
+[0843.03] Log: usc_toggle_cursor true
+[0843.04] Log: usc_toggle_cursor false
+[0843.59] Log: usc_toggle_cursor true
+[0846.91] Log: usc_toggle_key_capture true
+[0847.84] Log: Closing by request
+[0847.84] Log: appRequestExit(0)(0)
+[0847.85] Log: TgAIBehaviorTreeManager :: De-allocating 201 behavior trees
+[0847.85] Log: FEACClient OnGameServerDisconnect
+[0847.85] Log: FEACClient OnGameServerDisconnect: clearing data
+[0848.11] Exit: Preparing to exit.
+[0848.80] Exit: Game engine shut down
+[0848.80] Exit: PComNetDriver_0(PEER) shut down
+[0848.80] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[0848.96] Exit: Windows client shut down
+[0848.99] Exit: XAudio2 Device shut down.
+[0849.10] NetComeGo: Close PComNetDriver_3 PComNetConn_2 0.0.0.0:9061 10/11/17 23:45:59
+[0849.10] Exit: PComNetDriver_3 shut down
+[0849.73] Exit: Object subsystem successfully closed.
+[0850.12] Exit: Exiting.

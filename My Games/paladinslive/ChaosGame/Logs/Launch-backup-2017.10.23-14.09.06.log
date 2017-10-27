@@ -1,0 +1,220 @@
+[0000.31] Log: Async Log file open, 10/22/17 22:33:10
+[0000.31] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.31] Log:  ... running in INSTALLED mode
+[0000.31] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.31] Init: Version: 10897
+[0000.31] Init: Epic Internal: 0
+[0000.31] Init: Compiled (32-bit): Oct 19 2017 17:04:43
+[0000.31] Init: Changelist: 1532151
+[0000.31] Init: Game is version 0.61.2191.0.
+[0000.31] Init: Command line: -homedir=paladinslive -EACALT -seekfreeloadingpcconsole   -LANGUAGE=ENG -EACALT -pid=402 -user=Swoldier97 -epass                                                                  -HiCommand -HEXX=2A0F1DF7
+[0000.31] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\paladins\binaries\Win32\
+[0000.31] Log: Deleting old log file Launch-backup-2017.10.18-16.14.45.log
+[0000.31] Log: Deleting old log file Launch-backup-2017.10.18-23.54.12.log
+[0000.31] Log: Deleting old log file Launch-backup-2017.10.19-20.47.50.log
+[0000.31] Log: Deleting old log file Launch-backup-2017.10.19-22.24.21.log
+[0000.31] Init: Computer: LAPTOP-2ARNF0V1
+[0000.31] Init: User: Asif
+[0000.31] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.31] Init: High frequency timer resolution =2.835939 MHz
+[0000.31] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.56] DevOnline: Initializing MCTS
+[0000.94] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.94] Init: Object subsystem initialized
+[0000.94] Log: Overriding lang INT w/ command-line option of ENG
+[0000.94] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0000.99] Log: CachePaths() took 0.05 Seconds
+[0000.99] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.05] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0001.06] Log: [Service Discovery] JSON Config URL override from discovery ignored.  Using value from server config - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live/
+[0001.14] Log: SystemSettings based on: SystemSettings
+[0001.14] Log: SystemSettings based on: SystemSettings
+[0001.14] Log: SystemSettings based on: SystemSettings
+[0001.14] Log: SystemSettings based on: SystemSettings
+[0001.15] Log: SystemSettings based on: SystemSettings
+[0001.15] Log: SystemSettings based on: SystemSettings
+[0001.15] Log: SystemSettings based on: SystemSettings
+[0001.15] Log: SystemSettings based on: SystemSettings
+[0001.15] Log: SystemSettings based on: SystemSettings
+[0001.15] Log: SystemSettings based on: SystemSettings
+[0001.81] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0001.81] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0003.22] Log: Shader platform (RHI): PC-D3D-SM3
+[0003.27] Log: PhysX GPU Support: DISABLED
+[0003.49] Log: Assembly load started
+[0006.32] Log: Assembly Loaded Version: DBExport: 10/19/2017 13:35:33,  Src=devsql.hirezcorp.com:paladins_live_build_0_61, LangSrc=devsql.hirezcorp.com:paladins_translations,
+[0006.32] Log: Assembly load completed in 2.83 seconds
+[0006.36] Log: FEACClient being initialized
+[0007.98] Log: TFC Version check: Low=0.61.2191.0 High=0.61.2191.0, Result=TRUE
+[0008.03] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0011.26] Log: 122264 objects as part of root set at end of initial load.
+[0011.26] Log: 0 out of 0 bytes used by permanent object pool.
+[0011.26] Warning: StaticLoadObject for SwfMovie GFXFonts fonts_en couldn't find object in memory!
+[0011.26] Warning: Warning, Failed to load 'SwfMovie GFXFonts.fonts_en': Failed to find object 'SwfMovie GFXFonts.fonts_en'
+[0012.28] Log: Initializing Engine...
+[0012.42] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0012.42] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0012.78] Log: Wwise(R) SDK Version 2016.1.2 Build 5863. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0012.78] Log: Start loading WWise Package Lookup Tables
+[0013.02] Log: Finished loading Wwise Packages.
+[0014.22] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0016.54] ScriptWarning: Script call stack:
+	Function TgClient.TgGameViewportClient:Init
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0016.54] ScriptWarning: Assertion failed, line 695
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0016.54] Warning: StaticLoadObject for SwfMovie GAPeachStartup swf couldn't find object in memory!
+[0016.54] Warning: Warning, Failed to load 'SwfMovie GAPeachStartup.swf': Failed to find object 'SwfMovie GAPeachStartup.swf'
+[0016.54] Warning: Warning, Failed to load 'GAPeachStartup': Can't find file 'GAPeachStartup'
+[0016.54] Warning: StaticLoadObject for SwfMovie GAPeachStartup swf couldn't find object in memory!
+[0016.54] Warning: Warning, Failed to load 'SwfMovie GAPeachStartup.swf': Failed to find object 'SwfMovie GAPeachStartup.swf'
+[0016.54] Log: GFx attempted to load missing object [GAPeachStartup.swf]
+[0016.54] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.54] Warning: Warning, Failed to find object 'Class None.'
+[0016.54] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.54] Warning: Warning, Failed to find object 'Class None.'
+[0016.54] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.54] Warning: Warning, Failed to find object 'Class None.'
+[0016.54] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.54] Warning: Warning, Failed to find object 'Class None.'
+[0016.54] DevNet: Browse: LobbyMapV3?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0016.54] Log: FEACClient::Send preload map event
+[0016.54] Log: FEACClient OnGameServerDisconnect
+[0016.55] Log: LoadMap: LobbyMapV3?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0016.64] Log: Map Game ID = 0
+[0016.64] Log: Map Instance ID = 198726007
+[0016.66] Log: Performance: Critical section Lock/Unlock 22 nsec
+[0016.66] Log: Performance:  appCycles 39 nsec
+[0016.69] Log: Performance:  memCopy per KB 124 nsec
+[0016.71] Log: Performance:  memZero per KB 82 nsec
+[0016.72] Log: Performance:  appInterlockedIncrement 9 nsec
+[0016.72] Log: Performance:  GetTickCount 3 nsec
+[0016.72] TgSLO: Async Load: LobbyRefs_SF
+[0016.72] TgSLO: Async Load: LobbyUI_SF
+[0016.72] Log: Flushing async loaders.
+[0016.81] TgSLO: Finish Load: LobbyRefs_SF
+[0017.21] TgSLO: Finish Load: LobbyUI_SF
+[0017.21] Log: Flushed async loaders.
+[0017.21] Log: Game class is 'TgGameLaunch'
+[0017.32] Log: Primary PhysX scene will be in software.
+[0017.32] Log: Creating Primary PhysX Scene.
+[0017.32] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0017.32] Log: Bringing World LobbyMapV3.TheWorld up for play (0) at 2017.10.22-22.33.27
+[0017.32] Log: Skipping initialization of FSMPartPool!
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Pedestal': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Pedestal'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Pedestal': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Pedestal'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Pedestal': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Pedestal'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Pedestal': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Pedestal'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.32] Warning: Warning, Failed to load 'Class TgGameContent.TgMenuTransitionActor_Content': Failed to find object 'Class TgGameContent.TgMenuTransitionActor_Content'
+[0017.33] Log: Bringing up level for play took: 0.011732
+[0017.33] ScriptWarning: Accessed None 'PlayerOwner'
+	TgPlayerCamera LobbyMapV3.TheWorld:PersistentLevel.TgPlayerCamera_0
+	Function TgGame.TgPlayerCamera:UpdateViewTarget:00B3
+[0017.39] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-121714000841157558526645791--1052109747x4941
+[0017.39] Log: [Service Discovery] JSON Config URL override from discovery ignored.  Using value from server config - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live/
+[0017.40] Log: ATgSkeletalMeshActor_Loader::ChangeClassMeshAsync bot Unknown (0) with skin Unknown (0), head Unknown (0), and weaponskin Unknown (0)
+[0017.40] Log: No head skin ID specified, using default head skin id 0
+[0017.40] Log: ATgSkeletalMeshActor_Loader::ChangeClassMeshAsync bot Unknown (0) with skin Unknown (0), head Unknown (0), and weaponskin Unknown (0)
+[0017.40] Log: No head skin ID specified, using default head skin id 0
+[0017.40] Log: ATgSkeletalMeshActor_Loader::ChangeClassMeshAsync bot Unknown (0) with skin Unknown (0), head Unknown (0), and weaponskin Unknown (0)
+[0017.40] Log: No head skin ID specified, using default head skin id 0
+[0017.40] Error: Can't destroy a null online session
+[0017.40] Error: Can't destroy a null online session
+[0017.40] Log: [Party] APComPlayerController::UpdateMCTSSession( , 0 )
+[0017.40] Exit: PComNetDriver_0(PEER) shut down
+[0017.40] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0017.40] DevNet: PComNetDriver_1(PEER) TcpNetDriver listening on port 7778
+[0017.40] Log: ########### Finished loading level: 0.849206 seconds
+[0017.41] Log: Flushing async loaders.
+[0017.41] Log: Flushed async loaders.
+[0017.41] Log: Starting RedrawViewports for texture streaming..
+[0017.41] Log: RedrawViewports took: 0.000334 seconds
+[0017.41] Log: Starting Level load StreamAllResources..
+[0017.45] Log: Level load StreamAllResources took: 0.036151 seconds
+[0017.45] Log: Initializing Engine Completed
+[0017.45] Log: >>>>>>>>>>>>>> Initial startup: 17.45s <<<<<<<<<<<<<<<
+[0017.45] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Chaos
+[0017.97] Log: ActivateLevel lobbymapv3_vip 1 1 0
+[0017.97] Log: ActivateLevel lobbymapv3_teamlobby 1 1 0
+[0017.97] Log: ActivateLevel lobbymapv3_char 1 1 0
+[0017.97] Log: ActivateLevel lobbymapv3_store 1 1 0
+[0017.97] Log: ActivateLevel lobbymapv3_vault 1 1 0
+[0019.58] Log: UUIComponent_PopupManager::SetAllowPopups 0
+
+[0019.58] Log: UUIComponent_PopupManager::ClearAllPopups
+
+[0019.58] Log: UUIComponent_PopupManager::SetAllowPopups 1
+
+[0024.01] Log: [PComConfigManager] using url override from server config: 
+[0024.01] Log: Map Game ID = 0
+[0024.01] Log: Map Instance ID = 198726007
+[0024.03] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0024.03] Log: Performance:  appCycles 14 nsec
+[0024.04] Log: Performance:  memCopy per KB 69 nsec
+[0024.05] Log: Performance:  memZero per KB 28 nsec
+[0024.06] Log: Performance:  appInterlockedIncrement 8 nsec
+[0024.06] Log: Performance:  GetTickCount 2 nsec
+[0030.13] Log: UUIComponent_PopupManager::SetAllowPopups 0
+
+[0032.13] Log: [Service Discovery] JSON Config URL override from discovery ignored.  Using value from server config - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live/
+[0038.17] Log: [PComConfigManager] using url override from server config: 
+[0038.17] Log: UUIComponent_PopupManager::SetAllowPopups 1
+
+[0038.17] Log: Map Game ID = 0
+[0038.17] Log: Map Instance ID = 198726007
+[0038.20] Log: Performance: Critical section Lock/Unlock 22 nsec
+[0038.20] Log: Performance:  appCycles 13 nsec
+[0038.21] Log: Performance:  memCopy per KB 75 nsec
+[0038.22] Log: Performance:  memZero per KB 30 nsec
+[0038.23] Log: Performance:  appInterlockedIncrement 7 nsec
+[0038.23] Log: Performance:  GetTickCount 4 nsec
+[0046.69] Log: UUIComponent_PopupManager::SetAllowPopups 0
+
+[0048.70] Log: [Service Discovery] JSON Config URL override from discovery ignored.  Using value from server config - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live/
+[0054.74] Log: [PComConfigManager] using url override from server config: 
+[0054.74] Log: UUIComponent_PopupManager::SetAllowPopups 1
+
+[0054.74] Log: Map Game ID = 0
+[0054.74] Log: Map Instance ID = 198726007
+[0054.76] Log: Performance: Critical section Lock/Unlock 20 nsec
+[0054.77] Log: Performance:  appCycles 8 nsec
+[0054.78] Log: Performance:  memCopy per KB 74 nsec
+[0054.79] Log: Performance:  memZero per KB 34 nsec
+[0054.80] Log: Performance:  appInterlockedIncrement 7 nsec
+[0054.80] Log: Performance:  GetTickCount 3 nsec
+[0067.38] Log: UUIComponent_PopupManager::SetAllowPopups 0
+
+[0069.39] Log: [Service Discovery] JSON Config URL override from discovery ignored.  Using value from server config - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live/
+[0075.44] Log: [PComConfigManager] using url override from server config: 
+[0075.44] Log: UUIComponent_PopupManager::SetAllowPopups 1
+
+[0075.44] Log: Map Game ID = 0
+[0075.44] Log: Map Instance ID = 198726007
+[0075.46] Log: Performance: Critical section Lock/Unlock 21 nsec
+[0075.46] Log: Performance:  appCycles 14 nsec
+[0075.47] Log: Performance:  memCopy per KB 69 nsec
+[0075.48] Log: Performance:  memZero per KB 37 nsec
+[0075.49] Log: Performance:  appInterlockedIncrement 8 nsec
+[0075.49] Log: Performance:  GetTickCount 3 nsec
+[0155.93] Log: Received WM_QUERYENDSESSION
+[0156.04] Log: Received WM_ENDSESSION
+[0156.04] Log: appRequestExit(0)(0)
+[0156.04] Log: TgAIBehaviorTreeManager :: De-allocating 157 behavior trees
+[0156.04] Log: FEACClient OnGameServerDisconnect

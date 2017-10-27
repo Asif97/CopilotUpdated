@@ -1,0 +1,370 @@
+{
+  "Components": [
+    {
+      "id": "RagnarokFX2",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "MechThor_Launcher.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/MechThor_Launcher.jpg",
+      "title": "Ragnarok Force X",
+      "description": "Available for a Limited period! Complete the Odyssey to unlock.",
+      "visibleX": 365,
+      "external-url": "http://odyssey.smitegame.com"
+    },
+    {
+      "id": "KhRobotOdy2",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "MechKhepri_Launcher.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/MechKhepri_Launcher.jpg",
+      "video-url": "http://odyssey.smitegame.com",
+      "title": "Steel Scarab Khepri",
+      "description": "New Odyssey Item: Steel Scarab Khepri is mechanized and ready for destruction!",
+      "visibleX": 384,
+      "caption-alpha": 125
+    },
+    {
+      "id": "GodRotation1228",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "TripticGodSale_1228_Launcher.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/TripticGodSale_1228_Launcher.jpg",
+      "title": "25% Skin Sale : 12/28 to 12/31",
+      "description": "Enjoy 25% off Wrath of Olympus Zeus, Master Guan Fu, and Scarlet Coven Isis",
+      "visibleX": 325
+    },
+    {
+      "id": "220Patch2",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "220_Launcher.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/220_Launcher.jpg",
+      "title": "2.20 Patch Notes",
+      "description": "See what's new in the latest SMITE patch, The Reborn Prince",
+      "visibleX": 250,
+      "external-url": "http://www.smitegame.com/pts-2-19-divas-and-demons-dec-1st/"
+    },
+    {
+      "id": "GodPack",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "GodPack_Bolt_Launcher (1).jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/GodPack_Bolt_Launcher (1).jpg",
+      "title": "Ultimate God Pack",
+      "description": "Unlock ALL Present and Future Gods",
+      "visibleX": 400,
+      "external-url": "https://account.hirezstudios.com/login.aspx?ReturnUrl=%2forders%2fsmite-store.aspx",
+      "caption-alpha": 125
+    },
+    {
+      "id": "ChildsPlay",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Launcher_ChildsPlay2.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/Launcher_ChildsPlay2.jpg",
+      "title": "Holiday Chest 2015!",
+      "description": "Roll to potentially unlock one of the Featured Skins, Holiday Frame, or a Snowman Ward. $1 for the sale of the Holiday Chest will be donated to Child's Play Charity. ",
+      "visibleX": 380
+    },
+    {
+      "id": "NewYearsChestLauncher",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "NewYearsChestPromo_Launcher.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/NewYearsChestPromo_Launcher.jpg",
+      "title": "Happy New Years!",
+      "description": "Celebrate the upcoming new years by unlocking the limited New Years Chest for a chance at the exclusive Father Time Chronos!",
+      "visibleX": 350
+    }
+  ],
+  "featureAds": {
+    "visible": "true",
+    "components": [
+      {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.6666,
+        "height": 0.6666,
+        "type": "CarouselVideo",
+        "probability": "400",
+        "desc": {
+          "default": "Join the gods as they venture to the Afterlife in Chapter 3 of the Odyssey!",
+          "DEU": "Sei dabei, wenn die Götter in Kapitel drei ins Jenseits eintauchen!",
+          "FRA": "Joignez-vous aux dieux qui s'aventurent dans l'au-delà, dans le chapitre 3 de l'Odyssée.",
+          "ESN": null,
+          "ESL": "¡Únete a los dioses mientras aventuran a la otra vida en el Capítulo 3 de la Odisea!",
+          "RUS": "Присоединяйтесь к путешествию богов в потусторонний мир в 3 главе Одиссеи!",
+          "POL": "Dołącz do bogów i wyrusz z nimi w podróż do Zaświatów w 3 rozdziale Odysei!",
+          "TUR": "Odyssey'in 3. Bölümü'nde Öbür Dünyaya giden tanrılara katıl!",
+          "POR": "Acompanhe os deuses na aventura através do Pós Vida no Capítulo 3 da Odisseia!"
+        },
+        "id": "LauncherOdy1005",
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/Odyssey3-PCLauncher-1079x498.jpg",
+          "CHN": null
+        },
+        "videoUrl": {
+          "default": ""
+        },
+        "header": {
+          "default": "The Odyssey Continues",
+          "DEU": "Die Odyssee geht weiter",
+          "FRA": "L'Odyssée continue",
+          "ESL": "La Odisea Continúa",
+          "ESN": null,
+          "RUS": "Продолжение Одиссеи",
+          "POL": "Kontynuacja Odysei",
+          "TUR": "Odyssey Devam Ediyor",
+          "POR": "A Odisseia continua",
+          "CHN": null
+        },
+        "external-url": {
+          "default": "https://odyssey.smitegame.com/"
+        },
+        "more": [
+          {
+            "id": "LauncherRotatorUGPSalePC0706",
+            "caption-alpha": 150,
+            "imageUrl": {
+              "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/UltimateGodPackPCLauncherRG.jpg"
+            },
+            "header": {
+              "default": "Unlock the Ultimate God Pack!",
+              "DEU": "Schalte das ultimative Gott-Paket frei!",
+              "FRA": "Débloquez le Pack ultime des dieux !",
+              "RUS": "Разблокируйте суперкомплект богов!",
+              "POL": "Odblokuj Najlepszy pakiet bogów!",
+              "TUR": "Nihai Tanrı Paketini aç!",
+              "POR": "Habilite o Pacote Supremo dos Deuses!",
+              "ESL": "¡Desbloquea el Paquete de Dioses!"
+            },
+            "desc": {
+              "default": "Unlock all present and future Gods here!",
+              "DEU": "Schalte alle aktuellen und zukünftigen Götter hier frei!",
+              "FRA": "Débloquez tous les dieux présents et futurs ici !",
+              "RUS": "Разблокируйте всех богов — как уже доступных, так и запланированных на будущее!",
+              "POL": "Tutaj odblokujesz wszystkich obecnych i przyszłych bogów!",
+              "TUR": "Mevcut ve gelecek Tanrıların hepsini buradan aç!",
+              "POR": "Habilite todos os deuses atuais e futuros aqui!",
+              "ESL": "¡Desbloquea todos los dioses actuales y futuros aca!"
+            },
+            "no-steam": "true",
+            "no-Mac": "true",
+            "external-url": {
+              "default": "https://www.smitegame.com/store/"
+            },
+            "no-PC": "false",
+            "maxLevel": 10,
+            "minLevel": 0
+          },
+          {
+            "id": "LauncherRotatorUGPSaleSteam0706",
+            "caption-alpha": 150,
+            "header": {
+              "default": "Unlock the Ultimate God Pack",
+              "DEU": "Schalte das ultimative Gott-Paket frei.",
+              "FRA": "Débloquer le Pack ultime des dieux",
+              "RUS": "Разблокируйте суперкомплект богов",
+              "POL": "Odblokuj Najlepszy pakiet bogów",
+              "TUR": "Nihai Tanrı Paketini aç",
+              "POR": "Habilite o Pacote Supremo dos Deuses",
+              "ESL": "Desbloquea el Paquete de Dioses"
+            },
+            "imageUrl": {
+              "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/UltimateGodPackPCLauncherRG.jpg"
+            },
+            "desc": {
+              "default": "Unlock all present and future Gods here!",
+              "DEU": "Schalte alle aktuellen und zukünftigen Götter hier frei!",
+              "FRA": "Débloquez tous les dieux présents et futurs ici !",
+              "RUS": "Разблокируйте всех богов — как уже доступных, так и запланированных на будущее!",
+              "POL": "Tutaj odblokujesz wszystkich obecnych i przyszłych bogów!",
+              "TUR": "Mevcut ve gelecek Tanrıların hepsini buradan aç!",
+              "POR": "Habilite todos os deuses atuais e futuros aqui!",
+              "ESL": "¡Desbloquea todos los dioses actuales y futuros aca!"
+            },
+            "no-steam": "false",
+            "no-PC": "true",
+            "no-Mac": "false",
+            "external-url": {
+              "default": "http://store.steampowered.com/app/387440/"
+            },
+            "minLevel": 0,
+            "maxLevel": 10
+          }
+        ],
+        "no-PC": "false",
+        "no-steam": "false",
+        "no-Mac": "false"
+      },
+      {
+        "id": "TacticsTopRightLeft0516",
+        "x": 0.6666,
+        "y": 0.0,
+        "width": 0.1666,
+        "height": 0.3333,
+        "caption-alpha": 150,
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/HOTGtoprightleft2.jpg"
+        },
+        "header": {
+          "default": ""
+        },
+        "desc": {
+          "default": "",
+          "FRA": null,
+          "ESL": null
+        },
+        "external-url": {
+          "default": "hirez://500_351"
+        }
+      },
+      {
+        "id": "PaladinsTopRightRight0609",
+        "x": 0.8333,
+        "y": 0.0,
+        "width": 0.1666,
+        "height": 0.3333,
+        "caption-alpha": 150,
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/LauncherTencentAndroxus.jpg"
+        },
+        "external-url": {
+          "default": "hirez://400_402_17080"
+        }
+      },
+      {
+        "id": "LauncherBottomYurei1005",
+        "x": 0.6666,
+        "y": 0.3333,
+        "width": 0.3333,
+        "height": 0.3333,
+        "caption-alpha": 150,
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/PCLauncher-Susano-Yurei-1079x498.jpg"
+        },
+        "header": {
+          "default": ""
+        },
+        "videoUrl": {
+          "default": ""
+        },
+        "external-url": {
+          "default": "https://www.smitegame.com/news/new-in-smite-departure-to-the-afterlife-4-19-patch-notes"
+        },
+        "desc": {
+          "default": "Yurei Susano",
+          "FRA": "Susano Yurei ",
+          "RUS": "Юрэй Сузано",
+          "POL": "Susanoo Yurei",
+          "TUR": "Yurei Susano",
+          "ESL": "Susano Yurei",
+          "POR": "Susanoo Yurei",
+          "DEU": "Yurei Susano"
+        }
+      },
+      {
+        "id": "LauncherBottomArena1010",
+        "x": 0.3333,
+        "y": 0.6666,
+        "width": 0.3333,
+        "height": 0.3333,
+        "caption-alpha": 150,
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/PCLauncher-SeasonalArena-Halloween-1079x498.jpg"
+        },
+        "header": {
+          "default": ""
+        },
+        "videoUrl": {
+          "default": ""
+        },
+        "external-url": {
+          "default": "https://www.smitegame.com/news/new-in-smite-departure-to-the-afterlife-4-19-patch-notes"
+        },
+        "desc": {
+          "default": "Halloween Arena",
+          "FRA": "Arène d'Halloween",
+          "RUS": "Хэллоуинская арена",
+          "POL": "Arena Halloween",
+          "TUR": "Cadılar Bayramı Arenası",
+          "ESL": "Arena Halloween",
+          "POR": "Arena de Halloween",
+          "DEU": "Halloween-Arena"
+        }
+      },
+      {
+        "id": "LauncherBottomHalloween1013",
+        "x": 0.6666,
+        "y": 0.6666,
+        "width": 0.3333,
+        "height": 0.3333,
+        "caption-alpha": 150,
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/HalloweenChest-PCLauncher-1079x498.jpg"
+        },
+        "header": {
+          "default": "",
+          "DEU": null,
+          "FRA": null,
+          "RUS": null,
+          "POL": null,
+          "TUR": null,
+          "POR": null,
+          "ESL": null
+        },
+        "videoUrl": {
+          "default": ""
+        },
+        "external-url": {
+          "default": ""
+        },
+        "desc": {
+          "default": "Halloween Chest",
+          "FRA": "Coffre Halloween",
+          "RUS": "Хэллоуинский сундук",
+          "POL": "Skrzynia Halloween",
+          "TUR": "Cadılar Bayramı Sandığı",
+          "ESL": "Cofre Halloween",
+          "POR": "Baú do Halloween",
+          "DEU": "Halloween-Truhe"
+        }
+      },
+      {
+        "id": "LauncherBottomMidautumn1019",
+        "x": 0.0,
+        "y": 0.6666,
+        "width": 0.3333,
+        "height": 0.3333,
+        "caption-alpha": 150,
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/MidAutumnChest25OffPCLauncher.jpg",
+          "CHN": null
+        },
+        "header": {
+          "default": ""
+        },
+        "desc": {
+          "default": "Mid-Autumn Chest ",
+          "FRA": "Coffre de la mi-automne",
+          "ESL": "Cofre del Medio Otoño",
+          "DEU": "Mittherbst-Truhe",
+          "RUS": "Сундук золотой осени",
+          "POL": "Skrzynia środka jesieni",
+          "TUR": "Sonbahar Ortası Sandığı",
+          "POR": "Baú de Outono"
+        },
+        "external-url": {
+          "default": ""
+        },
+        "videoUrl": {
+          "default": ""
+        }
+      }
+    ]
+  },
+  "login-image": "LoginScreen_310.jpg",
+  "login-image-url": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Smite/live/images/loginODY3.jpg",
+  "version": "1.0",
+  "type": "tile"
+}

@@ -1,0 +1,374 @@
+{
+  "Components": [
+    {
+      "id": "1",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Launcher_FriendsFamilyTest_Paladins.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/Paladins/images//Launcher_FriendsFamilyTest_Paladins.jpg",
+      "title": "Next Friends & Family Test!",
+      "description": "Sunday, 01 November 9:00 PM to 11:00 PM EST"
+    },
+    {
+      "id": "2",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Closed_Beta.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/Paladins/images//Closed_Beta.jpg",
+      "title": "Closed Beta Begins November 17",
+      "description": "A new game by Hi-Rez Studios"
+    },
+    {
+      "id": "3",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Paladins_Guide_Thumbnail.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/Paladins/images//Paladins_Guide_Thumbnail.jpg",
+      "video-url": "https://www.youtube.com/v/x9BbsgCwsfI?autoplay=1&version=3",
+      "title": "Guide",
+      "description": "Everything you need to know to get started"
+    }
+  ],
+  "featureAds": {
+    "visible": "true",
+    "components": [
+      {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.6666,
+        "height": 0.6666,
+        "type": "CarouselVideo",
+        "header": {
+          "default": "GET A GOLD REFUND FOR EVERY CHAMPION YOU'VE PURCHASED!",
+          "FRA": "Récupérez de l'or pour chaque champion déjà acheté !",
+          "DEU": "Für jeden bereits gekauften Champion erhältst du eine Gold-Rückerstattung!",
+          "ESL": "¡Obtienes un reembolso de oro por cada Campeón que has comprado!",
+          "RUS": "Получите обратно золото за уже купленных чемпионов!",
+          "POL": "Otrzymaj zwrot złota za każdego uprzednio kupionego czempiona!",
+          "TUR": "Satın aldığın her Şampiyon için Altın iadesi al!",
+          "POR": "Ganhe um reembolso em ouro para cada Campeão que você já tiver comprado.",
+          "ESN": "¡Obtienes un reembolso de oro por cada Campeón que has comprado!",
+          "CHN": null,
+          "INT": null,
+          "JPN": null,
+          "KOR": null
+        },
+        "id": "Rotator0-FoundersPackPC-18102017",
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher-Large-FoundersPack-Slice-OB61-Terminus-JT.jpg"
+        },
+        "image": "Paladins_PlayWithFriends.jpg",
+        "external-url": {
+          "default": "https://www.paladins.com/store/"
+        },
+        "more": [
+          {
+            "id": "Rotator1-170717-FACEBOOKLINK",
+            "caption-alpha": 150,
+            "external-url": {
+              "default": "https://www.hirezstudios.com/my-account/#link"
+            },
+            "imageUrl": {
+              "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher-Large-Jenos-Resplendent-713x326.jpg"
+            },
+            "header": {
+              "default": "LINK YOUR ACCOUNT AND UNLOCK RESPLENDENT JENOS FOR FREE!",
+              "DEU": "VERKNÜPFE DEIN KONTO UND ERHALTE GLÄNZENDER JENOS GRATIS!",
+              "FRA": "LIEZ VOTRE COMPTE ET DÉBLOQUEZ JENOS RESPLENDISSANT GRATUITEMENT !",
+              "POL": "POŁĄCZ SWOJE KONTO I ODBLOKUJ SKÓRKĘ OLŚNIEWAJĄCEGO JENOSA ZA DARMO!",
+              "POR": "ASSOCIE SUA CONTA PARA GANHAR O JENOS RESPLANDECENTE DE GRAÇA!",
+              "RUS": "Свяжите аккаунты и получите облик Дженоса \"Великолепный\" бесплатно!",
+              "TUR": "HESABINI BAĞLA VE GÖRKEMLİ JENOS'U ÜCRETSİZ AÇ!"
+            }
+          },
+          {
+            "id": "Rotator1-170717-PATCHOVERVIEW",
+            "caption-alpha": 150,
+            "videoUrl": {
+              "default": ""
+            },
+            "imageUrl": {
+              "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher-Large-PatchPreview-OB61-PlayBTN-JT.jpg"
+            },
+            "desc": {
+              "default": ""
+            },
+            "header": {
+              "default": "SEE WHAT'S NEW IN OB61!",
+              "DEU": "Neu in OB61!",
+              "ESL": "Vea lo que hay nuevo en OB61",
+              "ESN": "Vea lo que hay nuevo en OB61",
+              "FRA": "Découvrez les nouveautés de l'OB61!",
+              "POL": "Sprawdź, co nowego w aktualizacji OB61!",
+              "POR": "Confira as novidades do Patch 61!",
+              "RUS": "Что нового в OB61?",
+              "TUR": "OB61'daki Yenilikleri Öğren"
+            },
+            "external-url": {
+              "default": "https://www.youtube.com/watch?v=UdGyfuN0P-A"
+            }
+          },
+          {
+            "id": "Rotator3-170717-RAF",
+            "caption-alpha": 150,
+            "header": {
+              "default": "REFER A FRIEND TO UNLOCK PIP MAD SCIENTIST SKIN",
+              "DEU": "Wirb einen Freund, um „Irrer Wissenschaftler“ Pip freizuschalten",
+              "ESL": "Recomienda a un amigo para desbloquear el aspecto Científico loco de Pip",
+              "ESN": "Recomienda a un amigo para desbloquear el aspecto Científico loco de Pip",
+              "FRA": "Parrainez un ami pour débloquer le skin Savant fou de Pip",
+              "POL": "Poleć znajomego, aby odblokować skórkę Pip Szalony Naukowiec",
+              "POR": "Indique um amigo para desbloquear a aparência de cientista louco do Pip",
+              "RUS": "Пригласите друга и получите скин Пипа \"Безумный ученый\"!",
+              "TUR": "Pip Çılgın Bilim Adamı Görünümünü Açmak için Arkadaşa Öner"
+            },
+            "imageUrl": {
+              "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher-MainPanel-RAF.jpg"
+            },
+            "external-url": {
+              "default": "https://www.paladins.com/refer-a-friend/"
+            },
+            "videoUrl": {
+              "default": ""
+            }
+          },
+          {
+            "id": "Rotator2-170719-PGS",
+            "caption-alpha": 150,
+            "imageUrl": {
+              "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/713x326PaladinsGlobalSeries.jpg"
+            },
+            "header": {
+              "default": "WANT TO PLAY IN THE PALADINS WORLD CHAMPIONSHIP? CLICK HERE!",
+              "DEU": "Willst du an der Paladins Weltmeisterschaft teilnehmen? Klicke hier!",
+              "ESL": "¿Quieres jugar en la Paladins World Championship? ¡Haz clic aquí!",
+              "ESN": "¿Quieres jugar en la Paladins World Championship? ¡Haz clic aquí!",
+              "FRA": "Vous souhaitez participer au Paladins World Championship ? Cliquez ici !",
+              "POL": "Chcesz wziąć udział w Mistrzostwach Świata Paladins? Kliknij tutaj!",
+              "POR": "Quer jogar o Paladins World Championship? Clique aqui!",
+              "RUS": "Хотите попасть на чемпионат мира по Paladins? Нажмите здесь!",
+              "TUR": "Paladins Dünya Şampiyonası'nda oynamak mı istiyorsun? Buraya tıkla!"
+            },
+            "external-url": {
+              "default": "https://www.facebook.com/groups/PaladinsGlobalSeries/"
+            },
+            "desc": {
+              "default": ""
+            }
+          }
+        ],
+        "videoUrl": {
+          "default": ""
+        },
+        "no-Mac": "false",
+        "caption-alpha": 1,
+        "no-steam": "false",
+        "no-PC": "false",
+        "desc": {
+          "default": ""
+        },
+        "minLevel": 0
+      },
+      {
+        "x": 0.6666,
+        "y": 0.0,
+        "width": 0.1666,
+        "height": 0.3333,
+        "type": "CarouselVideo",
+        "desc": {
+          "default": "",
+          "POR": null,
+          "ESL": null,
+          "ESN": null,
+          "DEU": null,
+          "FRA": null,
+          "POL": null,
+          "RUS": null,
+          "TUR": null
+        },
+        "id": "TopRight-SMITE-20160117",
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/HalfLaunchSMITE.jpg"
+        },
+        "image": "Paladins_launch_faq.jpg",
+        "external-url": {
+          "default": "hirez://300_17_386360"
+        },
+        "header": {
+          "default": ""
+        },
+        "videoUrl": {
+          "default": ""
+        }
+      },
+      {
+        "x": 0.6666,
+        "y": 0.3333,
+        "width": 0.3333,
+        "height": 0.3333,
+        "type": "CarouselVideo",
+        "desc": {
+          "default": "Want Free Skins? Follow our Social Media Channels! ",
+          "FRA": "Vous Voulez Des Skins Gratuits ? Suivez Paladins Sur Les Réseaux Sociaux!",
+          "DEU": "Du willst Gratis-Skins? Folge uns auf unseren Social Media-Kanälen!",
+          "ESL": "¿Quieres Aspectos Gratis? ¡Sigue a Paladins En Las Redes Sociales!",
+          "RUS": "Бесплатные скины за подписку в социальных сетях!",
+          "POL": "Obserwuj nas w mediach społ., aby otrzymać darmowe skórki!",
+          "TUR": "Ücretsiz Görünüm Ister Misin? Sosyal Medyada Paladins'i Takip Et!",
+          "POR": "Aparências Grátis? Siga Paladins Nas Redes Sociais!",
+          "ESN": "¿Quieres Aspectos Gratis? ¡Sigue a Paladins En Las Redes Sociales!"
+        },
+        "id": "MidRight-SocialSkins-20160113",
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher_Small_SocialSkins.jpg"
+        },
+        "image": "Paladins_launch_champs.jpg",
+        "videoUrl": {
+          "default": ""
+        },
+        "external-url": {
+          "default": "https://www.paladins.com/#community"
+        },
+        "header": {}
+      },
+      {
+        "x": 0.0,
+        "y": 0.6666,
+        "width": 0.3333,
+        "height": 0.3333,
+        "type": "CarouselVideo",
+        "desc": {
+          "default": "Link, Watch, Win! ",
+          "FRA": "Liez, regardez et gagnez !",
+          "DEU": "Verknüpfen, zuschauen, gewinnen!",
+          "ESL": "¡Vincula, vea, gane!",
+          "RUS": "Свяжите аккаунты и получайте награды!",
+          "POL": "Połącz, oglądaj, wygrywaj!",
+          "TUR": "Bağla, İzle, Kazan!",
+          "POR": "Associe, assista, ganhe!",
+          "ESN": "¡Vincula, vea, gane!"
+        },
+        "id": "BottomLeft-TwitchLink-20160119",
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher-Small-Twitch-Rewards-2017.jpg"
+        },
+        "image": "Paladins_launch_founder.jpg",
+        "external-url": {
+          "default": "https://www.paladins.com/twitch-rewards-on-all-streams/"
+        },
+        "videoUrl": {
+          "default": ""
+        }
+      },
+      {
+        "x": 0.3333,
+        "y": 0.6666,
+        "width": 0.3333,
+        "height": 0.3333,
+        "type": "CarouselVideo",
+        "desc": {
+          "default": "Watch Your Favorite Streamers Live Every Day!",
+          "FRA": "Regardez vos streamers préférés en direct tous les jours !",
+          "RUS": "Смотри трансляции любимых стримеров каждый день!",
+          "DEU": "Deine Lieblings-Streamer: Täglich live!",
+          "POL": "Oglądaj swoich ulubionych streamerów codziennie na żywo!",
+          "TUR": "Her Gün Favori Yayıncılarını Canlı İzle!",
+          "POR": "Assista seus streamers preferidos ao vivo, todo dia!",
+          "ESL": "¡Mira tus favoritos Transmisores en vivo Todos los Días!",
+          "ESN": "¡Mira tus favoritos Transmisores en vivo Todos los Días!",
+          "INT": null,
+          "CHN": null,
+          "JPN": null,
+          "KOR": null
+        },
+        "id": "BottomMid-StreamTeam-170505",
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Paladins-StreamTeam-LauncherSmall-352x158-GT.jpg",
+          "CHN": null
+        },
+        "image": "Paladins_launch_community.jpg",
+        "external-url": {
+          "default": "https://www.twitch.tv/paladinsgame"
+        },
+        "header": {
+          "default": null,
+          "INT": null,
+          "CHN": null,
+          "KOR": null,
+          "POL": null,
+          "DEU": null,
+          "FRA": null,
+          "RUS": null,
+          "JPN": null,
+          "POR": null,
+          "TUR": null,
+          "ESL": null,
+          "ESN": null
+        },
+        "videoUrl": {
+          "default": ""
+        }
+      },
+      {
+        "x": 0.6666,
+        "y": 0.6666,
+        "width": 0.3333,
+        "height": 0.3333,
+        "type": "CarouselVideo",
+        "header": {
+          "default": "",
+          "DEU": null,
+          "ESL": null,
+          "FRA": null,
+          "RUS": null,
+          "POL": null,
+          "TUR": null,
+          "POR": null,
+          "ESN": null
+        },
+        "id": "BottomRight-OB61PatchNotes-20170508",
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher-Small-PatchNotes-OB61-352x168-JT.jpg",
+          "DEU": null
+        },
+        "image": "Launcher_Patch_1081x497.jpg",
+        "external-url": {
+          "default": "https://www.paladins.com/open-beta-61-patch-notes-relentless/"
+        },
+        "desc": {
+          "default": "Latest Patch Notes",
+          "DEU": "Neuste Patchnotes!",
+          "FRA": "Dernières patch notes",
+          "RUS": "Последние изменения",
+          "POL": "Lista zmian w najnowszej aktualizacji",
+          "TUR": "En Yeni Yama Notları",
+          "POR": "Últimas Patch Notes",
+          "ESL": "Notas de Parche más recientes",
+          "ESN": "Notas de Parche más recientes"
+        },
+        "videoUrl": {
+          "default": ""
+        }
+      },
+      {
+        "id": "TopRight-HOTG-20160117",
+        "x": 0.8333,
+        "y": 0.0,
+        "width": 0.1666,
+        "height": 0.3333,
+        "caption-alpha": 150,
+        "imageUrl": {
+          "INT": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/HOTG_539x498_GT.jpg"
+        },
+        "external-url": {
+          "default": "hirez://500_351"
+        }
+      }
+    ]
+  },
+  "version": "1.0",
+  "type": "tile",
+  "login-image": "kinesaloginBG.jpg",
+  "login-image-url": "http://cds.q6u4m8x5.hwcdn.net/Launcher/Paladins/live/images/Launcher-Login-OB61-Terminus.jpg",
+  "alert-message": ""
+}

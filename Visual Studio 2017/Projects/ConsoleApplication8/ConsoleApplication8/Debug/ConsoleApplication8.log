@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\asif\documents\visual studio 2017\projects\consoleapplication8\consoleapplication8\source.cpp(34): warning C4101: 'spaceBtwnWalls': unreferenced local variable
+c:\users\asif\documents\visual studio 2017\projects\consoleapplication8\consoleapplication8\source.cpp(34): warning C4101: 'numVertical': unreferenced local variable
+  ConsoleApplication8.vcxproj -> c:\users\asif\documents\visual studio 2017\Projects\ConsoleApplication8\Debug\ConsoleApplication8.exe
+  ConsoleApplication8.vcxproj -> c:\users\asif\documents\visual studio 2017\Projects\ConsoleApplication8\Debug\ConsoleApplication8.pdb (Partial PDB)

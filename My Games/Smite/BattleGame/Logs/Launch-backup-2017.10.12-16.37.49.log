@@ -1,0 +1,2516 @@
+[0000.35] Log: Async Log file open, 10/12/17 14:17:05
+[0000.35] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.35] Log:  ... running in INSTALLED mode
+[0000.35] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.35] Init: Version: 10897
+[0000.35] Init: Epic Internal: 0
+[0000.35] Init: Compiled (32-bit): Oct 11 2017 14:21:10
+[0000.35] Init: Changelist: 1532151
+[0000.35] Init: Game is version 4.19.4362.3.
+[0000.35] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -region=Earth -pid=017 -portaluserid=Swoldier97 -token                                  -HiCommand -HEXX=802C6A99
+[0000.35] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.36] Init: Computer: LAPTOP-2ARNF0V1
+[0000.36] Init: User: Asif
+[0000.36] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.36] Init: High frequency timer resolution =2.835912 MHz
+[0000.36] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.92] DevOnline: Initializing MCTS
+[0001.39] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.39] Init: Object subsystem initialized
+[0001.39] Log: Overriding lang INT w/ command-line option of ENG
+[0001.39] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.72] Log: CachePaths() took 0.33 Seconds
+[0001.72] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.76] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.54] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0003.65] Log: SystemSettings based on: SystemSettings
+[0003.65] Log: SystemSettings based on: SystemSettings
+[0003.65] Log: SystemSettings based on: SystemSettings
+[0003.65] Log: SystemSettings based on: SystemSettings
+[0003.65] Log: SystemSettings based on: SystemSettings
+[0003.65] Log: SystemSettings based on: SystemSettings
+[0003.65] Log: SystemSettings based on: SystemSettings
+[0003.66] Log: SystemSettings based on: SystemSettings
+[0003.66] Log: SystemSettings based on: SystemSettings
+[0003.66] Log: SystemSettings based on: SystemSettings
+[0004.38] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0004.38] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0005.53] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.58] Log: PhysX GPU Support: DISABLED
+[0007.67] Log: Assembly Loaded Version: DBExport: 10/09/2017 18:14:44,  Src=devsql.hirezcorp.com:smite_live_build_4_19, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0007.71] Log: FEACClient being initialized
+[0009.41] Log: TFC Version check: Low=4.19.4362.0 High=, Result=FALSE
+[0010.99] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0011.59] Log: 161676 objects as part of root set at end of initial load.
+[0011.59] Log: 0 out of 0 bytes used by permanent object pool.
+[0011.66] Log: Initializing Engine...
+[0011.73] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0011.73] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0013.08] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0017.21] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0017.21] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0017.21] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0017.21] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0017.21] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.22] Warning: Warning, Failed to find object 'Class None.'
+[0017.22] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.22] Warning: Warning, Failed to find object 'Class None.'
+[0017.22] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.22] Warning: Warning, Failed to find object 'Class None.'
+[0017.22] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0017.22] Warning: Warning, Failed to find object 'Class None.'
+[0017.22] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0017.22] Log: FEACClient::Send preload map event
+[0017.22] Log: FEACClient OnGameServerDisconnect
+[0017.22] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0017.41] Log: Map Game ID = 0
+[0017.41] Log: Map Instance ID = 197832242
+[0017.43] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0017.43] Log: Performance:  appCycles 14 nsec
+[0017.45] Log: Performance:  memCopy per KB 77 nsec
+[0017.45] Log: Performance:  memZero per KB 39 nsec
+[0017.46] Log: Performance:  appInterlockedIncrement 8 nsec
+[0017.47] Log: Performance:  GetTickCount 3 nsec
+[0017.47] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0017.47] Log: Flushing async loaders.
+[0017.57] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0017.57] Log: Flushed async loaders.
+[0017.57] Log: Game class is 'TgGameLaunch'
+[0017.68] Log: Primary PhysX scene will be in software.
+[0017.68] Log: Creating Primary PhysX Scene.
+[0017.68] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0017.68] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.12-14.17.22
+[0017.68] Log: Skipping initialization of FSMPartPool!
+[0017.82] DevMusic: PComMusicTheme PlayDefaultMusic
+[0017.82] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0017.83] Log: Bringing up level for play took: 0.249557
+[0017.83] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0017.83] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0017.83] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0018.32] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0018.32] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0018.49] Log: usc_toggle_cursor true
+[0018.49] Log: usc_toggle_key_capture true
+[0018.50] DevMusic: PComMusicTheme PlayDefaultMusic
+[0018.50] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0018.50] Log: ########### Finished loading level: 1.275800 seconds
+[0018.56] Log: Flushing async loaders.
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0019.17] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0019.17] Log: Flushed async loaders.
+[0019.17] Log: Starting RedrawViewports for texture streaming..
+[0019.20] Log: RedrawViewports took: 0.029697 seconds
+[0019.20] Log: Starting Level load StreamAllResources..
+[0019.30] Log: Level load StreamAllResources took: 0.099026 seconds
+[0019.30] Log: Initializing Engine Completed
+[0019.30] Log: >>>>>>>>>>>>>> Initial startup: 19.30s <<<<<<<<<<<<<<<
+[0019.30] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0020.05] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--171327771848102518531161135--1052109747x4941
+[0020.38] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0021.48] Log: Map Game ID = 0
+[0021.48] Log: Map Instance ID = 197832242
+[0021.50] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0021.50] Log: Performance:  appCycles 8 nsec
+[0021.51] Log: Performance:  memCopy per KB 83 nsec
+[0021.52] Log: Performance:  memZero per KB 42 nsec
+[0021.53] Log: Performance:  appInterlockedIncrement 7 nsec
+[0021.53] Log: Performance:  GetTickCount 2 nsec
+[0021.53] Log: Map Game ID = 0
+[0021.53] Log: Map Instance ID = 197832242
+[0021.55] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0021.55] Log: Performance:  appCycles 8 nsec
+[0021.57] Log: Performance:  memCopy per KB 79 nsec
+[0021.58] Log: Performance:  memZero per KB 34 nsec
+[0021.58] Log: Performance:  appInterlockedIncrement 8 nsec
+[0021.59] Log: Performance:  GetTickCount 2 nsec
+[0021.59] Log: Map Game ID = 0
+[0021.59] Log: Map Instance ID = 197832242
+[0021.61] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0021.61] Log: Performance:  appCycles 8 nsec
+[0021.62] Log: Performance:  memCopy per KB 59 nsec
+[0021.63] Log: Performance:  memZero per KB 40 nsec
+[0021.63] Log: Performance:  appInterlockedIncrement 8 nsec
+[0021.64] Log: Performance:  GetTickCount 3 nsec
+[0023.41] VoiceChat: Warn  am_network_start() trying retval=0,port + offset=64496,port=64466
+[0023.41] Log: Login Success: chicodelnoche
+[0023.41] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0023.41] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreRotatorGodPackNOUGP0911.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreNOUGPODY0919.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreRotatorOdySkins0919.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreRotatorGrim1009.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreTrick1009.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreOdyChest0918.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreGoldHAlloween1005.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\TopRightStoreGothic1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\crimsondeath.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\skipatrol.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\almighty.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreBottomHarbinger1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreBottomBelly1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\StoreBottomInuGami1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeLeftGodPackHACH0913.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeLeftody1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeBottomTina1005.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeBottomWarchief1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeBottomGothic1009.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorUltimateGodPack0706.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorMummy1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorYurei1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeRotatorHalloweenArena1005.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeGrim1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeCupid1010.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\HomeSPL0927.jpg' error ()
+[0023.77] Error: Failed to read file '..\..\BattleGame\Downloaded\landingpanel\INT\UltimateGodPack0913.jpg' error ()
+[0023.77] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0024.06] Log: Team/Instance chat routed to Instance Server.
+[0024.06] Log: Map Game ID = 0
+[0024.06] Log: Map Instance ID = 197832242
+[0024.08] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0024.08] Log: Performance:  appCycles 8 nsec
+[0024.09] Log: Performance:  memCopy per KB 59 nsec
+[0024.10] Log: Performance:  memZero per KB 30 nsec
+[0024.11] Log: Performance:  appInterlockedIncrement 7 nsec
+[0024.11] Log: Performance:  GetTickCount 2 nsec
+[0024.11] Log: Chat[9]: Press ENTER to access chat.
+[0024.11] Log: Chat[9]: Press ENTER to access chat.
+[0024.11] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc4MzI0MjUsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.9q0L4mE6SQsjdfviL61mM57TQIavdGPpFa-gDY24sRE
+[0024.11] Log: RequestingChannelMembers ch[1] [chicodelnoche has joined the channel.]
+[0024.11] Log: Chat[1]: Clan status: He Vuelto
+[0024.11] Log: ---- UpdateClanData
+[0024.57] VoiceChat: Warn  am_network_start() returned retval=0,port + offset=64496,port=64466
+[0024.57] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://smp.www.vivox.com/api2/)
+[0024.74] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.a3a502.)
+[0027.55] VoiceChat: Warn  Changing Capture Device to {0.0.1.00000000}.{75206ef3-78b5-4bd6-8440-0a3bda25b105} Microphone Array (Realtek High Definition Audio)
+[0027.55] VoiceChat: Warn  Changing Render Device to {0.0.0.00000000}.{7a61a7c2-531e-459f-ad93-d35fa1ae6afe} Speakers (Realtek High Definition Audio)
+[0027.94] VoiceChat: Warn  Changing Capture Device to {0.0.1.00000000}.{75206ef3-78b5-4bd6-8440-0a3bda25b105} Microphone Array (Realtek High Definition Audio)
+[0027.94] VoiceChat: Warn  Changing Render Device to {0.0.0.00000000}.{7a61a7c2-531e-459f-ad93-d35fa1ae6afe} Speakers (Realtek High Definition Audio)
+[0034.72] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0034.72] Warning: Warning, Failed to find object 'Class None.None'
+[0047.62] Log: ---- UpdateClanData
+[0047.62] DevMusic: PComMusicTheme PlayDefaultMusic
+[0047.62] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0047.62] Log: ERROR: Attempting to log in without settings.
+[0048.08] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0053.06] Log: ---- UpdateClanData
+[0057.80] TgSLO: Async Load: GOD_Izanami
+[0057.80] TgSLO: Async Load: GOD_Izanami_Textures
+[0057.80] TgSLO: Async Load: GOD_Izanami_Lobby
+[0057.81] TgSLO: Async Load: FX_Izanami
+[0057.81] TgSLO: Async Load: FX_Izanami_Lobby
+[0057.81] TgSLO: Async Load: AUD_God_Izanami
+[0057.81] TgSLO: Async Load: god_izanami_skin5
+[0057.81] TgSLO: Async Load: GOD_Izanami_Skin5_Lobby
+[0057.81] TgSLO: Async Load: FX_Izanami_Skin5
+[0057.81] TgSLO: Async Load: GOD_Common_AT
+[0057.81] TgSLO: Async Load: AUD_God_Nox
+[0057.81] TgSLO: Async Load: FX_Izanami_Skin5_Targeting
+[0057.81] TgSLO: Async Load: AUD_VOX_God_Izanami_Skin5
+[0057.81] TgSLO: Async Load: AUD_God_Izanami_Skin5
+[0057.81] TgSLO: Async Load: AUD_God_Izanami_Skin3
+[0057.81] TgSLO: Async Load: AnimNotify14943
+[0058.63] TgSLO: Finish Load: GOD_Izanami
+[0058.69] TgSLO: Finish Load: GOD_Izanami_Textures
+[0058.81] TgSLO: Finish Load: GOD_Izanami_Lobby
+[0059.24] TgSLO: Finish Load: FX_Izanami
+[0059.25] TgSLO: Finish Load: FX_Izanami_Lobby
+[0059.59] TgSLO: Finish Load: AUD_God_Izanami
+[0059.70] TgSLO: Finish Load: god_izanami_skin5
+[0059.75] TgSLO: Finish Load: GOD_Izanami_Skin5_Lobby
+[0060.23] TgSLO: Finish Load: FX_Izanami_Skin5
+[0060.23] TgSLO: Finish Load: GOD_Common_AT
+[0060.71] TgSLO: Finish Load: AUD_God_Nox
+[0060.76] TgSLO: Finish Load: FX_Izanami_Skin5_Targeting
+[0060.80] TgSLO: Finish Load: AUD_VOX_God_Izanami_Skin5
+[0061.00] TgSLO: Finish Load: AUD_God_Izanami_Skin5
+[0061.31] TgSLO: Finish Load: AUD_God_Izanami_Skin3
+[0061.32] TgSLO: Finish Load: AnimNotify14943
+[0066.26] Log: Chat[9]: You have joined a match queue.
+[0084.02] Log: RequestingChannelMembers ch[3] [chicodelnoche has joined the channel.]
+[0085.08] Log: RequestingChannelMembers ch[3] [unicornp00ts has joined the channel.]
+[0085.46] Log: RequestingChannelMembers ch[3] [MayoParfait has joined the channel.]
+[0086.19] Log: RequestingChannelMembers ch[3] [DastardlyDave has joined the channel.]
+[0086.23] Log: RequestingChannelMembers ch[3] [Pincloud has joined the channel.]
+[0110.84] TgSLO: Async Load: GOD_CuChulainn
+[0110.84] TgSLO: Async Load: GOD_CuChulainn_Textures
+[0110.84] TgSLO: Async Load: GOD_CuChulainn_Lobby
+[0110.84] TgSLO: Async Load: FX_CuChulainn
+[0110.84] TgSLO: Async Load: FX_CuChulainn_Lobby
+[0110.84] TgSLO: Async Load: AUD_God_CuChulainn
+[0111.81] TgSLO: Finish Load: GOD_CuChulainn
+[0111.93] TgSLO: Finish Load: GOD_CuChulainn_Textures
+[0112.03] TgSLO: Finish Load: GOD_CuChulainn_Lobby
+[0112.56] Log: Chat[9]: AlanSoora has left the match lobby.
+[0112.63] TgSLO: Finish Load: FX_CuChulainn
+[0112.73] TgSLO: Finish Load: FX_CuChulainn_Lobby
+[0113.07] TgSLO: Finish Load: AUD_God_CuChulainn
+[0119.59] Log: Chat[9]: You have joined a match queue.
+[0119.59] Log: RequestingChannelMembers ch[3] [DastardlyDave has left the channel.]
+[0119.59] Log: RequestingChannelMembers ch[3] [unicornp00ts has left the channel.]
+[0119.59] Log: RequestingChannelMembers ch[3] [MayoParfait has left the channel.]
+[0119.59] Log: RequestingChannelMembers ch[3] [chicodelnoche has left the channel.]
+[0142.60] Log: Chat[9]: sludgeeater has come online.
+[0142.60] Log: Chat[6]: sludgeeater has come online.
+[0168.69] TgSLO: Async Load: GOD_Xbalanque
+[0168.69] TgSLO: Async Load: GOD_Xbalanque_Textures
+[0168.69] TgSLO: Async Load: GOD_Xbalanque_Lobby
+[0168.69] TgSLO: Async Load: FX_Xbalanque
+[0168.69] TgSLO: Async Load: AUD_God_Xbalanque
+[0169.19] TgSLO: Finish Load: GOD_Xbalanque
+[0169.22] TgSLO: Finish Load: GOD_Xbalanque_Textures
+[0169.37] TgSLO: Finish Load: GOD_Xbalanque_Lobby
+[0169.63] TgSLO: Finish Load: FX_Xbalanque
+[0170.15] TgSLO: Finish Load: AUD_God_Xbalanque
+[0180.00] Log: Time is 2017.10.12-14.20.04
+[0185.82] TgSLO: Async Load: GOD_CuChulainn
+[0185.82] TgSLO: Async Load: GOD_CuChulainn_Textures
+[0185.82] TgSLO: Async Load: GOD_CuChulainn_Lobby
+[0185.82] TgSLO: Async Load: FX_CuChulainn
+[0185.82] TgSLO: Async Load: FX_CuChulainn_Lobby
+[0185.82] TgSLO: Async Load: AUD_God_CuChulainn
+[0186.72] TgSLO: Finish Load: GOD_CuChulainn
+[0186.86] TgSLO: Finish Load: GOD_CuChulainn_Textures
+[0186.95] TgSLO: Finish Load: GOD_CuChulainn_Lobby
+[0186.97] Log: Flushing async loaders.
+[0187.00] TgSLO: Finish Load: FX_CuChulainn
+[0187.00] TgSLO: Finish Load: FX_CuChulainn_Lobby
+[0187.00] TgSLO: Finish Load: AUD_God_CuChulainn
+[0187.00] Log: Flushed async loaders.
+[0202.69] Log: RequestingChannelMembers ch[3] [chicodelnoche has joined the channel.]
+[0203.81] Log: RequestingChannelMembers ch[3] [unicornp00ts has joined the channel.]
+[0204.39] Log: RequestingChannelMembers ch[3] [Ditussimulus has joined the channel.]
+[0207.58] Log: RequestingChannelMembers ch[3] [DastardlyDave has joined the channel.]
+[0215.52] DevMusic: PComMusicTheme PlayMusicEvent found event named GodSelection
+[0215.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0215.52] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0215.52] Log: RequestingChannelMembers ch[3] [KaoDair has joined the channel.]
+[0218.98] TgSLO: Async Load: GOD_Hel_V3
+[0218.98] TgSLO: Async Load: GOD_Hel_V3_Textures
+[0218.98] TgSLO: Async Load: GOD_Hel_V3_Lobby
+[0218.98] TgSLO: Async Load: FX_Hel_V3
+[0218.98] TgSLO: Async Load: FX_Hel_V3_Lobby
+[0218.98] TgSLO: Async Load: AUD_God_Hel
+[0219.72] TgSLO: Finish Load: GOD_Hel_V3
+[0219.78] TgSLO: Finish Load: GOD_Hel_V3_Textures
+[0220.21] TgSLO: Finish Load: GOD_Hel_V3_Lobby
+[0220.65] TgSLO: Finish Load: FX_Hel_V3
+[0220.73] TgSLO: Finish Load: FX_Hel_V3_Lobby
+[0221.24] TgSLO: Finish Load: AUD_God_Hel
+[0224.43] TgSLO: Async Load: GOD_Arachne
+[0224.43] TgSLO: Async Load: GOD_Arachne_Textures
+[0224.43] TgSLO: Async Load: GOD_Arachne_Lobby
+[0224.43] TgSLO: Async Load: FX_Arachne
+[0224.43] TgSLO: Async Load: FX_Arachne_Lobby
+[0224.43] TgSLO: Async Load: AUD_God_Arachne
+[0224.43] TgSLO: Async Load: GOD_Arachne_Spider
+[0224.43] TgSLO: Async Load: GOD_Arachne_Spider_Textures
+[0224.43] TgSLO: Async Load: GOD_Arachne_Skin2
+[0224.44] TgSLO: Async Load: GOD_Arachne_Skin2_Lobby
+[0224.44] TgSLO: Async Load: GOD_Arachne_Skin4
+[0225.06] TgSLO: Finish Load: GOD_Arachne
+[0225.12] TgSLO: Finish Load: GOD_Arachne_Textures
+[0225.27] TgSLO: Finish Load: GOD_Arachne_Lobby
+[0225.57] TgSLO: Finish Load: FX_Arachne
+[0225.57] TgSLO: Finish Load: FX_Arachne_Lobby
+[0225.93] TgSLO: Finish Load: AUD_God_Arachne
+[0226.00] TgSLO: Finish Load: GOD_Arachne_Spider
+[0226.05] TgSLO: Finish Load: GOD_Arachne_Spider_Textures
+[0226.13] TgSLO: Finish Load: GOD_Arachne_Skin2
+[0226.16] TgSLO: Finish Load: GOD_Arachne_Skin2_Lobby
+[0226.24] TgSLO: Finish Load: GOD_Arachne_Skin4
+[0230.14] TgSLO: Async Load: GOD_Apollo
+[0230.14] TgSLO: Async Load: GOD_Apollo_Textures
+[0230.14] TgSLO: Async Load: GOD_Apollo_Lobby
+[0230.14] TgSLO: Async Load: FX_Apollo
+[0230.14] TgSLO: Async Load: FX_Apollo_Lobby
+[0230.14] TgSLO: Async Load: AUD_God_Apollo
+[0230.14] TgSLO: Async Load: GOD_Apollo_Skin6
+[0233.87] TgSLO: Finish Load: GOD_Apollo
+[0233.96] TgSLO: Finish Load: GOD_Apollo_Textures
+[0234.10] TgSLO: Finish Load: GOD_Apollo_Lobby
+[0234.38] TgSLO: Finish Load: FX_Apollo
+[0234.42] TgSLO: Finish Load: FX_Apollo_Lobby
+[0234.76] TgSLO: Finish Load: AUD_God_Apollo
+[0234.82] TgSLO: Finish Load: GOD_Apollo_Skin6
+[0239.25] Warning: Failed to find notify TriggerStanceMeshChange on TgSkeletalMeshActor_Lobby_20 (No_SkeletalMesh)
+[0249.10] TgSLO: Async Load: GOD_Artio
+[0249.10] TgSLO: Async Load: GOD_Artio_Textures
+[0249.10] TgSLO: Async Load: GOD_Artio_Lobby
+[0249.10] TgSLO: Async Load: FX_Artio
+[0249.10] TgSLO: Async Load: FX_Artio_Lobby
+[0249.10] TgSLO: Async Load: AUD_God_Artio
+[0249.10] TgSLO: Async Load: GOD_Artio_Bear
+[0249.10] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0249.85] TgSLO: Finish Load: GOD_Artio
+[0249.93] TgSLO: Finish Load: GOD_Artio_Textures
+[0250.09] TgSLO: Finish Load: GOD_Artio_Lobby
+[0250.66] TgSLO: Finish Load: FX_Artio
+[0250.78] TgSLO: Finish Load: FX_Artio_Lobby
+[0251.14] TgSLO: Finish Load: AUD_God_Artio
+[0251.17] TgSLO: Finish Load: GOD_Artio_Bear
+[0251.22] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0254.74] Warning: Failed to find notify TriggerStanceMeshChange on TgSkeletalMeshActor_Lobby_20 (No_SkeletalMesh)
+[0255.10] TgSLO: Async Load: GOD_HeBo_V2
+[0255.10] TgSLO: Async Load: GOD_HeBo_V2_Textures
+[0255.10] TgSLO: Async Load: AUD_God_HeBo_V2
+[0255.10] TgSLO: Async Load: GOD_HeBo_V3_Skin4
+[0255.10] TgSLO: Async Load: GOD_HeBo_V3_Skin4_Lobby
+[0255.10] TgSLO: Async Load: GOD_HeBo_V3_Skin6
+[0255.10] TgSLO: Async Load: FX_HeBo
+[0255.10] TgSLO: Async Load: FX_HeBo_Lobby
+[0255.10] TgSLO: Async Load: AUD_God_HeBo
+[0255.10] TgSLO: Async Load: AnimNotify10720
+[0255.81] TgSLO: Finish Load: GOD_HeBo_V2
+[0255.91] TgSLO: Finish Load: GOD_HeBo_V2_Textures
+[0256.48] TgSLO: Finish Load: AUD_God_HeBo_V2
+[0256.91] TgSLO: Finish Load: GOD_HeBo_V3_Skin4
+[0257.05] TgSLO: Finish Load: GOD_HeBo_V3_Skin4_Lobby
+[0257.15] TgSLO: Finish Load: GOD_HeBo_V3_Skin6
+[0257.67] TgSLO: Finish Load: FX_HeBo
+[0257.67] TgSLO: Finish Load: FX_HeBo_Lobby
+[0258.03] TgSLO: Finish Load: AUD_God_HeBo
+[0258.04] TgSLO: Finish Load: AnimNotify10720
+[0258.85] Warning: Failed to find notify ScaleInHandDownFast on TgSkeletalMeshActor_Lobby_22 (No_SkeletalMesh)
+[0274.94] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0275.25] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0275.52] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0277.83] Warning: Failed to find notify TriggerStanceMeshChange on TgSkeletalMeshActor_Lobby_20 (No_SkeletalMesh)
+[0282.45] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0284.82] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0286.64] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0293.53] DevMusic: PComMusicTheme PlayMusicEvent found event named BattleReady
+[0293.53] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0293.53] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0293.53] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0293.62] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0293.68] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[0293.98] Warning: Failed to find notify TriggerStanceMeshChange on TgSkeletalMeshActor_Lobby_20 (No_SkeletalMesh)
+[0301.40] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[0301.70] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0303.62] DevMusic: PComMusicTheme PlayDefaultMusic
+[0303.62] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0303.62] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0307.99] Log: CTgBattleClient - Match composition cached [47A0EC60]
+[0307.99] Log: ReceiveChangeMap: mapGameId 1547
+[0307.99] Log: ReceiveChangeMap: mapGameId 1547
+[0308.15] Log: usc_toggle_cursor false
+[0308.15] Log: usc_toggle_key_capture false
+[0308.26] Log: usc_toggle_key_capture true
+[0308.26] DevNet: URL: Adding default option Team=255
+[0308.27] DevNet: URL: Adding default option Team=255
+[0308.27] DevNet: Browse: 0.0.0.0:9211/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367422494?Team=255
+[0308.27] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0308.27] DevNet: Game client on port 9211, rate 25000
+[0309.21] DevNet: Welcomed by server (Level: clash_p, Game: TgGame.TgGame_Battle_ClashV2)
+[0309.58] Log: LoadMap: 0.0.0.0:9211/clash_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367422494?Team=255?game=TgGame.TgGame_Battle_ClashV2
+[0309.91] Log: Map Game ID = 0
+[0309.91] Log: Map Instance ID = 197832242
+[0309.93] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0309.93] Log: Performance:  appCycles 13 nsec
+[0309.95] Log: Performance:  memCopy per KB 94 nsec
+[0309.95] Log: Performance:  memZero per KB 43 nsec
+[0309.96] Log: Performance:  appInterlockedIncrement 8 nsec
+[0309.97] Log: Performance:  GetTickCount 4 nsec
+[0309.97] TgSLO: Async Load: FX_Store_Items
+[0309.97] TgSLO: Async Load: FX_Store_Items_Targeting
+[0309.97] TgSLO: Async Load: FX_Status_Effects
+[0309.97] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0309.97] TgSLO: Async Load: GOD_Common_AT
+[0309.97] TgSLO: Async Load: AUD_VOX_Narrator
+[0309.97] TgSLO: Async Load: NPC_Ward2
+[0309.97] TgSLO: Async Load: FX_Buff_Belts_V2
+[0309.97] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0309.98] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0309.98] TgSLO: Async Load: GOD_Apollo
+[0309.98] TgSLO: Async Load: GOD_Apollo_Textures
+[0309.98] TgSLO: Async Load: FX_Apollo
+[0309.98] TgSLO: Async Load: AUD_God_Apollo
+[0309.98] TgSLO: Async Load: GOD_Apollo_Skin6
+[0309.98] TgSLO: Async Load: FX_Diamond_Recall
+[0309.98] TgSLO: Async Load: AUD_UI
+[0309.98] TgSLO: Async Load: GOD_HeBo_V2
+[0309.98] TgSLO: Async Load: GOD_HeBo_V2_Textures
+[0309.98] TgSLO: Async Load: AUD_God_HeBo_V2
+[0309.98] TgSLO: Async Load: GOD_HeBo_V3_Skin4
+[0309.98] TgSLO: Async Load: GOD_HeBo_V3_Skin6
+[0309.98] TgSLO: Async Load: FX_HeBo
+[0309.98] TgSLO: Async Load: AUD_God_HeBo
+[0309.98] TgSLO: Async Load: AnimNotify10720
+[0309.98] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0309.98] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0309.98] TgSLO: Async Load: FX_Common
+[0309.98] TgSLO: Async Load: NPC_Ward_DentonBalloon
+[0309.98] TgSLO: Async Load: FX_Emote_global_Spring_2017
+[0309.98] TgSLO: Async Load: FX_Celtic_Recall
+[0309.98] TgSLO: Async Load: FX_JumpStamp_SeasonTicket2017
+[0309.98] TgSLO: Async Load: GOD_Arachne
+[0309.99] TgSLO: Async Load: GOD_Arachne_Textures
+[0309.99] TgSLO: Async Load: FX_Arachne
+[0309.99] TgSLO: Async Load: AUD_God_Arachne
+[0309.99] TgSLO: Async Load: GOD_Arachne_Spider
+[0309.99] TgSLO: Async Load: GOD_Arachne_Spider_Textures
+[0309.99] TgSLO: Async Load: GOD_Arachne_Skin2
+[0309.99] TgSLO: Async Load: GOD_Arachne_Skin4
+[0309.99] TgSLO: Async Load: NPC_Ward_WindDancer
+[0309.99] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0309.99] TgSLO: Async Load: GOD_Artio
+[0309.99] TgSLO: Async Load: GOD_Artio_Textures
+[0309.99] TgSLO: Async Load: FX_Artio
+[0309.99] TgSLO: Async Load: FX_Artio_Targeting
+[0309.99] TgSLO: Async Load: AUD_God_Artio
+[0309.99] TgSLO: Async Load: GOD_Artio_Bear
+[0309.99] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0309.99] TgSLO: Async Load: FX_Emote_global_SmiteBirthday
+[0309.99] TgSLO: Async Load: GOD_Hel_V3
+[0309.99] TgSLO: Async Load: GOD_Hel_V3_Textures
+[0309.99] TgSLO: Async Load: FX_Hel_V3
+[0309.99] TgSLO: Async Load: AUD_God_Hel
+[0309.99] TgSLO: Async Load: GOD_Susano
+[0309.99] TgSLO: Async Load: GOD_Susano_Textures
+[0309.99] TgSLO: Async Load: FX_Susano
+[0310.00] TgSLO: Async Load: AUD_God_Susano
+[0310.00] TgSLO: Async Load: GOD_Susano_Skin6
+[0310.00] TgSLO: Async Load: MDL_PseudoMesh
+[0310.00] TgSLO: Async Load: FX_Susano_Skin6
+[0310.00] TgSLO: Async Load: AUD_God_Susano_Skin6
+[0310.00] TgSLO: Async Load: FX_Susano_Targeting_Skin6
+[0310.00] TgSLO: Async Load: AnimNotify14944
+[0310.00] TgSLO: Async Load: NPC_Ward_ODY_2017_Evolving
+[0310.00] TgSLO: Async Load: FX_Emote_global_Fireworks_RIP
+[0310.00] TgSLO: Async Load: FX_Shower_O_Gold_Recall
+[0310.00] TgSLO: Async Load: FX_JumpStamp_Adventures_MMO
+[0310.00] TgSLO: Async Load: GOD_Fafnir
+[0310.00] TgSLO: Async Load: GOD_Fafnir_Textures
+[0310.00] TgSLO: Async Load: FX_Fafnir
+[0310.00] TgSLO: Async Load: AUD_God_Fafnir
+[0310.00] TgSLO: Async Load: GOD_Fafnir_Skin2
+[0310.00] TgSLO: Async Load: FX_Fafnir_Skin2
+[0310.01] TgSLO: Async Load: FX_Fafnir_Skin2_Targeting
+[0310.01] TgSLO: Async Load: AnimNotify13410
+[0310.01] TgSLO: Async Load: NPC_Ward_Odyssey
+[0310.01] TgSLO: Async Load: NPC_Ward_DragonBoat
+[0310.01] TgSLO: Async Load: NPC_Ward_Cactus
+[0310.01] TgSLO: Async Load: npc_ward_maoi
+[0310.01] TgSLO: Async Load: NPC_Ward_FishBowl
+[0310.01] TgSLO: Async Load: FX_Emote_global_Fireworks_A
+[0310.01] TgSLO: Async Load: GOD_ErlangShen
+[0310.01] TgSLO: Async Load: GOD_ErlangShen_Textures
+[0310.01] TgSLO: Async Load: FX_ErlangShen
+[0310.01] TgSLO: Async Load: AUD_God_ErlangShen
+[0310.01] TgSLO: Async Load: GOD_ErlangShen_Mink
+[0310.01] TgSLO: Async Load: GOD_ErlangShen_Turtle
+[0310.01] TgSLO: Async Load: NPC_Ward_CorruptKukulkan
+[0310.01] TgSLO: Async Load: GOD_Aphrodite
+[0310.01] TgSLO: Async Load: GOD_Aphrodite_Textures
+[0310.01] TgSLO: Async Load: FX_Aphrodite
+[0310.01] TgSLO: Async Load: AUD_God_Aphrodite
+[0310.01] TgSLO: Async Load: GOD_Aphrodite_Skin4
+[0310.01] TgSLO: Async Load: AUD_VOX_God_Aphrodite_Skin4
+[0310.01] TgSLO: Async Load: FX_Aphrodite_Skin4
+[0310.01] TgSLO: Async Load: AnimNotify11565
+[0310.01] TgSLO: Async Load: GOD_AhMuzenCab
+[0310.01] TgSLO: Async Load: GOD_AhMuzenCab_Textures
+[0310.02] TgSLO: Async Load: FX_AhMuzenCab
+[0310.02] TgSLO: Async Load: AUD_God_AhMuzenCab
+[0310.02] TgSLO: Async Load: NPC_Phoenix
+[0310.02] TgSLO: Async Load: FX_Greek_Tower
+[0310.02] TgSLO: Async Load: FX_Phoenix
+[0310.02] TgSLO: Async Load: NPC_EGYClash_Phoenix_Order
+[0310.02] TgSLO: Async Load: NPC_EGYClash_Phoenix_Generic
+[0310.02] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Order
+[0310.02] TgSLO: Async Load: AUD_NPC_EGYClash_Phoenix
+[0310.02] TgSLO: Async Load: AUD_Tower
+[0310.02] TgSLO: Async Load: EC_Towers
+[0310.02] TgSLO: Async Load: FX_NPC_EGYClash_Towers
+[0310.02] TgSLO: Async Load: NPC_EGYClash_Phoenix_Chaos
+[0310.02] TgSLO: Async Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0310.02] TgSLO: Async Load: NPC_Olympus
+[0310.02] TgSLO: Async Load: AUD_NPC_Olympus
+[0310.02] TgSLO: Async Load: NPC_Minion_Universal
+[0310.02] TgSLO: Async Load: FX_Roman
+[0310.02] TgSLO: Async Load: FX_Minion_Death
+[0310.02] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0310.02] TgSLO: Async Load: NPC_EGYClash_Minion_Order
+[0310.02] TgSLO: Async Load: NPC_EGYClash_Brute_Order
+[0310.02] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0310.02] TgSLO: Async Load: NPC_EGYClash_Minion_Chaos
+[0310.02] TgSLO: Async Load: NPC_EGYClash_Brute_Chaos
+[0310.02] TgSLO: Async Load: NPC_Guardian_Female
+[0310.02] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0310.03] TgSLO: Async Load: FX_Guardian_Female
+[0310.03] TgSLO: Async Load: NPC_EGYClash_Titan_Order
+[0310.03] TgSLO: Async Load: NPC_EGYClash_Titan_Generic
+[0310.03] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Order
+[0310.03] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0310.03] TgSLO: Async Load: NPC_EGYClash_Titan_Chaos
+[0310.03] TgSLO: Async Load: FX_Guardian_Male
+[0310.03] TgSLO: Async Load: FX_CHNJoust_Titan_Invader
+[0310.03] TgSLO: Async Load: FX_NPC_EGYClash_Titan_Chaos
+[0310.03] TgSLO: Async Load: NPC_Cyclops_V2
+[0310.03] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0310.03] TgSLO: Async Load: AUD_NPC_Cyclops
+[0310.03] TgSLO: Async Load: NPC_EGYClash_Hyena
+[0310.03] TgSLO: Async Load: FX_EGYClash_Hyena
+[0310.03] TgSLO: Async Load: NPC_EGYClash_Baboon
+[0310.03] TgSLO: Async Load: FX_NPC_EGYClash_Baboon
+[0310.03] TgSLO: Async Load: NPC_Cyclops_V3
+[0310.03] TgSLO: Async Load: FX_Odin_V2
+[0310.03] TgSLO: Async Load: NPC_EGYClash_Apep
+[0310.03] TgSLO: Async Load: AUD_NPC_EGYClash_Apep
+[0310.03] TgSLO: Async Load: FX_Apep
+[0310.03] Log: Flushing async loaders.
+[0310.15] TgSLO: Finish Load: FX_Store_Items
+[0310.18] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0310.19] TgSLO: Finish Load: FX_Status_Effects
+[0310.21] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0310.21] TgSLO: Finish Load: GOD_Common_AT
+[0310.23] TgSLO: Finish Load: AUD_VOX_Narrator
+[0310.25] TgSLO: Finish Load: NPC_Ward2
+[0310.29] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0310.30] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0310.31] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0310.40] TgSLO: Finish Load: GOD_Apollo
+[0310.40] TgSLO: Finish Load: GOD_Apollo_Textures
+[0310.42] TgSLO: Finish Load: FX_Apollo
+[0310.42] TgSLO: Finish Load: AUD_God_Apollo
+[0310.43] TgSLO: Finish Load: GOD_Apollo_Skin6
+[0310.45] Log: Missing cached shader map for material MAT_Diamond3_CARD, quality 0, compiling.
+[0310.45] Log: Can't compile MAT_Diamond3_CARD with seekfree loading path on console, will attempt to use default material instead
+[0310.45] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_CARD for platform PC-D3D-SM3, Default Material will be used in game.
+[0310.45] Log: Missing cached shader map for material MAT_Diamond3_Crysalis2, quality 0, compiling.
+[0310.45] Log: Can't compile MAT_Diamond3_Crysalis2 with seekfree loading path on console, will attempt to use default material instead
+[0310.45] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_Crysalis2 for platform PC-D3D-SM3, Default Material will be used in game.
+[0310.45] TgSLO: Finish Load: FX_Diamond_Recall
+[0310.47] TgSLO: Finish Load: AUD_UI
+[0310.58] TgSLO: Finish Load: GOD_HeBo_V2
+[0310.59] TgSLO: Finish Load: GOD_HeBo_V2_Textures
+[0310.59] TgSLO: Finish Load: AUD_God_HeBo_V2
+[0310.64] TgSLO: Finish Load: GOD_HeBo_V3_Skin4
+[0310.65] TgSLO: Finish Load: GOD_HeBo_V3_Skin6
+[0310.70] TgSLO: Finish Load: FX_HeBo
+[0310.70] TgSLO: Finish Load: AUD_God_HeBo
+[0310.70] TgSLO: Finish Load: AnimNotify10720
+[0310.74] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0310.75] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0310.78] TgSLO: Finish Load: FX_Common
+[0310.80] TgSLO: Finish Load: NPC_Ward_DentonBalloon
+[0310.81] TgSLO: Finish Load: FX_Emote_global_Spring_2017
+[0310.81] TgSLO: Finish Load: FX_Celtic_Recall
+[0310.82] TgSLO: Finish Load: FX_JumpStamp_SeasonTicket2017
+[0310.90] TgSLO: Finish Load: GOD_Arachne
+[0310.90] TgSLO: Finish Load: GOD_Arachne_Textures
+[0310.94] TgSLO: Finish Load: FX_Arachne
+[0310.95] TgSLO: Finish Load: AUD_God_Arachne
+[0310.96] TgSLO: Finish Load: GOD_Arachne_Spider
+[0310.96] TgSLO: Finish Load: GOD_Arachne_Spider_Textures
+[0310.98] TgSLO: Finish Load: GOD_Arachne_Skin2
+[0310.99] TgSLO: Finish Load: GOD_Arachne_Skin4
+[0311.01] TgSLO: Finish Load: NPC_Ward_WindDancer
+[0311.03] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0311.17] TgSLO: Finish Load: GOD_Artio
+[0311.17] TgSLO: Finish Load: GOD_Artio_Textures
+[0311.22] TgSLO: Finish Load: FX_Artio
+[0311.23] TgSLO: Finish Load: FX_Artio_Targeting
+[0311.24] TgSLO: Finish Load: AUD_God_Artio
+[0311.24] TgSLO: Finish Load: GOD_Artio_Bear
+[0311.24] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0311.26] TgSLO: Finish Load: FX_Emote_global_SmiteBirthday
+[0311.35] TgSLO: Finish Load: GOD_Hel_V3
+[0311.35] TgSLO: Finish Load: GOD_Hel_V3_Textures
+[0311.38] TgSLO: Finish Load: FX_Hel_V3
+[0311.38] TgSLO: Finish Load: AUD_God_Hel
+[0311.53] TgSLO: Finish Load: GOD_Susano
+[0311.53] TgSLO: Finish Load: GOD_Susano_Textures
+[0311.59] TgSLO: Finish Load: FX_Susano
+[0311.60] TgSLO: Finish Load: AUD_God_Susano
+[0311.62] TgSLO: Finish Load: GOD_Susano_Skin6
+[0311.62] TgSLO: Finish Load: MDL_PseudoMesh
+[0311.66] TgSLO: Finish Load: FX_Susano_Skin6
+[0311.67] TgSLO: Finish Load: AUD_God_Susano_Skin6
+[0311.68] TgSLO: Finish Load: FX_Susano_Targeting_Skin6
+[0311.69] TgSLO: Finish Load: AnimNotify14944
+[0311.75] TgSLO: Finish Load: NPC_Ward_ODY_2017_Evolving
+[0311.76] TgSLO: Finish Load: FX_Emote_global_Fireworks_RIP
+[0311.77] TgSLO: Finish Load: FX_Shower_O_Gold_Recall
+[0311.77] TgSLO: Finish Load: FX_JumpStamp_Adventures_MMO
+[0311.96] TgSLO: Finish Load: GOD_Fafnir
+[0311.96] TgSLO: Finish Load: GOD_Fafnir_Textures
+[0312.02] TgSLO: Finish Load: FX_Fafnir
+[0312.04] TgSLO: Finish Load: AUD_God_Fafnir
+[0312.09] TgSLO: Finish Load: GOD_Fafnir_Skin2
+[0312.14] TgSLO: Finish Load: FX_Fafnir_Skin2
+[0312.17] TgSLO: Finish Load: FX_Fafnir_Skin2_Targeting
+[0312.20] TgSLO: Finish Load: AnimNotify13410
+[0312.22] TgSLO: Finish Load: NPC_Ward_Odyssey
+[0312.25] TgSLO: Finish Load: NPC_Ward_DragonBoat
+[0312.27] TgSLO: Finish Load: NPC_Ward_Cactus
+[0312.28] TgSLO: Finish Load: npc_ward_maoi
+[0312.32] TgSLO: Finish Load: NPC_Ward_FishBowl
+[0312.32] TgSLO: Finish Load: FX_Emote_global_Fireworks_A
+[0312.49] TgSLO: Finish Load: GOD_ErlangShen
+[0312.49] TgSLO: Finish Load: GOD_ErlangShen_Textures
+[0312.54] TgSLO: Finish Load: FX_ErlangShen
+[0312.56] TgSLO: Finish Load: AUD_God_ErlangShen
+[0312.57] TgSLO: Finish Load: GOD_ErlangShen_Mink
+[0312.58] TgSLO: Finish Load: GOD_ErlangShen_Turtle
+[0312.63] TgSLO: Finish Load: NPC_Ward_CorruptKukulkan
+[0312.77] TgSLO: Finish Load: GOD_Aphrodite
+[0312.77] TgSLO: Finish Load: GOD_Aphrodite_Textures
+[0312.82] TgSLO: Finish Load: FX_Aphrodite
+[0312.83] TgSLO: Finish Load: AUD_God_Aphrodite
+[0312.87] TgSLO: Finish Load: GOD_Aphrodite_Skin4
+[0312.88] TgSLO: Finish Load: AUD_VOX_God_Aphrodite_Skin4
+[0312.89] TgSLO: Finish Load: FX_Aphrodite_Skin4
+[0312.90] TgSLO: Finish Load: AnimNotify11565
+[0313.03] TgSLO: Finish Load: GOD_AhMuzenCab
+[0313.05] TgSLO: Finish Load: GOD_AhMuzenCab_Textures
+[0313.09] TgSLO: Finish Load: FX_AhMuzenCab
+[0313.11] TgSLO: Finish Load: AUD_God_AhMuzenCab
+[0313.16] TgSLO: Finish Load: NPC_Phoenix
+[0313.22] TgSLO: Finish Load: FX_Greek_Tower
+[0313.23] TgSLO: Finish Load: FX_Phoenix
+[0313.26] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Order
+[0313.26] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Generic
+[0313.28] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Order
+[0313.28] TgSLO: Finish Load: AUD_NPC_EGYClash_Phoenix
+[0313.29] TgSLO: Finish Load: AUD_Tower
+[0313.36] TgSLO: Finish Load: EC_Towers
+[0313.37] TgSLO: Finish Load: FX_NPC_EGYClash_Towers
+[0313.38] TgSLO: Finish Load: NPC_EGYClash_Phoenix_Chaos
+[0313.39] TgSLO: Finish Load: FX_NPC_EGYClash_Phoenix_Chaos
+[0313.42] TgSLO: Finish Load: NPC_Olympus
+[0313.43] TgSLO: Finish Load: AUD_NPC_Olympus
+[0313.48] TgSLO: Finish Load: NPC_Minion_Universal
+[0313.49] TgSLO: Finish Load: FX_Roman
+[0313.49] TgSLO: Finish Load: FX_Minion_Death
+[0313.51] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0313.52] TgSLO: Finish Load: NPC_EGYClash_Minion_Order
+[0313.52] TgSLO: Finish Load: NPC_EGYClash_Brute_Order
+[0313.56] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0313.57] TgSLO: Finish Load: NPC_EGYClash_Minion_Chaos
+[0313.58] TgSLO: Finish Load: NPC_EGYClash_Brute_Chaos
+[0313.65] TgSLO: Finish Load: NPC_Guardian_Female
+[0313.66] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0313.66] TgSLO: Finish Load: FX_Guardian_Female
+[0313.72] TgSLO: Finish Load: NPC_EGYClash_Titan_Order
+[0313.72] TgSLO: Finish Load: NPC_EGYClash_Titan_Generic
+[0313.73] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Order
+[0313.76] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0313.78] TgSLO: Finish Load: NPC_EGYClash_Titan_Chaos
+[0313.82] TgSLO: Finish Load: FX_Guardian_Male
+[0313.88] TgSLO: Finish Load: FX_CHNJoust_Titan_Invader
+[0313.89] TgSLO: Finish Load: FX_NPC_EGYClash_Titan_Chaos
+[0313.94] TgSLO: Finish Load: NPC_Cyclops_V2
+[0313.94] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0313.94] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0314.01] TgSLO: Finish Load: NPC_EGYClash_Hyena
+[0314.02] TgSLO: Finish Load: FX_EGYClash_Hyena
+[0314.09] TgSLO: Finish Load: NPC_EGYClash_Baboon
+[0314.10] TgSLO: Finish Load: FX_NPC_EGYClash_Baboon
+[0314.25] TgSLO: Finish Load: NPC_Cyclops_V3
+[0314.32] TgSLO: Finish Load: FX_Odin_V2
+[0314.37] TgSLO: Finish Load: NPC_EGYClash_Apep
+[0314.37] TgSLO: Finish Load: AUD_NPC_EGYClash_Apep
+[0314.39] TgSLO: Finish Load: FX_Apep
+[0314.39] Log: Flushed async loaders.
+[0314.40] DevNet: Fully loading base package clash_collision due to fallback logic
+[0314.40] DevNet: Fully loading base package clash_lighting due to fallback logic
+[0314.42] DevNet: Fully loading base package clash_skybox due to fallback logic
+[0314.59] DevNet: Fully loading base package clash_sound due to fallback logic
+[0314.61] DevNet: Fully loading base package clash_vegetation due to fallback logic
+[0314.67] DevNet: Fully loading base package clash_vfx due to fallback logic
+[0314.68] DevNet: Fully loading base package clash_perftests due to fallback logic
+[0314.79] Log: Primary PhysX scene will be in software.
+[0314.79] Log: Creating Primary PhysX Scene.
+[0314.79] Log: Bringing World clash_p.TheWorld up for play (595) at 2017.10.12-14.22.19
+[0314.79] Log: Skipping initialization of FSMPartPool!
+[0314.80] Log: Bringing up level for play took: 0.094898
+[0314.80] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0314.80] Warning: Warning, Failed to find object 'Class None.'
+[0314.80] Log: PlayerController class for the pending level is PlayerController
+[0314.80] Log: ########### Finished loading level: 5.212607 seconds
+[0314.82] Log: Flushing async loaders.
+[0314.96] Log: Flushed async loaders.
+[0314.96] Log: Starting RedrawViewports for texture streaming..
+[0315.03] Log: RedrawViewports took: 0.064801 seconds
+[0315.03] Log: Starting Level load StreamAllResources..
+[0315.05] Log: Level load StreamAllResources took: 0.019364 seconds
+[0315.15] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0315.23] Log: ---- UpdateClanData
+[0315.24] Log: Activated clash_assist 1 1 0
+[0315.24] Log: ActivateLevel clash_assist 1 1 0
+[0315.24] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.25] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.32] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0315.34] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.43] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.43] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.46] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.46] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.60] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0315.60] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0315.60] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0315.61] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.65] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0315.76] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.76] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0315.83] DevMusic: PComMusicTheme PlayDefaultMusic
+[0315.83] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0315.83] Log: Mission Timer State 1 at game time 89.70
+[0315.85] Log: TeamIndex 1 has new leader: 5044221
+[0315.90] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0315.95] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0315.95] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0315.95] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0315.95] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0315.96] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0316.00] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0316.00] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0316.00] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0316.00] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0320.23] DevMusic: PComMusicTheme PlayMusicEvent found event named Opening
+[0320.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0320.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0320.23] DevMusic: PComMusicTheme UpdateMusicTrack Setting duration timer to 70.000000
+[0323.96] Log: TeamIndex 2 has new leader: 11406479
+[0337.70] Log: TeamIndex 2 has new leader: 5677482
+[0339.56] Log:            ATgPlayerController::UpdateTransitionUI()
+[0339.56] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0339.56] Log: Mission Timer State 2 at game time 45.00
+[0339.56] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0339.56] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0339.60] Log: usc_toggle_cursor true
+[0339.97] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0340.20] Log: TeamIndex 1 has new leader: 10724610
+[0340.21] Log: usc_toggle_cursor false
+[0340.51] Log: usc_toggle_key_capture false
+[0344.54] Log: usc_toggle_cursor true
+[0345.43] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0345.43] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0345.43] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0345.43] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0345.43] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0345.43] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0347.18] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0347.18] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0349.24] Log: Requesting purchase of itemId (10044) amount (1)
+[0349.36] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0353.77] Log: Chat[3]: KaoDair has purchased a Meditation Cloak.
+[0354.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0354.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0358.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0358.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0360.01] Log: Time is 2017.10.12-14.23.04
+[0363.26] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0363.26] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0364.63] Log: Requesting purchase of itemId (8141) amount (1)
+[0365.12] Log: usc_toggle_cursor false
+[0366.26] Log: Chat[3]: DastardlyDave has purchased a Heavenly Wings.
+[0369.77] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0369.77] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0370.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0370.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0370.48] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0370.48] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0370.82] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0370.82] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0371.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0383.97] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen_Dog clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_Dog_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0384.62] Log: Mission Timer State 3 at game time 0.00
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0388.99] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0390.23] DevMusic: PComMusicTheme Duration Expired
+[0390.23] DevMusic: PComMusicTheme PlayDefaultMusic
+[0390.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Egypt.A_CUE_MUS_Egypt_LP over 5.000000 seconds
+[0390.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0393.78] Log: Chat[3]: Ditussimulus has purchased a Meditation Cloak.
+[0397.83] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_0)
+[0410.69] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_1)
+[0426.54] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_2)
+[0426.96] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0426.96] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP already playing
+[0427.84] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0427.84] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0428.04] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0428.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0428.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0428.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0428.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0428.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0428.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0428.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0428.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0437.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0437.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0438.00] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0438.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0438.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0438.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0438.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0438.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0438.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0438.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0438.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0438.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0438.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0442.15] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0442.15] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0442.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0442.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0442.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0442.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0443.15] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0443.15] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0444.39] Log: PUSHING Accolade: juansebo20 has drawn First Blood!, local: false
+[0449.50] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_3)
+[0462.92] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_4)
+[0470.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0470.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0470.32] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0483.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0483.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0484.13] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0486.88] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_5)
+[0493.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0493.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0494.09] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0501.86] Log: PUSHING Accolade: , local: false
+[0518.01] Log: usc_toggle_cursor true
+[0519.33] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0519.33] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0519.33] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0519.46] Log: usc_toggle_key_capture true
+[0521.45] Log: usc_toggle_key_capture false
+[0521.66] Log: Requesting purchase of itemId (17989) amount (1)
+[0521.82] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0522.47] Log: usc_toggle_cursor false
+[0526.70] Log: usc_toggle_cursor true
+[0538.84] Log: usc_toggle_cursor false
+[0539.35] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0539.35] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0539.35] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0540.01] Log: Time is 2017.10.12-14.26.04
+[0560.33] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0560.33] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0560.51] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0560.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0560.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0560.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0560.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0560.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0563.74] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_6)
+[0564.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0564.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0564.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.87] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0564.88] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.88] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.93] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.93] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0564.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0564.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0565.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0565.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0584.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0584.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0584.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0584.60] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0584.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0584.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0584.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0584.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0584.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0584.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0584.64] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0584.64] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0594.44] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_7)
+[0596.39] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0596.39] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0596.59] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0596.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0596.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0596.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0596.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0596.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0596.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0597.72] Log: PUSHING Accolade: juansebo20 is on Killing Spree! (x3), local: false
+[0598.53] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0598.53] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0601.14] Log: Chat[3]: [VVGO] Oops!
+[0606.54] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0606.54] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0606.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0606.74] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0606.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0606.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0606.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0609.70] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_8)
+[0612.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0612.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0612.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0612.95] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0612.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0612.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0612.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0612.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0612.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0612.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0612.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0612.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0612.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0612.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0612.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0612.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0613.97] Log: PUSHING Accolade: , local: false
+[0617.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0617.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0622.65] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0622.65] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0622.65] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0623.36] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0623.37] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0623.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0623.70] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0624.09] Log: usc_toggle_cursor true
+[0625.61] Log: PUSHING Accolade: , local: false
+[0626.00] Log: Requesting purchase of itemId (10200) amount (1)
+[0626.14] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0626.74] Log: usc_toggle_cursor false
+[0639.84] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0639.84] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0640.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0640.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0640.04] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0640.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0640.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0640.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0640.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0640.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0640.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0642.39] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_9)
+[0642.66] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0642.66] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0642.66] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0653.64] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_10)
+[0655.32] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0655.32] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0655.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0655.49] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0655.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0655.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0655.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0662.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0662.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0663.00] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0673.40] Log: PUSHING Accolade: , local: false
+[0677.17] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0677.17] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0677.42] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_11)
+[0679.84] Log: Chat[3]: [VVB] Be right back!
+[0692.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0692.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0692.27] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0704.33] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0704.33] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0704.33] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0706.09] Log: usc_toggle_cursor true
+[0711.59] Log: Requesting purchase of itemId (9470) amount (1)
+[0711.72] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0712.55] Log: usc_toggle_cursor false
+[0719.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0719.75] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0719.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0719.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0719.96] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0719.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0719.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0719.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0719.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0719.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0719.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0720.01] Log: Time is 2017.10.12-14.29.04
+[0724.34] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0724.34] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0724.34] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0727.07] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_12)
+[0727.15] Log: PUSHING Accolade: , local: false
+[0729.34] Log: PUSHING Accolade: , local: false
+[0729.83] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0729.83] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0730.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0730.02] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0730.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0730.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0730.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0730.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0742.77] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0742.77] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0742.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0742.97] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0742.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0742.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0743.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0745.92] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[0747.77] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_13)
+[0749.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0749.47] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0749.71] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0752.88] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[0752.88] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0752.88] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0753.18] Log: PUSHING Accolade: RoyalToilet has a Player Kill!, local: false
+[0754.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0754.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0754.69] Log: PUSHING Accolade: , local: false
+[0758.10] Log: usc_toggle_cursor true
+[0759.50] Log: usc_toggle_cursor false
+[0759.56] Log: usc_toggle_cursor true
+[0759.61] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0759.61] Warning: Warning, Failed to find object 'Class None.None'
+[0763.56] Log: usc_toggle_cursor false
+[0767.66] Log: usc_toggle_cursor true
+[0767.88] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0767.88] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0767.88] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0769.82] Log: usc_toggle_cursor false
+[0774.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0774.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0780.59] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[0783.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0783.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0783.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0783.48] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0783.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0783.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0783.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0783.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0783.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0783.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0783.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0783.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0810.70] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_14)
+[0811.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0811.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0811.59] Log: PUSHING Accolade: , local: false
+[0811.75] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0812.71] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0812.71] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0813.94] Log: Chat[3]: [VVGS] Curses!
+[0814.36] Log: PUSHING Accolade: TropTheBond is on Killing Spree! (x3), local: false
+[0815.86] Log: Expiring Accolade: 
+[0815.86] Log: PUSHING Accolade: ASSISTED, local: true
+[0817.92] Log: PUSHING Accolade: TropTheBond has a Double Kill!, local: false
+[0817.92] Log: Suppressing Accolade: 
+[0832.88] Log: Chat[3]: [VRR] Retreat!
+[0840.02] Log: PUSHING Accolade: kev5641 is on Killing Spree! (x3), local: false
+[0844.64] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0844.64] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0846.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0846.23] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0846.44] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0846.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0846.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0847.04] Log: Chat[6]: WATHXS has come online.
+[0848.10] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[0848.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0848.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0848.30] Log: PUSHING Accolade: kev5641 has a Double Kill!, local: false
+[0848.30] Log: Suppressing Accolade: kev5641 has a Player Kill!
+[0852.78] Log: usc_toggle_cursor true
+[0858.78] Log: PUSHING Accolade: TropTheBond is on a Rampage! (x5), local: false
+[0859.45] Log: usc_toggle_cursor false
+[0860.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0860.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0860.83] Log: usc_toggle_cursor true
+[0863.04] Log: usc_toggle_cursor false
+[0863.10] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0863.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0863.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0864.39] Log: usc_toggle_cursor true
+[0869.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0869.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0870.70] Log: usc_toggle_cursor false
+[0876.78] Log: usc_toggle_cursor true
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.69] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0877.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0885.64] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0885.64] Warning: Warning, Failed to find object 'Class None.None'
+[0886.23] Log: usc_toggle_key_capture true
+[0888.75] Log: usc_toggle_key_capture false
+[0888.99] Log: Requesting purchase of itemId (8711) amount (1)
+[0889.15] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0889.98] Log: usc_toggle_cursor false
+[0892.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0892.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Susano clash_p.TheWorld:PersistentLevel.TgPawn_Susano_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0893.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0893.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0893.55] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0893.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0893.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0893.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0893.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0893.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0893.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0893.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0893.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0893.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0893.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0896.10] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0896.10] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0900.02] Log: Time is 2017.10.12-14.32.04
+[0900.69] Log: Chat[9]: WATHXS has gone offline.
+[0900.69] Log: Chat[6]: WATHXS has gone offline.
+[0901.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0901.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0901.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0901.20] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0901.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0901.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0901.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0901.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0901.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0901.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0901.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0901.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0906.01] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_15)
+[0908.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0908.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0908.25] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0910.10] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[0910.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0910.10] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0910.30] Log: PUSHING Accolade: TropTheBond has a Player Kill!, local: false
+[0911.95] Log: PUSHING Accolade: juansebo20 is on a Rampage! (x5), local: false
+[0912.19] Log: Chat[3]: [VVA] Ok!
+[0919.80] Log: PUSHING Accolade: TropTheBond has a Double Kill!, local: false
+[0919.80] Log: Suppressing Accolade: TropTheBond is UNSTOPPABLE! (x7)
+[0920.93] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0920.93] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0921.21] Log: Chat[3]: [VVGB] Bye!
+[0925.09] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0925.09] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0925.09] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0931.39] Log: PUSHING Accolade: , local: false
+[0933.22] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0933.22] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0937.30] Log: PUSHING Accolade: kev5641 is on a Rampage! (x5), local: false
+[0938.80] Log: PUSHING Accolade: DEICIDE, local: true
+[0955.41] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0955.41] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0955.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0955.60] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0955.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0955.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0955.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0955.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0955.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0955.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0955.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0955.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0960.82] Log: PUSHING Accolade: DastardlyDave shut down TropTheBond, local: false
+[0960.82] Log: Suppressing Accolade: 
+[0961.27] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_16)
+[0962.33] Log: Expiring Accolade: 
+[0962.33] Log: PUSHING Accolade: ASSISTED, local: true
+[0965.41] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0965.41] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0965.60] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0969.30] Log: PUSHING Accolade: RoyalToilet is on Killing Spree! (x3), local: false
+[0970.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0970.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0971.05] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0972.60] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_17)
+[0975.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0975.74] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0978.33] Log: PUSHING Accolade: , local: false
+[0979.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0979.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0979.15] Log: Chat[3]: unicornp00ts has purchased a Rod of Healing.
+[0979.34] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0979.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0979.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0979.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0979.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0985.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0985.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0985.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0985.84] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0985.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0985.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0985.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0985.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0985.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0985.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0985.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0985.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0986.71] Log: PUSHING Accolade: , local: false
+[0986.95] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[0986.95] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0986.95] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0988.22] Log: PUSHING Accolade: kev5641 has a Double Kill!, local: false
+[0988.22] Log: Suppressing Accolade: kev5641 is UNSTOPPABLE! (x7)
+[1001.97] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1001.97] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1001.97] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1016.40] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1016.40] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1018.78] Log: usc_toggle_cursor true
+[1020.27] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1020.27] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1020.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1020.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1020.95] Log: Requesting purchase of itemId (8057) amount (1)
+[1021.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1021.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1021.10] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1021.23] Log: Chat[3]: chicodelnoche has purchased a Sovereignty.
+[1021.31] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1021.31] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1021.62] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1021.62] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1021.77] Log: usc_toggle_cursor false
+[1021.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1021.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_AhMuzenCab clash_p.TheWorld:PersistentLevel.TgPawn_AhMuzenCab_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1026.71] Log: Chat[3]: [VCC] Be careful!
+[1026.82] Log: Chat[3]: KaoDair has purchased a Magic Shell.
+[1028.61] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_18)
+[1034.34] Log: PUSHING Accolade: , local: false
+[1039.13] Log: PUSHING Accolade: , local: false
+[1040.06] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1040.06] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1040.88] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_19)
+[1043.06] Log: Chat[3]: [VDD] Defend!
+[1045.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1045.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1045.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1045.33] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1045.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1045.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1045.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1045.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1045.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1055.47] Log: usc_toggle_cursor true
+[1058.06] Log: Requesting purchase of itemId (9159) amount (1)
+[1058.25] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController clash_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1058.26] Log: Chat[3]: chicodelnoche has purchased a Meditation Cloak.
+[1060.31] Log: usc_toggle_cursor false
+[1061.92] Log: PUSHING Accolade: , local: false
+[1062.97] Log: Chat[3]: Did arachne AFK?
+[1075.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1075.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1075.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1075.95] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1075.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1075.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1075.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1075.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1075.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1075.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1075.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1075.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1076.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1076.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1080.03] Log: Time is 2017.10.12-14.35.04
+[1080.95] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_20)
+[1086.27] Log: PUSHING Accolade: , local: false
+[1092.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1092.28] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1092.48] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1092.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1099.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1099.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio clash_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1100.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1100.10] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1100.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1100.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1100.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1100.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1100.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1100.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1101.59] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1101.59] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1101.59] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1101.86] Log: PUSHING Accolade: kev5641 is DIVINE! (x9), local: false
+[1103.36] Log: PUSHING Accolade: TropTheBond is on Killing Spree! (x3), local: false
+[1104.87] Log: Expiring Accolade: 
+[1109.07] Log: PUSHING Accolade: , local: false
+[1111.49] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1111.49] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1116.59] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1116.59] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1116.59] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1118.60] Log: PUSHING Accolade: RoyalToilet has a Double Kill!, local: false
+[1118.60] Log: Suppressing Accolade: RoyalToilet is on a Rampage! (x5)
+[1119.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1119.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1119.92] Log: usc_toggle_cursor true
+[1120.11] Log: PUSHING Accolade: DEICIDE, local: true
+[1121.09] Log: Mission Timer State 5 at game time 14400.00
+[1121.09] DevMusic: PComMusicTheme PlayMusicEvent found event named MatchEnd
+[1121.09] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1121.09] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd over 5.000000 seconds
+[1121.12] DevMusic: PComMusicTheme PlayMusicEvent found event named MatchEnd
+[1121.12] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd already playing
+[1122.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.20] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1122.81] Log: usc_toggle_cursor false
+[1123.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1123.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1123.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1123.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1123.71] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1123.71] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1123.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1123.95] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.46] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.83] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1124.83] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1125.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1125.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_ErlangShen clash_p.TheWorld:PersistentLevel.TgPawn_ErlangShen_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1125.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1125.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1125.81] Log: Chat[3]: gg
+[1125.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1125.96] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1126.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1126.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1127.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1127.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Aphrodite clash_p.TheWorld:PersistentLevel.TgPawn_Aphrodite_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1129.19] Log: usc_toggle_key_capture true
+[1129.19] Log: usc_toggle_cursor true
+[1131.59] Log: usc_toggle_key_capture true
+[1131.77] Log: usc_toggle_key_capture false
+[1131.77] Log: SendChat[3] 
+[1134.77] Log: ---- UpdateClanData
+[1140.19] Log: ReceiveChangeMap: mapGameId 1447
+[1140.19] Log: ReceiveChangeMap: mapGameId 1447
+[1140.20] DevNet: URL: Adding default option Team=255
+[1140.20] Log: ---- UpdateClanData
+[1140.20] Log: RequestingChannelMembers ch[3] [unicornp00ts has left the channel.]
+[1140.20] Log: RequestingChannelMembers ch[3] [KaoDair has left the channel.]
+[1140.20] Log: RequestingChannelMembers ch[3] [chicodelnoche has left the channel.]
+[1140.20] DevNet: URL: Adding default option Team=255
+[1140.21] DevNet: Browse: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1140.81] Log: LoadMap: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1141.17] NetComeGo: Close PComNetDriver_1 PComNetConn_0 0.0.0.0:9211 10/12/17 14:36:06
+[1141.40] Exit: PComNetDriver_1 shut down
+[1141.75] Log: Map Game ID = 0
+[1141.75] Log: Map Instance ID = 197832242
+[1141.76] Log: Performance: Critical section Lock/Unlock 18 nsec
+[1141.77] Log: Performance:  appCycles 13 nsec
+[1141.79] Log: Performance:  memCopy per KB 95 nsec
+[1141.79] Log: Performance:  memZero per KB 42 nsec
+[1141.80] Log: Performance:  appInterlockedIncrement 9 nsec
+[1141.81] Log: Performance:  GetTickCount 3 nsec
+[1141.81] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1141.81] Log: Flushing async loaders.
+[1141.86] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1141.87] Log: Flushed async loaders.
+[1141.87] Log: Game class is 'TgGameLaunch'
+[1141.89] Log: Primary PhysX scene will be in software.
+[1141.90] Log: Creating Primary PhysX Scene.
+[1141.90] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1141.90] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.12-14.36.06
+[1141.90] Log: Skipping initialization of FSMPartPool!
+[1141.98] DevMusic: PComMusicTheme PlayDefaultMusic
+[1141.98] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[1141.99] Log: Bringing up level for play took: 0.119593
+[1141.99] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[1141.99] TgSLO: Async Load: GOD_Artio
+[1141.99] TgSLO: Async Load: GOD_Artio_Textures
+[1141.99] TgSLO: Async Load: GOD_Artio_Lobby
+[1141.99] TgSLO: Async Load: FX_Artio
+[1141.99] TgSLO: Async Load: FX_Artio_Lobby
+[1141.99] TgSLO: Async Load: AUD_God_Artio
+[1141.99] TgSLO: Async Load: GOD_Artio_Bear
+[1141.99] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[1141.99] Log: Flushing async loaders.
+[1142.12] TgSLO: Finish Load: GOD_Artio
+[1142.12] TgSLO: Finish Load: GOD_Artio_Textures
+[1142.17] TgSLO: Finish Load: GOD_Artio_Lobby
+[1142.21] TgSLO: Finish Load: FX_Artio
+[1142.22] TgSLO: Finish Load: FX_Artio_Lobby
+[1142.22] TgSLO: Finish Load: AUD_God_Artio
+[1142.23] TgSLO: Finish Load: GOD_Artio_Bear
+[1142.23] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[1142.23] Log: Flushed async loaders.
+[1142.24] DevMusic: PComMusicTheme PlayMusicEvent found event named eom
+[1142.24] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[1142.24] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global_EOM.A_CUE_MUS_EOM over 1.000000 seconds
+[1142.24] Log: ########### Finished loading level: 1.432739 seconds
+[1142.26] Log: Flushing async loaders.
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[1142.68] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[1142.68] Log: Flushed async loaders.
+[1142.68] Log: Starting RedrawViewports for texture streaming..
+[1142.71] Log: RedrawViewports took: 0.030569 seconds
+[1142.71] Log: Starting Level load StreamAllResources..
+[1142.77] Log: Level load StreamAllResources took: 0.063767 seconds
+[1142.80] Log: RequestingChannelMembers ch[8] [chicodelnoche has joined the channel.]
+[1142.80] Log: RequestingChannelMembers ch[8] [TropTheBond has joined the channel.]
+[1142.80] Log: RequestingChannelMembers ch[8] [RoyalToilet has joined the channel.]
+[1142.80] Log: RequestingChannelMembers ch[8] [unicornp00ts has joined the channel.]
+[1142.80] Log: RequestingChannelMembers ch[8] [Ditussimulus has joined the channel.]
+[1143.64] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[1144.01] Log: RequestingChannelMembers ch[8] [kev5641 has joined the channel.]
+[1144.13] Log: RequestingChannelMembers ch[8] [DastardlyDave has joined the channel.]
+[1148.91] Log: Chat[8]: gg
+[1153.99] Log: Chat[8]: gg
+[1156.52] Log: Chat[8]: easy
+[1157.82] Log: Chat[8]: GG
+[1158.31] Log: RequestingChannelMembers ch[8] [Ditussimulus has left the channel.]
+[1159.48] Log: Chat[8]: ggwp
+[1159.88] Log: RequestingChannelMembers ch[8] [ChuckELoofer has left the channel.]
+[1162.65] Log: RequestingChannelMembers ch[8] [unicornp00ts has left the channel.]
+[1164.07] Log: Chat[8]: gg
+[1166.34] Log: RequestingChannelMembers ch[8] [KaoDair has left the channel.]
+[1180.44] Log: Closing by request
+[1180.44] Log: appRequestExit(0)(0)
+[1180.45] Log: TgAIBehaviorTreeManager :: De-allocating 201 behavior trees
+[1180.62] Exit: Preparing to exit.
+[1181.04] Exit: Game engine shut down
+[1181.04] Exit: PComNetDriver_0(PEER) shut down
+[1181.04] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[1181.19] Exit: Windows client shut down
+[1181.21] Exit: XAudio2 Device shut down.
+[1181.48] Exit: Object subsystem successfully closed.
+[1181.49] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[1181.61] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[1181.64] Exit: Exiting.

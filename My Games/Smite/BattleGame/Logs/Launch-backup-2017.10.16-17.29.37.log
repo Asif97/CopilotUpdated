@@ -1,0 +1,1733 @@
+[0000.31] Log: Async Log file open, 10/12/17 17:17:32
+[0000.31] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.31] Log:  ... running in INSTALLED mode
+[0000.31] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.31] Init: Version: 10897
+[0000.31] Init: Epic Internal: 0
+[0000.31] Init: Compiled (32-bit): Oct 11 2017 14:21:10
+[0000.31] Init: Changelist: 1532151
+[0000.31] Init: Game is version 4.19.4362.3.
+[0000.31] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -region=Earth -pid=017 -portaluserid=Swoldier97 -token                                  -HiCommand -HEXX=46A07996
+[0000.31] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.31] Init: Computer: LAPTOP-2ARNF0V1
+[0000.31] Init: User: Asif
+[0000.31] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.31] Init: High frequency timer resolution =2.835912 MHz
+[0000.31] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.81] DevOnline: Initializing MCTS
+[0001.27] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.28] Init: Object subsystem initialized
+[0001.28] Log: Overriding lang INT w/ command-line option of ENG
+[0001.28] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.46] Log: CachePaths() took 0.19 Seconds
+[0001.46] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.51] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.38] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0003.57] Log: SystemSettings based on: SystemSettings
+[0003.57] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0003.58] Log: SystemSettings based on: SystemSettings
+[0004.30] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0004.30] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0005.54] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.60] Log: PhysX GPU Support: DISABLED
+[0007.71] Log: Assembly Loaded Version: DBExport: 10/09/2017 18:14:44,  Src=devsql.hirezcorp.com:smite_live_build_4_19, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0007.75] Log: FEACClient being initialized
+[0009.32] Log: TFC Version check: Low=4.19.4362.0 High=, Result=FALSE
+[0010.88] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0011.47] Log: 161676 objects as part of root set at end of initial load.
+[0011.47] Log: 0 out of 0 bytes used by permanent object pool.
+[0011.53] Log: Initializing Engine...
+[0011.60] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0011.60] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0013.08] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0016.86] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0016.86] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0016.87] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0016.87] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0016.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.87] Warning: Warning, Failed to find object 'Class None.'
+[0016.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.87] Warning: Warning, Failed to find object 'Class None.'
+[0016.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.87] Warning: Warning, Failed to find object 'Class None.'
+[0016.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0016.87] Warning: Warning, Failed to find object 'Class None.'
+[0016.87] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0016.87] Log: FEACClient::Send preload map event
+[0016.87] Log: FEACClient OnGameServerDisconnect
+[0016.88] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0017.02] Log: Map Game ID = 0
+[0017.02] Log: Map Instance ID = 197843068
+[0017.04] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0017.04] Log: Performance:  appCycles 14 nsec
+[0017.06] Log: Performance:  memCopy per KB 78 nsec
+[0017.07] Log: Performance:  memZero per KB 39 nsec
+[0017.08] Log: Performance:  appInterlockedIncrement 8 nsec
+[0017.08] Log: Performance:  GetTickCount 3 nsec
+[0017.08] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0017.08] Log: Flushing async loaders.
+[0017.14] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0017.14] Log: Flushed async loaders.
+[0017.14] Log: Game class is 'TgGameLaunch'
+[0017.23] Log: Primary PhysX scene will be in software.
+[0017.23] Log: Creating Primary PhysX Scene.
+[0017.23] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0017.23] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.12-17.17.48
+[0017.23] Log: Skipping initialization of FSMPartPool!
+[0017.32] DevMusic: PComMusicTheme PlayDefaultMusic
+[0017.32] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0017.33] Log: Bringing up level for play took: 0.178989
+[0017.33] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0017.33] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0017.33] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0017.82] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0017.82] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0017.98] Log: usc_toggle_cursor true
+[0017.98] Log: usc_toggle_key_capture true
+[0017.99] DevMusic: PComMusicTheme PlayDefaultMusic
+[0017.99] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0017.99] Log: ########### Finished loading level: 1.108876 seconds
+[0018.09] Log: Flushing async loaders.
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0018.53] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0018.53] Log: Flushed async loaders.
+[0018.53] Log: Starting RedrawViewports for texture streaming..
+[0018.56] Log: RedrawViewports took: 0.028622 seconds
+[0018.56] Log: Starting Level load StreamAllResources..
+[0018.66] Log: Level load StreamAllResources took: 0.100462 seconds
+[0018.66] Log: Initializing Engine Completed
+[0018.66] Log: >>>>>>>>>>>>>> Initial startup: 18.66s <<<<<<<<<<<<<<<
+[0018.66] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0019.39] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-106181210748102518531161135--1052109747x4941
+[0019.81] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0021.60] Log: Map Game ID = 0
+[0021.60] Log: Map Instance ID = 197843068
+[0021.62] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0021.62] Log: Performance:  appCycles 8 nsec
+[0021.63] Log: Performance:  memCopy per KB 75 nsec
+[0021.64] Log: Performance:  memZero per KB 35 nsec
+[0021.65] Log: Performance:  appInterlockedIncrement 8 nsec
+[0021.65] Log: Performance:  GetTickCount 3 nsec
+[0021.65] Log: Map Game ID = 0
+[0021.65] Log: Map Instance ID = 197843068
+[0021.67] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0021.67] Log: Performance:  appCycles 8 nsec
+[0021.69] Log: Performance:  memCopy per KB 72 nsec
+[0021.69] Log: Performance:  memZero per KB 30 nsec
+[0021.70] Log: Performance:  appInterlockedIncrement 7 nsec
+[0021.71] Log: Performance:  GetTickCount 2 nsec
+[0021.71] Log: Map Game ID = 0
+[0021.71] Log: Map Instance ID = 197843068
+[0021.72] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0021.73] Log: Performance:  appCycles 8 nsec
+[0021.74] Log: Performance:  memCopy per KB 52 nsec
+[0021.74] Log: Performance:  memZero per KB 28 nsec
+[0021.75] Log: Performance:  appInterlockedIncrement 7 nsec
+[0021.75] Log: Performance:  GetTickCount 2 nsec
+[0023.54] VoiceChat: Warn  am_network_start() trying retval=0,port + offset=25422,port=25392
+[0023.54] Log: Login Success: chicodelnoche
+[0023.54] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0023.54] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0024.07] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0024.28] Log: Team/Instance chat routed to Instance Server.
+[0024.28] Log: Map Game ID = 0
+[0024.28] Log: Map Instance ID = 197843068
+[0024.30] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0024.30] Log: Performance:  appCycles 8 nsec
+[0024.31] Log: Performance:  memCopy per KB 52 nsec
+[0024.31] Log: Performance:  memZero per KB 27 nsec
+[0024.32] Log: Performance:  appInterlockedIncrement 7 nsec
+[0024.32] Log: Performance:  GetTickCount 2 nsec
+[0024.32] Log: Chat[9]: Press ENTER to access chat.
+[0024.32] Log: Chat[9]: Press ENTER to access chat.
+[0024.32] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc4NDMyNTIsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.UFXxbPOHo_R-IuORcbh9Zy068KXDBWZxy9Qh7EeDg_U
+[0024.33] Log: RequestingChannelMembers ch[1] [chicodelnoche has joined the channel.]
+[0024.33] Log: Chat[1]: Clan status: He Vuelto
+[0024.33] Log: ---- UpdateClanData
+[0024.63] VoiceChat: Warn  am_network_start() returned retval=0,port + offset=25422,port=25392
+[0024.63] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://smp.www.vivox.com/api2/)
+[0024.83] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.a3a502.)
+[0025.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0025.21] Warning: Warning, Failed to find object 'Class None.None'
+[0029.81] Log: ---- UpdateClanData
+[0029.81] DevMusic: PComMusicTheme PlayDefaultMusic
+[0029.81] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0029.81] Log: ERROR: Attempting to log in without settings.
+[0030.23] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0032.12] Log: ---- UpdateClanData
+[0051.70] TgSLO: Async Load: GOD_Susano
+[0051.70] TgSLO: Async Load: GOD_Susano_Textures
+[0051.70] TgSLO: Async Load: GOD_Susano_Lobby
+[0051.70] TgSLO: Async Load: FX_Susano
+[0051.70] TgSLO: Async Load: FX_Susano_Lobby
+[0051.70] TgSLO: Async Load: AUD_God_Susano
+[0052.31] TgSLO: Finish Load: GOD_Susano
+[0052.37] TgSLO: Finish Load: GOD_Susano_Textures
+[0052.59] TgSLO: Finish Load: GOD_Susano_Lobby
+[0053.15] TgSLO: Finish Load: FX_Susano
+[0053.23] TgSLO: Finish Load: FX_Susano_Lobby
+[0053.44] Log: Flushing async loaders.
+[0053.44] TgSLO: Finish Load: AUD_God_Susano
+[0053.44] Log: Flushed async loaders.
+[0180.01] Log: Time is 2017.10.12-17.20.31
+[0215.66] Log: ---- UpdateClanData
+[0360.01] Log: Time is 2017.10.12-17.23.31
+[0502.49] Log: Chat[9]: DAGGERDON has come online.
+[0502.49] Log: Chat[6]: DAGGERDON has come online.
+[0540.01] Log: Time is 2017.10.12-17.26.31
+[0562.31] VoiceChat: UpdateVivox: Joining channel sip:confctl-g-4-2237d@smp.vivox.com, token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc4NDM3OTMsInZ4YSI6ImpvaW4iLCJ2eGkiOjEsImYiOiJzaXA6LmEzYTUwMi5Ac21wLnZpdm94LmNvbSIsInQiOiJzaXA6Y29uZmN0bC1nLTQtMjIzN2RAc21wLnZpdm94LmNvbSJ9.igyu-h6o5G_XeNLGXpp5YvcAVSNB4PLL9CJc1RKiAMU
+[0562.50] Log: RequestingChannelMembers ch[4] [chicodelnoche has joined the channel.]
+[0566.98] VoiceChat: Warn  OpenAudioUnit() succeeded.this=0x2fb41bd0,captureDeviceId=DeviceId m_displayName='Microphone Array (Realtek High Definition Audio)' m_internalName='{0.0.1.00000000}.{75206ef3-78b5-4bd6-8440-0a3bda25b105}',renderDeviceId=DeviceId m_displayName='Speakers (Realtek High Definition Audio)' m_internalName='{0.0.0.00000000}.{7a61a7c2-531e-459f-ad93-d35fa1ae6afe}'
+[0568.31] VoiceChat: CVoiceInterfaceVivox::onChannelJoined (.a3a502., sip:confctl-g-4-2237d@smp.vivox.com)
+[0613.22] Log: Chat[9]: You have joined a match queue.
+[0613.22] Log: Chat[4]: DAGGERDON entered the party into a match queue.
+[0628.38] Log: RequestingChannelMembers ch[3] [chicodelnoche has joined the channel.]
+[0628.38] Log: RequestingChannelMembers ch[3] [laury92 has joined the channel.]
+[0628.38] Log: RequestingChannelMembers ch[3] [DAGGERDON has joined the channel.]
+[0628.38] Log: RequestingChannelMembers ch[3] [Tenrykbit has joined the channel.]
+[0632.15] Log: RequestingChannelMembers ch[3] [Evolugeon has joined the channel.]
+[0635.51] DevMusic: PComMusicTheme PlayMusicEvent found event named GodSelection
+[0635.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0635.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0635.66] TgSLO: Async Load: Lobby_Pedestal_Beach
+[0635.66] TgSLO: Async Load: Pedestal_Celtic
+[0635.96] TgSLO: Finish Load: Lobby_Pedestal_Beach
+[0636.14] TgSLO: Finish Load: Pedestal_Celtic
+[0636.33] Log: Chat[3]: solo
+[0636.37] Log: Chat[3]: solo
+[0636.95] Log: Chat[3]: mid
+[0640.23] Log: Chat[3]: jng
+[0649.44] TgSLO: Async Load: GOD_Athena
+[0649.44] TgSLO: Async Load: GOD_Athena_Textures
+[0649.44] TgSLO: Async Load: GOD_Athena_Lobby
+[0649.45] TgSLO: Async Load: FX_Athena
+[0649.45] TgSLO: Async Load: FX_Athena_Lobby
+[0649.45] TgSLO: Async Load: AUD_God_Athena
+[0649.45] TgSLO: Async Load: GOD_Athena_Skin4
+[0649.45] TgSLO: Async Load: FX_Athena_Skin4
+[0649.45] TgSLO: Async Load: AUD_VOX_God_Athena_Skin4
+[0649.45] TgSLO: Async Load: FX_Athena_Targeting_Skin4
+[0649.45] TgSLO: Async Load: AnimNotify11410
+[0650.23] TgSLO: Finish Load: GOD_Athena
+[0650.27] TgSLO: Finish Load: GOD_Athena_Textures
+[0650.40] TgSLO: Finish Load: GOD_Athena_Lobby
+[0650.82] TgSLO: Finish Load: FX_Athena
+[0650.87] TgSLO: Finish Load: FX_Athena_Lobby
+[0651.19] TgSLO: Finish Load: AUD_God_Athena
+[0651.28] TgSLO: Finish Load: GOD_Athena_Skin4
+[0651.61] TgSLO: Finish Load: FX_Athena_Skin4
+[0651.66] TgSLO: Finish Load: AUD_VOX_God_Athena_Skin4
+[0651.72] TgSLO: Finish Load: FX_Athena_Targeting_Skin4
+[0651.73] TgSLO: Finish Load: AnimNotify11410
+[0665.41] TgSLO: Async Load: GOD_AhPuch
+[0665.41] TgSLO: Async Load: GOD_AhPuch_Textures
+[0665.41] TgSLO: Async Load: GOD_AhPuch_Lobby
+[0665.41] TgSLO: Async Load: FX_AhPuch
+[0665.41] TgSLO: Async Load: FX_AhPuch_Lobby
+[0665.41] TgSLO: Async Load: AUD_God_AhPuch
+[0665.41] TgSLO: Async Load: GOD_AhPuch_Skin3
+[0665.41] TgSLO: Async Load: God_AhPuch_Skin3_Lobby
+[0665.41] TgSLO: Async Load: FX_AhPuch_Skin3
+[0665.41] TgSLO: Async Load: NPC_Minion_Universal
+[0665.41] TgSLO: Async Load: MDL_PseudoMesh
+[0665.41] TgSLO: Async Load: FX_AhPuch_Skin3_Targeting
+[0665.41] TgSLO: Async Load: AnimNotify12040
+[0666.21] TgSLO: Finish Load: GOD_AhPuch
+[0666.28] TgSLO: Finish Load: GOD_AhPuch_Textures
+[0666.47] TgSLO: Finish Load: GOD_AhPuch_Lobby
+[0667.01] TgSLO: Finish Load: FX_AhPuch
+[0667.13] TgSLO: Finish Load: FX_AhPuch_Lobby
+[0667.81] TgSLO: Finish Load: AUD_God_AhPuch
+[0668.13] TgSLO: Finish Load: GOD_AhPuch_Skin3
+[0668.19] TgSLO: Finish Load: God_AhPuch_Skin3_Lobby
+[0668.68] TgSLO: Finish Load: FX_AhPuch_Skin3
+[0669.07] TgSLO: Finish Load: NPC_Minion_Universal
+[0669.08] TgSLO: Finish Load: MDL_PseudoMesh
+[0669.13] TgSLO: Finish Load: FX_AhPuch_Skin3_Targeting
+[0669.18] TgSLO: Finish Load: AnimNotify12040
+[0677.43] TgSLO: Async Load: GOD_Artio
+[0677.43] TgSLO: Async Load: GOD_Artio_Textures
+[0677.43] TgSLO: Async Load: GOD_Artio_Lobby
+[0677.43] TgSLO: Async Load: FX_Artio
+[0677.43] TgSLO: Async Load: FX_Artio_Lobby
+[0677.43] TgSLO: Async Load: AUD_God_Artio
+[0677.43] TgSLO: Async Load: GOD_Artio_Bear
+[0677.43] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0678.15] TgSLO: Finish Load: GOD_Artio
+[0678.21] TgSLO: Finish Load: GOD_Artio_Textures
+[0678.38] TgSLO: Finish Load: GOD_Artio_Lobby
+[0678.95] TgSLO: Finish Load: FX_Artio
+[0679.06] TgSLO: Finish Load: FX_Artio_Lobby
+[0679.42] TgSLO: Finish Load: AUD_God_Artio
+[0679.45] TgSLO: Finish Load: GOD_Artio_Bear
+[0679.50] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0700.10] TgSLO: Async Load: GOD_Nemesis
+[0700.10] TgSLO: Async Load: GOD_Nemesis_Textures
+[0700.10] TgSLO: Async Load: GOD_Nemesis_Lobby
+[0700.10] TgSLO: Async Load: FX_Nemesis
+[0700.10] TgSLO: Async Load: FX_Nemesis_Lobby
+[0700.10] TgSLO: Async Load: AUD_God_Nemesis
+[0700.10] TgSLO: Async Load: GOD_Nemesis_Skin7
+[0700.10] TgSLO: Async Load: GOD_Nemesis_Skin7_Lobby
+[0700.10] TgSLO: Async Load: FX_Nemesis_Skin7_Targeting
+[0700.11] TgSLO: Async Load: FX_Nemesis_Skin7
+[0700.11] TgSLO: Async Load: AnimNotify12919
+[0700.79] TgSLO: Finish Load: GOD_Nemesis
+[0700.87] TgSLO: Finish Load: GOD_Nemesis_Textures
+[0701.09] TgSLO: Finish Load: GOD_Nemesis_Lobby
+[0701.43] TgSLO: Finish Load: FX_Nemesis
+[0701.54] TgSLO: Finish Load: FX_Nemesis_Lobby
+[0702.09] TgSLO: Finish Load: AUD_God_Nemesis
+[0702.18] TgSLO: Finish Load: GOD_Nemesis_Skin7
+[0702.20] TgSLO: Finish Load: GOD_Nemesis_Skin7_Lobby
+[0702.26] TgSLO: Finish Load: FX_Nemesis_Skin7_Targeting
+[0702.46] TgSLO: Finish Load: FX_Nemesis_Skin7
+[0702.47] TgSLO: Finish Load: AnimNotify12919
+[0720.02] Log: Time is 2017.10.12-17.29.31
+[0725.25] DevMusic: PComMusicTheme PlayMusicEvent found event named BattleReady
+[0725.25] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0725.25] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0725.25] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0725.28] TgSLO: Async Load: GOD_Ravana
+[0725.28] TgSLO: Async Load: GOD_Ravana_Textures
+[0725.28] TgSLO: Async Load: GOD_Ravana_Lobby
+[0725.28] TgSLO: Async Load: FX_Ravana
+[0725.28] TgSLO: Async Load: FX_Ravana_Lobby
+[0725.28] TgSLO: Async Load: AUD_God_Ravana
+[0725.28] TgSLO: Async Load: god_ravana_skin1
+[0725.28] TgSLO: Async Load: GOD_Izanami
+[0725.28] TgSLO: Async Load: GOD_Izanami_Textures
+[0725.28] TgSLO: Async Load: GOD_Izanami_Lobby
+[0725.28] TgSLO: Async Load: FX_Izanami
+[0725.28] TgSLO: Async Load: FX_Izanami_Lobby
+[0725.28] TgSLO: Async Load: AUD_God_Izanami
+[0725.85] TgSLO: Finish Load: GOD_Ravana
+[0725.94] TgSLO: Finish Load: GOD_Ravana_Textures
+[0726.13] TgSLO: Finish Load: GOD_Ravana_Lobby
+[0726.72] TgSLO: Finish Load: FX_Ravana
+[0726.84] TgSLO: Finish Load: FX_Ravana_Lobby
+[0727.25] TgSLO: Finish Load: AUD_God_Ravana
+[0727.29] TgSLO: Finish Load: god_ravana_skin1
+[0727.89] TgSLO: Finish Load: GOD_Izanami
+[0727.95] TgSLO: Finish Load: GOD_Izanami_Textures
+[0728.05] TgSLO: Finish Load: GOD_Izanami_Lobby
+[0728.47] TgSLO: Finish Load: FX_Izanami
+[0728.49] TgSLO: Finish Load: FX_Izanami_Lobby
+[0728.83] TgSLO: Finish Load: AUD_God_Izanami
+[0732.89] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0737.90] DevMusic: PComMusicTheme PlayDefaultMusic
+[0737.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0737.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0741.19] Log: CTgBattleClient - Match composition cached [4A2AC8D0]
+[0741.19] Log: ReceiveChangeMap: mapGameId 1555
+[0741.19] Log: ReceiveChangeMap: mapGameId 1555
+[0741.30] Log: usc_toggle_key_capture false
+[0741.30] Log: usc_toggle_cursor false
+[0741.40] Log: usc_toggle_key_capture true
+[0741.40] DevNet: URL: Adding default option Team=255
+[0741.40] DevNet: URL: Adding default option Team=255
+[0741.40] DevNet: Browse: 0.0.0.0:9196/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367450981?Team=255
+[0741.41] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0741.41] DevNet: Game client on port 9196, rate 25000
+[0743.80] DevNet: Welcomed by server (Level: greek_conq_p_s4, Game: TgGame.TgGame_Battle_Conquest)
+[0744.48] Log: LoadMap: 0.0.0.0:9196/greek_conq_p_s4?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367450981?Team=255?game=TgGame.TgGame_Battle_Conquest
+[0744.82] Log: Map Game ID = 0
+[0744.82] Log: Map Instance ID = 197843068
+[0744.84] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0744.84] Log: Performance:  appCycles 12 nsec
+[0744.86] Log: Performance:  memCopy per KB 91 nsec
+[0744.87] Log: Performance:  memZero per KB 43 nsec
+[0744.88] Log: Performance:  appInterlockedIncrement 9 nsec
+[0744.88] Log: Performance:  GetTickCount 3 nsec
+[0744.89] TgSLO: Async Load: FX_Store_Items
+[0744.89] TgSLO: Async Load: FX_Store_Items_Targeting
+[0744.89] TgSLO: Async Load: FX_Status_Effects
+[0744.89] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0744.89] TgSLO: Async Load: GOD_Common_AT
+[0744.89] TgSLO: Async Load: AUD_VOX_Narrator
+[0744.89] TgSLO: Async Load: NPC_Ward2
+[0744.89] TgSLO: Async Load: FX_Buff_Belts_V2
+[0744.89] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0744.89] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0744.89] TgSLO: Async Load: GOD_Bellona
+[0744.89] TgSLO: Async Load: GOD_Bellona_Textures
+[0744.89] TgSLO: Async Load: FX_Bellona
+[0744.89] TgSLO: Async Load: AUD_God_Bellona
+[0744.89] TgSLO: Async Load: GOD_Bellona_Skin2
+[0744.89] TgSLO: Async Load: GOD_Bellona_Skin8
+[0744.89] TgSLO: Async Load: AUD_God_Ram
+[0744.89] TgSLO: Async Load: FX_Bellona_Targeting_SKIN2
+[0744.89] TgSLO: Async Load: FX_Bellona_Skin2
+[0744.89] TgSLO: Async Load: AnimNotify14122
+[0744.90] TgSLO: Async Load: NPC_Ward_Flower
+[0744.90] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0744.90] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0744.90] TgSLO: Async Load: FX_Common
+[0744.90] TgSLO: Async Load: AUD_UI
+[0744.90] TgSLO: Async Load: FX_Emote_global_Smite_Time
+[0744.90] TgSLO: Async Load: FX_Shower_O_Gold_Recall
+[0744.90] TgSLO: Async Load: FX_JumpStamp_SeasonTicket2017
+[0744.90] TgSLO: Async Load: FX_Fountain_SeasonTicket2017
+[0744.90] TgSLO: Async Load: GOD_Anubis_V2
+[0744.90] TgSLO: Async Load: GOD_Anubis_V2_Textures
+[0744.90] TgSLO: Async Load: AUD_God_Anubis
+[0744.90] TgSLO: Async Load: FX_Anubis_V2_Skin2
+[0744.90] TgSLO: Async Load: GOD_Anubis_V2_Skin2
+[0744.90] TgSLO: Async Load: FX_Anubis_Targeting_SKIN2
+[0744.90] TgSLO: Async Load: AnimNotify7944
+[0744.90] TgSLO: Async Load: NPC_Ward_CorruptKukulkan
+[0744.90] TgSLO: Async Load: FX_Emote_global_Fireworks_B
+[0744.90] TgSLO: Async Load: FX_Recall_Roman_Pantheon
+[0744.90] TgSLO: Async Load: GOD_Ravana
+[0744.90] TgSLO: Async Load: GOD_Ravana_Textures
+[0744.90] TgSLO: Async Load: FX_Ravana
+[0744.90] TgSLO: Async Load: AUD_God_Ravana
+[0744.90] TgSLO: Async Load: GOD_Ravana_Skin4
+[0744.90] TgSLO: Async Load: NPC_Ward_DentonBalloon
+[0744.91] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0744.91] TgSLO: Async Load: NPC_Ward_WindDancer
+[0744.91] TgSLO: Async Load: NPC_Ward_Cactus
+[0744.91] TgSLO: Async Load: NPC_Ward_Chest
+[0744.91] TgSLO: Async Load: NPC_Ward_Norse
+[0744.91] TgSLO: Async Load: FX_Emote_global_Fireworks_Dmnd
+[0744.91] TgSLO: Async Load: FX_JumpStamp_SoS_2017
+[0744.91] TgSLO: Async Load: GOD_Apollo
+[0744.91] TgSLO: Async Load: GOD_Apollo_Textures
+[0744.91] TgSLO: Async Load: FX_Apollo
+[0744.91] TgSLO: Async Load: AUD_God_Apollo
+[0744.91] TgSLO: Async Load: GOD_Apollo_Skin5
+[0744.91] TgSLO: Async Load: FX_Raijin
+[0744.91] TgSLO: Async Load: AUD_God_Apollo_Skin5
+[0744.91] TgSLO: Async Load: FX_Apollo_Skin5
+[0744.91] TgSLO: Async Load: FX_Apollo_Skin5_Targeting
+[0744.91] TgSLO: Async Load: AnimNotify12787
+[0744.91] TgSLO: Async Load: FX_Emote_global_SeasonTicket
+[0744.91] TgSLO: Async Load: FX_Diamond_Recall
+[0744.91] TgSLO: Async Load: FX_JumpStamp_Adventures_MMO
+[0744.91] TgSLO: Async Load: GOD_Artio
+[0744.92] TgSLO: Async Load: GOD_Artio_Textures
+[0744.92] TgSLO: Async Load: FX_Artio
+[0744.92] TgSLO: Async Load: AUD_God_Artio
+[0744.92] TgSLO: Async Load: GOD_Artio_Bear
+[0744.92] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0744.92] TgSLO: Async Load: FX_Emote_global_Odyssey_2017
+[0744.92] TgSLO: Async Load: GOD_Nemesis
+[0744.92] TgSLO: Async Load: GOD_Nemesis_Textures
+[0744.92] TgSLO: Async Load: FX_Nemesis
+[0744.92] TgSLO: Async Load: FX_Nemesis_Targeting
+[0744.92] TgSLO: Async Load: AUD_God_Nemesis
+[0744.92] TgSLO: Async Load: GOD_Nemesis_Skin7
+[0744.92] TgSLO: Async Load: FX_Nemesis_Skin7_Targeting
+[0744.92] TgSLO: Async Load: FX_Nemesis_Skin7
+[0744.92] TgSLO: Async Load: AnimNotify12919
+[0744.92] TgSLO: Async Load: FX_Emote_global_SmiteBirthday
+[0744.92] TgSLO: Async Load: FX_Celtic_Recall
+[0744.92] TgSLO: Async Load: GOD_Izanami
+[0744.92] TgSLO: Async Load: GOD_Izanami_Textures
+[0744.92] TgSLO: Async Load: FX_Izanami
+[0744.92] TgSLO: Async Load: AUD_God_Izanami
+[0744.92] TgSLO: Async Load: FX_Emote_global_Spring_2017
+[0744.92] TgSLO: Async Load: god_ravana_skin1
+[0744.92] TgSLO: Async Load: NPC_Ward_Manticore
+[0744.92] TgSLO: Async Load: FX_Emote_global_Fireworks_Moon
+[0744.92] TgSLO: Async Load: GOD_Athena
+[0744.92] TgSLO: Async Load: GOD_Athena_Textures
+[0744.92] TgSLO: Async Load: FX_Athena
+[0744.93] TgSLO: Async Load: AUD_God_Athena
+[0744.93] TgSLO: Async Load: GOD_Athena_Skin4
+[0744.93] TgSLO: Async Load: FX_Athena_Skin4
+[0744.93] TgSLO: Async Load: AUD_VOX_God_Athena_Skin4
+[0744.93] TgSLO: Async Load: FX_Athena_Targeting_Skin4
+[0744.93] TgSLO: Async Load: AnimNotify11410
+[0744.93] TgSLO: Async Load: NPC_Ward_Squid
+[0744.93] TgSLO: Async Load: FX_Fall_Recall
+[0744.93] TgSLO: Async Load: GOD_AhPuch
+[0744.93] TgSLO: Async Load: GOD_AhPuch_Textures
+[0744.93] TgSLO: Async Load: FX_AhPuch
+[0744.93] TgSLO: Async Load: AUD_God_AhPuch
+[0744.93] TgSLO: Async Load: GOD_AhPuch_Skin3
+[0744.93] TgSLO: Async Load: FX_AhPuch_Skin3
+[0744.93] TgSLO: Async Load: NPC_Minion_Universal
+[0744.93] TgSLO: Async Load: MDL_PseudoMesh
+[0744.93] TgSLO: Async Load: FX_AhPuch_Skin3_Targeting
+[0744.93] TgSLO: Async Load: AnimNotify12040
+[0744.93] TgSLO: Async Load: NPC_Phoenix_V2
+[0744.93] TgSLO: Async Load: NPC_Phoenix_V2_Textures
+[0744.93] TgSLO: Async Load: FX_Phoenix_V2
+[0744.93] TgSLO: Async Load: AUD_NPC_Phoenix
+[0744.93] TgSLO: Async Load: GC_Towers
+[0744.93] TgSLO: Async Load: FX_GC_Towers
+[0744.93] TgSLO: Async Load: AUD_NPC_Tower_Olympus
+[0744.94] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0744.94] TgSLO: Async Load: FX_Roman
+[0744.94] TgSLO: Async Load: FX_Minion_Death
+[0744.94] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0744.94] TgSLO: Async Load: AUD_NPC_Olympus
+[0744.94] TgSLO: Async Load: NPC_CHNJoust_Minion
+[0744.94] TgSLO: Async Load: NPC_Guardian_Female
+[0744.94] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0744.94] TgSLO: Async Load: FX_Guardian_Female
+[0744.94] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[0744.94] TgSLO: Async Load: NPC_Guardian_Male
+[0744.94] TgSLO: Async Load: NPC_Guardian_Male_AT
+[0744.94] TgSLO: Async Load: FX_Guardian_Male
+[0744.94] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[0744.94] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0744.94] TgSLO: Async Load: NPC_Cyclops_V3
+[0744.94] TgSLO: Async Load: AUD_NPC_Cyclops_V3
+[0744.94] TgSLO: Async Load: FX_NPC_Cyclops_V3_Mage
+[0744.94] TgSLO: Async Load: AUD_NPC_Cyclops
+[0744.94] TgSLO: Async Load: NPC_Olympus_GoldFury
+[0744.94] TgSLO: Async Load: FX_Olympus_GoldFury
+[0744.94] TgSLO: Async Load: AUD_NPC_Olympus_GoldFury
+[0744.94] TgSLO: Async Load: NPC_Fury_V2
+[0744.95] TgSLO: Async Load: FX_Fury_V2
+[0744.95] TgSLO: Async Load: AUD_NPC_Fury
+[0744.95] TgSLO: Async Load: NPC_FireGiant_V2
+[0744.95] TgSLO: Async Load: FX_FireGiant_V2
+[0744.95] TgSLO: Async Load: AUD_NPC_FireGiant_V2
+[0744.95] TgSLO: Async Load: NPC_FireImp
+[0744.95] TgSLO: Async Load: FX_NPC_FireImp
+[0744.95] TgSLO: Async Load: AUD_NPC_FireImp
+[0744.95] Log: Flushing async loaders.
+[0745.04] TgSLO: Finish Load: FX_Store_Items
+[0745.07] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0745.08] TgSLO: Finish Load: FX_Status_Effects
+[0745.10] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0745.10] TgSLO: Finish Load: GOD_Common_AT
+[0745.11] TgSLO: Finish Load: AUD_VOX_Narrator
+[0745.12] TgSLO: Finish Load: NPC_Ward2
+[0745.17] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0745.17] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0745.18] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0745.35] TgSLO: Finish Load: GOD_Bellona
+[0745.35] TgSLO: Finish Load: GOD_Bellona_Textures
+[0745.40] TgSLO: Finish Load: FX_Bellona
+[0745.41] TgSLO: Finish Load: AUD_God_Bellona
+[0745.46] TgSLO: Finish Load: GOD_Bellona_Skin2
+[0745.47] TgSLO: Finish Load: GOD_Bellona_Skin8
+[0745.48] TgSLO: Finish Load: AUD_God_Ram
+[0745.50] TgSLO: Finish Load: FX_Bellona_Targeting_SKIN2
+[0745.54] TgSLO: Finish Load: FX_Bellona_Skin2
+[0745.57] TgSLO: Finish Load: AnimNotify14122
+[0745.60] TgSLO: Finish Load: NPC_Ward_Flower
+[0745.61] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0745.62] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0745.66] TgSLO: Finish Load: FX_Common
+[0745.66] TgSLO: Finish Load: AUD_UI
+[0745.67] TgSLO: Finish Load: FX_Emote_global_Smite_Time
+[0745.67] TgSLO: Finish Load: FX_Shower_O_Gold_Recall
+[0745.68] TgSLO: Finish Load: FX_JumpStamp_SeasonTicket2017
+[0745.68] TgSLO: Finish Load: FX_Fountain_SeasonTicket2017
+[0745.81] TgSLO: Finish Load: GOD_Anubis_V2
+[0745.83] TgSLO: Finish Load: GOD_Anubis_V2_Textures
+[0745.84] TgSLO: Finish Load: AUD_God_Anubis
+[0745.92] TgSLO: Finish Load: FX_Anubis_V2_Skin2
+[0745.96] TgSLO: Finish Load: GOD_Anubis_V2_Skin2
+[0745.98] TgSLO: Finish Load: FX_Anubis_Targeting_SKIN2
+[0745.99] TgSLO: Finish Load: AnimNotify7944
+[0746.04] TgSLO: Finish Load: NPC_Ward_CorruptKukulkan
+[0746.04] TgSLO: Finish Load: FX_Emote_global_Fireworks_B
+[0746.05] TgSLO: Finish Load: FX_Recall_Roman_Pantheon
+[0746.15] TgSLO: Finish Load: GOD_Ravana
+[0746.16] TgSLO: Finish Load: GOD_Ravana_Textures
+[0746.21] TgSLO: Finish Load: FX_Ravana
+[0746.22] TgSLO: Finish Load: AUD_God_Ravana
+[0746.24] TgSLO: Finish Load: GOD_Ravana_Skin4
+[0746.25] TgSLO: Finish Load: NPC_Ward_DentonBalloon
+[0746.27] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0746.28] TgSLO: Finish Load: NPC_Ward_WindDancer
+[0746.30] TgSLO: Finish Load: NPC_Ward_Cactus
+[0746.32] TgSLO: Finish Load: NPC_Ward_Chest
+[0746.35] TgSLO: Finish Load: NPC_Ward_Norse
+[0746.36] Log: Missing cached shader map for material MAT_Diamond3_Crysalis2, quality 0, compiling.
+[0746.36] Log: Can't compile MAT_Diamond3_Crysalis2 with seekfree loading path on console, will attempt to use default material instead
+[0746.36] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_Crysalis2 for platform PC-D3D-SM3, Default Material will be used in game.
+[0746.37] TgSLO: Finish Load: FX_Emote_global_Fireworks_Dmnd
+[0746.37] TgSLO: Finish Load: FX_JumpStamp_SoS_2017
+[0746.46] TgSLO: Finish Load: GOD_Apollo
+[0746.47] TgSLO: Finish Load: GOD_Apollo_Textures
+[0746.48] TgSLO: Finish Load: FX_Apollo
+[0746.49] TgSLO: Finish Load: AUD_God_Apollo
+[0746.59] TgSLO: Finish Load: GOD_Apollo_Skin5
+[0746.68] TgSLO: Finish Load: FX_Raijin
+[0746.70] TgSLO: Finish Load: AUD_God_Apollo_Skin5
+[0746.77] TgSLO: Finish Load: FX_Apollo_Skin5
+[0746.79] TgSLO: Finish Load: FX_Apollo_Skin5_Targeting
+[0746.80] TgSLO: Finish Load: AnimNotify12787
+[0746.82] TgSLO: Finish Load: FX_Emote_global_SeasonTicket
+[0746.83] Log: Missing cached shader map for material MAT_Diamond3_CARD, quality 0, compiling.
+[0746.83] Log: Can't compile MAT_Diamond3_CARD with seekfree loading path on console, will attempt to use default material instead
+[0746.83] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_CARD for platform PC-D3D-SM3, Default Material will be used in game.
+[0746.83] TgSLO: Finish Load: FX_Diamond_Recall
+[0746.83] TgSLO: Finish Load: FX_JumpStamp_Adventures_MMO
+[0746.98] TgSLO: Finish Load: GOD_Artio
+[0746.99] TgSLO: Finish Load: GOD_Artio_Textures
+[0747.04] TgSLO: Finish Load: FX_Artio
+[0747.04] TgSLO: Finish Load: AUD_God_Artio
+[0747.05] TgSLO: Finish Load: GOD_Artio_Bear
+[0747.06] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0747.07] TgSLO: Finish Load: FX_Emote_global_Odyssey_2017
+[0747.16] TgSLO: Finish Load: GOD_Nemesis
+[0747.16] TgSLO: Finish Load: GOD_Nemesis_Textures
+[0747.18] TgSLO: Finish Load: FX_Nemesis
+[0747.20] TgSLO: Finish Load: FX_Nemesis_Targeting
+[0747.21] TgSLO: Finish Load: AUD_God_Nemesis
+[0747.22] TgSLO: Finish Load: GOD_Nemesis_Skin7
+[0747.23] TgSLO: Finish Load: FX_Nemesis_Skin7_Targeting
+[0747.24] TgSLO: Finish Load: FX_Nemesis_Skin7
+[0747.25] TgSLO: Finish Load: AnimNotify12919
+[0747.26] TgSLO: Finish Load: FX_Emote_global_SmiteBirthday
+[0747.27] TgSLO: Finish Load: FX_Celtic_Recall
+[0747.36] TgSLO: Finish Load: GOD_Izanami
+[0747.37] TgSLO: Finish Load: GOD_Izanami_Textures
+[0747.40] TgSLO: Finish Load: FX_Izanami
+[0747.40] TgSLO: Finish Load: AUD_God_Izanami
+[0747.41] TgSLO: Finish Load: FX_Emote_global_Spring_2017
+[0747.42] TgSLO: Finish Load: god_ravana_skin1
+[0747.44] TgSLO: Finish Load: NPC_Ward_Manticore
+[0747.44] TgSLO: Finish Load: FX_Emote_global_Fireworks_Moon
+[0747.54] TgSLO: Finish Load: GOD_Athena
+[0747.54] TgSLO: Finish Load: GOD_Athena_Textures
+[0747.56] TgSLO: Finish Load: FX_Athena
+[0747.57] TgSLO: Finish Load: AUD_God_Athena
+[0747.59] TgSLO: Finish Load: GOD_Athena_Skin4
+[0747.62] TgSLO: Finish Load: FX_Athena_Skin4
+[0747.65] TgSLO: Finish Load: AUD_VOX_God_Athena_Skin4
+[0747.66] TgSLO: Finish Load: FX_Athena_Targeting_Skin4
+[0747.67] TgSLO: Finish Load: AnimNotify11410
+[0747.69] TgSLO: Finish Load: NPC_Ward_Squid
+[0747.71] TgSLO: Finish Load: FX_Fall_Recall
+[0747.85] TgSLO: Finish Load: GOD_AhPuch
+[0747.86] TgSLO: Finish Load: GOD_AhPuch_Textures
+[0747.90] TgSLO: Finish Load: FX_AhPuch
+[0747.91] TgSLO: Finish Load: AUD_God_AhPuch
+[0747.97] TgSLO: Finish Load: GOD_AhPuch_Skin3
+[0748.02] TgSLO: Finish Load: FX_AhPuch_Skin3
+[0748.05] TgSLO: Finish Load: NPC_Minion_Universal
+[0748.05] TgSLO: Finish Load: MDL_PseudoMesh
+[0748.06] TgSLO: Finish Load: FX_AhPuch_Skin3_Targeting
+[0748.07] TgSLO: Finish Load: AnimNotify12040
+[0748.10] TgSLO: Finish Load: NPC_Phoenix_V2
+[0748.13] TgSLO: Finish Load: NPC_Phoenix_V2_Textures
+[0748.14] TgSLO: Finish Load: FX_Phoenix_V2
+[0748.15] TgSLO: Finish Load: AUD_NPC_Phoenix
+[0748.23] TgSLO: Finish Load: GC_Towers
+[0748.25] TgSLO: Finish Load: FX_GC_Towers
+[0748.25] TgSLO: Finish Load: AUD_NPC_Tower_Olympus
+[0748.28] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0748.29] TgSLO: Finish Load: FX_Roman
+[0748.29] TgSLO: Finish Load: FX_Minion_Death
+[0748.30] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0748.30] TgSLO: Finish Load: AUD_NPC_Olympus
+[0748.34] TgSLO: Finish Load: NPC_CHNJoust_Minion
+[0748.40] TgSLO: Finish Load: NPC_Guardian_Female
+[0748.40] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0748.41] TgSLO: Finish Load: FX_Guardian_Female
+[0748.41] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[0748.50] TgSLO: Finish Load: NPC_Guardian_Male
+[0748.50] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[0748.52] TgSLO: Finish Load: FX_Guardian_Male
+[0748.52] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[0748.54] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0748.71] TgSLO: Finish Load: NPC_Cyclops_V3
+[0748.71] TgSLO: Finish Load: AUD_NPC_Cyclops_V3
+[0748.72] TgSLO: Finish Load: FX_NPC_Cyclops_V3_Mage
+[0748.73] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0748.83] TgSLO: Finish Load: NPC_Olympus_GoldFury
+[0748.84] TgSLO: Finish Load: FX_Olympus_GoldFury
+[0748.85] TgSLO: Finish Load: AUD_NPC_Olympus_GoldFury
+[0748.90] TgSLO: Finish Load: NPC_Fury_V2
+[0748.91] TgSLO: Finish Load: FX_Fury_V2
+[0748.91] TgSLO: Finish Load: AUD_NPC_Fury
+[0749.03] TgSLO: Finish Load: NPC_FireGiant_V2
+[0749.07] TgSLO: Finish Load: FX_FireGiant_V2
+[0749.07] TgSLO: Finish Load: AUD_NPC_FireGiant_V2
+[0749.13] TgSLO: Finish Load: NPC_FireImp
+[0749.14] TgSLO: Finish Load: FX_NPC_FireImp
+[0749.14] TgSLO: Finish Load: AUD_NPC_FireImp
+[0749.14] Log: Flushed async loaders.
+[0749.14] DevNet: Fully loading base package greek_conq_collision_s4 due to fallback logic
+[0749.16] DevNet: Fully loading base package greek_conq_lighting_s4 due to fallback logic
+[0749.17] DevNet: Fully loading base package greek_conq_skybox_rg2_s4 due to fallback logic
+[0749.50] DevNet: Fully loading base package greek_conq_sound_s4 due to fallback logic
+[0749.52] DevNet: Fully loading base package greek_conq_vfx_s4 due to fallback logic
+[0749.54] DevNet: Fully loading base package greek_conq_perftests_s4 due to fallback logic
+[0749.55] DevNet: Fully loading base package TgGameContent due to fallback logic
+[0749.74] DevNet: Fully loading base package NPC_Phoenix due to fallback logic
+[0749.78] DevNet: Fully loading base package NPC_Greek_Tower due to fallback logic
+[0750.01] DevNet: Fully loading base package NPC_ChaosBrute due to fallback logic
+[0750.03] DevNet: Fully loading base package NPC_ChaosMinion due to fallback logic
+[0750.04] DevNet: Fully loading base package NPC_Olympus due to fallback logic
+[0750.10] Log: Primary PhysX scene will be in software.
+[0750.10] Log: Creating Primary PhysX Scene.
+[0750.10] Log: Bringing World greek_conq_p_s4.TheWorld up for play (595) at 2017.10.12-17.30.01
+[0750.10] Log: Skipping initialization of FSMPartPool!
+[0750.10] Log: Bringing up level for play took: 0.019350
+[0750.10] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0750.10] Warning: Warning, Failed to find object 'Class None.'
+[0750.10] Log: PlayerController class for the pending level is PlayerController
+[0750.10] Log: ########### Finished loading level: 5.622869 seconds
+[0750.11] Log: Flushing async loaders.
+[0750.75] Log: Flushed async loaders.
+[0750.75] Log: Starting RedrawViewports for texture streaming..
+[0750.88] Log: RedrawViewports took: 0.126523 seconds
+[0750.88] Log: Starting Level load StreamAllResources..
+[0750.88] Log: Level load StreamAllResources took: 0.005642 seconds
+[0751.20] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0751.27] Log: Activated greek_conq_assist_s4 1 1 0
+[0751.27] Log: ActivateLevel greek_conq_assist_s4 1 1 0
+[0751.33] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0751.61] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0751.61] Log: TeamIndex 1 has new leader: 9272615
+[0751.64] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0751.65] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0751.65] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0751.65] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0751.65] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0751.66] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13319 to NONE)
+[0751.66] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13319 to NONE)
+[0751.66] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13319 to NONE)
+[0751.66] Log: ---- UpdateClanData
+[0751.82] Log: TeamIndex 2 has new leader: 11931269
+[0751.95] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0751.96] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0751.96] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0751.96] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0751.96] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0752.01] DevMusic: PComMusicTheme PlayDefaultMusic
+[0752.01] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0752.01] Log: Mission Timer State 1 at game time 89.00
+[0752.01] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0752.05] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0752.05] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0752.42] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0752.43] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0756.27] DevMusic: PComMusicTheme PlayMusicEvent found event named Opening
+[0756.27] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 5.000000 seconds
+[0756.27] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Olympus.A_CUE_MUS_Olympus_Opening over 5.000000 seconds
+[0797.90] Log: TeamIndex 1 has new leader: 7544624
+[0808.50] Log: TeamIndex 2 has new leader: 10724610
+[0810.50] Log:            ATgPlayerController::UpdateTransitionUI()
+[0810.50] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0810.51] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0810.54] Log: usc_toggle_cursor true
+[0810.89] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0811.14] Log: Mission Timer State 2 at game time 60.00
+[0811.14] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0811.16] Log: usc_toggle_cursor false
+[0811.76] Log: usc_toggle_key_capture false
+[0829.80] Log: usc_toggle_cursor true
+[0830.72] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0830.72] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0830.72] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0830.72] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0830.72] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0830.72] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0840.20] Log: Chat[9]: MelwynFyr has gone offline.
+[0840.20] Log: Chat[6]: MelwynFyr has gone offline.
+[0840.26] Log: Chat[3]: [VVGH] Hi!
+[0841.31] Log: Chat[3]: [VEW] Woohoo!
+[0842.47] Log: Chat[3]: [VER] You rock!
+[0843.21] Log: Chat[3]: [VVGH] Hi!
+[0843.96] Log: Chat[3]: [VVGH] Hi!
+[0844.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Bellona greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Bellona_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0844.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Bellona greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Bellona_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0845.27] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Bellona greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Bellona_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0845.27] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Bellona greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Bellona_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0845.77] Log: Chat[3]: [VEW] Woohoo!
+[0846.44] Log: Requesting purchase of itemId (9035) amount (1)
+[0846.66] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController greek_conq_p_s4.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0847.15] Log: usc_toggle_cursor false
+[0848.72] Log: usc_toggle_cursor true
+[0849.51] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0849.51] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0850.51] Log: Chat[3]: DAGGERDON has purchased a Ward.
+[0851.11] Log: Chat[3]: DAGGERDON has purchased a Ward.
+[0852.79] Log: Requesting purchase of itemId (10032) amount (1)
+[0853.48] Log: Chat[3]: laaag
+[0853.51] Log: usc_toggle_cursor false
+[0855.32] Log: Chat[3]: faking
+[0857.76] Log: Chat[3]: [VVGT] That's too bad!
+[0858.66] Log: Chat[3]: [VVGT] That's too bad!
+[0859.31] Log: Chat[3]: [VGG] Gank!
+[0861.56] Log: Chat[3]: lul iza and neme build
+[0863.02] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0863.02] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Olympus.A_CUE_MUS_Olympus_Opening over 5.000000 seconds
+[0863.02] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0868.71] Log: Chat[3]: [VVT] Thanks!
+[0870.45] Log: Mission Timer State 3 at game time 0.00
+[0870.68] Log: Chat[3]: [VVGT] That's too bad!
+[0873.66] Log: Chat[3]: [VEW] Woohoo!
+[0880.91] Log: Chat[3]: [VVA] Ok!
+[0882.52] Log: Chat[3]: [VCC] Be careful!
+[0884.76] Log: Chat[3]: [VVA] Ok!
+[0886.67] Log: Chat[3]: [VCC] Be careful!
+[0899.61] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0899.61] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0899.80] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0900.02] Log: Time is 2017.10.12-17.32.31
+[0906.45] Log: Chat[3]: [VDD] Defend!
+[0913.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0913.81] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0914.01] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0914.19] Log: Chat[3]: [VFF] Enemy missing!
+[0914.82] Log: Chat[3]: [VC1] Be careful left!
+[0926.71] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[0926.71] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0926.71] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0930.12] Log: usc_toggle_cursor true
+[0931.14] Log: Requesting purchase of itemId (10038) amount (1)
+[0931.50] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController greek_conq_p_s4.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0931.99] Log: usc_toggle_cursor false
+[0946.72] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0946.72] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[0946.72] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0952.24] Log: PUSHING Accolade: KisielQ has drawn First Blood!, local: false
+[0952.75] Log: Chat[3]: [VVA] Ok!
+[0954.01] Log: Chat[3]: [VF2] Enemy missing middle!
+[0954.73] Log: Chat[3]: [VF2] Enemy missing middle!
+[0955.39] Log: Chat[3]: [VF2] Enemy missing middle!
+[0956.09] Log: Chat[3]: [VF2] Enemy missing middle!
+[0960.78] Log: Chat[3]: f 6 pls
+[0964.71] Log: Chat[3]: well we had no farm
+[0966.02] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_0)
+[0966.62] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0966.62] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0966.84] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0967.13] Log: Chat[3]: with iza on mid
+[0969.73] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0969.73] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0969.94] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0974.82] Log: Chat[3]: [VF2] Enemy missing middle!
+[0975.49] Log: Chat[3]: [VF2] Enemy missing middle!
+[0976.04] Log: Chat[3]: [VF2] Enemy missing middle!
+[0976.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0976.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0976.33] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0982.01] Log: PUSHING Accolade: , local: false
+[0982.59] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0982.59] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0982.78] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0982.82] Log: Chat[3]: [VF2] Enemy missing middle!
+[0983.59] Log: Chat[3]: [VF2] Enemy missing middle!
+[0984.40] Log: Chat[3]: [VF2] Enemy missing middle!
+[0985.16] Log: Chat[3]: [VF2] Enemy missing middle!
+[0985.94] Log: Chat[3]: [VF2] Enemy missing middle!
+[0985.96] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_1)
+[0991.78] Log: Chat[3]: que si
+[0993.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0993.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0993.38] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0994.99] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[0994.99] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[0994.99] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[0995.42] Log: PUSHING Accolade: AbyssalFrenzy has a Player Kill!, local: false
+[0996.92] Log: Chat[3]: [VF2] Enemy missing middle!
+[0997.69] Log: Chat[3]: [VF2] Enemy missing middle!
+[1000.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1000.29] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1000.29] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1003.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1003.68] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1003.81] Log: usc_toggle_cursor true
+[1003.88] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1006.20] Log: usc_toggle_cursor false
+[1009.99] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1009.99] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1009.99] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1013.14] Log: usc_toggle_key_capture true
+[1013.14] Log: usc_toggle_cursor true
+[1014.51] Log: usc_toggle_key_capture false
+[1014.51] Log: usc_toggle_cursor false
+[1014.51] Log: SendChat[3] athena
+[1014.71] Log: usc_toggle_key_capture true
+[1014.71] Log: usc_toggle_cursor true
+[1014.74] Log: Chat[3]: athena
+[1014.97] Log: Chat[3]: [VF2] Enemy missing middle!
+[1015.49] Log: Chat[3]: [VF2] Enemy missing middle!
+[1016.25] Log: Chat[3]: [VF2] Enemy missing middle!
+[1026.19] Log: Chat[3]: [VF2] Enemy missing middle!
+[1026.63] Log: usc_toggle_key_capture false
+[1026.63] Log: usc_toggle_cursor false
+[1026.63] Log: SendChat[3] u are supposed to be at right ane with izanami 
+[1026.84] Log: Chat[3]: u are supposed to be at right ane with izanami 
+[1030.75] Log: Chat[3]: [VF2] Enemy missing middle!
+[1031.50] Log: Chat[3]: [VF2] Enemy missing middle!
+[1032.15] Log: Chat[3]: [VF2] Enemy missing middle!
+[1034.20] Log: Chat[3]: [VF2] Enemy missing middle!
+[1035.00] Log: Chat[3]: [VC3] Be careful right!
+[1042.71] Log: Chat[3]: [VF2] Enemy missing middle!
+[1043.26] Log: Chat[3]: [VF2] Enemy missing middle!
+[1043.81] Log: Chat[3]: [VF2] Enemy missing middle!
+[1066.41] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[1070.10] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1070.10] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1070.29] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1072.35] Log: Chat[3]: [VC1] Be careful left!
+[1072.81] Log: Chat[3]: [VF2] Enemy missing middle!
+[1073.35] Log: Chat[3]: [VC1] Be careful left!
+[1073.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1073.44] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1073.64] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1074.61] Log: Chat[3]: [VR1] Retreat left lane!
+[1075.71] Log: Chat[3]: [VVA] Ok!
+[1077.91] Log: Chat[3]: [VVT] Thanks!
+[1080.02] Log: Time is 2017.10.12-17.35.31
+[1087.76] Log: Chat[3]: [VBS] Enemy spotted!
+[1087.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Athena greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Athena_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1087.90] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Athena greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Athena_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1089.76] Log: Chat[3]: [VCC] Be careful!
+[1093.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1093.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1093.80] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1099.90] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (8156 to TgSkeletalMeshActorSpawnable_ApolloChariot_0)
+[1100.61] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1100.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1100.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1100.83] Log: PUSHING Accolade: AbyssalFrenzy is on Killing Spree! (x3), local: false
+[1100.86] Log: Chat[3]: [VBB] Enemies have returned to base.
+[1105.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1105.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1106.00] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1106.27] Log: usc_toggle_cursor true
+[1109.58] Log: Requesting purchase of itemId (8789) amount (1)
+[1109.82] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController greek_conq_p_s4.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1110.53] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1110.53] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1110.70] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1111.66] Log: usc_toggle_cursor false
+[1111.69] Log: usc_toggle_cursor true
+[1115.61] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1115.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1115.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1115.97] Log: PUSHING Accolade: , local: false
+[1117.01] Log: usc_toggle_cursor false
+[1117.51] Log: Chat[3]: [VFF] Enemy missing!
+[1118.80] Log: Chat[3]: [VVB] Be right back!
+[1119.02] Log: Chat[3]: [VC1] Be careful left!
+[1120.76] Log: Chat[3]: [VF2] Enemy missing middle!
+[1121.71] Log: Chat[3]: [VCC] Be careful!
+[1136.87] Log: Chat[3]: [VVVE] On my way!
+[1138.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1138.92] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1139.11] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1139.67] Log: Chat[3]: [VF2] Enemy missing middle!
+[1143.13] Log: Chat[3]: [VVX] Cancel that!
+[1143.98] Log: Chat[3]: [VVX] Cancel that!
+[1144.62] Log: Chat[3]: [VVX] Cancel that!
+[1145.67] Log: Chat[3]: [VVX] Cancel that!
+[1150.97] Log: Chat[3]: [VC1] Be careful left!
+[1151.73] Log: Chat[3]: [VVT] Thanks!
+[1153.51] Log: Chat[3]: [VVGB] Bye!
+[1156.77] Log: Chat[3]: [VFF] Enemy missing!
+[1158.32] Log: Chat[3]: [VC1] Be careful left!
+[1169.91] Log: Chat[3]: [VVA] Ok!
+[1171.10] Log: Chat[3]: [VVGS] Curses!
+[1174.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1174.67] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1174.87] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1180.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1180.13] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1180.30] Log: PUSHING Accolade: , local: false
+[1180.31] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1181.07] Log: Chat[3]: [VVA] Ok!
+[1182.46] Log: Chat[3]: [VF2] Enemy missing middle!
+[1183.02] Log: Chat[3]: [VF2] Enemy missing middle!
+[1183.62] Log: Chat[3]: [VF2] Enemy missing middle!
+[1184.28] Log: Chat[3]: [VF2] Enemy missing middle!
+[1184.70] Log: PUSHING Accolade: , local: false
+[1190.05] Log: PUSHING Accolade: Igna[ has a Double Kill!, local: false
+[1190.05] Log: Suppressing Accolade: 
+[1190.31] Log: Chat[3]: really
+[1192.45] Log: Chat[3]: called
+[1192.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1192.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1192.86] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1193.47] Log: Chat[3]: ah puch
+[1195.72] Log: Chat[3]: he said
+[1197.52] Log: Chat[3]: youre an idiot
+[1197.75] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_2)
+[1199.56] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[1199.56] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1199.56] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1201.50] Log: usc_toggle_key_capture true
+[1201.50] Log: usc_toggle_cursor true
+[1204.02] Log: Chat[3]: why dont you chase
+[1205.87] Log: usc_toggle_key_capture false
+[1205.87] Log: usc_toggle_cursor false
+[1205.87] Log: SendChat[3] 
+[1210.46] Log: Chat[3]: 3 in my lkane
+[1210.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1210.50] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1210.71] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1211.46] Log: usc_toggle_cursor true
+[1212.34] Log: PUSHING Accolade: , local: false
+[1212.76] Log: Chat[3]: because ppl are on mid all time
+[1213.40] Log: usc_toggle_cursor false
+[1214.72] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1214.72] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1214.92] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1216.66] Log: Chat[3]: because of right line
+[1217.09] Log: PUSHING Accolade: , local: false
+[1219.56] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1219.56] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1219.56] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1220.12] Log: Chat[3]: that is doing a ****
+[1221.36] Log: Chat[3]: [VVY] Yes!
+[1222.97] Log: Chat[3]: [VVA] Ok!
+[1226.76] Log: Chat[3]: laury92 has purchased a Ward.
+[1227.00] Log: Chat[3]: laury92 has purchased a Ward.
+[1231.47] Log: Chat[3]: where is support at right lane 
+[1241.44] Log: Chat[3]: neme should be
+[1243.17] Log: Chat[3]: i said jng
+[1249.24] Log: Chat[3]: [VFF] Enemy missing!
+[1249.32] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1250.87] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_Emite_01' in 'SKL_NPC_Chaos_Tower'
+[1251.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1251.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1251.22] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1251.58] Log: Chat[3]: [VVY] Yes!
+[1256.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1256.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1256.87] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1260.02] Log: Time is 2017.10.12-17.38.31
+[1263.72] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_3)
+[1267.37] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1267.37] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1267.56] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1275.65] Log: Chat[3]: [VF2] Enemy missing middle!
+[1279.34] Log: Chat[3]: [VA3] Attack right lane!
+[1283.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1283.07] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1283.27] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1286.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1286.12] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1286.32] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1288.01] Log: PUSHING Accolade: , local: false
+[1289.51] Log: PUSHING Accolade: ASSISTED, local: true
+[1290.88] Log: Chat[3]: [VF2] Enemy missing middle!
+[1292.39] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (8156 to TgSkeletalMeshActorSpawnable_ApolloChariot_1)
+[1293.05] Log: Chat[3]: [VCC] Be careful!
+[1303.57] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[1303.57] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1303.57] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1303.90] Log: usc_toggle_cursor true
+[1304.66] Log: Requesting purchase of itemId (8790) amount (1)
+[1305.03] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController greek_conq_p_s4.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1308.07] Log: Requesting purchase of itemId (8134) amount (1)
+[1308.50] Log: Requesting purchase of itemId (8135) amount (1)
+[1308.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [7622 Mana Potion]
+[1310.22] Log: Requesting purchase of itemId (8134) amount (1)
+[1310.97] Log: usc_toggle_cursor false
+[1315.53] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[1317.64] Log: Chat[3]: [VFF] Enemy missing!
+[1318.19] Log: Chat[3]: [VCC] Be careful!
+[1320.19] Log: Chat[3]: [VFF] Enemy missing!
+[1320.89] Log: Chat[3]: [VCC] Be careful!
+[1321.79] Log: Chat[3]: [VC2] Be careful middle!
+[1322.88] Log: PUSHING Accolade: KisielQ is on Killing Spree! (x3), local: false
+[1323.58] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1323.58] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1323.58] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1325.03] Log: PUSHING Accolade: , local: false
+[1332.87] Log: PUSHING Accolade: AbyssalFrenzy is on a Rampage! (x5), local: false
+[1338.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1338.14] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1338.33] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1340.13] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_4)
+[1347.76] Log: PUSHING Accolade: Igna[ is on Killing Spree! (x3), local: false
+[1348.71] Log: Chat[3]: [VVA] Ok!
+[1349.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1349.42] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1349.52] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1352.37] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1353.94] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_Emite_01' in 'SKL_NPC_Chaos_Tower'
+[1354.80] Log: Chat[3]: DAGGERDON has purchased a Ward.
+[1368.63] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[1368.63] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1368.63] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1372.76] Log: usc_toggle_cursor true
+[1373.92] Log: usc_toggle_cursor false
+[1380.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1380.34] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1380.50] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1388.64] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1388.64] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1388.64] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1391.40] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Bellona greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Bellona_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1391.40] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Bellona greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Bellona_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1407.21] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[1412.91] ScriptWarning: Accessed None 'VoiceInterface'
+	TgRepInfo_Player greek_conq_p_s4.TheWorld:PersistentLevel.TgRepInfo_Player_32
+	Function TgGame.TgRepInfo_Player:UnregisterPlayerFromSession:0235
+[1419.51] Log: Chat[3]: [VBE] Enemies behind us!
+[1429.71] Log: PUSHING Accolade: , local: false
+[1437.22] Log: Chat[3]: [VVVR] Ultimate is ready!
+[1440.02] Log: Time is 2017.10.12-17.41.31
+[1460.82] Warning: Attempting to attach NULL component to TgSkeletalMeshComponent_623, socket CSO_FX_R_Hand_01
+[1460.82] Log: PlayCustomAnim DeathToRest, CustomChildIndex: 1, Animation Not Found!!
+[1463.60] Log: PUSHING Accolade: , local: false
+[1464.97] Log: Chat[3]: [VVA] Ok!
+[1466.72] Log: Chat[3]: [VVGN] Nice Job!
+[1470.26] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (8156 to TgSkeletalMeshActorSpawnable_ApolloChariot_2)
+[1472.24] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1472.24] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1472.24] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1472.45] Log: PUSHING Accolade: KisielQ has a Player Kill!, local: false
+[1476.15] Log: PUSHING Accolade: , local: false
+[1477.65] Log: PUSHING Accolade: , local: false
+[1479.63] Log: Chat[3]: Evolugeon has started a surrender vote.  Type /surrender (F6) to vote YES, /nosurrender (F7) to vote NO.
+[1481.32] Log: usc_toggle_cursor true
+[1481.58] Log: Chat[3]: [VVP] Please?
+[1482.68] Log: Chat[3]: [VVP] Please?
+[1487.23] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1487.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1487.23] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1488.92] Log: Chat[3]: Your team has not agreed to a surrender (1 to 2).
+[1495.72] Log: usc_toggle_cursor false
+[1500.75] Log: Chat[3]: Tenrykbito has purchased a Sentry Ward.
+[1500.98] Log: Chat[3]: [VVB] Be right back!
+[1516.06] Log: Chat[3]: DAGGERDON has purchased a Ward.
+[1517.48] Log: PUSHING Accolade: , local: false
+[1544.26] Log: Chat[3]: [VFF] Enemy missing!
+[1547.44] Log: Chat[3]: [VD1] Defend left lane!
+[1549.31] Log: Chat[3]: [VVVE] On my way!
+[1557.01] Log: Chat[3]: [VVA] Ok!
+[1558.26] Log: Chat[3]: [VVGN] Nice Job!
+[1560.19] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[1589.84] Log: PUSHING Accolade: , local: false
+[1593.61] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[1593.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1593.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1594.34] Log: usc_toggle_cursor true
+[1596.61] Log: Requesting purchase of itemId (8779) amount (1)
+[1596.86] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController greek_conq_p_s4.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1604.58] Log: usc_toggle_key_capture true
+[1608.10] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1608.10] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1608.33] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1609.23] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1610.85] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_Emite_01' in 'SKL_NPC_Chaos_Tower'
+[1613.61] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1613.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1613.61] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1617.87] Log: Chat[3]: [VSD3] I'll defend right lane!
+[1620.03] Log: Time is 2017.10.12-17.44.31
+[1623.47] Log: Chat[3]: [VFF] Enemy missing!
+[1632.54] Log: usc_toggle_key_capture false
+[1632.77] Log: Requesting purchase of itemId (18001) amount (1)
+[1633.01] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController greek_conq_p_s4.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1633.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1633.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1633.81] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1634.40] Log: usc_toggle_cursor false
+[1639.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1639.01] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1639.21] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1647.57] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1647.57] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1647.77] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1650.00] Log: Chat[3]: [VVGB] Bye!
+[1650.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1650.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1650.23] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1658.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1658.52] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1658.72] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1662.46] Log: PUSHING Accolade: , local: false
+[1663.97] Log: PUSHING Accolade: ASSISTED, local: true
+[1666.97] Log: Chat[3]: [VC1] Be careful left!
+[1670.91] Log: Chat[3]: [VVGB] Bye!
+[1677.12] Log: Chat[3]: [VVB] Be right back!
+[1678.78] Log: PUSHING Accolade: , local: false
+[1679.93] Log: Chat[3]: [VVGB] Bye!
+[1681.59] Log: Chat[3]: Evolugeon has started a surrender vote.  Type /surrender (F6) to vote YES, /nosurrender (F7) to vote NO.
+[1683.37] Log: PUSHING Accolade: AbyssalFrenzy is UNSTOPPABLE! (x7), local: false
+[1683.38] Log: Chat[3]: [VVP] Please?
+[1684.03] Log: Chat[3]: [VVP] Please?
+[1684.63] Log: Chat[3]: [VVP] Please?
+[1685.81] Log: Chat[3]: [VVP] Please?
+[1686.13] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1686.13] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1686.13] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1686.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1686.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1686.64] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1686.72] Log: PUSHING Accolade: AbyssalFrenzy has a Double Kill!, local: false
+[1686.72] Log: Suppressing Accolade: AbyssalFrenzy has a Player Kill!
+[1696.10] Log: PUSHING Accolade: , local: false
+[1701.13] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1701.13] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1701.13] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1701.66] Log: Chat[3]: Tenrykbito has purchased a Ward Stone.
+[1707.72] Log: PUSHING Accolade: , local: false
+[1719.29] Log: PlayCustomAnim Death, CustomChildIndex: 1, Animation Not Found!!
+[1719.63] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1719.63] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1719.81] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1720.85] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_Emite_01' in 'SKL_NPC_Chaos_Tower'
+[1724.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1724.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1724.53] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1735.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1735.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1735.99] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1741.44] Log: Chat[3]: Your team has not agreed to a surrender (2 to 0).
+[1741.55] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_5)
+[1745.11] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1745.11] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1745.32] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1750.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1750.66] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1750.88] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1753.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1753.60] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1753.78] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1764.86] Log: PUSHING Accolade: , local: false
+[1766.36] Log: PUSHING Accolade: ASSISTED, local: true
+[1776.44] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (8156 to TgSkeletalMeshActorSpawnable_ApolloChariot_3)
+[1778.90] Log: PUSHING Accolade: , local: false
+[1780.40] Log: PUSHING Accolade: , local: false
+[1781.91] Log: PUSHING Accolade: ASSISTED, local: true
+[1787.90] DevMusic: PComMusicTheme PlayMusicEvent found event named Recall
+[1787.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1787.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1791.35] Log: usc_toggle_cursor true
+[1796.38] Log: Requesting purchase of itemId (18002) amount (1)
+[1796.65] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController greek_conq_p_s4.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1797.63] Log: usc_toggle_cursor false
+[1800.04] Log: Time is 2017.10.12-17.47.31
+[1807.90] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1807.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Recall over 1.000000 seconds
+[1807.90] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1825.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1825.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1825.57] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1831.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1831.04] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1831.22] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1853.67] Log: Chat[3]: Tenrykbito has purchased a Void Stone.
+[1859.06] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3796 to TgDeployable_WardEnvironment_0)
+[1859.06] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3812 to TgDeployable_WardEnvironment_0)
+[1859.06] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (11101 to TgDeployable_WardEnvironment_0)
+[1867.72] Warning: Warning, Failed to load 'MaterialInstanceConstant None.None': Failed to find object 'MaterialInstanceConstant None.None'
+[1871.01] Log: Chat[3]: [VCC] Be careful!
+[1872.20] Log: Chat[3]: [VII] Enemies incoming!
+[1876.59] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1876.59] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1876.80] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1881.82] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_6)
+[1882.24] Log: PUSHING Accolade: , local: false
+[1882.87] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1882.87] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1882.90] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1890.79] Log: PUSHING Accolade: , local: false
+[1891.31] Log: Chat[3]: [VVA] Ok!
+[1891.51] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1891.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1891.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1892.30] Log: PUSHING Accolade: Ziarniak has a Triple Kill!, local: false
+[1892.30] Log: Suppressing Accolade: Ziarniak has a Double Kill!
+[1892.30] Log: Suppressing Accolade: Ziarniak is on Killing Spree! (x3)
+[1892.30] Log: Suppressing Accolade: Ziarniak has a Player Kill!
+[1892.89] Log: usc_toggle_key_capture true
+[1892.89] Log: usc_toggle_cursor true
+[1893.39] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (8156 to TgSkeletalMeshActorSpawnable_ApolloChariot_4)
+[1896.90] Log: usc_toggle_key_capture false
+[1896.90] Log: usc_toggle_cursor false
+[1896.91] Log: SendChat[3] laggg
+[1897.15] Log: Chat[3]: laggg
+[1898.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1898.80] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1898.96] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1899.09] Log: usc_toggle_cursor true
+[1903.87] Log: usc_toggle_cursor false
+[1904.61] Log: usc_toggle_cursor true
+[1906.51] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[1906.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[1906.51] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1906.82] Log: usc_toggle_cursor false
+[1907.81] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_7)
+[1908.30] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1908.30] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1908.51] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1910.91] Log: PUSHING Accolade: AbyssalFrenzy is DIVINE! (x9), local: false
+[1912.42] Log: PUSHING Accolade: DEICIDE, local: true
+[1931.34] Log: PUSHING Accolade: , local: false
+[1941.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1941.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1941.22] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1942.96] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_8)
+[1943.39] Log: usc_toggle_cursor true
+[1946.09] Log: usc_toggle_cursor false
+[1946.31] Log: PUSHING Accolade: , local: false
+[1948.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1948.56] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1948.77] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1960.11] Log: Chat[3]: Evolugeon has started a surrender vote.  Type /surrender (F6) to vote YES, /nosurrender (F7) to vote NO.
+[1980.05] Log: Time is 2017.10.12-17.50.31
+[1994.13] Log: Chat[3]: DAGGERDON has purchased a Ward.
+[1994.53] Log: Chat[3]: DAGGERDON has purchased a Ward.
+[1998.32] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1998.32] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio greek_conq_p_s4.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1998.41] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1999.96] DevMusic: PComMusicTheme PlayMusicEvent found event named Death
+[1999.96] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[1999.96] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[2000.41] Log: PUSHING Accolade: AbyssalAura has a Player Kill!, local: false
+[2006.54] Log: Chat[3]: f6
+[2012.39] Log: Chat[9]: You have voted YES to surrender.
+[2012.43] DevMusic: PComMusicTheme PlayMusicEvent found event named MatchEnd
+[2012.43] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Death over 1.000000 seconds
+[2012.43] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd over 5.000000 seconds
+[2012.43] Log: Mission Timer State 5 at game time 14400.00
+[2012.43] DevMusic: PComMusicTheme PlayMusicEvent found event named MatchEnd
+[2012.43] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd already playing
+[2013.32] Log: Chat[3]: Your team has agreed to a surrender (4 to 1)!
+[2014.96] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[2014.96] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd over 5.000000 seconds
+[2014.96] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Vesuvius.A_CUE_MUS_Vesuvius_Level_Low_LP over 1.000000 seconds
+[2022.92] Log: usc_toggle_cursor true
+[2022.92] Log: usc_toggle_key_capture true
+[2026.12] Log: ---- UpdateClanData
+[2026.26] Log: TeamIndex 1 has new leader: 9272615
+[2032.01] Log: ReceiveChangeMap: mapGameId 1447
+[2032.01] Log: ReceiveChangeMap: mapGameId 1447
+[2032.01] DevNet: URL: Adding default option Team=255
+[2032.01] Log: ---- UpdateClanData
+[2032.01] Log: RequestingChannelMembers ch[3] [Tenrykbit has left the channel.]
+[2032.01] Log: RequestingChannelMembers ch[3] [DAGGERDON has left the channel.]
+[2032.01] Log: RequestingChannelMembers ch[3] [Evolugeon has left the channel.]
+[2032.01] Log: RequestingChannelMembers ch[3] [laury92 has left the channel.]
+[2032.01] Log: RequestingChannelMembers ch[3] [chicodelnoche has left the channel.]
+[2032.02] DevNet: URL: Adding default option Team=255
+[2032.02] DevNet: Browse: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[2032.74] Log: LoadMap: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[2033.25] NetComeGo: Close PComNetDriver_1 PComNetConn_0 0.0.0.0:9196 10/12/17 17:51:24
+[2033.48] Exit: PComNetDriver_1 shut down
+[2033.93] Log: Map Game ID = 0
+[2033.93] Log: Map Instance ID = 197843068
+[2033.95] Log: Performance: Critical section Lock/Unlock 18 nsec
+[2033.95] Log: Performance:  appCycles 12 nsec
+[2033.97] Log: Performance:  memCopy per KB 83 nsec
+[2033.97] Log: Performance:  memZero per KB 28 nsec
+[2033.98] Log: Performance:  appInterlockedIncrement 8 nsec
+[2033.99] Log: Performance:  GetTickCount 3 nsec
+[2033.99] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[2033.99] Log: Flushing async loaders.
+[2034.05] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[2034.05] Log: Flushed async loaders.
+[2034.05] Log: Game class is 'TgGameLaunch'
+[2034.07] Log: Primary PhysX scene will be in software.
+[2034.07] Log: Creating Primary PhysX Scene.
+[2034.07] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[2034.07] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.12-17.51.25
+[2034.07] Log: Skipping initialization of FSMPartPool!
+[2034.16] DevMusic: PComMusicTheme PlayDefaultMusic
+[2034.16] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[2034.17] Log: Bringing up level for play took: 0.119186
+[2034.17] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[2034.17] TgSLO: Async Load: GOD_Nemesis
+[2034.17] TgSLO: Async Load: GOD_Nemesis_Textures
+[2034.17] TgSLO: Async Load: GOD_Nemesis_Lobby
+[2034.17] TgSLO: Async Load: FX_Nemesis
+[2034.17] TgSLO: Async Load: FX_Nemesis_Lobby
+[2034.17] TgSLO: Async Load: AUD_God_Nemesis
+[2034.17] TgSLO: Async Load: GOD_Nemesis_Skin7
+[2034.18] TgSLO: Async Load: GOD_Nemesis_Skin7_Lobby
+[2034.18] TgSLO: Async Load: FX_Nemesis_Skin7_Targeting
+[2034.18] TgSLO: Async Load: FX_Nemesis_Skin7
+[2034.18] TgSLO: Async Load: AnimNotify12919
+[2034.18] Log: Flushing async loaders.
+[2034.26] TgSLO: Finish Load: GOD_Nemesis
+[2034.26] TgSLO: Finish Load: GOD_Nemesis_Textures
+[2034.36] TgSLO: Finish Load: GOD_Nemesis_Lobby
+[2034.38] TgSLO: Finish Load: FX_Nemesis
+[2034.39] TgSLO: Finish Load: FX_Nemesis_Lobby
+[2034.40] TgSLO: Finish Load: AUD_God_Nemesis
+[2034.41] TgSLO: Finish Load: GOD_Nemesis_Skin7
+[2034.41] TgSLO: Finish Load: GOD_Nemesis_Skin7_Lobby
+[2034.43] TgSLO: Finish Load: FX_Nemesis_Skin7_Targeting
+[2034.45] TgSLO: Finish Load: FX_Nemesis_Skin7
+[2034.46] TgSLO: Finish Load: AnimNotify12919
+[2034.46] Log: Flushed async loaders.
+[2034.46] DevMusic: PComMusicTheme PlayMusicEvent found event named eom
+[2034.46] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[2034.46] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global_EOM.A_CUE_MUS_EOM over 1.000000 seconds
+[2034.46] Log: ########### Finished loading level: 1.723324 seconds
+[2034.50] Log: Flushing async loaders.
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[2034.92] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[2034.92] Log: Flushed async loaders.
+[2034.92] Log: Starting RedrawViewports for texture streaming..
+[2034.96] Log: RedrawViewports took: 0.031117 seconds
+[2034.96] Log: Starting Level load StreamAllResources..
+[2035.03] Log: Level load StreamAllResources took: 0.073094 seconds
+[2035.06] Log: RequestingChannelMembers ch[8] [chicodelnoche has joined the channel.]
+[2035.06] Log: RequestingChannelMembers ch[8] [Evolugeon has joined the channel.]
+[2035.06] Log: RequestingChannelMembers ch[8] [Tenrykbit has joined the channel.]
+[2035.90] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[2036.22] Log: RequestingChannelMembers ch[8] [AbyssalAura has joined the channel.]
+[2036.33] Log: PlayCustomAnim Defeat, CustomChildIndex: 1, Animation Not Found!!
+[2037.23] Log: RequestingChannelMembers ch[8] [laury92 has joined the channel.]
+[2037.87] Log: RequestingChannelMembers ch[8] [KisielQ has joined the channel.]
+[2038.67] Log: Closing by request
+[2038.67] Log: appRequestExit(0)(0)
+[2038.67] Log: TgAIBehaviorTreeManager :: De-allocating 201 behavior trees
+[2038.87] Exit: Preparing to exit.
+[2039.29] Exit: Game engine shut down
+[2039.29] Exit: PComNetDriver_0(PEER) shut down
+[2039.29] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[2039.48] Exit: Windows client shut down
+[2039.49] Exit: XAudio2 Device shut down.
+[2039.84] Exit: Object subsystem successfully closed.
+[2039.85] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2039.96] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2040.04] Exit: Exiting.

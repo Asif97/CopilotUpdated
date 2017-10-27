@@ -1,0 +1,2177 @@
+[0000.28] Log: Async Log file open, 10/09/17 21:26:59
+[0000.28] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.28] Log:  ... running in INSTALLED mode
+[0000.28] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.28] Init: Version: 10897
+[0000.28] Init: Epic Internal: 0
+[0000.28] Init: Compiled (32-bit): Sep 27 2017 18:27:52
+[0000.28] Init: Changelist: 1532151
+[0000.28] Init: Game is version 4.18.4334.0.
+[0000.28] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -pid=017 -user=Swoldier97 -token                                  -HiCommand -HEXX=2CF2F785
+[0000.28] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.29] Init: Computer: LAPTOP-2ARNF0V1
+[0000.29] Init: User: Asif
+[0000.29] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.29] Init: High frequency timer resolution =2.835936 MHz
+[0000.29] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.77] DevOnline: Initializing MCTS
+[0001.17] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.17] Init: Object subsystem initialized
+[0001.17] Log: Overriding lang INT w/ command-line option of ENG
+[0001.17] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.33] Log: CachePaths() took 0.16 Seconds
+[0001.34] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.36] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.16] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.22] Log: SystemSettings based on: SystemSettings
+[0003.91] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0003.91] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0004.87] Log: Shader platform (RHI): PC-D3D-SM3
+[0004.92] Log: PhysX GPU Support: DISABLED
+[0006.88] Log: Assembly Loaded Version: DBExport: 09/27/2017 17:45:48,  Src=devsql.hirezcorp.com:smite_live_build_4_18, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0006.92] Log: FEACClient being initialized
+[0008.58] Log: TFC Version check: Low=4.18.4334.0 High=, Result=FALSE
+[0010.17] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0010.71] Log: 152443 objects as part of root set at end of initial load.
+[0010.71] Log: 0 out of 0 bytes used by permanent object pool.
+[0010.77] Log: Initializing Engine...
+[0010.84] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0010.84] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0012.10] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0015.79] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0015.79] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0015.79] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0015.79] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0015.79] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.80] Warning: Warning, Failed to find object 'Class None.'
+[0015.80] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.80] Warning: Warning, Failed to find object 'Class None.'
+[0015.80] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.80] Warning: Warning, Failed to find object 'Class None.'
+[0015.80] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.80] Warning: Warning, Failed to find object 'Class None.'
+[0015.80] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0015.80] Log: FEACClient::Send preload map event
+[0015.80] Log: FEACClient OnGameServerDisconnect
+[0015.80] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0015.94] Log: Map Game ID = 0
+[0015.94] Log: Map Instance ID = 197598834
+[0015.96] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0015.96] Log: Performance:  appCycles 14 nsec
+[0015.98] Log: Performance:  memCopy per KB 71 nsec
+[0015.98] Log: Performance:  memZero per KB 24 nsec
+[0015.99] Log: Performance:  appInterlockedIncrement 8 nsec
+[0016.00] Log: Performance:  GetTickCount 4 nsec
+[0016.00] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0016.00] Log: Flushing async loaders.
+[0016.05] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0016.05] Log: Flushed async loaders.
+[0016.05] Log: Game class is 'TgGameLaunch'
+[0016.12] Log: Primary PhysX scene will be in software.
+[0016.12] Log: Creating Primary PhysX Scene.
+[0016.12] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0016.12] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.09-21.27.15
+[0016.12] Log: Skipping initialization of FSMPartPool!
+[0016.21] DevMusic: PComMusicTheme PlayDefaultMusic
+[0016.21] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0016.21] Log: Bringing up level for play took: 0.156270
+[0016.21] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0016.22] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0016.22] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0016.70] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0016.70] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0016.90] Log: usc_toggle_cursor true
+[0016.90] Log: usc_toggle_key_capture true
+[0016.90] DevMusic: PComMusicTheme PlayDefaultMusic
+[0016.90] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0016.90] Log: ########### Finished loading level: 1.102719 seconds
+[0016.97] Log: Flushing async loaders.
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0017.42] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0017.42] Log: Flushed async loaders.
+[0017.42] Log: Starting RedrawViewports for texture streaming..
+[0017.45] Log: RedrawViewports took: 0.026755 seconds
+[0017.45] Log: Starting Level load StreamAllResources..
+[0017.55] Log: Level load StreamAllResources took: 0.099539 seconds
+[0017.55] Log: Initializing Engine Completed
+[0017.55] Log: >>>>>>>>>>>>>> Initial startup: 17.55s <<<<<<<<<<<<<<<
+[0017.55] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0018.27] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-49871869136449526521931599--1052109747x4941
+[0018.59] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0019.62] Log: Map Game ID = 0
+[0019.62] Log: Map Instance ID = 197598834
+[0019.64] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0019.64] Log: Performance:  appCycles 8 nsec
+[0019.65] Log: Performance:  memCopy per KB 52 nsec
+[0019.66] Log: Performance:  memZero per KB 22 nsec
+[0019.67] Log: Performance:  appInterlockedIncrement 7 nsec
+[0019.67] Log: Performance:  GetTickCount 3 nsec
+[0019.67] Log: Map Game ID = 0
+[0019.67] Log: Map Instance ID = 197598834
+[0019.69] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0019.69] Log: Performance:  appCycles 15 nsec
+[0019.70] Log: Performance:  memCopy per KB 67 nsec
+[0019.71] Log: Performance:  memZero per KB 29 nsec
+[0019.72] Log: Performance:  appInterlockedIncrement 7 nsec
+[0019.72] Log: Performance:  GetTickCount 3 nsec
+[0019.72] Log: Map Game ID = 0
+[0019.72] Log: Map Instance ID = 197598834
+[0019.74] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0019.74] Log: Performance:  appCycles 8 nsec
+[0019.75] Log: Performance:  memCopy per KB 73 nsec
+[0019.76] Log: Performance:  memZero per KB 24 nsec
+[0019.77] Log: Performance:  appInterlockedIncrement 7 nsec
+[0019.77] Log: Performance:  GetTickCount 3 nsec
+[0021.59] VoiceChat: Warn  am_network_start() trying retval=0,port + offset=41716,port=41686
+[0021.59] Log: Login Success: chicodelnoche
+[0021.59] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0021.59] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0022.10] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0022.38] Log: Team/Instance chat routed to Instance Server.
+[0022.38] Log: Map Game ID = 0
+[0022.38] Log: Map Instance ID = 197598834
+[0022.40] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0022.40] Log: Performance:  appCycles 8 nsec
+[0022.41] VoiceChat: Warn  am_network_start() returned retval=0,port + offset=41716,port=41686
+[0022.41] Log: Performance:  memCopy per KB 55 nsec
+[0022.41] Log: Performance:  memZero per KB 22 nsec
+[0022.42] Log: Performance:  appInterlockedIncrement 7 nsec
+[0022.42] Log: Performance:  GetTickCount 3 nsec
+[0022.43] Log: Chat[9]: Press ENTER to access chat.
+[0022.43] Log: Chat[9]: Press ENTER to access chat.
+[0022.43] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc1OTkwMTgsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.Bx8CeMJr9FnrYyVH4TheYmTf_yOL0xlKho8g_0Nf3fI
+[0022.43] Log: RequestingChannelMembers ch[1] [@@player_name@@ has joined the channel.]
+[0022.43] Log: Chat[1]: Clan status: He Vuelto
+[0022.43] Log: ---- UpdateClanData
+[0022.43] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://smp.www.vivox.com/api2/)
+[0022.56] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.a3a502.)
+[0023.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.31] Warning: Warning, Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.32] Warning: Warning, Failed to find object 'Class None.None'
+[0026.51] Log: ---- UpdateClanData
+[0026.51] DevMusic: PComMusicTheme PlayDefaultMusic
+[0026.51] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0026.51] Log: ERROR: Attempting to log in without settings.
+[0026.94] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0030.18] Log: ---- UpdateClanData
+[0047.06] Log: UGFxMoviePlayer::GetBool(): value is not a bool. Returning FALSE.
+[0052.31] TgSLO: Async Load: GOD_Artio
+[0052.31] TgSLO: Async Load: GOD_Artio_Textures
+[0052.31] TgSLO: Async Load: GOD_Artio_Lobby
+[0052.31] TgSLO: Async Load: FX_Artio
+[0052.31] TgSLO: Async Load: FX_Artio_Lobby
+[0052.31] TgSLO: Async Load: AUD_God_Artio
+[0052.31] TgSLO: Async Load: GOD_Artio_Bear
+[0052.31] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0053.02] TgSLO: Finish Load: GOD_Artio
+[0053.10] TgSLO: Finish Load: GOD_Artio_Textures
+[0053.27] TgSLO: Finish Load: GOD_Artio_Lobby
+[0053.82] TgSLO: Finish Load: FX_Artio
+[0053.93] TgSLO: Finish Load: FX_Artio_Lobby
+[0053.94] Log: Flushing async loaders.
+[0053.94] TgSLO: Finish Load: AUD_God_Artio
+[0053.96] TgSLO: Finish Load: GOD_Artio_Bear
+[0053.96] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0053.96] Log: Flushed async loaders.
+[0062.44] Log: Chat[1]: Laydine has come online.
+[0062.44] Log: ---- UpdateClanData
+[0062.47] Log: Chat[9]: Laydine has come online.
+[0062.47] Log: Chat[6]: Laydine has come online.
+[0062.49] Log: ---- UpdateClanData
+[0062.52] Log: RequestingChannelMembers ch[1] [@@player_name@@ has joined the channel.]
+[0077.68] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0077.99] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0078.25] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0085.17] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0087.55] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0089.37] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0090.06] Log: RequestingChannelMembers ch[1] [OutlastWB has left the channel.]
+[0091.01] Log: ---- UpdateClanData
+[0096.41] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[0104.13] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[0104.42] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0119.98] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0122.94] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0123.50] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0126.70] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0127.00] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0127.27] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0134.60] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0136.42] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0164.35] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0164.65] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0164.92] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0171.83] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0174.21] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0176.03] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0178.16] Log: ---- UpdateClanData
+[0180.00] Log: Time is 2017.10.09-21.29.58
+[0180.42] VoiceChat: UpdateVivox: Joining channel sip:confctl-g-4-a5970@smp.vivox.com, token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc1OTkxNzksInZ4YSI6ImpvaW4iLCJ2eGkiOjEsImYiOiJzaXA6LmEzYTUwMi5Ac21wLnZpdm94LmNvbSIsInQiOiJzaXA6Y29uZmN0bC1nLTQtYTU5NzBAc21wLnZpdm94LmNvbSJ9.3R4jsJapHAAEBhi20afvynrT2lEVwPRmnB3gPqtZyKU
+[0180.42] Log: RequestingChannelMembers ch[4] [@@player_name@@ has joined the channel.]
+[0180.77] VoiceChat: Warn  OpenAudioUnit() succeeded.this=0x300a7018,captureDeviceId=DeviceId m_displayName='Microphone Array (Realtek High Definition Audio)' m_internalName='{0.0.1.00000000}.{75206ef3-78b5-4bd6-8440-0a3bda25b105}',renderDeviceId=DeviceId m_displayName='Speakers (Realtek High Definition Audio)' m_internalName='{0.0.0.00000000}.{7a61a7c2-531e-459f-ad93-d35fa1ae6afe}'
+[0182.49] Log: Chat[4]: Laydine has joined the party.
+[0182.50] Log: RequestingChannelMembers ch[4] [@@player_name@@ has joined the channel.]
+[0183.08] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[0183.52] VoiceChat: CVoiceInterfaceVivox::onChannelJoined (.a3a502., sip:confctl-g-4-a5970@smp.vivox.com)
+[0184.26] TgSLO: Async Load: GOD_Ymir
+[0184.26] TgSLO: Async Load: GOD_Ymir_Textures
+[0184.26] TgSLO: Async Load: GOD_Ymir_Lobby
+[0184.26] TgSLO: Async Load: FX_Ymir
+[0184.26] TgSLO: Async Load: FX_Ymir_Lobby
+[0184.26] TgSLO: Async Load: AUD_God_Ymir
+[0184.26] TgSLO: Async Load: GOD_Ymir_Skin12
+[0184.26] TgSLO: Async Load: FX_Ymir_Skin12
+[0184.26] TgSLO: Async Load: GOD_Ymir_Skin12_Lobby
+[0184.26] TgSLO: Async Load: FX_Ymir_Skin12_Targeting
+[0184.27] TgSLO: Async Load: AnimNotify14940
+[0185.08] TgSLO: Finish Load: GOD_Ymir
+[0185.18] TgSLO: Finish Load: GOD_Ymir_Textures
+[0185.29] TgSLO: Finish Load: GOD_Ymir_Lobby
+[0185.74] TgSLO: Finish Load: FX_Ymir
+[0185.77] TgSLO: Finish Load: FX_Ymir_Lobby
+[0187.03] TgSLO: Finish Load: AUD_God_Ymir
+[0187.17] TgSLO: Finish Load: GOD_Ymir_Skin12
+[0187.52] TgSLO: Finish Load: FX_Ymir_Skin12
+[0187.54] TgSLO: Finish Load: GOD_Ymir_Skin12_Lobby
+[0187.60] TgSLO: Finish Load: FX_Ymir_Skin12_Targeting
+[0187.61] TgSLO: Finish Load: AnimNotify14940
+[0234.56] Log: Chat[9]: You have joined a match queue.
+[0234.62] Log: Chat[4]: chicodelnoche entered the party into a match queue.
+[0258.49] Log: RequestingChannelMembers ch[3] [@@player_name@@ has joined the channel.]
+[0261.40] Log: RequestingChannelMembers ch[3] [@@player_name@@ has joined the channel.]
+[0263.88] Log: RequestingChannelMembers ch[3] [CharlieTheDog92 has joined the channel.]
+[0264.29] Log: RequestingChannelMembers ch[3] [KermieTF has joined the channel.]
+[0265.71] DevMusic: PComMusicTheme PlayMusicEvent found event named GodSelection
+[0265.71] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0265.71] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0265.87] TgSLO: Async Load: Pedestal_Celtic
+[0266.11] TgSLO: Finish Load: Pedestal_Celtic
+[0269.03] TgSLO: Async Load: GOD_Artio
+[0269.03] TgSLO: Async Load: GOD_Artio_Textures
+[0269.03] TgSLO: Async Load: GOD_Artio_Lobby
+[0269.03] TgSLO: Async Load: FX_Artio
+[0269.03] TgSLO: Async Load: FX_Artio_Lobby
+[0269.03] TgSLO: Async Load: AUD_God_Artio
+[0269.03] TgSLO: Async Load: GOD_Artio_Bear
+[0269.03] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0269.73] TgSLO: Finish Load: GOD_Artio
+[0269.78] TgSLO: Finish Load: GOD_Artio_Textures
+[0269.95] TgSLO: Finish Load: GOD_Artio_Lobby
+[0270.51] TgSLO: Finish Load: FX_Artio
+[0270.62] TgSLO: Finish Load: FX_Artio_Lobby
+[0270.98] TgSLO: Finish Load: AUD_God_Artio
+[0271.01] TgSLO: Finish Load: GOD_Artio_Bear
+[0271.05] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0294.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0295.07] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0295.33] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0302.26] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0304.25] TgSLO: Async Load: GOD_Skadi
+[0304.25] TgSLO: Async Load: GOD_Skadi_Textures
+[0304.25] TgSLO: Async Load: GOD_Skadi_Lobby
+[0304.25] TgSLO: Async Load: FX_Skadi
+[0304.25] TgSLO: Async Load: FX_Skadi_Lobby
+[0304.25] TgSLO: Async Load: AUD_God_Skadi
+[0304.64] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0305.31] TgSLO: Finish Load: GOD_Skadi
+[0305.43] TgSLO: Finish Load: GOD_Skadi_Textures
+[0305.65] TgSLO: Finish Load: GOD_Skadi_Lobby
+[0306.07] TgSLO: Finish Load: FX_Skadi
+[0306.15] TgSLO: Finish Load: FX_Skadi_Lobby
+[0306.46] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0306.65] TgSLO: Finish Load: AUD_God_Skadi
+[0308.88] TgSLO: Async Load: GOD_Nox
+[0308.88] TgSLO: Async Load: GOD_Nox_Textures
+[0308.88] TgSLO: Async Load: GOD_Nox_Lobby
+[0308.88] TgSLO: Async Load: FX_Nox
+[0308.88] TgSLO: Async Load: FX_Nox_Lobby
+[0308.88] TgSLO: Async Load: AUD_God_Nox
+[0308.88] TgSLO: Async Load: GOD_Nox_Skin_Diamond
+[0308.88] TgSLO: Async Load: FX_Nox_Diamond
+[0308.88] TgSLO: Async Load: AnimNotify10981
+[0309.52] TgSLO: Finish Load: GOD_Nox
+[0309.61] TgSLO: Finish Load: GOD_Nox_Textures
+[0309.80] TgSLO: Finish Load: GOD_Nox_Lobby
+[0310.31] TgSLO: Finish Load: FX_Nox
+[0310.43] TgSLO: Finish Load: FX_Nox_Lobby
+[0310.89] TgSLO: Finish Load: AUD_God_Nox
+[0310.95] TgSLO: Finish Load: GOD_Nox_Skin_Diamond
+[0311.05] TgSLO: Finish Load: FX_Nox_Diamond
+[0311.05] TgSLO: Finish Load: AnimNotify10981
+[0313.52] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[0318.55] Log: UGFxMoviePlayer::GetBool(): value is not a bool. Returning FALSE.
+[0321.23] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[0321.53] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0337.10] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0340.05] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0340.61] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[0343.43] TgSLO: Async Load: GOD_Hercules
+[0343.43] TgSLO: Async Load: GOD_Hercules_Textures
+[0343.43] TgSLO: Async Load: GOD_Hercules_Lobby
+[0343.43] TgSLO: Async Load: FX_Hercules
+[0343.43] TgSLO: Async Load: FX_Hercules_Lobby
+[0343.43] TgSLO: Async Load: AUD_God_Hercules
+[0343.81] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0344.15] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0344.18] TgSLO: Finish Load: GOD_Hercules
+[0344.26] TgSLO: Finish Load: GOD_Hercules_Textures
+[0344.34] TgSLO: Finish Load: GOD_Hercules_Lobby
+[0344.39] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[0344.61] TgSLO: Finish Load: FX_Hercules
+[0344.65] TgSLO: Finish Load: FX_Hercules_Lobby
+[0345.03] TgSLO: Finish Load: AUD_God_Hercules
+[0347.11] TgSLO: Async Load: GOD_Daji
+[0347.11] TgSLO: Async Load: GOD_DaJi_Textures
+[0347.11] TgSLO: Async Load: GOD_DaJi_Lobby
+[0347.11] TgSLO: Async Load: FX_DaJi
+[0347.11] TgSLO: Async Load: FX_DaJi_Lobby
+[0347.11] TgSLO: Async Load: AUD_God_DaJi
+[0347.11] TgSLO: Async Load: GOD_Daji_Skin2
+[0347.75] TgSLO: Finish Load: GOD_Daji
+[0347.86] TgSLO: Finish Load: GOD_DaJi_Textures
+[0347.97] TgSLO: Finish Load: GOD_DaJi_Lobby
+[0348.51] TgSLO: Finish Load: FX_DaJi
+[0348.56] TgSLO: Finish Load: FX_DaJi_Lobby
+[0348.93] TgSLO: Finish Load: AUD_God_DaJi
+[0349.02] TgSLO: Finish Load: GOD_Daji_Skin2
+[0351.72] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0353.55] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[0355.54] DevMusic: PComMusicTheme PlayMusicEvent found event named BattleReady
+[0355.54] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0355.54] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0355.54] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0360.00] Log: Time is 2017.10.09-21.32.58
+[0365.56] DevMusic: PComMusicTheme PlayDefaultMusic
+[0365.56] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0365.56] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0368.46] Log: CTgBattleClient - Match composition cached [38E70C90]
+[0368.46] Log: ReceiveChangeMap: mapGameId 1531
+[0368.46] Log: ReceiveChangeMap: mapGameId 1531
+[0368.55] Log: usc_toggle_key_capture false
+[0368.55] Log: usc_toggle_cursor false
+[0368.66] Log: usc_toggle_key_capture true
+[0368.66] DevNet: URL: Adding default option Team=255
+[0368.67] DevNet: URL: Adding default option Team=255
+[0368.67] DevNet: Browse: 0.0.0.0:9170/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367056612?Team=255
+[0368.67] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0368.67] DevNet: Game client on port 9170, rate 25000
+[0369.88] DevNet: Welcomed by server (Level: roman_arena_p, Game: TgGame.TgGame_Arena_Escort)
+[0370.38] Log: LoadMap: 0.0.0.0:9170/roman_arena_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367056612?Team=255?game=TgGame.TgGame_Arena_Escort
+[0370.61] Log: Map Game ID = 0
+[0370.61] Log: Map Instance ID = 197598834
+[0370.63] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0370.63] Log: Performance:  appCycles 13 nsec
+[0370.65] Log: Performance:  memCopy per KB 75 nsec
+[0370.65] Log: Performance:  memZero per KB 32 nsec
+[0370.66] Log: Performance:  appInterlockedIncrement 7 nsec
+[0370.66] Log: Performance:  GetTickCount 3 nsec
+[0370.67] TgSLO: Async Load: FX_Store_Items
+[0370.67] TgSLO: Async Load: FX_Store_Items_Targeting
+[0370.67] TgSLO: Async Load: FX_Status_Effects
+[0370.67] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0370.67] TgSLO: Async Load: GOD_Common_AT
+[0370.67] TgSLO: Async Load: AUD_VOX_Narrator
+[0370.67] TgSLO: Async Load: NPC_Ward2
+[0370.67] TgSLO: Async Load: FX_Buff_Belts_V2
+[0370.67] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0370.67] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0370.67] TgSLO: Async Load: GOD_Thoth
+[0370.67] TgSLO: Async Load: GOD_Thoth_Textures
+[0370.67] TgSLO: Async Load: FX_Thoth
+[0370.67] TgSLO: Async Load: AUD_God_Thoth
+[0370.67] TgSLO: Async Load: NPC_Ward_WindDancer
+[0370.67] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0370.67] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0370.67] TgSLO: Async Load: FX_Common
+[0370.67] TgSLO: Async Load: AUD_UI
+[0370.67] TgSLO: Async Load: FX_Emote_global_Odyssey_2017
+[0370.67] TgSLO: Async Load: FX_Diamond_Recall
+[0370.67] TgSLO: Async Load: FX_Freya_Skin3
+[0370.67] TgSLO: Async Load: AUD_God_Freya
+[0370.67] TgSLO: Async Load: GOD_Sobek
+[0370.67] TgSLO: Async Load: GOD_Sobek_Textures
+[0370.68] TgSLO: Async Load: FX_Sobek
+[0370.68] TgSLO: Async Load: AUD_God_Sobek
+[0370.68] TgSLO: Async Load: GOD_Osiris
+[0370.68] TgSLO: Async Load: GOD_Osiris_Textures
+[0370.68] TgSLO: Async Load: FX_Osiris
+[0370.68] TgSLO: Async Load: AUD_God_Osiris
+[0370.68] TgSLO: Async Load: GOD_Osiris_Skin6
+[0370.68] TgSLO: Async Load: FX_Osiris_Skin6
+[0370.68] TgSLO: Async Load: FX_Osiris_Skin6_Targeting
+[0370.68] TgSLO: Async Load: AnimNotify14488
+[0370.68] TgSLO: Async Load: NPC_Ward_Chinese
+[0370.68] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0370.68] TgSLO: Async Load: FX_Emote_global_Fireworks_GG
+[0370.68] TgSLO: Async Load: FX_Shower_O_Gold_Recall
+[0370.68] TgSLO: Async Load: FX_JumpStamp_PaintSplatter
+[0370.68] TgSLO: Async Load: FX_Fountain_SeasonTicket2017
+[0370.68] TgSLO: Async Load: GOD_Nox
+[0370.68] TgSLO: Async Load: GOD_Nox_Textures
+[0370.68] TgSLO: Async Load: FX_Nox
+[0370.68] TgSLO: Async Load: AUD_God_Nox
+[0370.68] TgSLO: Async Load: NPC_Ward_Mailbox
+[0370.68] TgSLO: Async Load: GOD_Anhur
+[0370.68] TgSLO: Async Load: GOD_Anhur_Textures
+[0370.68] TgSLO: Async Load: FX_Anhur
+[0370.68] TgSLO: Async Load: AUD_God_Anhur
+[0370.69] TgSLO: Async Load: npc_ward_maoi
+[0370.69] TgSLO: Async Load: GOD_Daji
+[0370.69] TgSLO: Async Load: GOD_DaJi_Textures
+[0370.69] TgSLO: Async Load: FX_DaJi
+[0370.69] TgSLO: Async Load: AUD_God_DaJi
+[0370.69] TgSLO: Async Load: GOD_Daji_Skin2
+[0370.69] TgSLO: Async Load: GOD_Artio
+[0370.69] TgSLO: Async Load: GOD_Artio_Textures
+[0370.69] TgSLO: Async Load: FX_Artio
+[0370.69] TgSLO: Async Load: FX_Artio_Targeting
+[0370.69] TgSLO: Async Load: AUD_God_Artio
+[0370.69] TgSLO: Async Load: GOD_Artio_Bear
+[0370.69] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[0370.69] TgSLO: Async Load: FX_Emote_global_SmiteBirthday
+[0370.69] TgSLO: Async Load: FX_Celtic_Recall
+[0370.69] TgSLO: Async Load: GOD_Hercules
+[0370.69] TgSLO: Async Load: GOD_Hercules_Textures
+[0370.69] TgSLO: Async Load: FX_Hercules
+[0370.69] TgSLO: Async Load: AUD_God_Hercules
+[0370.69] TgSLO: Async Load: NPC_Ward_ODY_2017_Evolving
+[0370.69] TgSLO: Async Load: FX_Demonic_Pact_Recall
+[0370.69] TgSLO: Async Load: GOD_Nox_Skin_Diamond
+[0370.69] TgSLO: Async Load: FX_Nox_Diamond
+[0370.69] TgSLO: Async Load: AnimNotify10981
+[0370.69] TgSLO: Async Load: GOD_Skadi
+[0370.69] TgSLO: Async Load: GOD_Skadi_Textures
+[0370.69] TgSLO: Async Load: FX_Skadi
+[0370.69] TgSLO: Async Load: AUD_God_Skadi
+[0370.69] TgSLO: Async Load: NPC_Ward_DentonBalloon
+[0370.69] TgSLO: Async Load: FX_Emote_global_Spring_2017
+[0370.69] TgSLO: Async Load: FX_Roman_Arena
+[0370.69] TgSLO: Async Load: AUD_ENV_Roman_Arena
+[0370.70] TgSLO: Async Load: FX_Tower
+[0370.70] TgSLO: Async Load: FX_Greek_Tower
+[0370.70] TgSLO: Async Load: AUD_Tower
+[0370.70] TgSLO: Async Load: NPC_Tower_RA2015a
+[0370.70] TgSLO: Async Load: MDL_PseudoMesh
+[0370.70] TgSLO: Async Load: NPC_Arena_Basilisk
+[0370.70] TgSLO: Async Load: FX_NPC_Arena_Basilisk
+[0370.70] TgSLO: Async Load: AUD_NPC_Arena_Basilisk
+[0370.70] TgSLO: Async Load: NPC_Arena_Lion
+[0370.70] TgSLO: Async Load: FX_NPC_Arena_Lion
+[0370.70] TgSLO: Async Load: AUD_NPC_Arena_Lion
+[0370.70] TgSLO: Async Load: NPC_Arena_Boar
+[0370.70] TgSLO: Async Load: FX_NPC_Arena_Boar
+[0370.70] TgSLO: Async Load: AUD_NPC_Arena_Boar
+[0370.70] TgSLO: Async Load: NPC_Arena_Minion
+[0370.70] TgSLO: Async Load: NPC_Minion_Universal
+[0370.70] TgSLO: Async Load: FX_Roman
+[0370.70] TgSLO: Async Load: FX_Minion_Death
+[0370.70] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0370.70] TgSLO: Async Load: AUD_NPC_Olympus
+[0370.70] TgSLO: Async Load: NPC_Arena_Brute
+[0370.70] TgSLO: Async Load: NPC_Arena_Juggernaut
+[0370.70] TgSLO: Async Load: FX_NPC_Arena_Juggernaut
+[0370.70] TgSLO: Async Load: AUD_NPC_Arena_Juggernaut
+[0370.70] Log: Flushing async loaders.
+[0370.79] TgSLO: Finish Load: FX_Store_Items
+[0370.82] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0370.83] TgSLO: Finish Load: FX_Status_Effects
+[0370.85] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0370.85] TgSLO: Finish Load: GOD_Common_AT
+[0370.86] TgSLO: Finish Load: AUD_VOX_Narrator
+[0370.87] TgSLO: Finish Load: NPC_Ward2
+[0370.92] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0370.92] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0370.93] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0371.07] TgSLO: Finish Load: GOD_Thoth
+[0371.08] TgSLO: Finish Load: GOD_Thoth_Textures
+[0371.11] TgSLO: Finish Load: FX_Thoth
+[0371.12] TgSLO: Finish Load: AUD_God_Thoth
+[0371.15] TgSLO: Finish Load: NPC_Ward_WindDancer
+[0371.15] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0371.17] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0371.21] TgSLO: Finish Load: FX_Common
+[0371.21] TgSLO: Finish Load: AUD_UI
+[0371.23] TgSLO: Finish Load: FX_Emote_global_Odyssey_2017
+[0371.24] Log: Missing cached shader map for material MAT_Diamond3_CARD, quality 0, compiling.
+[0371.24] Log: Can't compile MAT_Diamond3_CARD with seekfree loading path on console, will attempt to use default material instead
+[0371.24] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_CARD for platform PC-D3D-SM3, Default Material will be used in game.
+[0371.24] Log: Missing cached shader map for material MAT_Diamond3_Crysalis2, quality 0, compiling.
+[0371.24] Log: Can't compile MAT_Diamond3_Crysalis2 with seekfree loading path on console, will attempt to use default material instead
+[0371.24] Warning: Warning, Failed to compile Material FX_Diamond_Recall.Materials.MAT_Diamond3_Crysalis2 for platform PC-D3D-SM3, Default Material will be used in game.
+[0371.24] TgSLO: Finish Load: FX_Diamond_Recall
+[0371.30] TgSLO: Finish Load: FX_Freya_Skin3
+[0371.32] TgSLO: Finish Load: AUD_God_Freya
+[0371.45] TgSLO: Finish Load: GOD_Sobek
+[0371.45] TgSLO: Finish Load: GOD_Sobek_Textures
+[0371.47] TgSLO: Finish Load: FX_Sobek
+[0371.48] TgSLO: Finish Load: AUD_God_Sobek
+[0371.61] TgSLO: Finish Load: GOD_Osiris
+[0371.62] TgSLO: Finish Load: GOD_Osiris_Textures
+[0371.66] TgSLO: Finish Load: FX_Osiris
+[0371.67] TgSLO: Finish Load: AUD_God_Osiris
+[0371.73] TgSLO: Finish Load: GOD_Osiris_Skin6
+[0371.80] TgSLO: Finish Load: FX_Osiris_Skin6
+[0371.82] TgSLO: Finish Load: FX_Osiris_Skin6_Targeting
+[0371.83] TgSLO: Finish Load: AnimNotify14488
+[0371.86] TgSLO: Finish Load: NPC_Ward_Chinese
+[0371.87] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0371.87] TgSLO: Finish Load: FX_Emote_global_Fireworks_GG
+[0371.88] TgSLO: Finish Load: FX_Shower_O_Gold_Recall
+[0371.88] TgSLO: Finish Load: FX_JumpStamp_PaintSplatter
+[0371.89] TgSLO: Finish Load: FX_Fountain_SeasonTicket2017
+[0372.01] TgSLO: Finish Load: GOD_Nox
+[0372.03] TgSLO: Finish Load: GOD_Nox_Textures
+[0372.09] TgSLO: Finish Load: FX_Nox
+[0372.09] TgSLO: Finish Load: AUD_God_Nox
+[0372.11] TgSLO: Finish Load: NPC_Ward_Mailbox
+[0372.21] TgSLO: Finish Load: GOD_Anhur
+[0372.21] TgSLO: Finish Load: GOD_Anhur_Textures
+[0372.23] TgSLO: Finish Load: FX_Anhur
+[0372.24] TgSLO: Finish Load: AUD_God_Anhur
+[0372.25] TgSLO: Finish Load: npc_ward_maoi
+[0372.40] TgSLO: Finish Load: GOD_Daji
+[0372.40] TgSLO: Finish Load: GOD_DaJi_Textures
+[0372.43] TgSLO: Finish Load: FX_DaJi
+[0372.44] TgSLO: Finish Load: AUD_God_DaJi
+[0372.45] TgSLO: Finish Load: GOD_Daji_Skin2
+[0372.59] TgSLO: Finish Load: GOD_Artio
+[0372.59] TgSLO: Finish Load: GOD_Artio_Textures
+[0372.64] TgSLO: Finish Load: FX_Artio
+[0372.65] TgSLO: Finish Load: FX_Artio_Targeting
+[0372.65] TgSLO: Finish Load: AUD_God_Artio
+[0372.66] TgSLO: Finish Load: GOD_Artio_Bear
+[0372.66] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[0372.67] TgSLO: Finish Load: FX_Emote_global_SmiteBirthday
+[0372.68] TgSLO: Finish Load: FX_Celtic_Recall
+[0372.77] TgSLO: Finish Load: GOD_Hercules
+[0372.78] TgSLO: Finish Load: GOD_Hercules_Textures
+[0372.79] TgSLO: Finish Load: FX_Hercules
+[0372.80] TgSLO: Finish Load: AUD_God_Hercules
+[0372.86] TgSLO: Finish Load: NPC_Ward_ODY_2017_Evolving
+[0372.88] TgSLO: Finish Load: FX_Demonic_Pact_Recall
+[0372.91] TgSLO: Finish Load: GOD_Nox_Skin_Diamond
+[0372.92] TgSLO: Finish Load: FX_Nox_Diamond
+[0372.92] TgSLO: Finish Load: AnimNotify10981
+[0373.06] TgSLO: Finish Load: GOD_Skadi
+[0373.09] TgSLO: Finish Load: GOD_Skadi_Textures
+[0373.12] TgSLO: Finish Load: FX_Skadi
+[0373.12] TgSLO: Finish Load: AUD_God_Skadi
+[0373.14] TgSLO: Finish Load: NPC_Ward_DentonBalloon
+[0373.15] TgSLO: Finish Load: FX_Emote_global_Spring_2017
+[0373.24] TgSLO: Finish Load: FX_Roman_Arena
+[0373.24] TgSLO: Finish Load: AUD_ENV_Roman_Arena
+[0373.25] TgSLO: Finish Load: FX_Tower
+[0373.30] TgSLO: Finish Load: FX_Greek_Tower
+[0373.31] TgSLO: Finish Load: AUD_Tower
+[0373.31] TgSLO: Finish Load: NPC_Tower_RA2015a
+[0373.31] TgSLO: Finish Load: MDL_PseudoMesh
+[0373.37] TgSLO: Finish Load: NPC_Arena_Basilisk
+[0373.38] TgSLO: Finish Load: FX_NPC_Arena_Basilisk
+[0373.38] TgSLO: Finish Load: AUD_NPC_Arena_Basilisk
+[0373.43] TgSLO: Finish Load: NPC_Arena_Lion
+[0373.43] TgSLO: Finish Load: FX_NPC_Arena_Lion
+[0373.44] TgSLO: Finish Load: AUD_NPC_Arena_Lion
+[0373.50] TgSLO: Finish Load: NPC_Arena_Boar
+[0373.50] TgSLO: Finish Load: FX_NPC_Arena_Boar
+[0373.50] TgSLO: Finish Load: AUD_NPC_Arena_Boar
+[0373.52] TgSLO: Finish Load: NPC_Arena_Minion
+[0373.55] TgSLO: Finish Load: NPC_Minion_Universal
+[0373.56] TgSLO: Finish Load: FX_Roman
+[0373.56] TgSLO: Finish Load: FX_Minion_Death
+[0373.57] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0373.57] TgSLO: Finish Load: AUD_NPC_Olympus
+[0373.57] TgSLO: Finish Load: NPC_Arena_Brute
+[0373.60] TgSLO: Finish Load: NPC_Arena_Juggernaut
+[0373.61] TgSLO: Finish Load: FX_NPC_Arena_Juggernaut
+[0373.61] TgSLO: Finish Load: AUD_NPC_Arena_Juggernaut
+[0373.61] Log: Flushed async loaders.
+[0373.61] DevNet: Fully loading base package roman_arena_collision due to fallback logic
+[0373.62] DevNet: Fully loading base package roman_arena_skybox due to fallback logic
+[0373.69] DevNet: Fully loading base package roman_arena_vfx due to fallback logic
+[0373.70] DevNet: Fully loading base package roman_arena_sound due to fallback logic
+[0373.70] DevNet: Fully loading base package roman_arena_lighting due to fallback logic
+[0373.71] DevNet: Fully loading base package roman_arena_perftests due to fallback logic
+[0373.72] DevNet: Fully loading base package NPC_SiegeTower due to fallback logic
+[0373.76] Log: Missing cached shader map for material MAT_Delete, quality 0, compiling.
+[0373.76] Log: Can't compile MAT_Delete with seekfree loading path on console, will attempt to use default material instead
+[0373.76] Warning: Warning, Failed to compile Material NPC_SiegeTower.Materials.MAT_Delete for platform PC-D3D-SM3, Default Material will be used in game.
+[0373.78] DevNet: Fully loading base package NPC_SiegeEngine due to fallback logic
+[0373.85] Log: Primary PhysX scene will be in software.
+[0373.85] Log: Creating Primary PhysX Scene.
+[0373.85] Log: Bringing World roman_arena_p.TheWorld up for play (595) at 2017.10.09-21.33.12
+[0373.85] Log: Skipping initialization of FSMPartPool!
+[0373.85] Log: Bringing up level for play took: 0.018603
+[0373.85] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0373.85] Warning: Warning, Failed to find object 'Class None.'
+[0373.85] Log: PlayerController class for the pending level is PlayerController
+[0373.85] Log: ########### Finished loading level: 3.468301 seconds
+[0373.85] Log: Flushing async loaders.
+[0374.17] Log: Flushed async loaders.
+[0374.17] Log: Starting RedrawViewports for texture streaming..
+[0374.22] Log: RedrawViewports took: 0.046067 seconds
+[0374.22] Log: Starting Level load StreamAllResources..
+[0374.22] Log: Level load StreamAllResources took: 0.003522 seconds
+[0374.22] Log: RequestingChannelMembers ch[1] [@@player_name@@ has left the channel.]
+[0374.32] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0374.37] Log: ---- UpdateClanData
+[0374.37] Log: Activated roman_arena_assist 1 1 0
+[0374.37] Log: ActivateLevel roman_arena_assist 1 1 0
+[0374.38] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.42] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.48] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.48] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.54] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.58] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0374.59] DevMusic: PComMusicTheme PlayDefaultMusic
+[0374.59] DevMusic: PComMusicTheme StopMusic
+[0374.59] Log: Mission Timer State 1 at game time 89.60
+[0374.74] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13319 to NONE)
+[0374.74] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.78] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0374.78] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0374.78] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0374.78] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0374.78] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0374.78] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0374.78] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0374.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0375.03] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0375.03] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0375.03] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0375.03] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0375.03] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0375.22] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0375.22] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0375.58] Log: ---- UpdateClanData
+[0376.02] Log: TeamIndex 2 has new leader: 9907306
+[0377.68] Log: TeamIndex 1 has new leader: 12821744
+[0382.07] Log: TeamIndex 1 has new leader: 6303227
+[0383.18] Log: TeamIndex 2 has new leader: 5049003
+[0385.92] Log: TeamIndex 2 has new leader: 10724610
+[0386.23] Log:            ATgPlayerController::UpdateTransitionUI()
+[0386.23] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0386.23] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0386.23] Log: UGFxMoviePlayer::GetBool(): value is not a bool. Returning FALSE.
+[0386.26] Log: usc_toggle_cursor true
+[0386.60] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0386.67] Log: Mission Timer State 2 at game time 45.00
+[0386.67] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0386.68] Log: usc_toggle_cursor false
+[0387.23] Log: usc_toggle_key_capture false
+[0390.28] Log: usc_toggle_cursor true
+[0391.17] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0391.17] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0391.17] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0391.17] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0391.17] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0391.17] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0392.96] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0392.97] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0394.69] Log: Requesting purchase of itemId (10044) amount (1)
+[0394.82] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0397.60] Log: Requesting purchase of itemId (9035) amount (1)
+[0398.15] Log: usc_toggle_cursor false
+[0398.81] Log: usc_toggle_key_capture true
+[0398.81] Log: usc_toggle_cursor true
+[0399.35] Log: RequestingChannelMembers ch[1] [@@player_name@@ has left the channel.]
+[0399.70] Log: usc_toggle_key_capture false
+[0399.70] Log: usc_toggle_cursor false
+[0399.70] Log: SendChat[3] nox
+[0399.82] Log: Chat[3]: nox
+[0399.91] Log: usc_toggle_key_capture true
+[0399.91] Log: usc_toggle_cursor true
+[0400.90] Log: usc_toggle_key_capture false
+[0400.90] Log: usc_toggle_cursor false
+[0400.91] Log: SendChat[3] beads
+[0401.02] Log: Chat[3]: beads
+[0405.69] Log: Chat[3]: [VVY] Yes!
+[0413.98] Log: Chat[3]: KermieTF has purchased a Magic Shell.
+[0415.14] Log: Chat[3]: [VVA] Ok!
+[0418.88] Log: Chat[3]: [VVY] Yes!
+[0427.18] Log: Chat[3]: [VVGL] Good luck!
+[0429.68] Log: Chat[3]: [VVGL] Good luck!
+[0431.28] Log: Mission Timer State 3 at game time 0.00
+[0446.13] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0447.64] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0453.04] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_0)
+[0454.74] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0455.48] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0456.44] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0460.81] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_34)
+[0466.29] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_1)
+[0469.10] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_45)
+[0469.99] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0470.39] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0470.90] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0471.40] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0471.69] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0472.19] Log: PUSHING Accolade: ShadeSWG has drawn First Blood!, local: false
+[0472.44] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0473.54] Log: Chat[9]: MelwynFyr has gone offline.
+[0473.54] Log: Chat[6]: MelwynFyr has gone offline.
+[0473.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0473.79] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0474.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0474.00] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0474.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0474.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0474.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0474.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0474.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0475.84] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_54)
+[0484.82] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_67)
+[0489.10] Log: usc_toggle_cursor true
+[0489.73] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0489.73] Warning: Warning, Failed to find object 'Class None.None'
+[0490.95] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0491.74] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0491.95] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0492.65] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0492.85] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0493.80] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0493.97] Log: usc_toggle_key_capture true
+[0494.45] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0499.09] Log: usc_toggle_key_capture false
+[0499.32] Log: Requesting purchase of itemId (17989) amount (1)
+[0499.46] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0500.42] Log: usc_toggle_cursor false
+[0504.11] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_85)
+[0509.64] Log: PUSHING Accolade: , local: false
+[0511.15] Log: Expiring Accolade: 
+[0515.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0515.55] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0515.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0515.76] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0515.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0515.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0515.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0515.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0515.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0515.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0515.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0515.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0515.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0515.80] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0515.80] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0515.80] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0519.46] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_93)
+[0521.15] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_2)
+[0525.90] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_98)
+[0527.68] Log: PUSHING Accolade: , local: false
+[0529.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0529.65] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0529.86] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0530.80] Log: PUSHING Accolade: KingAliBaba has a Player Kill!, local: false
+[0538.54] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_105)
+[0540.01] Log: Time is 2017.10.09-21.35.58
+[0545.31] Log: PUSHING Accolade: , local: false
+[0549.39] Log: PUSHING Accolade: , local: false
+[0558.38] Log: PUSHING Accolade: , local: false
+[0558.43] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0558.43] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0558.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0558.64] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0558.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0558.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0558.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0558.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0558.67] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0558.67] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0559.89] Log: PUSHING Accolade: ASSISTED, local: true
+[0566.88] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_3)
+[0569.78] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0570.71] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0571.68] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0572.53] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0573.48] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0574.48] Log: Chat[6]: MelwynFyr has come online.
+[0581.94] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_4)
+[0584.18] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_160)
+[0595.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0595.19] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0595.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0595.40] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0595.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0595.42] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0595.43] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0595.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0596.04] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_180)
+[0599.74] Log: PUSHING Accolade: , local: false
+[0601.55] Log: PUSHING Accolade: KingAliBaba has a Player Kill!, local: false
+[0601.63] Log: Chat[9]: RedOverTheX has gone offline.
+[0601.63] Log: Chat[6]: RedOverTheX has gone offline.
+[0604.40] Log: PUSHING Accolade: , local: false
+[0605.91] Log: PUSHING Accolade: ASSISTED, local: true
+[0607.52] Log: usc_toggle_cursor true
+[0611.80] Log: Requesting purchase of itemId (10200) amount (1)
+[0611.90] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0612.66] Log: usc_toggle_cursor false
+[0616.35] Log: usc_toggle_cursor true
+[0618.40] Log: Requesting purchase of itemId (9197) amount (1)
+[0619.09] Log: usc_toggle_cursor false
+[0632.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0632.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0632.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0632.44] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0632.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0632.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0632.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0632.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0632.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0632.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0632.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0632.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0632.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0632.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0632.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0632.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0632.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0632.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0632.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0634.29] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0638.11] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_5)
+[0642.15] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0643.96] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0645.01] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0645.97] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0646.90] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0647.80] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0656.62] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_6)
+[0657.95] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_225)
+[0662.84] Log: PUSHING Accolade: , local: false
+[0663.67] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0664.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0664.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0664.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0664.21] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0664.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0664.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0664.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0664.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0664.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0664.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0664.25] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_236)
+[0664.34] Log: PUSHING Accolade: ASSISTED, local: true
+[0674.41] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_250)
+[0677.41] Log: usc_toggle_cursor true
+[0678.29] Log: usc_toggle_key_capture true
+[0687.76] Log: usc_toggle_key_capture false
+[0689.46] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_268)
+[0689.77] Log: Requesting purchase of itemId (8711) amount (1)
+[0689.87] Log: PUSHING Accolade: KingAliBaba is on Killing Spree! (x3), local: false
+[0689.90] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0690.74] Log: usc_toggle_cursor false
+[0690.96] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[0699.42] Log: Chat[3]: [VVT] Thanks!
+[0701.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0701.38] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0701.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0701.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0701.58] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0701.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0701.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0701.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0701.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0701.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0701.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0701.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0701.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0701.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0701.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0701.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0701.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0701.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0701.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0701.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0706.23] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_283)
+[0706.83] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_7)
+[0710.38] Log: Chat[3]: [VVVE] On my way!
+[0710.80] Log: PUSHING Accolade: , local: false
+[0711.83] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_284)
+[0712.09] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0712.09] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0712.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0712.28] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0712.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0712.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0712.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0712.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0712.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0712.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0712.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0712.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0714.73] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0717.33] Log: PUSHING Accolade: Len17 is on Killing Spree! (x3), local: false
+[0718.83] Log: Expiring Accolade: 
+[0718.83] Log: PUSHING Accolade: ASSISTED, local: true
+[0718.89] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_291)
+[0720.02] Log: Time is 2017.10.09-21.38.58
+[0720.34] Log: PUSHING Accolade: ASSISTED, local: true
+[0724.00] Log: PUSHING Accolade: ShadeSWG has a Player Kill!, local: false
+[0724.84] Log: Chat[9]: Killing ShadeSWG rewarded 180 XP and 330 Gold.
+[0725.50] Log: PUSHING Accolade: PLAYER KILL, local: true
+[0727.02] Log: PUSHING Accolade: REVENGE, local: true
+[0728.21] Log: usc_toggle_cursor true
+[0732.82] Log: Requesting purchase of itemId (8712) amount (1)
+[0733.01] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0734.40] Log: usc_toggle_cursor false
+[0742.56] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0743.85] Log: Chat[3]: [VVVR] Ultimate is ready!
+[0746.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0746.76] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0746.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0746.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0746.96] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0746.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0746.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0746.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0746.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0746.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0746.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0747.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0747.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0753.87] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0754.20] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_8)
+[0754.86] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0755.86] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0756.31] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_321)
+[0761.52] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0762.41] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0762.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0762.51] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0762.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0762.70] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0762.71] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0762.72] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0762.74] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0762.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0762.81] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_327)
+[0764.19] Log: PUSHING Accolade: , local: false
+[0765.70] Log: PUSHING Accolade: ASSISTED, local: true
+[0767.75] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_332)
+[0768.22] Log: PUSHING Accolade: , local: false
+[0772.17] Log: PUSHING Accolade: KermieTF is on Killing Spree! (x3), local: false
+[0773.88] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_334)
+[0776.20] Log: PUSHING Accolade: , local: false
+[0777.02] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0777.02] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0777.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0777.21] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0777.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0777.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0777.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0777.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0777.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0777.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0777.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0777.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0777.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0777.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0777.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0777.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0779.56] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_339)
+[0781.25] Log: PUSHING Accolade: , local: false
+[0781.72] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0787.11] Log: PUSHING Accolade: KingAliBaba is on a Rampage! (x5), local: false
+[0811.14] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_9)
+[0811.21] Log: Chat[3]: CharlieTheDog92 has purchased a Meditation Cloak.
+[0811.34] Log: Chat[9]: MelwynFyr has gone offline.
+[0811.34] Log: Chat[6]: MelwynFyr has gone offline.
+[0819.32] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0819.98] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0820.12] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0821.18] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0821.23] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0826.55] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_363)
+[0830.38] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_10)
+[0833.19] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_369)
+[0837.79] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_375)
+[0840.94] Log: PUSHING Accolade: , local: false
+[0843.48] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[0845.18] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_11)
+[0847.32] Log: PUSHING Accolade: Tyrlannight has a Player Kill!, local: false
+[0849.90] Log: Chat[3]: Len17 has purchased a Heavenly Wings.
+[0853.02] Log: usc_toggle_cursor true
+[0854.44] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_390)
+[0854.45] Log: PUSHING Accolade: , local: false
+[0855.40] Log: Requesting purchase of itemId (8063) amount (1)
+[0855.55] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0855.67] Log: Chat[3]: chicodelnoche has purchased a Mystical Mail.
+[0856.03] Log: usc_toggle_cursor false
+[0857.90] Log: usc_toggle_cursor true
+[0860.08] Log: Requesting purchase of itemId (8141) amount (1)
+[0861.48] Log: usc_toggle_cursor false
+[0862.04] Log: PUSHING Accolade: , local: false
+[0864.15] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[0882.38] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_405)
+[0884.93] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_12)
+[0888.19] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_415)
+[0892.98] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_418)
+[0896.41] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_13)
+[0898.65] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[0900.03] Log: Time is 2017.10.09-21.41.58
+[0900.62] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_429)
+[0902.27] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0903.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0903.24] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[0903.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[0903.48] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0903.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[0903.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0903.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[0903.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0908.09] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[0908.97] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_440)
+[0914.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0914.85] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[0915.06] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[0915.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[0915.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[0915.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[0915.44] Log: PUSHING Accolade: , local: false
+[0916.55] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0916.95] Log: PUSHING Accolade: ASSISTED, local: true
+[0917.81] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_452)
+[0918.47] Log: PUSHING Accolade: , local: false
+[0923.43] Log: Chat[3]: KermieTF has purchased a Spiked Shield.
+[0929.11] Log: usc_toggle_cursor true
+[0938.30] Log: usc_toggle_key_capture true
+[0941.90] Log: usc_toggle_key_capture false
+[0942.13] Log: Requesting purchase of itemId (10211) amount (1)
+[0942.26] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0942.75] Log: usc_toggle_cursor false
+[0950.25] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_464)
+[0950.82] Log: PUSHING Accolade: , local: false
+[0957.61] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_465)
+[0961.91] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0962.52] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0962.96] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0964.76] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_14)
+[0968.84] Log: PUSHING Accolade: , local: false
+[0968.98] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0970.17] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_468)
+[0970.28] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0972.98] Log: PUSHING Accolade: Tyrlannight has a Player Kill!, local: false
+[0975.58] Log: PUSHING Accolade: , local: false
+[0977.37] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_471)
+[0978.13] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[0985.36] Log: usc_toggle_key_capture true
+[0985.36] Log: usc_toggle_cursor true
+[0988.93] Log: usc_toggle_key_capture false
+[0988.93] Log: usc_toggle_cursor false
+[0988.93] Log: SendChat[3] stop fighting alone plz
+[0989.13] Log: Chat[3]: stop fighting alone plz
+[0991.31] Log: PUSHING Accolade: Tyrlannight is on Killing Spree! (x3), local: false
+[0992.82] Log: Expiring Accolade: 
+[0992.82] Log: Expiring Accolade: 
+[0992.82] Log: PUSHING Accolade: Len17 shut down KingAliBaba, local: false
+[0994.33] Log: PUSHING Accolade: ASSISTED, local: true
+[0995.83] Log: PUSHING Accolade: , local: false
+[0997.35] Log: PUSHING Accolade: ASSISTED, local: true
+[0997.84] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_478)
+[0999.49] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_15)
+[1004.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1004.35] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1004.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1004.53] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1004.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1004.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1004.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1004.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1004.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1004.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1005.17] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_479)
+[1013.84] Log: PUSHING Accolade: , local: false
+[1015.34] Log: PUSHING Accolade: ASSISTED, local: true
+[1028.25] Log: Chat[3]: KermieTF has purchased a Void Shield.
+[1033.49] Log: Chat[3]: [VRR] Retreat!
+[1038.13] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_512)
+[1042.83] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_519)
+[1043.26] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[1053.24] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_522)
+[1053.24] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1053.84] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1054.38] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1054.88] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1054.92] Log: PUSHING Accolade: KingAliBaba has a Player Kill!, local: false
+[1055.44] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1060.06] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1066.31] Log: usc_toggle_cursor true
+[1066.36] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1066.36] Warning: Warning, Failed to find object 'Class None.None'
+[1066.36] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1066.36] Warning: Warning, Failed to find object 'Class None.None'
+[1067.46] Log: usc_toggle_cursor false
+[1069.95] Log: usc_toggle_cursor true
+[1071.68] Log: Requesting purchase of itemId (17993) amount (1)
+[1071.81] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1072.29] Log: usc_toggle_cursor false
+[1076.02] Log: PUSHING Accolade: , local: false
+[1080.04] Log: Time is 2017.10.09-21.44.59
+[1083.78] Log: PUSHING Accolade: Len17 is on Killing Spree! (x3), local: false
+[1084.54] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_547)
+[1092.14] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_550)
+[1092.29] Log: PUSHING Accolade: , local: false
+[1092.37] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[1093.44] Log: usc_toggle_cursor true
+[1095.63] Log: PUSHING Accolade: , local: false
+[1098.09] Log: PUSHING Accolade: , local: false
+[1099.05] Log: Requesting purchase of itemId (24511) amount (1)
+[1099.19] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1100.14] Log: usc_toggle_cursor false
+[1107.78] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_559)
+[1109.88] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1110.74] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1121.49] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_573)
+[1122.04] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1132.72] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_589)
+[1133.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1133.00] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1133.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1133.19] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1133.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1133.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1133.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1135.86] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_16)
+[1140.60] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_602)
+[1144.63] Log: PUSHING Accolade: , local: false
+[1146.86] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_609)
+[1147.04] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_17)
+[1149.47] Log: PUSHING Accolade: KingAliBaba is on Killing Spree! (x3), local: false
+[1155.28] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_615)
+[1157.13] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_18)
+[1159.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1159.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1159.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1159.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1159.24] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1159.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1159.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1159.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1159.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1160.03] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_618)
+[1160.44] Log: PUSHING Accolade: ShadeSWG has a Player Kill!, local: false
+[1164.39] Log: Chat[3]: [VGG] Gank!
+[1166.26] Log: usc_toggle_key_capture true
+[1166.26] Log: usc_toggle_cursor true
+[1167.60] Log: usc_toggle_key_capture false
+[1167.60] Log: usc_toggle_cursor false
+[1167.60] Log: SendChat[3] -_-
+[1167.73] Log: Chat[3]: -_-
+[1167.99] Log: usc_toggle_key_capture true
+[1167.99] Log: usc_toggle_cursor true
+[1169.81] Log: usc_toggle_key_capture false
+[1169.81] Log: usc_toggle_cursor false
+[1169.81] Log: SendChat[3] u guys suck
+[1169.93] Log: Chat[3]: u guys suck
+[1172.04] Log: usc_toggle_cursor true
+[1174.07] Log: Requesting purchase of itemId (10214) amount (1)
+[1174.19] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1174.31] Log: Chat[3]: chicodelnoche has purchased a Ward Stone.
+[1174.89] Log: usc_toggle_cursor false
+[1180.69] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1181.30] Log: Chat[3]: u built spear of deso like what
+[1186.65] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1192.27] Log: PUSHING Accolade: , local: false
+[1192.69] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_624)
+[1193.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1193.05] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1193.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1193.25] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1195.81] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_19)
+[1200.35] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_631)
+[1201.15] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[1203.11] Log: PUSHING Accolade: KingAliBaba is on a Rampage! (x5), local: false
+[1207.27] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_637)
+[1207.44] VoiceChat: Warn  Power State Changed: this=0xd4f5578,message->GetType()=7
+[1207.44] VoiceChat: Warn  Power State Changed: this=0xd4f2ea0,message->GetType()=7
+[1207.44] VoiceChat: Warn  Power State Changed: this=0x30ebad30,message->GetType()=7
+[1226.45] VoiceChat: Warn  Power State Changed: this=0xd4f5578,message->GetType()=6
+[1226.45] VoiceChat: Warn  Power State Changed: this=0x30ebad30,message->GetType()=6
+[1226.48] VoiceChat: Warn  Power State Changed: this=0xd4f2ea0,message->GetType()=6
+[1227.06] VoiceChat: Warn  Unhandled SIP Message - this=0x2f84f590,VivoxAmSip::ToString(evt)= {  type=EXOSIP_CALL_MESSAGE_ANSWERED external_reference=0x66f0d94 request= { BYE sip:confctl-g-4-a5970@10.5.16.69:5060 SIP/2.0\r\nVia: SIP/2.0/UDP 192.168.1.108:59041;rport;branch=z9hG4bK2699286323\r\nRoute: <sip:70.42.196.187:6250;lr>\r\nRoute: <sip:10.5.16.119:6250;ftag=2594525420;lr=on>\r\nFrom: ".a3a502." <sip:.a3a502.@smp.vivox.com>;tag=2594525420\r\nTo: <sip:confctl-g-4-a5970@smp.vivox.com>;tag=a6a1c5f60faecf035a1ae5b6e96e979a-d9be\r\nCall-ID: 55987538\r\nCSeq: 21 BYE\r\nContact: <sip:.a3a502.@192.168.1.108:59041>\r\nMax-Forwards: 70\r\nUser-Agent: Vivox-SDK-4.7.0005.25982W\r\nContent-Length: 0\r\n\r\n
+ }  response= { SIP/2.0 200 OK\r\nVia: SIP/2.0/UDP 192.168.1.108:59041;received=10.5.16.61;rport=15575;branch=z9hG4bK2699286323\r\nRecord-Route: <sip:10.5.16.119:6250;ftag=2594525420;lr=on>\r\nRecord-Route: <sip:70.42.196.187:6250;lr>\r\nFrom: ".a3a502." <sip:.a3a502.@smp.vivox.com>;tag=2594525420\r\nTo: <sip:confctl-g-4-a5970@smp.vivox.com>;tag=a6a1c5f60faecf035a1ae5b6e96e979a-d9be\r\nCall-ID: 55987538\r\nCSeq: 21 BYE\r\nContact: <sip:10.5.16.69:5060>\r\nContent-Length: 0\r\n\r\n
+ }  ack= { (null) }  tid=2 did=-1 rid=0 cid=1 sid=0 nid=0 ss_status=0 ss_reason=0 } 
+[1231.32] Log: ---- UpdateClanData
+[1231.32] Log: ---- UpdateClanData
+[1233.12] Log: PUSHING Accolade: , local: false
+[1234.62] Log: Expiring Accolade: 
+[1238.44] Log: ---- UpdateClanData
+[1243.54] Log: ---- UpdateClanData
+[1245.87] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_20)
+[1254.35] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1260.04] Log: Time is 2017.10.09-21.47.59
+[1261.14] Log: PUSHING Accolade: , local: false
+[1261.15] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_21)
+[1262.81] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_657)
+[1264.41] Log: PUSHING Accolade: ShadeSWG has a Player Kill!, local: false
+[1269.15] Log: usc_toggle_cursor true
+[1270.95] Log: Requesting purchase of itemId (8181) amount (1)
+[1271.07] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController roman_arena_p.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[1271.18] Log: Chat[3]: chicodelnoche has purchased a Void Stone.
+[1271.44] Log: usc_toggle_cursor false
+[1281.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[1291.01] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[1293.27] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_22)
+[1294.10] Log: PUSHING Accolade: KingAliBaba is UNSTOPPABLE! (x7), local: false
+[1296.23] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_665)
+[1299.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1299.89] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1300.09] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1300.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1300.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1300.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1300.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1300.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1300.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1302.59] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_675)
+[1303.80] Log: Chat[9]: Killing ShadeSWG rewarded 310 XP and 330 Gold.
+[1303.99] Log: PUSHING Accolade: PLAYER KILL, local: true
+[1305.49] Log: Expiring Accolade: 
+[1305.49] Log: PUSHING Accolade: REVENGE, local: true
+[1309.65] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_Origin_01' in 'SKL_GOD_Osiris_Skin6_Spectral'
+[1311.69] Log: PUSHING Accolade: KingAliBaba has a Player Kill!, local: false
+[1315.74] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1318.54] Log: THOTH PROJECTILE INSTIGATOR DOES NOT MATCH: PLEASE REPORT THIS TO GAMEPLAY PROGRAMMING!!!
+[1322.90] Log: usc_toggle_cursor true
+[1328.06] Log: PUSHING Accolade: , local: false
+[1329.29] Log: Chat[6]: DAGGERDON has come online.
+[1334.37] Log: PUSHING Accolade: , local: false
+[1346.43] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_High_LP
+[1346.43] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Arena_V2.A_CUE_MUS_ArenaV2_Ending over 1.000000 seconds
+[1365.35] Log: Chat[6]: let's play
+[1371.01] Log: PUSHING Accolade: , local: false
+[1372.51] Log: PUSHING Accolade: KingAliBaba is DIVINE! (x9), local: false
+[1373.61] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_695)
+[1376.81] Log: usc_toggle_cursor false
+[1376.92] Log: PUSHING Accolade: KingAliBaba has a Double Kill!, local: false
+[1376.92] Log: Suppressing Accolade: 
+[1380.96] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_698)
+[1381.59] Log: PUSHING Accolade: , local: false
+[1392.17] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1392.17] ScriptWarning: Accessed None 'm_EmoteConfig'
+	TgPawn_Artio roman_arena_p.TheWorld:PersistentLevel.TgPawn_Artio_0
+	Function TgGame.TgPawn:WantsLoopingEmote:0023
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14685 Shapeshift]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14681 Energy Surge (Maul Prey)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14683 Life Tap (Heavy Charge)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14676 Entangling Vines (Ferocious Roar)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14686 Artio Basic Attack]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14703 Artio Basic Attack]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14682 Maul Prey (Energy Surge)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14677 Ferocious Roar (Entangling Vines)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14684 Heavy Charge (Life Tap)]
+[1392.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [14921 Shapeshift]
+[1392.37] Log: PlayCustomAnim MeshSwapIntro, CustomChildIndex: 1, Animation Not Found!!
+[1392.48] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_702)
+[1397.51] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (12375 to TgProj_Simulated_710)
+[1400.03] Log: PUSHING Accolade: KingAliBaba is IMMORTAL! (x11), local: false
+[1404.08] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (12697 to TgDeployable_Artio_Dev1_23)
+[1405.22] Log: Mission Timer State 5 at game time 14400.00
+[1405.22] DevMusic: PComMusicTheme PlayMusicEvent found event named MatchEnd
+[1405.22] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Arena_V2.A_CUE_MUS_ArenaV2_Ending over 1.000000 seconds
+[1405.22] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_MatchEnd over 5.000000 seconds
+[1405.38] Log: PUSHING Accolade: KingAliBaba has a Double Kill!, local: false
+[1405.38] Log: Suppressing Accolade: 
+[1415.72] Log: usc_toggle_cursor true
+[1415.72] Log: usc_toggle_key_capture true
+[1418.83] Log: ---- UpdateClanData
+[1418.86] Log: ---- UpdateClanData
+[1424.54] Log: ReceiveChangeMap: mapGameId 1447
+[1424.54] Log: ReceiveChangeMap: mapGameId 1447
+[1424.54] DevNet: URL: Adding default option Team=255
+[1424.54] Log: ---- UpdateClanData
+[1424.54] Log: ---- UpdateClanData
+[1424.54] Log: RequestingChannelMembers ch[3] [@@player_name@@ has left the channel.]
+[1424.54] Log: RequestingChannelMembers ch[3] [CharlieTheDog92 has left the channel.]
+[1424.55] DevNet: URL: Adding default option Team=255
+[1424.55] DevNet: Browse: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1424.92] Log: LoadMap: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1425.08] NetComeGo: Close PComNetDriver_1 PComNetConn_0 0.0.0.0:9170 10/09/17 21:50:43
+[1425.14] Exit: PComNetDriver_1 shut down
+[1425.39] Log: Map Game ID = 0
+[1425.39] Log: Map Instance ID = 197598834
+[1425.41] Log: Performance: Critical section Lock/Unlock 19 nsec
+[1425.41] Log: Performance:  appCycles 14 nsec
+[1425.42] Log: Performance:  memCopy per KB 80 nsec
+[1425.43] Log: Performance:  memZero per KB 29 nsec
+[1425.44] Log: Performance:  appInterlockedIncrement 9 nsec
+[1425.44] Log: Performance:  GetTickCount 3 nsec
+[1425.44] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1425.44] Log: Flushing async loaders.
+[1425.50] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1425.51] Log: Flushed async loaders.
+[1425.51] Log: Game class is 'TgGameLaunch'
+[1425.53] Log: Primary PhysX scene will be in software.
+[1425.53] Log: Creating Primary PhysX Scene.
+[1425.53] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1425.53] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.09-21.50.44
+[1425.53] Log: Skipping initialization of FSMPartPool!
+[1425.62] DevMusic: PComMusicTheme PlayDefaultMusic
+[1425.62] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[1425.63] Log: Bringing up level for play took: 0.119831
+[1425.63] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[1425.63] TgSLO: Async Load: GOD_Artio
+[1425.63] TgSLO: Async Load: GOD_Artio_Textures
+[1425.63] TgSLO: Async Load: GOD_Artio_Lobby
+[1425.63] TgSLO: Async Load: FX_Artio
+[1425.63] TgSLO: Async Load: FX_Artio_Lobby
+[1425.63] TgSLO: Async Load: AUD_God_Artio
+[1425.63] TgSLO: Async Load: GOD_Artio_Bear
+[1425.64] TgSLO: Async Load: GOD_Artio_Bear_Textures
+[1425.64] Log: Flushing async loaders.
+[1425.75] TgSLO: Finish Load: GOD_Artio
+[1425.76] TgSLO: Finish Load: GOD_Artio_Textures
+[1425.80] TgSLO: Finish Load: GOD_Artio_Lobby
+[1425.85] TgSLO: Finish Load: FX_Artio
+[1425.85] TgSLO: Finish Load: FX_Artio_Lobby
+[1425.85] TgSLO: Finish Load: AUD_God_Artio
+[1425.87] TgSLO: Finish Load: GOD_Artio_Bear
+[1425.87] TgSLO: Finish Load: GOD_Artio_Bear_Textures
+[1425.87] Log: Flushed async loaders.
+[1425.88] DevMusic: PComMusicTheme PlayMusicEvent found event named eom
+[1425.88] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[1425.88] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global_EOM.A_CUE_MUS_EOM over 1.000000 seconds
+[1425.88] Log: ########### Finished loading level: 0.959087 seconds
+[1425.90] Log: Flushing async loaders.
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[1426.30] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[1426.30] Log: Flushed async loaders.
+[1426.30] Log: Starting RedrawViewports for texture streaming..
+[1426.33] Log: RedrawViewports took: 0.030256 seconds
+[1426.33] Log: Starting Level load StreamAllResources..
+[1426.38] Log: Level load StreamAllResources took: 0.053859 seconds
+[1426.41] Log: RequestingChannelMembers ch[3] [@@player_name@@ has left the channel.]
+[1426.42] Log: RequestingChannelMembers ch[8] [@@player_name@@ has joined the channel.]
+[1426.42] Log: RequestingChannelMembers ch[8] [ShadeSWG has joined the channel.]
+[1426.42] Log: RequestingChannelMembers ch[8] [@@player_name@@ has joined the channel.]
+[1426.42] Log: RequestingChannelMembers ch[8] [Tyrlannight has joined the channel.]
+[1426.42] Log: RequestingChannelMembers ch[8] [AlphaArtemis has joined the channel.]
+[1426.42] Log: RequestingChannelMembers ch[8] [KermieTF has joined the channel.]
+[1427.23] Log: Chat[6]: let's play
+[1427.23] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[1428.41] Log: RequestingChannelMembers ch[8] [@@player_name@@ has joined the channel.]
+[1429.97] Log: RequestingChannelMembers ch[8] [CharlieTheDog92 has joined the channel.]
+[1439.89] Log: RequestingChannelMembers ch[8] [Tyrlannight has left the channel.]
+[1440.04] Log: Time is 2017.10.09-21.50.58
+[1451.89] Log: RequestingChannelMembers ch[8] [iAimnot has left the channel.]
+[1473.87] Log: RequestingChannelMembers ch[8] [ShadeSWG has left the channel.]
+[1474.51] Log: RequestingChannelMembers ch[8] [@@player_name@@ has left the channel.]
+[1476.27] Log: RequestingChannelMembers ch[8] [AlphaArtemis has left the channel.]
+[1478.01] Log: RequestingChannelMembers ch[8] [KermieTF has left the channel.]
+[1482.32] Log: Chat[6]: ooo
+[1493.31] VoiceChat: Warn  Power State Changed: this=0xd4f5578,message->GetType()=7
+[1493.31] VoiceChat: Warn  Power State Changed: this=0xd4f2ea0,message->GetType()=7
+[1493.31] VoiceChat: Warn  Power State Changed: this=0x30ebad30,message->GetType()=7
+[5696.09] Log: Time is 2017.10.09-23.01.54
+[5696.49] VoiceChat: Warn  Power State Changed: this=0xd4f5578,message->GetType()=6
+[5696.49] VoiceChat: Warn  Power State Changed: this=0xd4f2ea0,message->GetType()=6
+[5696.49] VoiceChat: Warn  Power State Changed: this=0x30ebad30,message->GetType()=6
+[5734.22] Log: Player logoff handled in ATgLobbyHUD
+[5734.22] DevMusic: PComMusicTheme PlayDefaultMusic
+[5734.22] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global_EOM.A_CUE_MUS_EOM over 1.000000 seconds
+[5734.22] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[5876.09] Log: Time is 2017.10.09-23.04.54
+[6056.09] Log: Time is 2017.10.09-23.07.54
+[6236.10] Log: Time is 2017.10.09-23.10.54
+[6416.10] Log: Time is 2017.10.09-23.13.54
+[6442.39] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-49871709136449526521931599--1052109747x4941
+[6442.85] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[6443.59] Log: Map Game ID = 0
+[6443.59] Log: Map Instance ID = 197598834
+[6443.61] Log: Performance: Critical section Lock/Unlock 19 nsec
+[6443.61] Log: Performance:  appCycles 10 nsec
+[6443.63] Log: Performance:  memCopy per KB 65 nsec
+[6443.63] Log: Performance:  memZero per KB 29 nsec
+[6443.64] Log: Performance:  appInterlockedIncrement 7 nsec
+[6443.65] Log: Performance:  GetTickCount 3 nsec
+[6443.65] Log: Map Game ID = 0
+[6443.65] Log: Map Instance ID = 197598834
+[6443.66] Log: Performance: Critical section Lock/Unlock 18 nsec
+[6443.67] Log: Performance:  appCycles 14 nsec
+[6443.68] Log: Performance:  memCopy per KB 82 nsec
+[6443.69] Log: Performance:  memZero per KB 24 nsec
+[6443.70] Log: Performance:  appInterlockedIncrement 8 nsec
+[6443.70] Log: Performance:  GetTickCount 3 nsec
+[6443.70] Log: Map Game ID = 0
+[6443.70] Log: Map Instance ID = 197598834
+[6443.72] Log: Performance: Critical section Lock/Unlock 20 nsec
+[6443.72] Log: Performance:  appCycles 14 nsec
+[6443.74] Log: Performance:  memCopy per KB 67 nsec
+[6443.74] Log: Performance:  memZero per KB 27 nsec
+[6443.75] Log: Performance:  appInterlockedIncrement 8 nsec
+[6443.75] Log: Performance:  GetTickCount 3 nsec
+[6445.72] Log: Login Success: chicodelnoche
+[6445.72] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[6445.72] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[6446.27] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[6446.51] Log: Team/Instance chat routed to Instance Server.
+[6446.51] Log: Map Game ID = 0
+[6446.51] Log: Map Instance ID = 197598834
+[6446.53] Log: Performance: Critical section Lock/Unlock 17 nsec
+[6446.53] Log: Performance:  appCycles 8 nsec
+[6446.54] Log: Performance:  memCopy per KB 52 nsec
+[6446.54] Log: Performance:  memZero per KB 22 nsec
+[6446.55] Log: Performance:  appInterlockedIncrement 7 nsec
+[6446.56] Log: Performance:  GetTickCount 3 nsec
+[6446.56] Log: Chat[9]: Press ENTER to access chat.
+[6446.56] Log: Chat[9]: Press ENTER to access chat.
+[6446.56] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc2MDU0NDEsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.7_qITNRz6RjTTIL0QFlphXCoiXhWtFQPqFv8oQ4Xy4I
+[6446.57] Log: RequestingChannelMembers ch[1] [@@player_name@@ has joined the channel.]
+[6446.57] Log: Chat[1]: Clan status: He Vuelto
+[6446.57] Log: ---- UpdateClanData
+[6447.86] Log: ---- UpdateClanData
+[6447.86] DevMusic: PComMusicTheme PlayDefaultMusic
+[6447.86] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[6447.86] Log: ERROR: Attempting to log in without settings.
+[6450.07] Log: ---- UpdateClanData
+[6530.07] Log: ---- UpdateClanData
+[6573.42] TgSLO: Async Load: GOD_Bellona
+[6573.42] TgSLO: Async Load: GOD_Bellona_Textures
+[6573.42] TgSLO: Async Load: GOD_Bellona_Lobby
+[6573.42] TgSLO: Async Load: FX_Bellona
+[6573.42] TgSLO: Async Load: FX_Bellona_Lobby
+[6573.42] TgSLO: Async Load: AUD_God_Bellona
+[6574.71] TgSLO: Finish Load: GOD_Bellona
+[6574.82] TgSLO: Finish Load: GOD_Bellona_Textures
+[6575.10] TgSLO: Finish Load: GOD_Bellona_Lobby
+[6575.70] TgSLO: Finish Load: FX_Bellona
+[6575.89] TgSLO: Finish Load: FX_Bellona_Lobby
+[6576.24] TgSLO: Finish Load: AUD_God_Bellona
+[6586.03] TgSLO: Async Load: GOD_Bellona_Skin1
+[6586.03] TgSLO: Async Load: AUD_God_Ram
+[6586.07] TgSLO: Finish Load: GOD_Bellona_Skin1
+[6586.54] TgSLO: Finish Load: AUD_God_Ram
+[6596.10] Log: Time is 2017.10.09-23.16.54
+[6621.37] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6621.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6621.95] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6628.87] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6631.24] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6633.07] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6640.11] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[6647.82] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[6648.12] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6663.67] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6666.63] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6667.19] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6670.39] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6670.70] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6670.97] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6678.29] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6680.11] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6708.03] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6708.34] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6708.61] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6715.52] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6717.89] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6719.72] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6726.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[6734.48] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[6734.78] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6750.33] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6753.28] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6753.84] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6757.04] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6757.35] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6757.62] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6764.94] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6766.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6776.11] Log: Time is 2017.10.09-23.19.54
+[6794.68] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6794.99] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6795.26] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6802.17] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6804.54] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6806.37] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6813.42] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[6821.13] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[6821.43] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6836.98] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6839.93] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6840.49] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6843.70] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6844.01] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6844.28] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6851.60] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6853.43] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6881.35] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6881.66] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6881.93] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6888.84] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6891.21] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6893.04] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6900.08] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[6907.80] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[6908.10] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6923.64] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6926.60] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6927.16] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[6930.36] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6930.67] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6930.94] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6938.26] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6940.08] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6956.10] Log: Time is 2017.10.09-23.22.54
+[6968.00] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6968.31] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6968.58] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[6975.49] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6977.86] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6979.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[6986.73] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[6994.44] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[6994.74] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7010.30] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7013.25] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7013.81] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7017.01] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7017.32] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7017.59] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7024.91] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7026.74] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7054.66] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7054.96] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7055.23] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7062.14] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7064.52] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7066.34] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7073.38] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7081.10] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7081.40] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7096.95] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7099.36] Log: Chat[9]: LeonzMx has gone offline.
+[7099.36] Log: Chat[6]: LeonzMx has gone offline.
+[7099.90] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7100.46] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7103.66] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7103.97] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7104.24] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7111.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7113.39] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7136.11] Log: Time is 2017.10.09-23.25.54
+[7141.31] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7141.61] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7141.88] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7148.79] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7151.17] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7152.99] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7160.03] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7167.75] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7168.05] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7183.60] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7186.55] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7187.11] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7190.31] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7190.62] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7190.89] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7198.21] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7200.03] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7227.95] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7228.26] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7228.53] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7235.44] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7237.82] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7239.64] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7246.68] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7254.40] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7254.70] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7270.25] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7273.20] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7273.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7276.96] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7277.27] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7277.54] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7284.86] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7286.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7314.60] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7314.91] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7315.18] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7316.11] Log: Time is 2017.10.09-23.28.54
+[7316.27] Log: RequestingChannelMembers ch[1] [Rafardison has left the channel.]
+[7322.10] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7324.47] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7326.30] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7333.34] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7341.05] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7341.35] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7356.90] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7359.85] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7360.41] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7363.61] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7363.92] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7364.19] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7371.51] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7373.34] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7401.25] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7401.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7401.83] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7408.75] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7411.12] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7412.95] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7419.99] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7427.70] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7428.00] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7443.55] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7446.50] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7447.06] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7450.26] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7450.57] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7450.84] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7458.16] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7459.98] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7487.90] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7488.21] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7488.48] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7495.39] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7496.12] Log: Time is 2017.10.09-23.31.54
+[7497.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7499.59] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7506.63] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7514.35] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7514.65] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7530.20] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7533.15] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7533.71] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7536.91] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7537.22] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7537.49] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7544.81] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7546.63] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7574.55] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7574.86] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7575.13] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7582.04] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7584.41] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7586.24] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7593.28] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7601.00] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7601.30] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7616.84] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7619.80] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7620.36] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7623.56] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7623.87] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7624.14] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7631.46] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7633.28] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7661.20] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7661.51] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7661.78] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7668.69] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7671.06] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7672.89] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7676.12] Log: Time is 2017.10.09-23.34.54
+[7679.94] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7687.65] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7687.95] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7703.50] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7706.45] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7707.01] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7710.21] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7710.52] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7710.79] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7718.11] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7719.93] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7747.85] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7748.16] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7748.43] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7755.34] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7757.72] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7759.54] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7766.58] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'WSO_FX_01' in 'SKL_GOD_Artio_Bear'
+[7774.29] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'L_footFX' in 'SKL_GOD_Artio_Bear'
+[7774.59] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7790.15] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7793.10] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'RF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7793.66] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'LF_FootFX' in 'SKL_GOD_Artio_Lobby'
+[7796.86] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7797.17] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7797.44] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7804.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7806.59] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_footFX' in 'SKL_GOD_Artio_Bear'
+[7834.51] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7834.82] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7835.08] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'IdleDust_FX' in 'SKL_GOD_Artio_Lobby'
+[7841.53] Log: Chat[9]: Press ENTER to access chat.
+[7841.53] Log: Chat[9]: Press ENTER to access chat.
+[7841.53] VoiceChat: UpdateVivox: Logging in as .a3a502., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc2MDY4MzksInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5hM2E1MDIuQHNtcC52aXZveC5jb20ifQ.VBeuyLxGZeHsj5ZFyakl5aL-QaCkd7c_yy-8l1UiKlI
+[7842.53] Log: Player logoff handled in ATgLobbyHUD
+[7842.54] DevMusic: PComMusicTheme PlayDefaultMusic
+[7842.54] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[7842.54] Log: Player logoff handled in ATgLobbyHUD
+[7842.63] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7842.64] Log: Discarding Message ( 642, 7, 0 )
+[7856.13] Log: Time is 2017.10.09-23.37.54
+[8036.14] Log: Time is 2017.10.09-23.40.54
+[8216.15] Log: Time is 2017.10.09-23.43.54
+[8396.16] Log: Time is 2017.10.09-23.46.54
+[8576.16] Log: Time is 2017.10.09-23.49.54
+[8756.16] Log: Time is 2017.10.09-23.52.54
+[8936.17] Log: Time is 2017.10.09-23.55.54
+[9116.17] Log: Time is 2017.10.09-23.58.54
+[9296.17] Log: Time is 2017.10.10-00.01.54
+[9476.17] Log: Time is 2017.10.10-00.04.54
+[9656.18] Log: Time is 2017.10.10-00.07.54
+[9836.19] Log: Time is 2017.10.10-00.10.54
+[10016.19] Log: Time is 2017.10.10-00.13.54
+[10196.19] Log: Time is 2017.10.10-00.16.54
+[10376.19] Log: Time is 2017.10.10-00.19.54
+[10556.20] Log: Time is 2017.10.10-00.22.54
+[10736.20] Log: Time is 2017.10.10-00.25.54
+[10916.20] Log: Time is 2017.10.10-00.28.54
+[11096.21] Log: Time is 2017.10.10-00.31.54
+[11276.21] Log: Time is 2017.10.10-00.34.54
+[11456.22] Log: Time is 2017.10.10-00.37.54
+[11636.22] Log: Time is 2017.10.10-00.40.54
+[11816.22] Log: Time is 2017.10.10-00.43.54
+[11996.22] Log: Time is 2017.10.10-00.46.54
+[12176.22] Log: Time is 2017.10.10-00.49.54
+[12356.22] Log: Time is 2017.10.10-00.52.54
+[12397.71] VoiceChat: Warn  Power State Changed: this=0xd4f5578,message->GetType()=7
+[12397.71] VoiceChat: Warn  Power State Changed: this=0xd4f2ea0,message->GetType()=7
+[12397.71] VoiceChat: Warn  Power State Changed: this=0x30ebad30,message->GetType()=7
+[18580.18] Log: Time is 2017.10.10-02.36.38
+[18580.18] Log: Internal Error -206
+[44071.60] VoiceChat: Warn  Power State Changed: this=0xd4f5578,message->GetType()=6
+[44071.60] VoiceChat: Warn  Power State Changed: this=0xd4f2ea0,message->GetType()=6
+[44071.60] VoiceChat: Warn  Power State Changed: this=0x30ebad30,message->GetType()=6
+[44071.60] Log: appRequestExit(0)(0)
+[44073.60] Log: appRequestExit(1)(0)

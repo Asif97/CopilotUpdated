@@ -1,0 +1,1686 @@
+[0000.32] Log: Async Log file open, 10/11/17 16:16:54
+[0000.32] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.32] Log:  ... running in INSTALLED mode
+[0000.32] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.32] Init: Version: 10897
+[0000.32] Init: Epic Internal: 0
+[0000.32] Init: Compiled (32-bit): Oct  9 2017 18:56:51
+[0000.32] Init: Changelist: 1532151
+[0000.32] Init: Game is version 4.19.4362.0.
+[0000.32] Init: Command line: -EACALT -seekfreeloading   -LANGUAGE=ENG   -region=Earth -pid=017 -portaluserid=Dese-Nutz -token                                  -HiCommand -HEXX=281FC888
+[0000.32] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.33] Init: Computer: LAPTOP-2ARNF0V1
+[0000.33] Init: User: Asif
+[0000.33] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.33] Init: High frequency timer resolution =2.835912 MHz
+[0000.33] Init: Memory total: Physical=15.9GB (16GB approx) Pagefile=18.3GB Virtual=4.0GB
+[0000.82] DevOnline: Initializing MCTS
+[0001.29] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.29] Init: Object subsystem initialized
+[0001.29] Log: Overriding lang INT w/ command-line option of ENG
+[0001.29] Warning: Warning, Unknown language extension ENG. Defaulting to INT
+[0001.47] Log: CachePaths() took 0.19 Seconds
+[0001.47] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.52] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.25] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.39] Log: SystemSettings based on: SystemSettings
+[0003.40] Log: SystemSettings based on: SystemSettings
+[0003.40] Log: SystemSettings based on: SystemSettings
+[0003.98] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0003.98] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0004.97] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.04] Log: PhysX GPU Support: DISABLED
+[0007.27] Log: Assembly Loaded Version: DBExport: 10/09/2017 18:14:44,  Src=devsql.hirezcorp.com:smite_live_build_4_19, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0007.30] Log: FEACClient being initialized
+[0008.88] Log: TFC Version check: Low=4.19.4362.0 High=, Result=FALSE
+[0010.49] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0011.08] Log: 161676 objects as part of root set at end of initial load.
+[0011.08] Log: 0 out of 0 bytes used by permanent object pool.
+[0011.14] Log: Initializing Engine...
+[0011.22] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0011.22] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0012.62] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0015.92] ScriptWarning: Script call stack:
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0015.92] ScriptWarning: Assertion failed, line 681
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0015.93] Warning: Warning, Failed to load 'SwfMovie GAPeach_Console.swf': Failed to find object 'SwfMovie GAPeach_Console.swf'
+[0015.93] Log: GFx attempted to load missing object [GAPeach_Console.swf]
+[0015.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.93] Warning: Warning, Failed to find object 'Class None.'
+[0015.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.93] Warning: Warning, Failed to find object 'Class None.'
+[0015.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.93] Warning: Warning, Failed to find object 'Class None.'
+[0015.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0015.93] Warning: Warning, Failed to find object 'Class None.'
+[0015.93] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0015.93] Log: FEACClient::Send preload map event
+[0015.93] Log: FEACClient OnGameServerDisconnect
+[0015.94] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0016.10] Log: Map Game ID = 0
+[0016.10] Log: Map Instance ID = 197753030
+[0016.11] Log: Performance: Critical section Lock/Unlock 18 nsec
+[0016.12] Log: Performance:  appCycles 14 nsec
+[0016.13] Log: Performance:  memCopy per KB 83 nsec
+[0016.14] Log: Performance:  memZero per KB 40 nsec
+[0016.15] Log: Performance:  appInterlockedIncrement 8 nsec
+[0016.15] Log: Performance:  GetTickCount 4 nsec
+[0016.15] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0016.15] Log: Flushing async loaders.
+[0016.21] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0016.21] Log: Flushed async loaders.
+[0016.21] Log: Game class is 'TgGameLaunch'
+[0016.27] Log: Primary PhysX scene will be in software.
+[0016.27] Log: Creating Primary PhysX Scene.
+[0016.27] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0016.27] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.11-16.17.10
+[0016.27] Log: Skipping initialization of FSMPartPool!
+[0016.37] DevMusic: PComMusicTheme PlayDefaultMusic
+[0016.37] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0016.37] Log: Bringing up level for play took: 0.149456
+[0016.37] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0016.38] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0016.38] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0016.91] Log: Found D3D11 adapter 0: NVIDIA GeForce 940MX
+[0016.91] Log: Adapter has 2019MB of dedicated video memory, 0MB of dedicated system memory, and 2076MB of shared system memory
+[0017.07] Log: usc_toggle_cursor true
+[0017.07] Log: usc_toggle_key_capture true
+[0017.07] DevMusic: PComMusicTheme PlayDefaultMusic
+[0017.07] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0017.07] Log: ########### Finished loading level: 1.137168 seconds
+[0017.18] Log: Flushing async loaders.
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0017.63] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0017.63] Log: Flushed async loaders.
+[0017.63] Log: Starting RedrawViewports for texture streaming..
+[0017.66] Log: RedrawViewports took: 0.028630 seconds
+[0017.66] Log: Starting Level load StreamAllResources..
+[0017.74] Log: Level load StreamAllResources took: 0.079031 seconds
+[0017.74] Log: Initializing Engine Completed
+[0017.74] Log: >>>>>>>>>>>>>> Initial startup: 17.74s <<<<<<<<<<<<<<<
+[0017.74] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0018.46] Log: Automatically detetecting settings: VID-0x10DE DID-0x134D SLVL- FLVL--1-203282792246201974529260591--1052109747x4941
+[0018.82] Log: [Service Discovery] JSON Config URL - http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0019.83] Log: Map Game ID = 0
+[0019.83] Log: Map Instance ID = 197753030
+[0019.87] Log: Performance: Critical section Lock/Unlock 40 nsec
+[0019.88] Log: Performance:  appCycles 13 nsec
+[0019.89] Log: Performance:  memCopy per KB 88 nsec
+[0019.90] Log: Performance:  memZero per KB 41 nsec
+[0019.91] Log: Performance:  appInterlockedIncrement 7 nsec
+[0019.91] Log: Performance:  GetTickCount 2 nsec
+[0019.91] Log: Map Game ID = 0
+[0019.91] Log: Map Instance ID = 197753030
+[0019.93] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0019.93] Log: Performance:  appCycles 9 nsec
+[0019.95] Log: Performance:  memCopy per KB 77 nsec
+[0019.95] Log: Performance:  memZero per KB 35 nsec
+[0019.96] Log: Performance:  appInterlockedIncrement 7 nsec
+[0019.97] Log: Performance:  GetTickCount 2 nsec
+[0019.97] Log: Map Game ID = 0
+[0019.97] Log: Map Instance ID = 197753030
+[0019.98] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0019.98] Log: Performance:  appCycles 8 nsec
+[0019.99] Log: Performance:  memCopy per KB 57 nsec
+[0020.00] Log: Performance:  memZero per KB 29 nsec
+[0020.01] Log: Performance:  appInterlockedIncrement 7 nsec
+[0020.01] Log: Performance:  GetTickCount 2 nsec
+[0021.79] VoiceChat: Warn  am_network_start() trying retval=0,port + offset=33634,port=33604
+[0021.79] Log: Login Success: HesoosChristo
+[0021.79] Log: [PComConfigManager] using url override from server config: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live/
+[0021.79] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//landingpanel.json
+[0022.35] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Smite/live//seasonticket.json
+[0022.56] Log: Team/Instance chat routed to Instance Server.
+[0022.56] Log: Map Game ID = 0
+[0022.56] Log: Map Instance ID = 197753030
+[0022.58] Log: Performance: Critical section Lock/Unlock 16 nsec
+[0022.58] Log: Performance:  appCycles 8 nsec
+[0022.59] Log: Performance:  memCopy per KB 59 nsec
+[0022.60] Log: Performance:  memZero per KB 34 nsec
+[0022.61] VoiceChat: Warn  am_network_start() returned retval=0,port + offset=33634,port=33604
+[0022.61] Log: Performance:  appInterlockedIncrement 7 nsec
+[0022.61] Log: Performance:  GetTickCount 2 nsec
+[0022.61] Log: Chat[9]: Press ENTER to access chat.
+[0022.61] Log: Chat[9]: Press ENTER to access chat.
+[0022.61] VoiceChat: UpdateVivox: Logging in as .c43e83., token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc3NTMyMTMsInZ4YSI6ImxvZ2luIiwidnhpIjoxLCJmIjoic2lwOi5jNDNlODMuQHNtcC52aXZveC5jb20ifQ.UUQPLeD9K5qKMnK6bgeADpEQDg_o6M9H5-G8I3ToU04
+[0022.62] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://smp.www.vivox.com/api2/)
+[0022.78] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.c43e83.)
+[0023.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0023.21] Warning: Warning, Failed to find object 'Class None.None'
+[0027.02] DevMusic: PComMusicTheme PlayDefaultMusic
+[0027.02] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0027.30] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0031.80] Log: UGFxMoviePlayer::GetBool(): value is not a bool. Returning FALSE.
+[0032.74] DevMusic: PComMusicTheme PlayDefaultMusic
+[0032.74] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0032.74] DevMusic: PComMusicTheme PlayDefaultMusic
+[0032.74] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0032.89] Log: CTgBattleClient - Match composition cached [3C855688]
+[0032.89] Log: ReceiveChangeMap: mapGameId 1542
+[0032.89] Log: ReceiveChangeMap: mapGameId 1542
+[0033.00] Log: usc_toggle_cursor false
+[0033.00] Log: usc_toggle_key_capture false
+[0033.08] Log: usc_toggle_key_capture true
+[0033.08] DevNet: URL: Adding default option Team=255
+[0033.08] Log: RequestingChannelMembers ch[3] [HesoosChristo has joined the channel.]
+[0033.09] DevNet: URL: Adding default option Team=255
+[0033.09] DevNet: Browse: Chinese_Joust_P_Tutorial?game=TgGame.TgGame_Battle_Training?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367292776?Team=255
+[0033.09] Log: LoadMap: Chinese_Joust_P_Tutorial?game=TgGame.TgGame_Battle_Training?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367292776?Team=255
+[0033.39] Log: Map Game ID = 0
+[0033.39] Log: Map Instance ID = 197753030
+[0033.41] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0033.41] Log: Performance:  appCycles 13 nsec
+[0033.43] Log: Performance:  memCopy per KB 91 nsec
+[0033.44] Log: Performance:  memZero per KB 43 nsec
+[0033.45] Log: Performance:  appInterlockedIncrement 9 nsec
+[0033.45] Log: Performance:  GetTickCount 3 nsec
+[0033.46] TgSLO: Async Load: FX_Store_Items
+[0033.46] TgSLO: Async Load: FX_Store_Items_Targeting
+[0033.46] TgSLO: Async Load: FX_Status_Effects
+[0033.46] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0033.46] TgSLO: Async Load: GOD_Common_AT
+[0033.46] TgSLO: Async Load: AUD_VOX_Narrator
+[0033.46] TgSLO: Async Load: NPC_Ward2
+[0033.46] TgSLO: Async Load: FX_Buff_Belts_V2
+[0033.46] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0033.46] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0033.46] TgSLO: Async Load: GOD_Neith
+[0033.46] TgSLO: Async Load: GOD_Neith_Textures
+[0033.46] TgSLO: Async Load: FX_Neith
+[0033.46] TgSLO: Async Load: FX_Neith_Targeting
+[0033.46] TgSLO: Async Load: AUD_God_Neith
+[0033.46] TgSLO: Async Load: CJ_Towers
+[0033.46] TgSLO: Async Load: FX_Towers_CHN_Joust
+[0033.46] TgSLO: Async Load: FX_Tower
+[0033.46] TgSLO: Async Load: FX_Greek_Tower
+[0033.46] TgSLO: Async Load: AUD_Tower
+[0033.47] TgSLO: Async Load: Joust_Tower
+[0033.47] TgSLO: Async Load: AUD_NPC_Chinese_Joust
+[0033.47] TgSLO: Async Load: NPC_Phoenix
+[0033.47] TgSLO: Async Load: NPC_Phoenix_Textures
+[0033.47] TgSLO: Async Load: FX_Phoenix
+[0033.47] TgSLO: Async Load: AUD_NPC_Phoenix
+[0033.47] TgSLO: Async Load: NPC_CHNJoust_Phoenix
+[0033.47] TgSLO: Async Load: FX_CHNJoust_Phoenix
+[0033.47] TgSLO: Async Load: NPC_CHNJoust_Phoenix_Textures
+[0033.47] TgSLO: Async Load: MDL_PseudoMesh
+[0033.47] TgSLO: Async Load: NPC_Guardian_Female
+[0033.47] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0033.47] TgSLO: Async Load: FX_Guardian_Female
+[0033.47] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[0033.47] TgSLO: Async Load: NPC_Guardian_Male
+[0033.47] TgSLO: Async Load: NPC_Guardian_Male_AT
+[0033.47] TgSLO: Async Load: FX_Guardian_Male
+[0033.47] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[0033.47] TgSLO: Async Load: NPC_CHNJoust_Titan_Invader
+[0033.47] TgSLO: Async Load: FX_CHNJoust_Titan_Invader
+[0033.47] TgSLO: Async Load: NPC_CHNJoust_Titan
+[0033.47] TgSLO: Async Load: FX_CHNJoust_Titan_Order
+[0033.47] TgSLO: Async Load: NPC_Minion_Universal
+[0033.47] TgSLO: Async Load: FX_Roman
+[0033.47] TgSLO: Async Load: FX_Minion_Death
+[0033.47] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0033.47] TgSLO: Async Load: AUD_NPC_Olympus
+[0033.48] TgSLO: Async Load: NPC_ChaosMinion
+[0033.48] TgSLO: Async Load: FX_Common
+[0033.48] TgSLO: Async Load: AUD_UI
+[0033.48] TgSLO: Async Load: NPC_CHNJoust_Minion_Invader
+[0033.48] TgSLO: Async Load: NPC_CHNJoust_Minion
+[0033.48] TgSLO: Async Load: GOD_Ymir
+[0033.48] TgSLO: Async Load: GOD_Ymir_Textures
+[0033.48] TgSLO: Async Load: FX_Ymir
+[0033.48] TgSLO: Async Load: AUD_God_Ymir
+[0033.48] TgSLO: Async Load: NPC_Olympus
+[0033.48] TgSLO: Async Load: NPC_CHNJoust_Brute
+[0033.48] Log: Flushing async loaders.
+[0033.59] TgSLO: Finish Load: FX_Store_Items
+[0033.62] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0033.63] TgSLO: Finish Load: FX_Status_Effects
+[0033.65] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0033.65] TgSLO: Finish Load: GOD_Common_AT
+[0033.66] TgSLO: Finish Load: AUD_VOX_Narrator
+[0033.68] TgSLO: Finish Load: NPC_Ward2
+[0033.72] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0033.72] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0033.74] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0033.81] TgSLO: Finish Load: GOD_Neith
+[0033.81] TgSLO: Finish Load: GOD_Neith_Textures
+[0033.84] TgSLO: Finish Load: FX_Neith
+[0033.87] TgSLO: Finish Load: FX_Neith_Targeting
+[0033.87] TgSLO: Finish Load: AUD_God_Neith
+[0033.92] TgSLO: Finish Load: CJ_Towers
+[0033.94] TgSLO: Finish Load: FX_Towers_CHN_Joust
+[0033.94] TgSLO: Finish Load: FX_Tower
+[0033.99] TgSLO: Finish Load: FX_Greek_Tower
+[0034.00] TgSLO: Finish Load: AUD_Tower
+[0034.08] TgSLO: Finish Load: Joust_Tower
+[0034.10] TgSLO: Finish Load: AUD_NPC_Chinese_Joust
+[0034.13] TgSLO: Finish Load: NPC_Phoenix
+[0034.13] TgSLO: Finish Load: NPC_Phoenix_Textures
+[0034.14] TgSLO: Finish Load: FX_Phoenix
+[0034.14] TgSLO: Finish Load: AUD_NPC_Phoenix
+[0034.15] TgSLO: Finish Load: NPC_CHNJoust_Phoenix
+[0034.16] TgSLO: Finish Load: FX_CHNJoust_Phoenix
+[0034.18] TgSLO: Finish Load: NPC_CHNJoust_Phoenix_Textures
+[0034.18] TgSLO: Finish Load: MDL_PseudoMesh
+[0034.24] TgSLO: Finish Load: NPC_Guardian_Female
+[0034.25] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0034.25] TgSLO: Finish Load: FX_Guardian_Female
+[0034.25] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[0034.33] TgSLO: Finish Load: NPC_Guardian_Male
+[0034.34] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[0034.36] TgSLO: Finish Load: FX_Guardian_Male
+[0034.36] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[0034.38] TgSLO: Finish Load: NPC_CHNJoust_Titan_Invader
+[0034.40] TgSLO: Finish Load: FX_CHNJoust_Titan_Invader
+[0034.41] TgSLO: Finish Load: NPC_CHNJoust_Titan
+[0034.43] TgSLO: Finish Load: FX_CHNJoust_Titan_Order
+[0034.46] TgSLO: Finish Load: NPC_Minion_Universal
+[0034.46] TgSLO: Finish Load: FX_Roman
+[0034.47] TgSLO: Finish Load: FX_Minion_Death
+[0034.47] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0034.47] TgSLO: Finish Load: AUD_NPC_Olympus
+[0034.49] TgSLO: Finish Load: NPC_ChaosMinion
+[0034.52] TgSLO: Finish Load: FX_Common
+[0034.52] TgSLO: Finish Load: AUD_UI
+[0034.52] TgSLO: Finish Load: NPC_CHNJoust_Minion_Invader
+[0034.53] TgSLO: Finish Load: NPC_CHNJoust_Minion
+[0034.62] TgSLO: Finish Load: GOD_Ymir
+[0034.62] TgSLO: Finish Load: GOD_Ymir_Textures
+[0034.66] TgSLO: Finish Load: FX_Ymir
+[0034.67] TgSLO: Finish Load: AUD_God_Ymir
+[0034.70] TgSLO: Finish Load: NPC_Olympus
+[0034.72] TgSLO: Finish Load: NPC_CHNJoust_Brute
+[0034.72] Log: Flushed async loaders.
+[0034.72] Log: Game class is 'TgGame_Battle_Training'
+[0034.76] Log: Primary PhysX scene will be in software.
+[0034.76] Log: Creating Primary PhysX Scene.
+[0034.76] Log: Bringing World chinese_joust_p_tutorial.TheWorld up for play (0) at 2017.10.11-16.17.28
+[0034.76] Log: Skipping initialization of FSMPartPool!
+[0034.78] DevMusic: PComMusicTheme PlayDefaultMusic
+[0034.78] DevMusic: PComMusicTheme StopMusic
+[0034.79] Log: Bringing up level for play took: 0.069717
+[0034.79] Log: Net Access flags for 0: 00000000 00000000
+[0034.79] Log: player_id 12861059
+[0034.79] Log: Mission Timer State 1 at game time 0.00
+[0034.79] Log: Spawn character  PlayerId: 12861059
+[0034.79] Log: Spawning new pawn for player 12861059
+[0034.80] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0034.80] Log: Beginning inventory transaction for player 12861059
+[0034.81] Log: ########### Finished loading level: 1.716432 seconds
+[0034.81] Log: Flushing async loaders.
+[0035.24] Log: Flushed async loaders.
+[0035.24] Log: Starting RedrawViewports for texture streaming..
+[0035.45] Log: RedrawViewports took: 0.203258 seconds
+[0035.45] Log: Starting Level load StreamAllResources..
+[0035.46] Log: Level load StreamAllResources took: 0.010928 seconds
+[0035.47] Error: Can't start an online game that hasn't been created
+[0035.47] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0036.07] Log:            ATgPlayerController::UpdateTransitionUI()
+[0036.07] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0036.07] Log: Mission Timer State 2 at game time -0.00
+[0036.07] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0036.07] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0036.09] Log: usc_toggle_cursor true
+[0036.43] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0038.03] Log: usc_toggle_key_capture false
+[0038.03] Log: usc_toggle_cursor false
+[0040.55] DevMusic: PComMusicTheme PlayMusicEvent no event event named Opening found in theme
+[0041.30] Log: Commiting inventory transaction for for player 12861059
+[0045.05] Log: usc_toggle_cursor true
+[0046.15] Log: Mission Timer State 3 at game time 0.00
+[0048.02] Log: ReceiveChangeMap: mapGameId 1447
+[0048.02] Log: ReceiveChangeMap: mapGameId 1447
+[0048.02] Log: usc_toggle_key_capture true
+[0048.02] DevNet: URL: Adding default option Team=255
+[0048.02] DevNet: URL: Adding default option Team=255
+[0048.02] DevNet: Browse: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0048.03] Log: LoadMap: LobbyMap?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0048.07] Log: Beginning inventory transaction for player 12861059
+[0048.34] Log: Map Game ID = 0
+[0048.34] Log: Map Instance ID = 197753030
+[0048.35] Log: Performance: Critical section Lock/Unlock 17 nsec
+[0048.36] Log: Performance:  appCycles 13 nsec
+[0048.37] Log: Performance:  memCopy per KB 94 nsec
+[0048.38] Log: Performance:  memZero per KB 43 nsec
+[0048.39] Log: Performance:  appInterlockedIncrement 8 nsec
+[0048.40] Log: Performance:  GetTickCount 3 nsec
+[0048.40] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0048.40] Log: Flushing async loaders.
+[0048.45] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0048.45] Log: Flushed async loaders.
+[0048.45] Log: Game class is 'TgGameLaunch'
+[0048.47] Log: Primary PhysX scene will be in software.
+[0048.47] Log: Creating Primary PhysX Scene.
+[0048.47] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0048.47] Log: Bringing World lobbymap.TheWorld up for play (0) at 2017.10.11-16.17.42
+[0048.47] Log: Skipping initialization of FSMPartPool!
+[0048.55] DevMusic: PComMusicTheme PlayDefaultMusic
+[0048.55] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0048.56] Log: Bringing up level for play took: 0.110510
+[0048.56] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0048.57] DevMusic: PComMusicTheme PlayDefaultMusic
+[0048.57] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan already playing
+[0048.57] Log: ########### Finished loading level: 0.533405 seconds
+[0048.58] Log: Flushing async loaders.
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 3, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 4, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 5, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 6, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 7, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 8, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 9, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_12', mip 10, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 1024x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 2, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_13', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_14', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 2, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x256, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 1, has a BulkDataSize [8192] that doesn't match calculated size [32768]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 2, has a BulkDataSize [2048] that doesn't match calculated size [8192]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [512] that doesn't match calculated size [2048]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [128] that doesn't match calculated size [512]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [32] that doesn't match calculated size [128]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [8] that doesn't match calculated size [32]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 7, has a BulkDataSize [2] that doesn't match calculated size [8]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_16', mip 8, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 256x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 0, has a BulkDataSize [16384] that doesn't match calculated size [65536]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 1, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 2, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 3, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 4, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 5, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 6, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 128x128, format 2
+[0048.99] Log: Texture 'lobbymap_adventures_vault_gold.ShadowMapTexture2D_17', mip 7, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 128x128, format 2
+[0048.99] Log: Flushed async loaders.
+[0048.99] Log: Starting RedrawViewports for texture streaming..
+[0049.02] Log: RedrawViewports took: 0.029126 seconds
+[0049.02] Log: Starting Level load StreamAllResources..
+[0049.07] Log: Level load StreamAllResources took: 0.050512 seconds
+[0049.64] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0049.89] Log: RequestingChannelMembers ch[3] [HesoosChristo has left the channel.]
+[0049.89] Log: RequestingChannelMembers ch[3] [HesoosChristo has joined the channel.]
+[0063.40] Log: RequestingChannelMembers ch[3] [HesoosChristo has left the channel.]
+[0078.40] VoiceChat: UpdateVivox: Joining channel sip:confctl-g-4-1364c@smp.vivox.com, token e30.eyJpc3MiOiJzbWl0ZS1nc2MiLCJleHAiOjE1MDc3NTMyNzIsInZ4YSI6ImpvaW4iLCJ2eGkiOjEsImYiOiJzaXA6LmM0M2U4My5Ac21wLnZpdm94LmNvbSIsInQiOiJzaXA6Y29uZmN0bC1nLTQtMTM2NGNAc21wLnZpdm94LmNvbSJ9.kT_EFE2ycRTj-A-HEpWbjnQzyrwuUC4ib7WWcK60P5c
+[0078.42] Log: RequestingChannelMembers ch[4] [HesoosChristo has joined the channel.]
+[0078.83] VoiceChat: Warn  OpenAudioUnit() succeeded.this=0x2f69ca60,captureDeviceId=DeviceId m_displayName='Microphone Array (Realtek High Definition Audio)' m_internalName='{0.0.1.00000000}.{75206ef3-78b5-4bd6-8440-0a3bda25b105}',renderDeviceId=DeviceId m_displayName='Speakers (Realtek High Definition Audio)' m_internalName='{0.0.0.00000000}.{7a61a7c2-531e-459f-ad93-d35fa1ae6afe}'
+[0079.04] VoiceChat: CVoiceInterfaceVivox::onChannelJoined (.c43e83., sip:confctl-g-4-1364c@smp.vivox.com)
+[0080.79] Log: Chat[4]: Sofiyah has joined the party.
+[0080.79] Log: RequestingChannelMembers ch[4] [Sofiyah has joined the channel.]
+[0117.86] Log: Chat[4]: Sofiyah is now the party leader.
+[0131.60] Log: Chat[9]: You have joined a match queue.
+[0131.60] Log: Chat[4]: Sofiyah entered the party into a match queue.
+[0180.00] Log: Time is 2017.10.11-16.19.53
+[0201.94] Log: RequestingChannelMembers ch[3] [HesoosChristo has joined the channel.]
+[0203.48] Log: RequestingChannelMembers ch[3] [angelweer has joined the channel.]
+[0204.67] Log: RequestingChannelMembers ch[3] [PopTartOverlord has joined the channel.]
+[0206.40] DevMusic: PComMusicTheme PlayMusicEvent found event named GodSelection
+[0206.40] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0206.40] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0206.40] Log: RequestingChannelMembers ch[3] [MrSpookyBats has joined the channel.]
+[0208.00] TgSLO: Async Load: GOD_Bellona
+[0208.01] TgSLO: Async Load: GOD_Bellona_Textures
+[0208.01] TgSLO: Async Load: GOD_Bellona_Lobby
+[0208.01] TgSLO: Async Load: FX_Bellona
+[0208.01] TgSLO: Async Load: FX_Bellona_Lobby
+[0208.01] TgSLO: Async Load: AUD_God_Bellona
+[0209.29] TgSLO: Finish Load: GOD_Bellona
+[0209.39] TgSLO: Finish Load: GOD_Bellona_Textures
+[0209.66] TgSLO: Finish Load: GOD_Bellona_Lobby
+[0210.26] TgSLO: Finish Load: FX_Bellona
+[0210.46] TgSLO: Finish Load: FX_Bellona_Lobby
+[0210.80] TgSLO: Finish Load: AUD_God_Bellona
+[0211.50] TgSLO: Async Load: GOD_ChangE
+[0211.50] TgSLO: Async Load: GOD_ChangE_Textures
+[0211.50] TgSLO: Async Load: GOD_ChangE_Lobby
+[0211.50] TgSLO: Async Load: FX_ChangE
+[0211.50] TgSLO: Async Load: FX_ChangE_Lobby
+[0211.50] TgSLO: Async Load: AUD_God_ChangE
+[0212.29] TgSLO: Finish Load: GOD_ChangE
+[0212.35] TgSLO: Finish Load: GOD_ChangE_Textures
+[0212.44] TgSLO: Finish Load: GOD_ChangE_Lobby
+[0212.69] TgSLO: Finish Load: FX_ChangE
+[0212.73] TgSLO: Finish Load: FX_ChangE_Lobby
+[0213.36] TgSLO: Finish Load: AUD_God_ChangE
+[0244.52] Log: SendChat[3] hunter
+[0244.64] Log: Chat[3]: hunter
+[0259.08] Log: Chat[3]: sol is an adc mage
+[0278.96] Log: SendChat[3] cool
+[0279.09] Log: Chat[3]: cool
+[0282.00] TgSLO: Async Load: GOD_Thanatos
+[0282.00] TgSLO: Async Load: GOD_Thanatos_Textures
+[0282.00] TgSLO: Async Load: GOD_Thanatos_Lobby
+[0282.00] TgSLO: Async Load: FX_Thanatos
+[0282.00] TgSLO: Async Load: FX_Thanatos_Lobby
+[0282.00] TgSLO: Async Load: AUD_God_Thanatos
+[0282.76] TgSLO: Finish Load: GOD_Thanatos
+[0282.78] TgSLO: Finish Load: GOD_Thanatos_Textures
+[0282.93] TgSLO: Finish Load: GOD_Thanatos_Lobby
+[0283.34] TgSLO: Finish Load: FX_Thanatos
+[0283.42] TgSLO: Finish Load: FX_Thanatos_Lobby
+[0284.04] TgSLO: Finish Load: AUD_God_Thanatos
+[0285.70] TgSLO: Async Load: GOD_Sol
+[0285.71] TgSLO: Async Load: GOD_Sol_Textures
+[0285.71] TgSLO: Async Load: GOD_Sol_Lobby
+[0285.71] TgSLO: Async Load: FX_Sol
+[0285.71] TgSLO: Async Load: FX_Sol_Lobby
+[0285.71] TgSLO: Async Load: AUD_God_Sol
+[0286.49] TgSLO: Finish Load: GOD_Sol
+[0286.55] TgSLO: Finish Load: GOD_Sol_Textures
+[0286.86] TgSLO: Finish Load: GOD_Sol_Lobby
+[0287.55] TgSLO: Finish Load: FX_Sol
+[0287.68] TgSLO: Finish Load: FX_Sol_Lobby
+[0288.15] TgSLO: Finish Load: AUD_God_Sol
+[0296.21] DevMusic: PComMusicTheme PlayMusicEvent found event named BattleReady
+[0296.21] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_GodSelection over 1.000000 seconds
+[0296.21] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0296.21] Warning: Failed to get state from m_MatchLobbyStates map: 8. Defaulting to: 30
+[0296.25] TgSLO: Async Load: GOD_AoKuang_V2
+[0296.25] TgSLO: Async Load: GOD_AoKuang_V2_Textures
+[0296.25] TgSLO: Async Load: GOD_AoKuang_V2_Lobby
+[0296.25] TgSLO: Async Load: FX_AoKuang_V2
+[0296.25] TgSLO: Async Load: FX_AoKuang_V2_Lobby
+[0296.25] TgSLO: Async Load: AUD_God_AoKuang_V2
+[0297.02] TgSLO: Finish Load: GOD_AoKuang_V2
+[0297.18] TgSLO: Finish Load: GOD_AoKuang_V2_Textures
+[0297.32] TgSLO: Finish Load: GOD_AoKuang_V2_Lobby
+[0297.89] TgSLO: Finish Load: FX_AoKuang_V2
+[0298.03] TgSLO: Finish Load: FX_AoKuang_V2_Lobby
+[0298.38] TgSLO: Finish Load: AUD_God_AoKuang_V2
+[0306.24] DevMusic: PComMusicTheme PlayDefaultMusic
+[0306.24] DevMusic: PComMusicTheme UpdateMusicTrack Fading out SoundCue AUD_MUS_Global.A_CUE_MUS_BattleReady over 1.000000 seconds
+[0306.24] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_MUS_Level_Japan.A_CUE_MUS_Login_Japan over 2.500000 seconds
+[0309.58] Log: CTgBattleClient - Match composition cached [19C7EB70]
+[0309.58] Log: ReceiveChangeMap: mapGameId 1549
+[0309.58] Log: ReceiveChangeMap: mapGameId 1549
+[0309.70] Log: usc_toggle_key_capture false
+[0309.70] Log: usc_toggle_cursor false
+[0309.76] Log: usc_toggle_key_capture true
+[0309.76] DevNet: URL: Adding default option Team=255
+[0309.76] DevNet: URL: Adding default option Team=255
+[0309.76] DevNet: Browse: 0.0.0.0:9215/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367293191?Team=255
+[0309.76] Log: [FSocketWin::Bind] Binding to 0.0.0.0:0
+[0309.76] DevNet: Game client on port 9215, rate 25000
+[0310.29] DevNet: Welcomed by server (Level: season_arena_p, Game: TgGame.TgGame_Arena_Escort)
+[0310.54] Log: LoadMap: 0.0.0.0:9215/season_arena_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=367293191?Team=255?game=TgGame.TgGame_Arena_Escort
+[0310.74] Log: Map Game ID = 0
+[0310.74] Log: Map Instance ID = 197753030
+[0310.76] Log: Performance: Critical section Lock/Unlock 19 nsec
+[0310.77] Log: Performance:  appCycles 14 nsec
+[0310.78] Log: Performance:  memCopy per KB 88 nsec
+[0310.79] Log: Performance:  memZero per KB 36 nsec
+[0310.80] Log: Performance:  appInterlockedIncrement 8 nsec
+[0310.80] Log: Performance:  GetTickCount 3 nsec
+[0310.80] TgSLO: Async Load: FX_Store_Items
+[0310.80] TgSLO: Async Load: FX_Store_Items_Targeting
+[0310.80] TgSLO: Async Load: FX_Status_Effects
+[0310.80] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0310.81] TgSLO: Async Load: GOD_Common_AT
+[0310.81] TgSLO: Async Load: AUD_VOX_Narrator
+[0310.81] TgSLO: Async Load: NPC_Ward2
+[0310.81] TgSLO: Async Load: FX_Buff_Belts_V2
+[0310.81] TgSLO: Async Load: ITM_Buff_Belts_V2
+[0310.81] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0310.81] TgSLO: Async Load: GOD_Poseidon
+[0310.81] TgSLO: Async Load: GOD_Poseidon_Textures
+[0310.81] TgSLO: Async Load: FX_Poseidon
+[0310.81] TgSLO: Async Load: AUD_God_Poseidon
+[0310.81] TgSLO: Async Load: NPC_Kraken
+[0310.81] TgSLO: Async Load: NPC_Kraken_Textures
+[0310.81] TgSLO: Async Load: AUD_NPC_Kraken
+[0310.81] TgSLO: Async Load: GOD_Ymir
+[0310.81] TgSLO: Async Load: GOD_Ymir_Textures
+[0310.81] TgSLO: Async Load: FX_Ymir
+[0310.81] TgSLO: Async Load: AUD_God_Ymir
+[0310.81] TgSLO: Async Load: GOD_Aphrodite
+[0310.81] TgSLO: Async Load: GOD_Aphrodite_Textures
+[0310.81] TgSLO: Async Load: FX_Aphrodite
+[0310.81] TgSLO: Async Load: AUD_God_Aphrodite
+[0310.81] TgSLO: Async Load: GOD_Neith
+[0310.81] TgSLO: Async Load: GOD_Neith_Textures
+[0310.81] TgSLO: Async Load: FX_Neith
+[0310.81] TgSLO: Async Load: AUD_God_Neith
+[0310.81] TgSLO: Async Load: GOD_Thanatos
+[0310.81] TgSLO: Async Load: GOD_Thanatos_Textures
+[0310.81] TgSLO: Async Load: FX_Thanatos
+[0310.81] TgSLO: Async Load: AUD_God_Thanatos
+[0310.81] TgSLO: Async Load: GOD_ChangE
+[0310.81] TgSLO: Async Load: GOD_ChangE_Textures
+[0310.81] TgSLO: Async Load: FX_ChangE
+[0310.81] TgSLO: Async Load: AUD_God_ChangE
+[0310.81] TgSLO: Async Load: GOD_Sol
+[0310.81] TgSLO: Async Load: GOD_Sol_Textures
+[0310.82] TgSLO: Async Load: FX_Sol
+[0310.82] TgSLO: Async Load: AUD_God_Sol
+[0310.82] TgSLO: Async Load: NPC_Ward_Manticore
+[0310.82] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0310.82] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0310.82] TgSLO: Async Load: FX_Common
+[0310.82] TgSLO: Async Load: AUD_UI
+[0310.82] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0310.82] TgSLO: Async Load: GOD_Bellona
+[0310.82] TgSLO: Async Load: GOD_Bellona_Textures
+[0310.82] TgSLO: Async Load: FX_Bellona
+[0310.82] TgSLO: Async Load: FX_Bellona_Targeting
+[0310.82] TgSLO: Async Load: AUD_God_Bellona
+[0310.82] TgSLO: Async Load: GOD_AoKuang_V2
+[0310.82] TgSLO: Async Load: GOD_AoKuang_V2_Textures
+[0310.82] TgSLO: Async Load: FX_AoKuang_V2
+[0310.82] TgSLO: Async Load: AUD_God_AoKuang_V2
+[0310.82] TgSLO: Async Load: FX_Roman_Arena
+[0310.82] TgSLO: Async Load: AUD_ENV_Roman_Arena
+[0310.82] TgSLO: Async Load: FX_Tower
+[0310.82] TgSLO: Async Load: FX_Greek_Tower
+[0310.82] TgSLO: Async Load: AUD_Tower
+[0310.82] TgSLO: Async Load: NPC_Tower_RA2015a
+[0310.82] TgSLO: Async Load: MDL_PseudoMesh
+[0310.82] TgSLO: Async Load: NPC_Arena_Basilisk
+[0310.82] TgSLO: Async Load: FX_NPC_Arena_Basilisk
+[0310.82] TgSLO: Async Load: AUD_NPC_Arena_Basilisk
+[0310.82] TgSLO: Async Load: NPC_Arena_Lion
+[0310.82] TgSLO: Async Load: FX_NPC_Arena_Lion
+[0310.82] TgSLO: Async Load: AUD_NPC_Arena_Lion
+[0310.82] TgSLO: Async Load: NPC_Arena_Boar
+[0310.82] TgSLO: Async Load: FX_NPC_Arena_Boar
+[0310.82] TgSLO: Async Load: AUD_NPC_Arena_Boar
+[0310.82] TgSLO: Async Load: NPC_Arena_Minion
+[0310.83] TgSLO: Async Load: NPC_Minion_Universal
+[0310.83] TgSLO: Async Load: FX_Roman
+[0310.83] TgSLO: Async Load: FX_Minion_Death
+[0310.83] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0310.83] TgSLO: Async Load: AUD_NPC_Olympus
+[0310.83] TgSLO: Async Load: NPC_Minion_Universal_Zombie
+[0310.83] TgSLO: Async Load: NPC_Arena_ZombieMinions
+[0310.83] TgSLO: Async Load: NPC_Arena_Brute
+[0310.83] TgSLO: Async Load: NPC_Arena_ZombieBrute
+[0310.83] TgSLO: Async Load: NPC_SiegeTower
+[0310.83] TgSLO: Async Load: FX_Arena
+[0310.83] TgSLO: Async Load: NPC_Arena_ZombieJuggernaut
+[0310.83] TgSLO: Async Load: NPC_Arena_Juggernaut
+[0310.83] TgSLO: Async Load: FX_NPC_Arena_Juggernaut
+[0310.83] TgSLO: Async Load: NPC_SiegeEngine
+[0310.83] TgSLO: Async Load: FX_Seasonal_Halloween
+[0310.83] TgSLO: Async Load: FX_Scary_Potion_Proj
+[0310.83] TgSLO: Async Load: AUD_UI_Halloween
+[0310.83] Log: Flushing async loaders.
+[0310.92] TgSLO: Finish Load: FX_Store_Items
+[0310.95] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0310.96] TgSLO: Finish Load: FX_Status_Effects
+[0310.98] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0310.98] TgSLO: Finish Load: GOD_Common_AT
+[0310.99] TgSLO: Finish Load: AUD_VOX_Narrator
+[0311.00] TgSLO: Finish Load: NPC_Ward2
+[0311.05] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0311.05] TgSLO: Finish Load: ITM_Buff_Belts_V2
+[0311.06] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0311.21] TgSLO: Finish Load: GOD_Poseidon
+[0311.21] TgSLO: Finish Load: GOD_Poseidon_Textures
+[0311.29] TgSLO: Finish Load: FX_Poseidon
+[0311.30] TgSLO: Finish Load: AUD_God_Poseidon
+[0311.34] TgSLO: Finish Load: NPC_Kraken
+[0311.34] TgSLO: Finish Load: NPC_Kraken_Textures
+[0311.34] TgSLO: Finish Load: AUD_NPC_Kraken
+[0311.43] TgSLO: Finish Load: GOD_Ymir
+[0311.43] TgSLO: Finish Load: GOD_Ymir_Textures
+[0311.48] TgSLO: Finish Load: FX_Ymir
+[0311.49] TgSLO: Finish Load: AUD_God_Ymir
+[0311.63] TgSLO: Finish Load: GOD_Aphrodite
+[0311.63] TgSLO: Finish Load: GOD_Aphrodite_Textures
+[0311.68] TgSLO: Finish Load: FX_Aphrodite
+[0311.68] TgSLO: Finish Load: AUD_God_Aphrodite
+[0311.77] TgSLO: Finish Load: GOD_Neith
+[0311.77] TgSLO: Finish Load: GOD_Neith_Textures
+[0311.80] TgSLO: Finish Load: FX_Neith
+[0311.81] TgSLO: Finish Load: AUD_God_Neith
+[0311.89] TgSLO: Finish Load: GOD_Thanatos
+[0311.89] TgSLO: Finish Load: GOD_Thanatos_Textures
+[0311.92] TgSLO: Finish Load: FX_Thanatos
+[0311.93] TgSLO: Finish Load: AUD_God_Thanatos
+[0312.03] TgSLO: Finish Load: GOD_ChangE
+[0312.03] TgSLO: Finish Load: GOD_ChangE_Textures
+[0312.04] TgSLO: Finish Load: FX_ChangE
+[0312.05] TgSLO: Finish Load: AUD_God_ChangE
+[0312.16] TgSLO: Finish Load: GOD_Sol
+[0312.17] TgSLO: Finish Load: GOD_Sol_Textures
+[0312.22] TgSLO: Finish Load: FX_Sol
+[0312.22] TgSLO: Finish Load: AUD_God_Sol
+[0312.25] TgSLO: Finish Load: NPC_Ward_Manticore
+[0312.25] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0312.28] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0312.31] TgSLO: Finish Load: FX_Common
+[0312.32] TgSLO: Finish Load: AUD_UI
+[0312.34] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0312.50] TgSLO: Finish Load: GOD_Bellona
+[0312.51] TgSLO: Finish Load: GOD_Bellona_Textures
+[0312.56] TgSLO: Finish Load: FX_Bellona
+[0312.58] TgSLO: Finish Load: FX_Bellona_Targeting
+[0312.58] TgSLO: Finish Load: AUD_God_Bellona
+[0312.70] TgSLO: Finish Load: GOD_AoKuang_V2
+[0312.73] TgSLO: Finish Load: GOD_AoKuang_V2_Textures
+[0312.79] TgSLO: Finish Load: FX_AoKuang_V2
+[0312.79] TgSLO: Finish Load: AUD_God_AoKuang_V2
+[0312.89] TgSLO: Finish Load: FX_Roman_Arena
+[0312.90] TgSLO: Finish Load: AUD_ENV_Roman_Arena
+[0312.91] TgSLO: Finish Load: FX_Tower
+[0312.96] TgSLO: Finish Load: FX_Greek_Tower
+[0312.97] TgSLO: Finish Load: AUD_Tower
+[0312.97] TgSLO: Finish Load: NPC_Tower_RA2015a
+[0312.97] TgSLO: Finish Load: MDL_PseudoMesh
+[0313.04] TgSLO: Finish Load: NPC_Arena_Basilisk
+[0313.05] TgSLO: Finish Load: FX_NPC_Arena_Basilisk
+[0313.05] TgSLO: Finish Load: AUD_NPC_Arena_Basilisk
+[0313.11] TgSLO: Finish Load: NPC_Arena_Lion
+[0313.12] TgSLO: Finish Load: FX_NPC_Arena_Lion
+[0313.12] TgSLO: Finish Load: AUD_NPC_Arena_Lion
+[0313.20] TgSLO: Finish Load: NPC_Arena_Boar
+[0313.20] TgSLO: Finish Load: FX_NPC_Arena_Boar
+[0313.20] TgSLO: Finish Load: AUD_NPC_Arena_Boar
+[0313.22] TgSLO: Finish Load: NPC_Arena_Minion
+[0313.24] TgSLO: Finish Load: NPC_Minion_Universal
+[0313.25] TgSLO: Finish Load: FX_Roman
+[0313.25] TgSLO: Finish Load: FX_Minion_Death
+[0313.26] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0313.26] TgSLO: Finish Load: AUD_NPC_Olympus
+[0313.26] TgSLO: Finish Load: NPC_Minion_Universal_Zombie
+[0313.28] TgSLO: Finish Load: NPC_Arena_ZombieMinions
+[0313.29] TgSLO: Finish Load: NPC_Arena_Brute
+[0313.30] TgSLO: Finish Load: NPC_Arena_ZombieBrute
+[0313.35] Log: Missing cached shader map for material MAT_Delete, quality 0, compiling.
+[0313.35] Log: Can't compile MAT_Delete with seekfree loading path on console, will attempt to use default material instead
+[0313.35] Warning: Warning, Failed to compile Material NPC_SiegeTower.Materials.MAT_Delete for platform PC-D3D-SM3, Default Material will be used in game.
+[0313.36] TgSLO: Finish Load: NPC_SiegeTower
+[0313.41] TgSLO: Finish Load: FX_Arena
+[0313.47] TgSLO: Finish Load: NPC_Arena_ZombieJuggernaut
+[0313.49] TgSLO: Finish Load: NPC_Arena_Juggernaut
+[0313.50] TgSLO: Finish Load: FX_NPC_Arena_Juggernaut
+[0313.56] TgSLO: Finish Load: NPC_SiegeEngine
+[0313.59] TgSLO: Finish Load: FX_Seasonal_Halloween
+[0313.61] TgSLO: Finish Load: FX_Scary_Potion_Proj
+[0313.61] TgSLO: Finish Load: AUD_UI_Halloween
+[0313.61] Log: Flushed async loaders.
+[0313.61] DevNet: Fully loading base package season_arena_lighting due to fallback logic
+[0313.62] DevNet: Fully loading base package season_arena_skybox due to fallback logic
+[0313.70] DevNet: Fully loading base package season_arena_sound due to fallback logic
+[0313.71] DevNet: Fully loading base package season_arena_vfx due to fallback logic
+[0313.71] DevNet: Fully loading base package season_arena_collision due to fallback logic
+[0313.72] DevNet: Fully loading base package season_arena_perftests due to fallback logic
+[0313.72] DevNet: Fully loading base package season_arena_crowd due to fallback logic
+[0313.75] DevNet: Fully loading base package AUD_God_Ram due to fallback logic
+[0313.78] Log: Primary PhysX scene will be in software.
+[0313.78] Log: Creating Primary PhysX Scene.
+[0313.78] Log: Bringing World season_arena_p.TheWorld up for play (595) at 2017.10.11-16.22.07
+[0313.78] Log: Skipping initialization of FSMPartPool!
+[0313.78] Log: Bringing up level for play took: 0.015355
+[0313.78] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0313.78] Warning: Warning, Failed to find object 'Class None.'
+[0313.78] Log: PlayerController class for the pending level is PlayerController
+[0313.78] Log: ########### Finished loading level: 3.239745 seconds
+[0313.78] Log: Flushing async loaders.
+[0314.00] Log: Flushed async loaders.
+[0314.00] Log: Starting RedrawViewports for texture streaming..
+[0314.16] Log: RedrawViewports took: 0.164091 seconds
+[0314.16] Log: Starting Level load StreamAllResources..
+[0314.18] Log: Level load StreamAllResources took: 0.012679 seconds
+[0314.29] DevNet: TgPlayerController_3 setplayer TgLocalPlayer_0
+[0314.31] Log: Flushing async loaders.
+[0314.31] Log: Flushed async loaders.
+[0314.34] Log: Activated season_arena_assist 1 1 0
+[0314.34] Log: ActivateLevel season_arena_assist 1 1 0
+[0314.34] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.41] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.41] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.44] Log: Flushing async loaders.
+[0314.45] Log: Flushed async loaders.
+[0314.45] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.54] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.82] DevMusic: PComMusicTheme PlayDefaultMusic
+[0314.82] DevMusic: PComMusicTheme UpdateMusicTrack Fading in SoundCue AUD_ENV_Seasonal_Halloween.A_CUE_MUS_Opening over 5.000000 seconds
+[0314.82] Log: Mission Timer State 1 at game time 90.00
+[0314.82] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.83] Log: TeamIndex 2 has new leader: 12854673
+[0314.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.83] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.85] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0314.85] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.85] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.85] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0314.85] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.85] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.89] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.89] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0314.89] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (13035 to NONE)
+[0314.93] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0314.93] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0315.00] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0317.59] Log: TeamIndex 1 has new leader: 12860398
+[0319.78] Log: TeamIndex 2 has new leader: 12847771
+[0325.84] Log: TeamIndex 2 has new leader: 12846071
+[0326.00] Log: TeamIndex 2 has new leader: 12861059
+[0348.26] Log:            ATgPlayerController::UpdateTransitionUI()
+[0348.26] Log:            ATgPlayerController::IsLocalPlayerController(): TRUE
+[0348.26] Log: Mission Timer State 2 at game time 44.95
+[0348.26] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0348.26] Log:        ATgGameHUD::PlayIntro()   Should be hiding Transition Scene
+[0348.29] Log: usc_toggle_cursor true
+[0348.67] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0348.74] Log: TeamIndex 1 has new leader: 12860537
+[0348.75] Log: usc_toggle_cursor false
+[0349.15] Log: usc_toggle_key_capture false
+[0351.06] Log: usc_toggle_cursor true
+[0351.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0351.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0351.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0351.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0351.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0351.98] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0355.62] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0355.62] Log: GFx attempted to load missing object [HudSkins_Default.TabButtonSelectedl]
+[0355.91] Log: usc_toggle_key_capture true
+[0360.01] Log: Time is 2017.10.11-16.22.53
+[0363.16] Log: usc_toggle_key_capture false
+[0363.24] Log: usc_toggle_cursor false
+[0364.95] DevMusic: PComMusicTheme PlayMusicEvent found event named Level_Low_LP
+[0364.95] DevMusic: PComMusicTheme UpdateMusicTrack SoundCue AUD_ENV_Seasonal_Halloween.A_CUE_MUS_Opening already playing
+[0393.31] Log: Mission Timer State 3 at game time 0.05
+[0421.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0421.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0421.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0421.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0421.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0421.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0426.59] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_0)
+[0429.51] Log: PUSHING Accolade: PopTartOverlord has drawn First Blood!, local: false
+[0431.02] Log: PUSHING Accolade: ASSISTED, local: true
+[0432.52] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0436.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0436.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0436.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0436.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0442.76] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController season_arena_p.TheWorld:PersistentLevel.TgPlayerController_3
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0443.48] Log: PUSHING Accolade: , local: false
+[0444.35] Log: usc_toggle_cursor true
+[0444.98] Log: PUSHING Accolade: , local: false
+[0446.89] Log: usc_toggle_cursor false
+[0450.22] Log: PUSHING Accolade: MrSpookyBats has a Double Kill!, local: false
+[0450.22] Log: Suppressing Accolade: 
+[0452.89] Log: usc_toggle_cursor true
+[0458.72] Log: usc_toggle_cursor false
+[0462.58] Log: usc_toggle_cursor true
+[0464.11] Log: usc_toggle_cursor false
+[0472.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0472.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0473.10] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_0)
+[0473.85] Log: PUSHING Accolade: , local: false
+[0475.18] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0475.18] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0475.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0475.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0475.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0475.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0475.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0475.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0475.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0475.36] Log: PUSHING Accolade: ASSISTED, local: true
+[0476.76] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'None' in 'SKL_GOD_JadeRabbit'
+[0477.07] Log: PUSHING Accolade: , local: false
+[0480.57] Log: PUSHING Accolade: CrimsonDevil6 has a Double Kill!, local: false
+[0480.57] Log: Suppressing Accolade: 
+[0483.75] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0486.25] Log: PUSHING Accolade: CrimsonDevil6 has a Triple Kill!, local: false
+[0486.25] Log: Suppressing Accolade: CrimsonDevil6 is on Killing Spree! (x3)
+[0488.26] Log: PUSHING Accolade: MrSpookyBats is on Killing Spree! (x3), local: false
+[0489.21] Log: usc_toggle_cursor true
+[0489.76] Log: PUSHING Accolade: ASSISTED, local: true
+[0492.47] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0492.59] Log: usc_toggle_cursor false
+[0495.32] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_0)
+[0495.63] Log: PUSHING Accolade: CrimsonDevil6 has a Quadra Kill!, local: false
+[0495.63] Log: Suppressing Accolade: 
+[0502.57] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0503.08] Log: PUSHING Accolade: , local: false
+[0521.71] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0521.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0521.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0526.54] Log: PUSHING Accolade: CrimsonDevil6 is on a Rampage! (x5), local: false
+[0530.26] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0531.28] Log: usc_toggle_cursor true
+[0533.77] Log: PUSHING Accolade: , local: false
+[0536.49] Log: usc_toggle_cursor false
+[0538.77] Log: PUSHING Accolade: , local: false
+[0540.02] Log: Time is 2017.10.11-16.25.53
+[0541.92] Log: usc_toggle_cursor true
+[0543.45] Log: usc_toggle_cursor false
+[0549.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0549.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0549.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0549.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0551.10] Log: Chat[9]: Killing CrimsonDevil6 rewarded 154 XP and 483 Gold.
+[0551.30] Log: PUSHING Accolade: SHUTDOWN, local: true
+[0551.30] Log: Suppressing Accolade: PLAYER KILL
+[0552.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0552.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0552.80] Log: PUSHING Accolade: REVENGE, local: true
+[0556.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.80] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.80] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.83] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.83] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0556.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0557.00] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0567.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0567.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11139 Bellona Basic Attack (Scourge)]
+[0568.15] Log: Chat[9]: Killing evilgogeta rewarded 141 XP and 240 Gold.
+[0568.35] Log: PUSHING Accolade: PLAYER KILL, local: true
+[0568.90] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_0)
+[0580.00] Log: PUSHING Accolade: , local: false
+[0581.20] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0581.50] Log: PUSHING Accolade: ASSISTED, local: true
+[0583.01] Log: PUSHING Accolade: , local: false
+[0585.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0585.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0591.77] Log: PUSHING Accolade: CrimsonDevil6 has a Double Kill!, local: false
+[0591.77] Log: Suppressing Accolade: CrimsonDevil6 has a Player Kill!
+[0593.92] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0595.09] Log: usc_toggle_cursor true
+[0596.84] Log: usc_toggle_cursor false
+[0598.78] Log: PUSHING Accolade: CrimsonDevil6 has a Triple Kill!, local: false
+[0598.78] Log: Suppressing Accolade: CrimsonDevil6 is on Killing Spree! (x3)
+[0600.11] Log: usc_toggle_cursor true
+[0601.66] Log: usc_toggle_cursor false
+[0602.82] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0602.82] Warning: Warning, Failed to find object 'Class None.None'
+[0602.82] Log: usc_toggle_cursor true
+[0602.82] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_0)
+[0604.94] Log: usc_toggle_cursor false
+[0606.97] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0607.23] Log: usc_toggle_cursor true
+[0607.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0607.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.06] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.06] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.08] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.08] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.10] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.10] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.14] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.14] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.14] Log: usc_toggle_key_capture true
+[0608.15] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.15] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.17] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.17] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.19] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.20] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.21] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.22] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.23] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0608.47] Log: PUSHING Accolade: CrimsonDevil6 has a Quadra Kill!, local: false
+[0608.48] Log: Suppressing Accolade: 
+[0609.36] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.36] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.37] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.37] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.39] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.39] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.39] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.39] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.41] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.41] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.41] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.41] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.42] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.42] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.44] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.44] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.45] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.45] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.46] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.46] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.47] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.47] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.48] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.48] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.49] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.49] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.50] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.50] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.51] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.51] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.52] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.52] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.54] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.54] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.54] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.55] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.56] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.56] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.57] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.57] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.58] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.58] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.59] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.59] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.60] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.60] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.62] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.62] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.63] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.63] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.63] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.63] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.66] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.66] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0609.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.00] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.00] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.00] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.00] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.06] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.06] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.06] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.06] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.08] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.08] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.08] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.09] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.09] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.09] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.10] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.10] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.10] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.14] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.14] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.14] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.16] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.16] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.16] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.17] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.17] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.17] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.19] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.19] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.19] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.20] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.20] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.20] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.21] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.21] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.21] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.22] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.22] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.22] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.23] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.23] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.23] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.24] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.24] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.24] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.25] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.42] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.42] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.44] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.44] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.45] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.45] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.46] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.46] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.47] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.47] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.48] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.48] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.49] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.49] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.50] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.50] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.51] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.51] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.52] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.52] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.53] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.53] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.54] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.54] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.55] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.55] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.56] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.56] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.57] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.57] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.58] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.58] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.60] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.60] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.61] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.61] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.62] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.62] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.63] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.63] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.64] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.64] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.66] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.66] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.77] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0610.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0612.55] Log: PUSHING Accolade: CrimsonDevil6 has a Penta Kill!, local: false
+[0612.56] Log: Suppressing Accolade: CrimsonDevil6 is on a Rampage! (x5)
+[0636.62] Log: PUSHING Accolade: , local: false
+[0637.54] Log: usc_toggle_key_capture false
+[0637.75] Log: Requesting purchase of itemId (9480) amount (1)
+[0637.89] ScriptWarning: Accessed None 'Pawn'
+	TgPlayerController season_arena_p.TheWorld:PersistentLevel.TgPlayerController_3
+	Function TgGame.TgPlayerController:ClientPlayLocalEmote:0062
+[0638.64] Log: usc_toggle_cursor false
+[0639.98] Log: PUSHING Accolade: CrimsonDevil6 has a Double Kill!, local: false
+[0639.98] Log: Suppressing Accolade: CrimsonDevil6 is UNSTOPPABLE! (x7)
+[0643.62] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0645.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0645.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0645.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0645.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0646.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.19] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.19] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.21] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.21] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.22] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.22] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.24] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.24] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.25] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.25] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.26] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.26] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.28] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.28] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.30] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.30] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.31] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.31] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.33] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.33] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.34] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.34] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.36] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.36] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.37] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.39] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.40] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.42] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.43] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.44] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.46] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.47] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.49] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.50] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.52] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.53] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.54] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.56] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0646.57] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.59] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.59] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.61] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.61] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.62] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.62] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.64] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.64] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.77] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.77] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.81] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.81] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.83] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.83] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0648.96] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0652.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.02] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.04] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.05] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.07] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.08] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.08] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.09] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.09] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.10] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.11] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.13] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.14] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.15] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.16] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.18] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.19] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.80] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.80] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.81] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.81] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.92] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.93] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.94] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.95] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.97] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.98] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0653.99] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0654.00] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0654.00] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0654.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0654.01] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0654.03] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0658.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0658.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0658.67] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11133 Bellona Basic Attack]
+[0658.67] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0659.19] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_0)
+[0661.04] Log: PUSHING Accolade: , local: false
+[0662.94] Log: PUSHING Accolade: , local: false
+[0663.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0663.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0663.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11134 Bellona Basic Attack (Shield+Sword)]
+[0663.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0664.45] Log: PUSHING Accolade: ASSISTED, local: true
+[0665.95] Log: PUSHING Accolade: CrimsonDevil6 has a Double Kill!, local: false
+[0665.95] Log: Suppressing Accolade: CrimsonDevil6 is DIVINE! (x9)
+[0666.98] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_1)
+[0669.84] Log: PUSHING Accolade: , local: false
+[0672.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11138 Bellona Basic Attack (Hammer)]
+[0672.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device [11139 Bellona Basic Attack (Scourge)]
+[0676.59] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_0)
+[0679.90] Log: PUSHING Accolade: , local: false
+[0680.07] Log: usc_toggle_cursor true
+[0681.08] Log: usc_toggle_key_capture true
+[0687.52] Log: usc_toggle_key_capture false
+[0687.78] Log: usc_toggle_cursor false
+[0688.36] Log: usc_toggle_cursor true
+[0689.21] Log: usc_toggle_key_capture true
+[0689.64] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.64] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.65] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.66] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.66] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.67] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.68] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.69] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.70] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.71] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.72] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.73] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.74] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.75] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.76] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.77] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.77] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.78] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.79] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.80] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.80] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.81] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.81] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.82] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.83] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.83] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.84] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.85] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.86] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.87] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.88] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.89] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.90] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0689.91] Warning: Warning, Material FX_Common.Materials.FX_downarrow missing bUsedWithParticleSubUV=True!
+[0690.09] Log: Closing by request
+[0690.09] Log: appRequestExit(0)(0)
+[0690.10] Log: TgAIBehaviorTreeManager :: De-allocating 201 behavior trees
+[0690.35] Exit: Preparing to exit.
+[0690.97] Exit: Game engine shut down
+[0690.97] Exit: PComNetDriver_0(PEER) shut down
+[0690.97] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[0691.13] Exit: Windows client shut down
+[0691.18] Exit: XAudio2 Device shut down.
+[0691.19] NetComeGo: Close PComNetDriver_1 PComNetConn_0 0.0.0.0:9215 10/11/17 16:28:25
+[0691.19] Exit: PComNetDriver_1 shut down
+[0691.59] Exit: Object subsystem successfully closed.
+[0691.59] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0691.70] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0692.06] Exit: Exiting.
